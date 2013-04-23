@@ -1,0 +1,13 @@
+<map edf:definitions="editor_main">
+    <object id="object (csrsfence02_lvs) (1)" model="8674" interior="0" dimension="0" posX="1757.1815185547" posY="960.68939208984" posZ="11.28722858429" rotX="0" rotY="0" rotZ="268.69067382813" />
+    <object id="object (csrsfence02_lvs) (2)" model="8674" interior="0" dimension="0" posX="1757.4393310547" posY="970.5732421875" posZ="11.28722858429" rotX="0" rotY="0" rotZ="268.68713378906" />
+    <object id="object (csrsfence02_lvs) (4)" model="8674" interior="0" dimension="0" posX="1757.1806640625" posY="960.6884765625" posZ="12.53722858429" rotX="0" rotY="0" rotZ="268.68713378906" />
+    <object id="object (csrsfence02_lvs) (5)" model="8674" interior="0" dimension="0" posX="1757.4384765625" posY="970.5732421875" posZ="12.537227630615" rotX="0" rotY="0" rotZ="268.68713378906" />
+    <object id="object (csrsfence02_lvs) (6)" model="8674" interior="0" dimension="0" posX="1757.4197998047" posY="981.08843994141" posZ="11.287227630615" rotX="0" rotY="0" rotZ="272.65710449219" />
+    <object id="object (csrsfence02_lvs) (8)" model="8674" interior="0" dimension="0" posX="1757.4189453125" posY="981.087890625" posZ="12.537227630615" rotX="0" rotY="0" rotZ="272.65319824219" />
+    <object id="object (csrsfence02_lvs) (9)" model="8674" interior="0" dimension="0" posX="1757.4189453125" posY="981.087890625" posZ="12.537227630615" rotX="0" rotY="0" rotZ="272.65319824219" />
+    <object id="object (csrsfence02_lvs) (10)" model="8674" interior="0" dimension="0" posX="1757.4189453125" posY="981.087890625" posZ="11.287227630615" rotX="0" rotY="0" rotZ="272.65319824219" />
+    <object id="object (csrsfence02_lvs) (11)" model="8674" interior="0" dimension="0" posX="1757.4384765625" posY="970.5732421875" posZ="11.28722858429" rotX="0" rotY="0" rotZ="268.68713378906" />
+    <object id="object (csrsfence02_lvs) (12)" model="8674" interior="0" dimension="0" posX="1757.4384765625" posY="970.5732421875" posZ="12.537227630615" rotX="0" rotY="0" rotZ="268.68713378906" />
+    <object id="object (csrsfence02_lvs) (13)" model="8674" interior="0" dimension="0" posX="1757.1806640625" posY="960.6884765625" posZ="12.53722858429" rotX="0" rotY="0" rotZ="268.68713378906" />
+</map>

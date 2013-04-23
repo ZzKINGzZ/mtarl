@@ -1,0 +1,22 @@
+<map edf:definitions="editor_main">
+    <object id="object (ClubGate01_LAx) (1)" doublesided="false" model="3749" interior="0" dimension="0" posX="-59.5" posY="1887.1999511719" posZ="21.5" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (ClubGate01_LAx) (2)" doublesided="false" model="3749" interior="0" dimension="0" posX="-39.700000762939" posY="1887.4000244141" posZ="21.5" rotX="0" rotY="0" rotZ="89.994506835938"></object>
+    <object id="object (vgsSelecfence119) (1)" doublesided="false" model="8342" interior="0" dimension="0" posX="-21.700000762939" posY="1957.4000244141" posZ="19" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vgsSelecfence119) (2)" doublesided="false" model="8342" interior="0" dimension="0" posX="80.699996948242" posY="1939.1999511719" posZ="19" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (vgsSelecfence119) (3)" doublesided="false" model="8342" interior="0" dimension="0" posX="-40" posY="1835.5999755859" posZ="19" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (vgsSelecfence119) (4)" doublesided="false" model="8342" interior="0" dimension="0" posX="62.400001525879" posY="1817.4000244141" posZ="19" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (vgsSelecfence12) (2)" doublesided="false" model="8210" interior="0" dimension="0" posX="80.699996948242" posY="1888.0999755859" posZ="19" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (vgsSelecfence119) (5)" doublesided="false" model="8342" interior="0" dimension="0" posX="76.599998474121" posY="1800.5" posZ="19" rotX="0" rotY="0" rotZ="179.99450683594"></object>
+    <object id="object (vgsSelecfence119) (6)" doublesided="false" model="8342" interior="0" dimension="0" posX="-59.900001525879" posY="1818.5999755859" posZ="19" rotX="0" rotY="0" rotZ="89.994506835938"></object>
+    <object id="object (vgsSelecfence12) (3)" doublesided="false" model="8210" interior="0" dimension="0" posX="-60.099998474121" posY="1853.4000244141" posZ="19" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (vgsSelecfence12) (4)" doublesided="false" model="8210" interior="0" dimension="0" posX="19.799999237061" posY="1800.5" posZ="19" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (vgsSelecfence12) (5)" doublesided="false" model="8210" interior="0" dimension="0" posX="-59.799999237061" posY="1921.5999755859" posZ="19" rotX="0" rotY="0" rotZ="89.994506835938"></object>
+    <object id="object (vgsSelecfence119) (7)" doublesided="false" model="8342" interior="0" dimension="0" posX="-41.599998474121" posY="1974.0999755859" posZ="19" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vgsSelecfence119) (8)" doublesided="false" model="8342" interior="0" dimension="0" posX="94.900001525879" posY="1956" posZ="19" rotX="0" rotY="0" rotZ="269.99450683594"></object>
+    <object id="object (vgsSelecfence12) (6)" doublesided="false" model="8210" interior="0" dimension="0" posX="94.900001525879" posY="1886.1999511719" posZ="19" rotX="0" rotY="0" rotZ="269.99450683594"></object>
+    <object id="object (vgsSelecfence12) (7)" doublesided="false" model="8210" interior="0" dimension="0" posX="18.200000762939" posY="1974.0999755859" posZ="19" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_spottower) (2)" doublesided="false" model="3279" interior="0" dimension="0" posX="-49.799999237061" posY="1810" posZ="16.200000762939" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_spottower) (3)" doublesided="false" model="3279" interior="0" dimension="0" posX="-49.400001525879" posY="1964.5999755859" posZ="16.200000762939" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_spottower) (4)" doublesided="false" model="3279" interior="0" dimension="0" posX="86" posY="1965.8000488281" posZ="16.200000762939" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_spottower) (5)" doublesided="false" model="3279" interior="0" dimension="0" posX="86.199996948242" posY="1809.6999511719" posZ="16.200000762939" rotX="0" rotY="0" rotZ="0"></object>
+</map>

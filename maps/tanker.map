@@ -1,0 +1,19 @@
+<map edf:definitions="editor_main">
+    <object id="object (CJ_VIEW_TELE) (1)" doublesided="false" model="2600" interior="0" dimension="0" posX="2474.4384765625" posY="-1660.033203125" posZ="13.116022109985" rotX="0" rotY="0" rotZ="142.92120361328" />
+    <object id="object (des_cranecontrol) (3)" doublesided="false" model="16337" interior="0" dimension="0" posX="272.89556884766" posY="1391.4793701172" posZ="9.5859375" rotX="0" rotY="0" rotZ="180.63037109375" />
+    <object id="object (laxrf_refinerypipe) (3)" doublesided="false" model="3675" interior="0" dimension="0" posX="275.0940246582" posY="1390.5090332031" posZ="14.642152786255" rotX="270" rotY="0" rotZ="268.83032226563" />
+    <object id="object (laxrf_refinerypipe) (4)" doublesided="false" model="3675" interior="0" dimension="0" posX="267.3291015625" posY="1390.6806640625" posZ="12.779999732971" rotX="0" rotY="0" rotZ="268.33032226563" />
+    <object id="object (laxrf_refinerypipe) (5)" doublesided="false" model="3675" interior="0" dimension="0" posX="275.02764892578" posY="1392.0554199219" posZ="14.642152786255" rotX="269.99450683594" rotY="0" rotZ="268.82446289063" />
+    <object id="object (laxrf_refinerypipe) (6)" doublesided="false" model="3675" interior="0" dimension="0" posX="267.40383911133" posY="1392.1909179688" posZ="12.779999732971" rotX="0" rotY="0" rotZ="268.32458496094" />
+    <object id="object (des_cranecontrol) (1)" doublesided="false" model="16337" interior="0" dimension="0" posX="272.90893554688" posY="1394.2312011719" posZ="9.5859375" rotX="0" rotY="0" rotZ="180.62072753906" />
+    <object id="object (des_cranecontrol) (4)" doublesided="false" model="16337" interior="0" dimension="0" posX="272.88122558594" posY="1388.7000732422" posZ="9.5859375" rotX="0" rotY="0" rotZ="180.62072753906" />
+    <object id="object (sw_fueldrum01) (1)" doublesided="false" model="13025" interior="0" dimension="0" posX="268.75854492188" posY="1391.8089599609" posZ="11.64294052124" rotX="0" rotY="0" rotZ="269.52026367188" />
+    <object id="object (laxrf_refinerypipe) (7)" doublesided="false" model="3675" interior="0" dimension="0" posX="272.96258544922" posY="1389.7042236328" posZ="8.6671276092529" rotX="180" rotY="0" rotZ="0" />
+    <object id="object (laxrf_refinerypipe) (8)" doublesided="false" model="3675" interior="0" dimension="0" posX="272.98043823242" posY="1391.2333984375" posZ="8.6671276092529" rotX="179.99450683594" rotY="0" rotZ="0" />
+    <object id="object (des_cranecontrol) (5)" doublesided="false" model="16337" interior="0" dimension="0" posX="281.75799560547" posY="1394.0506591797" posZ="9.5859375" rotX="0" rotY="0" rotZ="0.42578125" />
+    <object id="object (des_cranecontrol) (6)" doublesided="false" model="16337" interior="0" dimension="0" posX="281.72052001953" posY="1391.2810058594" posZ="9.5859375" rotX="0" rotY="0" rotZ="0.41748046875" />
+    <object id="object (des_cranecontrol) (7)" doublesided="false" model="16337" interior="0" dimension="0" posX="281.68466186523" posY="1388.4846191406" posZ="9.5859375" rotX="0" rotY="0" rotZ="0.41748046875" />
+    <object id="object (fenceshit3) (1)" doublesided="false" model="983" interior="0" dimension="0" posX="285.27871704102" posY="1395.2733154297" posZ="10.269492149353" rotX="0" rotY="0" rotZ="269.56518554688" />
+    <object id="object (fenceshit3) (2)" doublesided="false" model="983" interior="0" dimension="0" posX="285.45739746094" posY="1387.2287597656" posZ="10.269492149353" rotX="0" rotY="0" rotZ="271.5400390625" />
+    <object id="object (drvin_projhut) (1)" doublesided="false" model="16001" interior="0" dimension="0" posX="282.58999633789" posY="1423.5367431641" posZ="9.5775556564331" rotX="0" rotY="0" rotZ="0.31976318359375" />
+</map>

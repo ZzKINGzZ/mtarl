@@ -1,0 +1,7 @@
+<map edf:definitions="editor_main">
+    <object id="object (hubinterior_SFS) (2)" model="11389" interior="0" dimension="0" posX="-2048.12" posY="166.719" posZ="30.9766" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (hubintroof_SFSe) (1)" model="11388" interior="0" dimension="0" posX="-2048.2058105469" posY="166.72146606445" posZ="34.516487121582" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (hubgirders_SFSE) (1)" model="11390" interior="0" dimension="0" posX="-2048.1682128906" posY="166.77450561523" posZ="32.251602172852" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (hubprops1_SFS) (1)" model="11393" interior="0" dimension="0" posX="-2043.6346435547" posY="161.29627990723" posZ="29.310977935791" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (desn_tscanopy) (1)" model="11547" interior="0" dimension="0" posX="-2051.1823730469" posY="171.46105957031" posZ="24.880592346191" rotX="0" rotY="0" rotZ="0" />
+</map>

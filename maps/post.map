@@ -1,0 +1,5 @@
+<map edf:definitions="editor_main">
+    <object id="object (gatehouse1_SFSe) (2)" model="10829" interior="0" dimension="0" posX="-499.69326782227" posY="-558.00225830078" posZ="24.5234375" rotX="0" rotY="0" rotZ="179.39556884766" />
+    <object id="object (DYN_MESH_1) (1)" model="1411" interior="0" dimension="0" posX="-485.6630859375" posY="-562.96447753906" posZ="26.132692337036" rotX="0" rotY="0" rotZ="180.97033691406" />
+    <object id="object (DYN_MESH_1) (2)" model="1411" interior="0" dimension="0" posX="-483.88525390625" posY="-562.93762207031" posZ="26.132692337036" rotX="0" rotY="0" rotZ="180.966796875" />
+</map>

@@ -1,0 +1,8 @@
+<map edf:definitions="editor_main">
+    <object id="object (mondoshave_LAS) (1)" model="5066" interior="3" dimension="0" posX="228.20399475098" posY="171.5625" posZ="1002.9129638672" rotX="89.325012207031" rotY="0" rotZ="0" />
+    <object id="object (lift_dr) (1)" model="3051" interior="3" dimension="0" posX="232.02705383301" posY="169.81106567383" posZ="1003.3856201172" rotX="0" rotY="0" rotZ="314.8603515625" />
+    <object id="object (lift_dr) (2)" model="3051" interior="3" dimension="0" posX="230.85171508789" posY="169.81259155273" posZ="1003.3856201172" rotX="0" rotY="0" rotZ="135.39727783203" />
+    <object id="object (lift_dr) (3)" model="3051" interior="3" dimension="0" posX="224.76249694824" posY="153.91760253906" posZ="1003.4057617188" rotX="0" rotY="0" rotZ="45.65478515625" />
+    <object id="object (des_by_hangar_) (1)" doublesided="false" model="16098" interior="0" dimension="0" posX="-2267.9873046875" posY="2460.4709472656" posZ="4" rotX="0" rotY="0" rotZ="315.35498046875" />
+	<object id="object (lift_dr) (4)" model="3051" interior="3" dimension="0" posX="224.78378295898" posY="152.98852539063" posZ="1003.4057617188" rotX="0" rotY="0" rotZ="226.00463867188" />
+</map>

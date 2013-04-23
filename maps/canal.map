@@ -1,0 +1,9 @@
+<map edf:definitions="editor_main">
+    <object id="object (drydock1_SFSe) (2)" model="10828" interior="0" dimension="0" posX="2590.685546875" posY="-2113.9814453125" posZ="8.2677698135376" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (drydock1_SFSe) (3)" model="10828" interior="0" dimension="0" posX="2590.4792480469" posY="-2120.1071777344" posZ="8.2677698135376" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (drydock1_SFSe) (4)" model="10828" interior="0" dimension="0" posX="2397.025390625" posY="-2291.9018554688" posZ="8.2677698135376" rotX="0" rotY="0" rotZ="44.919799804688" />
+    <object id="object (drydock1_SFSe) (5)" model="10828" interior="0" dimension="0" posX="2301.8125" posY="-2202.677734375" posZ="8.2677698135376" rotX="0" rotY="0" rotZ="72.017517089844" />
+    <object id="object (drydock1_SFSe) (6)" model="10828" interior="0" dimension="0" posX="2312.6657714844" posY="-2169.6027832031" posZ="8.2677698135376" rotX="0" rotY="0" rotZ="72.015380859375" />
+    <object id="object (des_woodbr_) (4)" model="11439" interior="0" dimension="0" posX="1677.3410644531" posY="-258.63250732422" posZ="34.079669952393" rotX="356.99255371094" rotY="0" rotZ="0.2442626953125" />
+    <object id="object (des_woodbr_) (5)" model="11439" interior="0" dimension="0" posX="1678.9058837891" posY="-313.6028137207" posZ="35.454723358154" rotX="358.78479003906" rotY="0" rotZ="2.2266845703125" />
+</map>

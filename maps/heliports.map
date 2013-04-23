@@ -1,0 +1,17 @@
+<map edf:definitions="editor_main">
+    <object id="object (helipad) (1)" model="3928" interior="0" dimension="0" posX="1563.654296875" posY="-1647.9674072266" posZ="27.402114868164" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (helipad01) (1)" model="3934" interior="0" dimension="0" posX="1163.4750976563" posY="-1317.4724121094" posZ="30.490909576416" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (imy_la_door) (1)" model="3109" interior="0" dimension="0" posX="1162.3854980469" posY="-1330.5057373047" posZ="31.396047592163" rotX="0" rotY="0" rotZ="268.69067382813" />
+    <object id="object (imy_la_door) (2)" model="3109" interior="0" dimension="0" posX="1564.0692138672" posY="-1667.3514404297" posZ="28.587182998657" rotX="0" rotY="0" rotZ="270.67565917969" />
+    <object id="object (imy_la_door) (4)" model="3109" interior="0" dimension="0" posX="1610.8986816406" posY="1784.2501220703" posZ="30.660326004028" rotX="0" rotY="0" rotZ="91.309509277344" />
+    <object id="object (helipad) (3)" model="3928" interior="0" dimension="0" posX="1758.3399658203" posY="2094.1457519531" posZ="19.972038269043" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (odrampbit) (1)" model="5816" interior="0" dimension="0" posX="1774.4611816406" posY="2094.5227050781" posZ="16.511590957642" rotX="0" rotY="0" rotZ="270.67565917969" />
+    <object id="object (imy_la_door) (5)" model="3109" interior="0" dimension="0" posX="2285.5656738281" posY="2457.7424316406" posZ="38.87907409668" rotX="0" rotY="0" rotZ="268.69067382813" />
+    <object id="object (helipad) (5)" model="3928" interior="0" dimension="0" posX="2273.9294433594" posY="2470.7890625" posZ="37.683673858643" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (libtwrhelipd_LAn2) (4)" model="4726" interior="0" dimension="0" posX="-2647.3359375" posY="513.533203125" posZ="49.612693786621" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (helipad01) (7)" model="3934" interior="0" dimension="0" posX="-2061.0747070313" posY="85.648391723633" posZ="27.390625" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (helipad01) (3)" model="3934" interior="0" dimension="0" posX="1607.54296875" posY="1807.8516845703" posZ="29.46875" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (libtwrhelipd_LAn2) (4)" model="4726" interior="0" dimension="0" posX="-2647.3359375" posY="513.533203125" posZ="48.112693786621" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (libtwrhelipd_LAn2) (4)" model="4726" interior="0" dimension="0" posX="-2647.3359375" posY="513.533203125" posZ="46.362693786621" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (vgsSstairs01_lvs) (1)" model="8614" interior="0" dimension="0" posX="-2647.5437011719" posY="505.17599487305" posZ="49.690101623535" rotX="0" rotY="0" rotZ="0" />
+</map>

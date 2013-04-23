@@ -1,0 +1,22 @@
+<map edf:definitions="editor_main">
+    <object id="object (petrolpumpnew) (3)" model="1686" interior="0" dimension="0" posX="1008.5472412109" posY="-936.24230957031" posZ="41.253120422363" rotX="0" rotY="0" rotZ="277.63000488281" />
+    <object id="object (petrolpumpnew) (4)" model="1686" interior="0" dimension="0" posX="1005.803527832" posY="-936.55163574219" posZ="41.253120422363" rotX="0" rotY="0" rotZ="277.63000488281" />
+    <object id="object (xenonsign2_SFSe) (1)" model="11417" interior="0" dimension="0" posX="1011.7771606445" posY="-947.50280761719" posZ="46.056407928467" rotX="0" rotY="0" rotZ="324.27026367188" />
+    <object id="object (kb_planter_bush2) (3)" model="640" interior="0" dimension="0" posX="1005.1013183594" posY="-950.50500488281" posZ="41.612415313721" rotX="0" rotY="0" rotZ="276.63024902344" />
+    <object id="object (kb_planter_bush2) (4)" model="640" interior="0" dimension="0" posX="1010.4382324219" posY="-949.87799072266" posZ="41.687419891357" rotX="0" rotY="0" rotZ="276.63024902344" />
+    <object id="object (kb_planter_bush2) (5)" model="640" interior="0" dimension="0" posX="999.76141357422" posY="-951.17034912109" posZ="41.512409210205" rotX="0" rotY="0" rotZ="278.13024902344" />
+    <object id="object (kb_planter_bush2) (6)" model="640" interior="0" dimension="0" posX="1009.8127441406" posY="-945.29113769531" posZ="41.637386322021" rotX="0" rotY="0" rotZ="276.63024902344" />
+    <object id="object (kb_planter_bush2) (7)" model="640" interior="0" dimension="0" posX="1004.5047607422" posY="-945.91552734375" posZ="41.562381744385" rotX="0" rotY="0" rotZ="276.63024902344" />
+    <object id="object (kb_planter_bush2) (8)" model="640" interior="0" dimension="0" posX="999.23028564453" posY="-946.57489013672" posZ="41.462375640869" rotX="0" rotY="0" rotZ="276.63024902344" />
+    <object id="object (kb_planter_bush2) (9)" model="640" interior="0" dimension="0" posX="1012.4561767578" posY="-947.27258300781" posZ="41.662418365479" rotX="0" rotY="0" rotZ="187.30590820313" />
+    <object id="object (kb_planter_bush2) (10)" model="640" interior="0" dimension="0" posX="997.08013916016" posY="-949.18634033203" posZ="41.512409210205" rotX="0" rotY="0" rotZ="187.30041503906" />
+    <object id="object (new_bushsm) (1)" model="647" interior="0" dimension="0" posX="999.32885742188" posY="-949.09991455078" posZ="42.9094581604" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (new_bushsm) (2)" model="647" interior="0" dimension="0" posX="1003.0803833008" posY="-948.56530761719" posZ="42.9094581604" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (new_bushsm) (3)" model="647" interior="0" dimension="0" posX="1006.859375" posY="-947.98126220703" posZ="42.9094581604" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (new_bushsm) (4)" model="647" interior="0" dimension="0" posX="1009.7389526367" posY="-947.90710449219" posZ="42.9094581604" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (vgsN_carwash) (1)" model="7311" interior="0" dimension="0" posX="1017.4856567383" posY="-917.85021972656" posZ="43.225292205811" rotX="0" rotY="0" rotZ="278.41064453125" />
+    <object id="object (petrolpumpnew) (1)" model="1686" interior="0" dimension="0" posX="1001.6171264648" posY="-937.17755126953" posZ="41.253120422363" rotX="0" rotY="0" rotZ="277.63000488281" />
+    <object id="object (petrolpumpnew) (2)" model="1686" interior="0" dimension="0" posX="998.97735595703" posY="-937.5146484375" posZ="41.303123474121" rotX="0" rotY="0" rotZ="277.63000488281" />
+    <object id="object (Streetlamp2) (1)" model="1231" interior="0" dimension="0" posX="998.71069335938" posY="-949.41271972656" posZ="43.798069000244" rotX="0" rotY="0" rotZ="7.9249267578125" />
+    <object id="object (Streetlamp2) (2)" model="1231" interior="0" dimension="0" posX="1006.4555664063" posY="-948.1376953125" posZ="43.798069000244" rotX="0" rotY="0" rotZ="7.9356689453125" />
+</map>

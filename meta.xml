@@ -1,0 +1,365 @@
+﻿<meta>
+	<!-- Entwickelt seit 25.11.2008 -->
+	<info author="Einstein, Werni" type="script" showInResourceBrowser="false" validate="false"  />
+
+    <!-- CLIENT -->
+	<!--script src="./client/utils/courotines.lua" type="client" /-->
+
+	<script validate="false" src="./client/utils/utils.lua" type="client"/>
+	<script validate="false" src="./client/utils/table.lua" type="client"/>
+	<script validate="false" src="./client/utils/rpc.lua" type="client"/>
+
+	<script validate="false" src="./client/UTF/workaround.lua" type="client"/>
+
+	<script validate="false" src="./client/error.lua" type="client"/>
+	<script validate="false" src="./client/general.lua" type="client"/>
+
+	<script validate="false" src="./client/GUI.lua" type="client" />
+	<script validate="false" src="./client/vehicle_settings.lua" type="client"/>
+	<script validate="false" src="./client/account.lua" type="client"/>
+	<script validate="false" src="./client/playermenu.lua" type="client"/>
+	<script validate="false" src="./client/radio.lua" type="client"/>
+	<script validate="false" src="./client/handy.lua" type="client"/>
+	<script validate="false" src="./client/geldautomat.lua" type="client"/>
+	<script validate="false" src="./client/tacho.lua" type="client"/>
+	<script validate="false" src="./client/mod.lua" type="client"/>
+	<script validate="false" src="./client/houses.lua" type="client"/>
+	<script validate="false" src="./client/housebuild.lua" type="client"/>
+	<script validate="false" src="./client/item.lua" type="client"/>
+	<script validate="false" src="./client/hud.lua" type="client"/>
+	<script validate="false" src="./client/tankstellen.lua" type="client"/>
+	<script validate="false" src="./client/tutorial.lua" type="client"/>
+	<script validate="false" src="./client/other.lua" type="client"/>
+	<script validate="false" src="./client/autokauf.lua" type="client"/>
+	<script validate="false" src="./client/scoreboard.lua" type="client"/>
+	<script validate="false" src="./client/playerdamage.lua" type="client"/>
+	<script validate="false" src="./client/tuning.lua" type="client"/>
+	<script validate="false" src="./client/weapons.lua" type="client"/>
+	<script validate="false" src="./client/watertank.lua" type="client"/>
+	<script validate="false" src="./client/itemshop.lua" type="client"/>
+	<script validate="false" src="./client/playermessage.lua" type="client"/>
+	<script validate="false" src="./client/bugs.lua" type="client"/>
+	<script validate="false" src="./client/particles.lua" type="client"/>
+	<!--script src="./client/credits.lua" type="client"/-->
+	<!--<script validate="false" src="./client/spielmenu.lua" type="client"/-->
+
+	<script validate="false" src="./client/anim/anim.lua" type="client"/>
+
+	<!-- Temporär auf Eis gelegt -->
+	<!--script src="./client/playerstats/playerstats.lua" type="client"/>
+	<script validate="false" src="./client/playerstats/stats.lua" type="client"/>
+	<script validate="false" src="./client/playerstats/beduerfnisse.lua" type="client"/-->
+
+	<script validate="false" src="./client/shader/water.lua" type="client"/>
+	<script validate="false" src="./client/shader/bloom.lua" type="client"/>
+	<script validate="false" src="./client/shader/car.lua" type="client"/>
+
+	<script validate="false" src="./client/job/feuerwehr.lua" type="client"/>
+	<script validate="false" src="./client/job/adac.lua" type="client"/>
+	<script validate="false" src="./client/job/tanker.lua" type="client"/>
+	<script validate="false" src="./client/job/jobedit.lua" type="client"/>
+	<script validate="false" src="./client/job/chef.lua" type="client"/>
+	<script validate="false" src="./client/job/bewerbung.lua" type="client"/>
+	<script validate="false" src="./client/job/makler.lua" type="client"/>
+	<script validate="false" src="./client/job/medic.lua" type="client"/>
+	<script validate="false" src="./client/job/post.lua" type="client"/>
+	<script validate="false" src="./client/job/police.lua" type="client"/>
+
+	<script validate="false" src="./client/hobby/paintball.lua" type="client"/>
+	<script validate="false" src="./client/hobby/laufhaus.lua" type="client"/>
+
+	<script validate="false" src="./client/verwaltung/weaponLizenz.lua" type="client"/>
+	<script validate="false" src="./client/verwaltung/flightLizenz.lua" type="client"/>
+	<script validate="false" src="./client/verwaltung/pwChange.lua" type="client"/>
+	<script validate="false" src="./client/verwaltung/mailChange.lua" type="client"/>
+	<script validate="false" src="./client/verwaltung/stadt.lua" type="client"/>
+
+	<script validate="false" src="./client/items/1to20.lua" type="client"/>
+
+	<script validate="false" src="./client/admin/gui.lua" type="client"/>
+	<script validate="false" src="./client/admin/main.lua" type="client"/>
+	<script validate="false" src="./client/admin/player.lua" type="client"/>
+	<script validate="false" src="./client/admin/veh.lua" type="client"/>
+	<script validate="false" src="./client/admin/whitelist.lua" type="client"/>
+	<script validate="false" src="./client/admin/post.lua" type="client"/>
+
+	<!--script src="./server/utils/courotines.lua" type="client" /-->
+
+    <!-- SERVER -->
+	<script validate="false" src="./server/UTF/workaround.lua" type="server"/>
+
+	<script validate="false" src="./server/utils/classes.lua" type="server" />
+
+	<script validate="false" src="./server/classes/core.class.lua" type="server" />
+	<script validate="false" src="./server/classes/player.class.lua" type="server" />
+
+	<script validate="false" src="./server/general.lua" type="server"/>
+
+	<script validate="false" src="./server/utils/rpc.lua" type="server"/>
+	<script validate="false" src="./server/utils/creation.lua" type="server"/>
+	<script validate="false" src="./server/utils/serialization.lua" type="server"/>
+	<script validate="false" src="./server/utils/math.lua" type="server"/>
+	<script validate="false" src="./server/utils/player.lua" type="server"/>
+	<script validate="false" src="./server/utils/string.lua" type="server"/>
+	<script validate="false" src="./server/utils/vehicle.lua" type="server"/>
+	<script validate="false" src="./server/utils/xml.lua" type="server"/>
+	<script validate="false" src="./server/utils/table.lua" type="server"/>
+	<script validate="false" src="./server/utils/encryption.lua" type="server"/>
+
+	<script validate="false" src="./server/error.lua" type="server"/>
+
+	<script validate="false" src="./server/storage/onevar.lua" type="server"/>
+
+	<script validate="false" src="./server/vehicles.lua" type="server" />
+	<script validate="false" src="./server/scoreboard.lua" type="server"/>
+	<script validate="false" src="./server/hud.lua" type="server"/>
+	<script validate="false" src="./server/account.lua" type="server"/>
+	<script validate="false" src="./server/radio.lua" type="server"/>
+	<script validate="false" src="./server/handy.lua" type="server"/>
+	<script validate="false" src="./server/geldautomat.lua" type="server"/>
+	<script validate="false" src="./server/autokauf.lua" type="server"/>
+	<script validate="false" src="./server/gates.lua" type="server"/>
+	<script validate="false" src="./server/team.lua" type="server"/>
+	<script validate="false" src="./server/weather.lua" type="server"/>
+	<script validate="false" src="./server/tacho.lua" type="server"/>
+	<script validate="false" src="./server/commands.lua" type="server"/>
+	<script validate="false" src="./server/houses.lua" type="server"/>
+	<script validate="false" src="./server/version.lua" type="server"/>
+	<script validate="false" src="./server/mysqldata.lua" type="server"/>
+	<script validate="false" src="./server/items.lua" type="server"/>
+	<script validate="false" src="./server/water.lua" type="server"/>
+	<script validate="false" src="./server/tankstellen.lua" type="server"/>
+	<script validate="false" src="./server/tutorial.lua" type="server"/>
+	<script validate="false" src="./server/interiors.lua" type="server"/>
+	<script validate="false" src="./server/web.lua" type="server"/>
+	<script validate="false" src="./server/tuning.lua" type="server"/>
+	<script validate="false" src="./server/weapons.lua" type="server"/>
+	<script validate="false" src="./server/anim.lua" type="server"/>
+	<script validate="false" src="./server/watertank.lua" type="server"/>
+	<!--script src="./server/trains.lua" type="server"/-->
+	<script validate="false" src="./server/parlament.lua" type="server"/>
+	<script validate="false" src="./server/chat.lua" type="server"/>
+	<script validate="false" src="./server/itemshop.lua" type="server"/>
+	<script validate="false" src="./server/playermessage.lua" type="server"/>
+	<script validate="false" src="./server/bugs.lua" type="server"/>
+	<!--script src="./server/parteien.lua" type="server"/-->
+
+	<script validate="false" src="./server/gangs/areas.lua" type="server"/>
+	<script validate="false" src="./server/gangs/gangfunctions.lua" type="server"/>
+	<script validate="false" src="./server/gangs/venturas.lua" type="server"/>
+	<script validate="false" src="./server/gangs/santos.lua" type="server"/>
+	<script validate="false" src="./server/gangs/fiero.lua" type="server"/>
+
+	<script validate="false" src="./server/job/jobfunctions.lua" type="server"/>
+	<script validate="false" src="./server/job/bewerbung.lua" type="server"/>
+	<script validate="false" src="./server/job/feuerwehr.lua" type="server"/>
+	<script validate="false" src="./server/job/medic.lua" type="server"/>
+	<script validate="false" src="./server/job/post.lua" type="server"/>
+	<script validate="false" src="./server/job/police.lua" type="server"/>
+	<script validate="false" src="./server/job/adac.lua" type="server"/>
+	<script validate="false" src="./server/job/tanker.lua" type="server"/>
+	<script validate="false" src="./server/job/taxi.lua" type="server"/>
+	<script validate="false" src="./server/job/makler.lua" type="server"/>
+
+	<script validate="false" src="./server/minijob/sweeper.lua" type="server"/>
+	<script validate="false" src="./server/minijob/mullabfuhr.lua" type="server"/>
+	<script validate="false" src="./server/minijob/aircargo.lua" type="server"/>
+	<script validate="false" src="./server/minijob/bau.lua" type="server"/>
+	<script validate="false" src="./server/minijob/fischer.lua" type="server"/>
+
+	<script validate="false" src="./server/hobby/paintball.lua" type="server"/>
+	<script validate="false" src="./server/hobby/cart.lua" type="server"/>
+	<script validate="false" src="./server/hobby/parachute.lua" type="server"/>
+	<script validate="false" src="./server/hobby/club.lua" type="server"/>
+	<script validate="false" src="./server/hobby/schwimmbad.lua" type="server"/>
+	<script validate="false" src="./server/hobby/laufhaus.lua" type="server"/>
+	<script validate="false" src="./server/hobby/bike.lua" type="server"/>
+
+	<script validate="false" src="./server/verwaltung/weaponLizenz.lua" type="server"/>
+	<script validate="false" src="./server/verwaltung/flightLizenz.lua" type="server"/>
+	<script validate="false" src="./server/verwaltung/pwChange.lua" type="server"/>
+	<script validate="false" src="./server/verwaltung/mailChange.lua" type="server"/>
+	<script validate="false" src="./server/verwaltung/stadt.lua" type="server"/>
+
+	<script validate="false" src="./server/tables/cars_table.lua" type="server"/>
+	<script validate="false" src="./server/tables/weapons_table.lua" type="server"/>
+	<script validate="false" src="./server/tables/road_table.lua" type="server"/>
+
+	<script validate="false" src="./server/items/1to20.lua" type="server"/>
+	<script validate="false" src="./server/items/21to40.lua" type="server"/>
+
+	<script validate="false" src="./server/itemshops/247.lua" type="server"/>
+	<script validate="false" src="./server/itemshops/tankshop.lua" type="server"/>
+	<script validate="false" src="./server/itemshops/criminal.lua" type="server"/>
+
+	<script validate="false" src="./client/pools/vehicle.lua" type="client"/>
+	<script validate="false" src="./server/pools/vehicle.lua" type="server"/>
+
+	<script validate="false" src="./server/mysqlend.lua" type="server"/>
+
+	<script validate="false" src="./server/admin/main.lua" type="server"/>
+
+	<file src="./files/Readme.txt" />
+
+    <!-- TACHO -->
+	<file validate="false" src="./files/tachos/tacho.png" />
+	<file validate="false" src="./files/tachos/tacho_blue.png" />
+	<file validate="false" src="./files/tachos/tacho_red.png" />
+	<file validate="false" src="./files/tachos/tacho_green.png" />
+	<file validate="false" src="./files/tachos/tank.png" />
+	<file validate="false" src="./files/tachos/tank_blue.png" />
+	<file validate="false" src="./files/tachos/tank_red.png" />
+	<file validate="false" src="./files/tachos/tank_green.png" />
+	<file validate="false" src="./files/nadel.png" />
+
+    <!-- MODS -->
+	<file validate="false" src="./files/mods/schwimmbad.txd" />
+	<file validate="false" src="./files/mods/pool.dff" />
+	<file validate="false" src="./files/mods/pool.col" />
+	<file validate="false" src="./files/mods/vgsn_billboard.txd" />
+	<file validate="false" src="./files/mods/mauer.txd" />
+	<file validate="false" src="./files/mods/oldgarage_sfse.txd" />
+	<file validate="false" src="./files/mods/carshow_sfse.txd" />
+
+    <!-- LOGIN -->
+	<file validate="false" src="./files/login/SA_1.jpg" />
+	<file validate="false" src="./files/login/SA_2.jpg" />
+	<file validate="false" src="./files/login/SA_3.jpg" />
+	<file validate="false" src="./files/login/SA_4.jpg" />
+
+    <!-- OTHER -->
+	<file validate="false" src="./files/mtarllogo.png" />
+	<file validate="false" src="./files/px.png" />
+	<file validate="false" src="./files/colors.png" />
+	<file validate="false" src="./files/background.png" />
+
+	<file validate="false" src="./files/ok.png" />
+	<file validate="false" src="./files/destroy.png" />
+	<file validate="false" src="./files/sync.png" />
+
+    <!-- SHADER -->
+	<file src="./files/shader/color.fx" />
+	<file src="./files/shader/water.fx" />
+	<file src="./files/shader/addBlend.fx" />
+	<file src="./files/shader/blurH.fx" />
+	<file src="./files/shader/blurV.fx" />
+	<file src="./files/shader/brightPass.fx" />
+	<file src="./files/shader/car.fx" />
+	<file src="./files/shader/images/cube_env256.dds" />
+	<file src="./files/shader/images/smallnoise3d.dds" />
+
+    <!-- PARTICELES -->
+	<file validate="false" src="./files/particles/blood_heli.dff" />
+	<file validate="false" src="./files/particles/boat_prop.dff" />
+	<file validate="false" src="./files/particles/camflash.dff" />
+	<file validate="false" src="./files/particles/carwashspray.dff" />
+	<file validate="false" src="./files/particles/cement.dff" />
+	<file validate="false" src="./files/particles/cloudfast.dff" />
+	<file validate="false" src="./files/particles/coke_puff.dff" />
+	<file validate="false" src="./files/particles/coke_trail.dff" />
+	<file validate="false" src="./files/particles/cigarette_smoke.dff" />
+	<file validate="false" src="./files/particles/explosion_barrel.dff" />
+	<file validate="false" src="./files/particles/explosion_crate.dff" />
+	<file validate="false" src="./files/particles/explosion_door.dff" />
+	<file validate="false" src="./files/particles/exhale.dff" />
+	<file validate="false" src="./files/particles/explosion_fuel_car.dff" />
+	<file validate="false" src="./files/particles/explosion_large.dff" />
+	<file validate="false" src="./files/particles/explosion_medium.dff" />
+	<file validate="false" src="./files/particles/explosion_molotov.dff" />
+	<file validate="false" src="./files/particles/explosion_small.dff" />
+	<file validate="false" src="./files/particles/explosion_tiny.dff" />
+	<file validate="false" src="./files/particles/extinguisher.dff" />
+	<file validate="false" src="./files/particles/flame.dff" />
+	<file validate="false" src="./files/particles/fire.dff" />
+	<file validate="false" src="./files/particles/fire_med.dff" />
+	<file validate="false" src="./files/particles/fire_large.dff" />
+	<file validate="false" src="./files/particles/flamethrower.dff" />
+	<file validate="false" src="./files/particles/fire_bike.dff" />
+	<file validate="false" src="./files/particles/fire_car.dff" />
+	<file validate="false" src="./files/particles/gunflash.dff" />
+	<file validate="false" src="./files/particles/gunsmoke.dff" />
+	<file validate="false" src="./files/particles/insects.dff" />
+	<file validate="false" src="./files/particles/heli_dust.dff" />
+	<file validate="false" src="./files/particles/jetpack.dff" />
+	<file validate="false" src="./files/particles/jetthrust.dff" />
+	<file validate="false" src="./files/particles/nitro.dff" />
+	<file validate="false" src="./files/particles/molotov_flame.dff" />
+	<file validate="false" src="./files/particles/overheat_car.dff" />
+	<file validate="false" src="./files/particles/overheat_car_electric.dff" />
+	<file validate="false" src="./files/particles/prt_boatsplash.dff" />
+	<file validate="false" src="./files/particles/prt_cardebris.dff" />
+	<file validate="false" src="./files/particles/prt_collisionsmoke.dff" />
+	<file validate="false" src="./files/particles/prt_glass.dff" />
+	<file validate="false" src="./files/particles/prt_gunshell.dff" />
+	<file validate="false" src="./files/particles/prt_sand.dff" />
+	<file validate="false" src="./files/particles/prt_sand2.dff" />
+	<file validate="false" src="./files/particles/prt_smokeII_3_expand.dff" />
+	<file validate="false" src="./files/particles/prt_smoke_huge.dff" />
+	<file validate="false" src="./files/particles/prt_spark.dff" />
+	<file validate="false" src="./files/particles/prt_spark_2.dff" />
+	<file validate="false" src="./files/particles/prt_splash.dff" />
+	<file validate="false" src="./files/particles/prt_wake.dff" />
+	<file validate="false" src="./files/particles/prt_watersplash.dff" />
+	<file validate="false" src="./files/particles/prt_wheeldirt.dff" />
+	<file validate="false" src="./files/particles/petrolcan.dff" />
+	<file validate="false" src="./files/particles/puke.dff" />
+	<file validate="false" src="./files/particles/riot_smoke.dff" />
+	<file validate="false" src="./files/particles/spraycan.dff" />
+	<file validate="false" src="./files/particles/smoke30lit.dff" />
+	<file validate="false" src="./files/particles/smoke30m.dff" />
+	<file validate="false" src="./files/particles/smoke50lit.dff" />
+	<file validate="false" src="./files/particles/shootlight.dff" />
+	<file validate="false" src="./files/particles/smoke_flare.dff" />
+	<file validate="false" src="./files/particles/tank_fire.dff" />
+	<file validate="false" src="./files/particles/teargas.dff" />
+	<file validate="false" src="./files/particles/teargasAD.dff" />
+	<file validate="false" src="./files/particles/tree_hit_fir.dff" />
+	<file validate="false" src="./files/particles/tree_hit_palm.dff" />
+	<file validate="false" src="./files/particles/vent.dff" />
+	<file validate="false" src="./files/particles/vent2.dff" />
+	<file validate="false" src="./files/particles/water_hydrant.dff" />
+	<file validate="false" src="./files/particles/water_ripples.dff" />
+	<file validate="false" src="./files/particles/water_speed.dff" />
+	<file validate="false" src="./files/particles/water_splash.dff" />
+	<file validate="false" src="./files/particles/water_splash_big.dff" />
+	<file validate="false" src="./files/particles/water_splsh_sml.dff" />
+	<file validate="false" src="./files/particles/water_swim.dff" />
+	<file validate="false" src="./files/particles/waterfall_end.dff" />
+	<file validate="false" src="./files/particles/water_fnt_tme.dff" />
+	<file validate="false" src="./files/particles/water_fountain.dff" />
+	<file validate="false" src="./files/particles/wallbust.dff" />
+	<file validate="false" src="./files/particles/WS_factorysmoke.dff" />
+
+    <!-- ICONS -->
+	<file validate="false" src="./files/images/camera.png" />
+	<file validate="false" src="./files/images/gas.png" />
+	<file validate="false" src="./files/images/perfomance.png" />
+	<file validate="false" src="./files/images/phone.png" />
+	<file validate="false" src="./files/images/toolbox.png" />
+	<file validate="false" src="./files/images/travel.png" />
+	<file validate="false" src="./files/images/vcard.png" />
+
+    <!-- MAPS -->
+	<map src="./maps/gocart.map" />
+	<map src="./maps/ls_fw.map" />
+	<map src="./maps/loch_fix.map" />
+	<map src="./maps/heliports.map" />
+	<map src="./maps/sonstiges.map" />
+	<map src="./maps/newvinewood.map" />
+	<map src="./maps/post.map" />
+	<map src="./maps/canal.map" />
+	<map src="./maps/adacls.map" />
+	<map src="./maps/lsgas.map" />
+	<map src="./maps/sfgas.map" />
+	<map src="./maps/zoll.map" />
+	<map src="./maps/wang.map" />
+	<map src="./maps/sf_garage.map" />
+	<map src="./maps/club.map" />
+	<map src="./maps/pool.map" />
+	<map src="./maps/pyramide.map" />
+	<map src="./maps/parlament.map" />
+	<map src="./maps/sasa_basis.map" />
+	<map src="./maps/sasa_mond.map" />
+	<map src="./maps/tanker.map" />
+	<map src="./maps/derby.map" />
+</meta>

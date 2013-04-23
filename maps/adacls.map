@@ -1,0 +1,10 @@
+<map edf:definitions="editor_main">
+    <object id="object (tall_fence) (1)" model="974" interior="0" dimension="0" posX="1778.2081298828" posY="-1942.1571044922" posZ="12.620134353638" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (tall_fence) (2)" model="974" interior="0" dimension="0" posX="1771.4711914063" posY="-1942.1325683594" posZ="12.620134353638" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (tall_fence) (3)" model="974" interior="0" dimension="0" posX="1764.8648681641" posY="-1942.1442871094" posZ="12.620134353638" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (tall_fence) (4)" model="974" interior="0" dimension="0" posX="1758.1641845703" posY="-1942.1186523438" posZ="12.620134353638" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (tall_fence) (5)" model="974" interior="0" dimension="0" posX="1754.3054199219" posY="-1907.3149414063" posZ="12.818309783936" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (tall_fence) (6)" model="974" interior="0" dimension="0" posX="1811.4291992188" posY="-1897.9008789063" posZ="13.106845855713" rotX="0" rotY="0" rotZ="269.92565917969" />
+    <object id="object (tall_fence) (7)" model="974" interior="0" dimension="0" posX="1810.5390625" posY="-1882.4078369141" posZ="13.106845855713" rotX="0" rotY="0" rotZ="285.80297851563" />
+    <object id="object (ci_guardhouse1) (1)" model="5837" interior="0" dimension="0" posX="1808.8967285156" posY="-1905.8942871094" posZ="14.114200592041" rotX="0" rotY="0" rotZ="89.324493408203" />
+</map>

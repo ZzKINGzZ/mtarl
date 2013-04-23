@@ -1,0 +1,34 @@
+<map edf:definitions="editor_main">
+    <object id="object (sm_bevhiltreepv) (1)" model="717" interior="0" dimension="0" posX="1451.5871582031" posY="-739.79949951172" posZ="92.965316772461" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (sm_bevhiltreepv) (2)" model="717" interior="0" dimension="0" posX="1452.0953369141" posY="-756.38189697266" posZ="93.542549133301" rotX="0" rotY="0" rotZ="43.670013427734" />
+    <object id="object (sm_bevhiltreepv) (3)" model="717" interior="0" dimension="0" posX="1463.3830566406" posY="-769.60272216797" posZ="91.832092285156" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (sm_bevhiltreepv) (4)" model="717" interior="0" dimension="0" posX="1476.197265625" posY="-774.39117431641" posZ="88.677947998047" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (sm_bevhiltreepv) (5)" model="717" interior="0" dimension="0" posX="1488.9711914063" posY="-777.65313720703" posZ="85.017646789551" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (sm_bevhiltreepv) (7)" model="717" interior="0" dimension="0" posX="1500.751953125" posY="-781.95092773438" posZ="80.769119262695" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (sm_bevhiltreepv) (8)" model="717" interior="0" dimension="0" posX="1506.9194335938" posY="-787.59814453125" posZ="76.322845458984" rotX="0" rotY="0" rotZ="304.41998291016" />
+    <object id="object (Elmsparse_hism) (1)" model="780" interior="0" dimension="0" posX="1232.5123291016" posY="-751.15972900391" posZ="94.40771484375" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (tree_hipoly19) (1)" model="726" interior="0" dimension="0" posX="1367.8299560547" posY="-560.23413085938" posZ="81.837944030762" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (Hazeltall_hi) (1)" model="777" interior="0" dimension="0" posX="1065.5042724609" posY="-630.84924316406" posZ="115.58257293701" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (sm_bevhiltree) (1)" model="673" interior="0" dimension="0" posX="1357.4958496094" posY="-689.93859863281" posZ="90.399887084961" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (sm_bevhiltree) (2)" model="673" interior="0" dimension="0" posX="1366.6915283203" posY="-686.63891601563" posZ="91.529418945313" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (sm_bevhiltree) (3)" model="673" interior="0" dimension="0" posX="1374.4304199219" posY="-682.53704833984" posZ="91.707313537598" rotX="0" rotY="0" rotZ="282.58499145508" />
+    <object id="object (sm_bevhiltree) (4)" model="673" interior="0" dimension="0" posX="1383.0408935547" posY="-676.80871582031" posZ="91.880981445313" rotX="0" rotY="0" rotZ="65.505004882813" />
+    <object id="object (lamppost1) (1)" model="1297" interior="0" dimension="0" posX="1252.0163574219" posY="-733.95513916016" posZ="96.95231628418" rotX="0" rotY="0" rotZ="298.46499633789" />
+    <object id="object (lamppost1) (2)" model="1297" interior="0" dimension="0" posX="1271.1435546875" posY="-725.62091064453" posZ="96.000701904297" rotX="0" rotY="0" rotZ="296.47998046875" />
+    <object id="object (lamppost1) (3)" model="1297" interior="0" dimension="0" posX="1286.8089599609" posY="-719.67803955078" posZ="95.617607116699" rotX="0" rotY="0" rotZ="292.50997924805" />
+    <object id="object (lamppost1) (4)" model="1297" interior="0" dimension="0" posX="1305.3197021484" posY="-713.54748535156" posZ="94.996673583984" rotX="0" rotY="0" rotZ="291.02499389648" />
+    <object id="object (lamppost1) (5)" model="1297" interior="0" dimension="0" posX="1323.5146484375" posY="-708.11553955078" posZ="94.853958129883" rotX="0" rotY="0" rotZ="284.56997680664" />
+    <object id="object (lamppost1) (6)" model="1297" interior="0" dimension="0" posX="1340.5770263672" posY="-703.41644287109" posZ="94.268768310547" rotX="0" rotY="0" rotZ="282.58499145508" />
+    <object id="object (ws_ref_bollard) (1)" model="1319" interior="0" dimension="0" posX="1196.6994628906" posY="-634.51654052734" posZ="103.55484008789" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (ws_ref_bollard) (2)" model="1319" interior="0" dimension="0" posX="1198.8618164063" posY="-634.24743652344" posZ="103.55484008789" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (ws_ref_bollard) (3)" model="1319" interior="0" dimension="0" posX="1200.9346923828" posY="-633.8994140625" posZ="103.55484008789" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (CJ_FIREHYDRANT) (1)" model="1366" interior="0" dimension="0" posX="1006.8908081055" posY="-639.26763916016" posZ="120.53193664551" rotX="0" rotY="0" rotZ="300.44998168945" />
+    <object id="object (CJ_FIREHYDRANT) (2)" model="1366" interior="0" dimension="0" posX="1285.1105957031" posY="-610.52075195313" posZ="101.51770019531" rotX="0" rotY="0" rotZ="300.44998168945" />
+    <object id="object (CJ_FIREHYDRANT) (3)" model="1366" interior="0" dimension="0" posX="1464.6577148438" posY="-734.19372558594" posZ="93.236930847168" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (CJ_FIREHYDRANT) (4)" model="1366" interior="0" dimension="0" posX="968.19641113281" posY="-817.29931640625" posZ="96.644165039063" rotX="0" rotY="0" rotZ="115.84495544434" />
+    <object id="object (CJ_POSTBOX) (1)" model="1367" interior="0" dimension="0" posX="803.81597900391" posY="-876.82720947266" posZ="59.966567993164" rotX="0" rotY="0" rotZ="39.700012207031" />
+    <object id="object (new_bushtest) (1)" model="762" interior="0" dimension="0" posX="923.05297851563" posY="-655.88250732422" posZ="120.65923309326" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (sm_veg_tree6) (1)" model="700" interior="0" dimension="0" posX="1304.5660400391" posY="-507.4909362793" posZ="72.181945800781" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (aw_streettree3) (1)" model="737" interior="0" dimension="0" posX="1359.0205078125" posY="-486.79214477539" posZ="53.627666473389" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (advert01_sfn) (2)" model="9314" interior="0" dimension="0" posX="1694.857421875" posY="-482.1298828125" posZ="52.439453125" rotX="358.23498535156" rotY="358.01501464844" rotZ="266.70498657227" />
+</map>

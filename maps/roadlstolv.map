@@ -1,0 +1,21 @@
+<map edf:definitions="editor_main">
+    <object id="object (drydock1_SFSe) (2)" model="10828" interior="0" dimension="0" posX="2590.685546875" posY="-2113.9814453125" posZ="8.2677698135376" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (drydock1_SFSe) (3)" model="10828" interior="0" dimension="0" posX="2590.4792480469" posY="-2120.1071777344" posZ="8.2677698135376" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (drydock1_SFSe) (4)" model="10828" interior="0" dimension="0" posX="2397.025390625" posY="-2291.9018554688" posZ="8.2677698135376" rotX="0" rotY="0" rotZ="44.919799804688" />
+    <object id="object (drydock1_SFSe) (5)" model="10828" interior="0" dimension="0" posX="2301.8125" posY="-2202.677734375" posZ="8.2677698135376" rotX="0" rotY="0" rotZ="72.017517089844" />
+    <object id="object (drydock1_SFSe) (6)" model="10828" interior="0" dimension="0" posX="2312.6657714844" posY="-2169.6027832031" posZ="8.2677698135376" rotX="0" rotY="0" rotZ="72.015380859375" />
+    <object id="object (des_woodbr_) (4)" model="11439" interior="0" dimension="0" posX="1677.3410644531" posY="-258.63250732422" posZ="34.079669952393" rotX="356.99255371094" rotY="0" rotZ="0.2442626953125" />
+    <object id="object (des_woodbr_) (5)" model="11439" interior="0" dimension="0" posX="1678.9058837891" posY="-313.6028137207" posZ="35.454723358154" rotX="358.78479003906" rotY="0" rotZ="2.2266845703125" />
+    <object id="object (lamppost3) (1)" model="1226" interior="0" dimension="0" posX="1683.9641113281" posY="-330.88571166992" posZ="47.889373779297" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (lamppost3) (2)" model="1226" interior="0" dimension="0" posX="1683.2661132813" posY="-309.15270996094" posZ="47.889373779297" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (lamppost3) (3)" model="1226" interior="0" dimension="0" posX="1681.9995117188" posY="-285.84265136719" posZ="47.139373779297" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (lamppost3) (4)" model="1226" interior="0" dimension="0" posX="1681.7427978516" posY="-266.17300415039" posZ="46.389373779297" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (lamppost3) (5)" model="1226" interior="0" dimension="0" posX="1681.7497558594" posY="-253.46803283691" posZ="45.889373779297" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (lamppost3) (6)" model="1226" interior="0" dimension="0" posX="1682.0825195313" posY="-243.21423339844" posZ="45.639373779297" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (lamppost3) (7)" model="1226" interior="0" dimension="0" posX="1681.4622802734" posY="-229.50569152832" posZ="44.639373779297" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (lamppost2) (1)" model="1290" interior="0" dimension="0" posX="1667.5063476563" posY="-193.23083496094" posZ="42.192565917969" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (lamppost2) (2)" model="1290" interior="0" dimension="0" posX="1666.0572509766" posY="-127.30429077148" posZ="40.017585754395" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (lamppost2) (3)" model="1290" interior="0" dimension="0" posX="1673.7800292969" posY="-353.56845092773" posZ="46.192565917969" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (lamppost2) (5)" model="1290" interior="0" dimension="0" posX="1709.1571044922" posY="-646.51251220703" posZ="46.794403076172" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (lamppost2) (6)" model="1290" interior="0" dimension="0" posX="1711.4515380859" posY="-613.37152099609" posZ="44.119239807129" rotX="0" rotY="0" rotZ="0" />
+</map>

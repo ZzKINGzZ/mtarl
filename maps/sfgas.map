@@ -1,0 +1,8 @@
+<map edf:definitions="editor_main">
+    <object id="object (vegspetrolpump) (1)" doublesided="false" model="3465" interior="0" dimension="0" posX="-2026.6186523438" posY="155.74058532715" posZ="29.354572296143" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (vegspetrolpump) (2)" doublesided="false" model="3465" interior="0" dimension="0" posX="-2026.6188964844" posY="157.55989074707" posZ="29.354572296143" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (vgegassgn01_lvs) (1)" doublesided="false" model="9192" interior="0" dimension="0" posX="-2018.3288574219" posY="182.07760620117" posZ="31.172983169556" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (vgegassgn01_lvs) (2)" doublesided="false" model="9192" interior="0" dimension="0" posX="-2018.5787353516" posY="130.27272033691" posZ="31.172983169556" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (bollardlight) (1)" doublesided="false" model="1215" interior="0" dimension="0" posX="-2026.4810791016" posY="160.14781188965" posZ="28.603385925293" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (bollardlight) (2)" doublesided="false" model="1215" interior="0" dimension="0" posX="-2026.5739746094" posY="153.12838745117" posZ="28.603385925293" rotX="0" rotY="0" rotZ="0" />
+</map>

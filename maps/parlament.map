@@ -1,0 +1,34 @@
+<map edf:definitions="editor_main">
+    <object id="object (elecfence_BAR) (1)" doublesided="true" model="987" interior="0" dimension="0" posX="-2701" posY="300" posZ="3.1796875" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (elecfence_BAR) (2)" doublesided="true" model="987" interior="0" dimension="0" posX="-2720.8754882813" posY="300" posZ="3.3359375" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (elecfence_BAR) (3)" doublesided="true" model="987" interior="0" dimension="0" posX="-2701" posY="324.58712768555" posZ="3.1981687545776" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (elecfence_BAR) (4)" doublesided="true" model="987" interior="0" dimension="0" posX="-2720.8000488281" posY="324.58700561523" posZ="3.3359375" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (elecfence_BAR) (5)" doublesided="true" model="987" interior="0" dimension="0" posX="-2696.0913085938" posY="452" posZ="3.2999999523163" rotX="0" rotY="0" rotZ="180" />
+    <object id="object (elecfence_BAR) (6)" doublesided="true" model="987" interior="0" dimension="0" posX="-2708.1040039063" posY="452" posZ="3.2999999523163" rotX="0" rotY="0" rotZ="179.99450683594" />
+    <object id="object (elecfence_BAR) (7)" doublesided="true" model="987" interior="0" dimension="0" posX="-2696.3557128906" posY="431" posZ="3.2999999523163" rotX="0" rotY="0" rotZ="179.99450683594" />
+    <object id="object (elecfence_BAR) (8)" doublesided="true" model="987" interior="0" dimension="0" posX="-2708.4172363281" posY="431" posZ="3.2999999523163" rotX="0" rotY="0" rotZ="179.99450683594" />
+    <object id="object (vgsSelecfence119) (1)" doublesided="false" model="8342" interior="0" dimension="0" posX="-2766.9262695313" posY="451.35174560547" posZ="6.4707698822021" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (vgsSelecfence119) (2)" doublesided="false" model="8342" interior="0" dimension="0" posX="-2758.7622070313" posY="428.67926025391" posZ="6.4682860374451" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (vgsSelecfence119) (3)" doublesided="false" model="8342" interior="0" dimension="0" posX="-2780.7006835938" posY="341.68746948242" posZ="6.5342988967896" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (vgsSelecfence119) (4)" doublesided="false" model="8342" interior="0" dimension="0" posX="-2785.2199707031" posY="317.25430297852" posZ="6.7476854324341" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (vgsSelecfence119) (5)" doublesided="false" model="8342" interior="0" dimension="0" posX="-2635.5581054688" posY="409.26916503906" posZ="5.4046440124512" rotX="0" rotY="0" rotZ="270" />
+    <object id="object (vgsSelecfence12) (1)" doublesided="false" model="8210" interior="0" dimension="0" posX="-2641.2819824219" posY="346.82476806641" posZ="6.4508905410767" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (vgsSelecfence12) (2)" doublesided="false" model="8210" interior="0" dimension="0" posX="-2668.8479003906" posY="319.5055847168" posZ="6.4718556404114" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (vgsSelecfence12) (3)" doublesided="false" model="8210" interior="0" dimension="0" posX="-2658.7761230469" posY="336.88806152344" posZ="6.2843623161316" rotX="0" rotY="0" rotZ="47.479583740234" />
+    <object id="object (vgsSelecfence12) (4)" doublesided="false" model="8210" interior="0" dimension="0" posX="-2660.4458007813" posY="416.40179443359" posZ="6.4369645118713" rotX="0" rotY="0" rotZ="134.95330810547" />
+    <object id="object (kmb_cam) (1)" doublesided="false" model="2921" interior="0" dimension="0" posX="-2716.2712402344" posY="311.4794921875" posZ="10.013696670532" rotX="0" rotY="0" rotZ="163.75128173828" />
+    <object id="object (kmb_cam) (2)" doublesided="false" model="2921" interior="0" dimension="0" posX="-2696.326171875" posY="308.05657958984" posZ="10.31965637207" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (des_quarrygate2) (1)" doublesided="false" model="3050" interior="0" dimension="0" posX="-2700.779296875" posY="308.32229614258" posZ="5.5933685302734" rotX="0" rotY="0" rotZ="180" />
+    <object id="object (bar_gatebox01) (1)" doublesided="false" model="967" interior="0" dimension="0" posX="-2697.9270019531" posY="309.87417602539" posZ="3.358470916748" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (des_bycontowr) (1)" doublesided="false" model="16327" interior="0" dimension="0" posX="-2706.7172851563" posY="443.25399780273" posZ="3.1796875" rotX="0" rotY="0" rotZ="270" />
+    <object id="object (wongs_erection) (1)" doublesided="false" model="3030" interior="0" dimension="0" posX="-2789.3620605469" posY="375.80804443359" posZ="47.988487243652" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (hanger) (1)" doublesided="false" model="3932" interior="0" dimension="0" posX="-2764.4543457031" posY="402.86715698242" posZ="5.1626214981079" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (veg_Pflowers02) (1)" doublesided="false" model="878" interior="0" dimension="0" posX="-2689.7233886719" posY="352.50778198242" posZ="5.504506111145" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (veg_Pflowers04) (1)" doublesided="false" model="877" interior="0" dimension="0" posX="-2677.6472167969" posY="351.89700317383" posZ="5.504506111145" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (veg_Pflowers04) (2)" doublesided="false" model="877" interior="0" dimension="0" posX="-2721.7817382813" posY="352.84164428711" posZ="5.504506111145" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (veg_Pflowers02) (2)" doublesided="false" model="878" interior="0" dimension="0" posX="-2734.1684570313" posY="352.73431396484" posZ="5.504506111145" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (veg_Pflowers04) (3)" doublesided="false" model="877" interior="0" dimension="0" posX="-2734.9853515625" posY="397.89804077148" posZ="5.457631111145" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (veg_Pflowers02) (3)" doublesided="false" model="878" interior="0" dimension="0" posX="-2722.6516113281" posY="397.83847045898" posZ="5.457631111145" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (veg_Pflowers02) (4)" doublesided="false" model="878" interior="0" dimension="0" posX="-2691.1247558594" posY="397.59027099609" posZ="5.457631111145" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (veg_Pflowers04) (4)" doublesided="false" model="877" interior="0" dimension="0" posX="-2678.744140625" posY="398.82830810547" posZ="5.457631111145" rotX="0" rotY="0" rotZ="0" />
+</map>
