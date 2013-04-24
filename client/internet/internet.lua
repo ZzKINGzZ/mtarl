@@ -16,7 +16,7 @@
 --Eine Kopie der GNU General Public License finden Sie unter: http://www.gnu.org/licenses/gpl.txt
 
 
-
+-- TODO
 function toggleInternetScreen(bToggle)
 	if bToggle then
 	

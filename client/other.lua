@@ -17,7 +17,7 @@
 
 
 
-function initalizeOther()
+local function initalizeOther()
 	setMinuteDuration(1000*60)
 	
 	setWaterLevel(2135.681640625, 1272.5166015625, 8.6999998092651, 9.25)

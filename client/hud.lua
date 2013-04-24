@@ -17,7 +17,7 @@
 
 
 
-local hudvisible = 1
+local hudvisible = true
 local x, y = guiGetScreenSize()
 
 function initHud()
@@ -26,7 +26,7 @@ end
 addEventHandler('onClientResourceStart', getResourceRootElement(), initHud)
 
 function toggleHudModus(key, keyState)
-	if hudvisible == 1 then
+	if hudvisible == true then
 		showPlayerHudComponent("ammo", false)
 		showPlayerHudComponent("area_name", false)
 		showPlayerHudComponent("armour", false)
@@ -37,7 +37,7 @@ function toggleHudModus(key, keyState)
 		showPlayerHudComponent("radar", false)
 		showPlayerHudComponent("weapon", false)
 		showChat(false)
-		hudvisible = 0
+		hudvisible = false
 	else
 		showPlayerHudComponent("ammo", true)
 		showPlayerHudComponent("area_name", false)
@@ -49,6 +49,6 @@ function toggleHudModus(key, keyState)
 		showPlayerHudComponent("radar", true)
 		showPlayerHudComponent("weapon", true)
 		showChat(true)
-		hudvisible = 1	
+		hudvisible = true
 	end
 end
