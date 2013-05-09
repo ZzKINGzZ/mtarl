@@ -39,12 +39,6 @@ function checkPlayer(playerNick, playerIP, playerUsername, playerSerial, playerV
 	
 	local iptable = explode(".", playerIP)
 	
-	--Snake Ban
-	if tonumber(iptable[1]) == 87 and tonumber(iptable[2]) == 185 then
-		outputChatBox(g_colors["greenblue"].."Diese IP wurde gebannt!", getRootElement(), 255, 255, 255, true)
-		cancelEvent()
-	end
-	
 	--Check ob Name == Job
 	--M"..ouml.."glicher Crash des Gesamtsystems
 	if isCorrectJob(playerNick) then
