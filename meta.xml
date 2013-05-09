@@ -86,6 +86,8 @@
 	<!--script src="./server/utils/courotines.lua" type="client" /-->
 
     <!-- SERVER -->
+	<script validiate="false" src="./server/luaORM.lua" type="server" />
+
 	<script validate="false" src="./server/UTF/workaround.lua" type="server"/>
 
 	<script validate="false" src="./server/utils/classes.lua" type="server" />
