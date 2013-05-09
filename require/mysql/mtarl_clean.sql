@@ -441,7 +441,7 @@ CREATE TABLE IF NOT EXISTS `onevar` (
 INSERT INTO `onevar` (`key`, `val`) VALUES
 ('dayEnd', '1314284168'),
 ('letztewahlen', '0'),
-('mysqltoken', '"sb39dn2s'),
+('mysqltoken', 'jhi7h78f'),
 ('staatskasse', '52054867.49'),
 ('wahlen', '12');
 
