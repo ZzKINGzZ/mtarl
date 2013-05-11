@@ -548,7 +548,7 @@ CREATE TABLE IF NOT EXISTS `players` (
 --
 
 INSERT INTO `players` (`id`, `playername`, `password`, `email`, `level`, `muted`, `health`, `armor`, `skin`, `spawnx`, `spawny`, `spawnz`, `spawnrz`, `timeout`, `timeoutx`, `timeouty`, `timeoutz`, `fightingstyle`, `beduerfnisse`, `skills`, `handy`, `staatsschulden`, `money`, `bank`, `jailed`, `jail-resttime`, `fat`, `stamina`, `muscle`, `maxhealth`, `sexappeal`, `pistol-skill`, `pistolS-skill`, `desert-skill`, `shotgun-skill`, `sawnoff-skill`, `spas-skill`, `microuzi-skill`, `ak-skill`, `mp9-skill`, `m4-skill`, `sniper-skill`, `bulletshit`, `underwater`, `bikeskill`, `cycleskill`, `drivingskill`, `itemlimit`, `weaponLicense`, `flightLicense`, `online`, `forumid`, `activeClothes`, `registerTime`) VALUES
-(1, 'Werni', 'B28CA0AAC3332DD3CC2866B434B2A3BB', 'rick@salevsky.de', 'Admin', 0, 73.7255, 0, 294, 1899.2, 729.207, 10.8198, 186.674, 0, 0, 0, 0, 4, 'return {{["hunger"]=100,["durst"]=100,},}--|', 'return {{},}--|', 79548, 0, 500, 14500, 0, -1, 0, 0, 0, 569, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 'return {{},}--|', 0, 0, -1, 'return {{},}--|', 1314284252);
+(1, 'Admin', '21232f297a57a5a743894a0e4a801fc3', 'admin@mta-sa.org', 'Admin', 0, 73.7255, 0, 294, 1899.2, 729.207, 10.8198, 186.674, 0, 0, 0, 0, 4, 'return {{["hunger"]=100,["durst"]=100,},}--|', 'return {{},}--|', 79548, 0, 500, 14500, 0, -1, 0, 0, 0, 569, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 'return {{},}--|', 0, 0, -1, 'return {{},}--|', 1314284252);
 
 -- --------------------------------------------------------
 

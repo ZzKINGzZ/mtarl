@@ -201,8 +201,6 @@
 
 	<script validate="false" src="./server/admin/main.lua" type="server"/>
 
-	<file src="./files/Readme.txt" />
-
     <!-- TACHO -->
 	<file validate="false" src="./files/tachos/tacho.png" />
 	<file validate="false" src="./files/tachos/tacho_blue.png" />
