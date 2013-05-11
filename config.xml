@@ -1,19 +1,18 @@
 <mtarl>
 	<!-- Hier kommen die MySQL Daten rein, die für das connecten wichtig sind -->
-
 	<mysqldata>
 		<host>127.0.0.1</host>
 		<user>root</user>
 		<password></password>
 		<table>mtarl</table>
 	</mysqldata>
-	
-	<!-- Aktiviert den Serverweiten Debugmodus -->
+
+	<!-- MySQL Token -->
+	<mysqltoken>changeme</mysqltoken>
+
+    <!-- Aktiviert den Serverweiten Debugmodus -->
 	<debugmode>true</debugmode>
 
 	<!-- Webservices nur final! -->
 	<webservices>false</webservices>
-	
-	<!-- MySQL Token -->
-	<mysqltoken>"sb39dn2s</mysqltoken>
 </mtarl>
