@@ -22,18 +22,16 @@
 local function exportstring( s )
 	s = string.format( "%q",s )
 
-	s = string.gsub( s,"\
-","\n" )
-	s = string.gsub( s,"","\r" )
-	s = string.gsub( s,string.char(26),"\"..string.char(26)..\"" )
+    s = string.gsub( s,"\\\n","\\n" )
+    s = string.gsub( s,"\r","\\r" )
+    s = string.gsub( s,string.char(26),"\"..string.char(26)..\"" )
 	return s
 end
 
 function table.save(tbl)
 	if tbl == nil then return "return {{},}--|" end
-	
-	local charS,charE = "   ","
-"
+
+    local charS,charE = "   ","\n"
 	local file,err
 	local filename = nil
 

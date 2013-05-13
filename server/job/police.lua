@@ -222,7 +222,7 @@ function punishPlayer(playerSource, commandName, player, money, prisonTime, ...)
 			outputChatBox(g_colors["red"].."Du bist nicht im Los Santos Police Department!", playerSource, 0, 0, 0, true)
 			return false
 		end
-		
+
 		local thePlayer = getPlayerFromName(player)
 		if not thePlayer then
 			thePlayer = getPlayerFromString(player)
@@ -231,46 +231,38 @@ function punishPlayer(playerSource, commandName, player, money, prisonTime, ...)
 			outputChatBox(g_colors["red"].."Dieser Spieler ist nicht online!", playerSource, 255, 255, 255, true)
 			return false
 		end
-		
+
 		money = tonumber(money)
 		prisonTime = tonumber(prisonTime)
-		
+
 		if not money or not prisonTime or money < 0 or prisonTime < 0 then
 			outputChatBox(g_colors["red"].."Falsche Strafangaben!", playerSource, 255, 255, 255, true)
-			return false			
+			return false
 		end
-		
+
 		local strafe = ""
-		strafe = strafe.."Du wurdest zu folgender Strafe verurteilt: 
-"
+		strafe = strafe.."Du wurdest zu folgender Strafe verurteilt:\n"
 		if money > 0 then
 			g_playerstat[thePlayer]["Staatsschulden"] = g_playerstat[thePlayer]["Staatsschulden"] + money
-			strafe = strafe.." 
-"..money.."$ Strafgeld (/tilgen um alle Schulden zu tilgen)"
-			
+			strafe = strafe.." \n"..money.."$ Strafgeld (/tilgen um alle Schulden zu tilgen)"
+
 			addPlayerJobExtraMoney(playerSource, money/3)
 		end
-		
-		
+
 		if prisonTime > 0 then
 			g_playerstat[thePlayer]["busted"] = 0
 			toggleAllControls(thePlayer, true, true, false)
 			g_playerstat[thePlayer]["Jailed"] = 1
 			g_playerstat[thePlayer]["Jailtime"] = prisonTime
 			setElementInterior(thePlayer, 3, 193.1909, 174.9256, 1003.0234)
-			setElementPosition(thePlayer,  193.1909, 174.9256, 1003.0234)				
-			strafe = strafe.." 
-+ 
-"..prisonTime.." Sekunden im Gef"..auml.."ngniss"
-		end		
-		
-		local grund = table.concat({...}, " ")
-		
-		
-		strafe = strafe.." 
- 
-Grund: "..grund
-		sendPlayerInfo(thePlayer, strafe)
+			setElementPosition(thePlayer,  193.1909, 174.9256, 1003.0234)
+            strafe = strafe.." \n+\n"..prisonTime.." Sekunden im Gefängniss"
+		end
+
+    	local grund = table.concat({...}, " ")
+
+		strafe = strafe.." \n\nGrund: "..grund
+        sendPlayerInfo(thePlayer, strafe)
 		outputChatBox(g_colors["green"]..getPlayerName(thePlayer).." wurde verurteilt! Du hast ein drittel der Strafe bekommen.", playerSource, 0, 0, 0, true)
 	end
 end

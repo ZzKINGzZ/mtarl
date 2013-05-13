@@ -26,7 +26,7 @@ local sell = {}
 
 local function placeCars()
 	outputDebug("autokauf.lua start...")
-	
+
 	autokauf[1] = createMarker ( 2172.0859375, 1397.134765625, 11.0625-1, "cylinder", 1.5, 55, 100, 250, 190) --Bike
 	autokauf[2] = createMarker ( 541.4638671875, 2363.703125, 30.874475479126-1, "cylinder", 1.5, 55, 100, 250, 190) --Truck
 	autokauf[3] = createMarker ( 538.4853515625, -1292.375, 17.2421875-1, "cylinder", 1.5, 55, 100, 250, 190) --Vans
@@ -36,11 +36,11 @@ local function placeCars()
 	autokauf[7] = createMarker ( -1658.5986328125, 1207.3076171875, 7.25-1, "cylinder", 1.5, 55, 100, 250, 190) --Luxus
 	autokauf[8] = createMarker ( 401.34375, 2538.306640625, 16.545127868652-1, "cylinder", 1.5, 55, 100, 250, 190) --Air
 	autokauf[9] = createMarker ( -2184.6015625, 2416.0927734375, 5.1876344680786-1, "cylinder", 1.5, 55, 100, 250, 190) --Boot
-	
+
 	for id, marker in pairs(autokauf) do
 		addEventHandler("onMarkerHit",  autokauf[id], startCarSale)
 	end
-	
+
 	--TODO
 	--If Vereinfachen
 	for _, car in pairs(carTable) do
@@ -72,180 +72,99 @@ function startCarSale(playerSource)
 	if source == autokauf[1] or source == autokauf[2] or source == autokauf[3] or source == autokauf[4] or source == autokauf[5] or source == autokauf[6] or source == autokauf[7] or source == autokauf[8] or source == autokauf[9] then
 		if getElementType(playerSource) == "player" then
 			if g_playerstat[playerSource] then
-				--CORE:getPlayer(playerSource):callClient("startCarInfoList", true, car["category"])
-				local paintjob
-				if source == autokauf[1] then
-					CORE:getPlayer(playerSource):callClient("startCarInfoList", true, "bike")
-					for _, car in pairs(carTable) do
-						if car["category"] == "bike" then
-							local carName = car["name"]
-							local tankart = getTankartName(tostring(car["tankart"]))
-							if car["paintjob"] == true then paintjob = "Verf"..uuml.."gbar" else paintjob = "Nicht verf"..uuml.."gbar" end
-							local text = "Auto: "..carName.."
-Preis: "..tostring(car["preis"]).."$
-T"..Uuml.."V-Klasse: "..tostring(car["TUV"]).."
-Tankvolumen: "..tostring(car["tank"]).."l
-Tankart: "..tankart.."
-Sicherheitsklasse: "..tostring(car["safty"]).."
-Paintjob: "..paintjob
-							local id = car["id"]
-							CORE:getPlayer(playerSource):callClient("fillCarInfoList", carName, text, id)
+				if g_playerstat[playerSource]["Level"] == "Supporter" or g_playerstat[playerSource]["Level"] == "Team" or g_playerstat[playerSource]["Level"] == "Admin" then
+					if source == autokauf[1] then
+						CORE:getPlayer(playerSource):callClient("startCarSelection", true, "bike")
+						for _, car in pairs(carTable) do
+							if car["category"] == "bike" then
+								local cars = car["name"]
+								local id = car["id"]
+								CORE:getPlayer(playerSource):callClient("fillCarGridList", cars, id)
+							end
+						end
+					end
+					if source == autokauf[2] then
+						CORE:getPlayer(playerSource):callClient("startCarSelection", true, "truck")
+						for _, car in pairs(carTable) do
+							if car["category"] == "bus" or car["category"] == "truck" then
+								local cars = car["name"]
+								local id = car["id"]
+								CORE:getPlayer(playerSource):callClient("fillCarGridList", cars, id)
+							end
+						end
+					end
+					if source == autokauf[3] then
+						CORE:getPlayer(playerSource):callClient("startCarSelection", true, "van")
+						for _, car in pairs(carTable) do
+							if car["category"] == "van" then
+								local cars = car["name"]
+								local id = car["id"]
+								CORE:getPlayer(playerSource):callClient("fillCarGridList", cars, id)
+							end
+						end
+					end
+					if source == autokauf[4] then
+						CORE:getPlayer(playerSource):callClient("startCarSelection", true, "offroad")
+						for _, car in pairs(carTable) do
+							if car["category"] == "offroad" then
+								local cars = car["name"]
+								local id = car["id"]
+								CORE:getPlayer(playerSource):callClient("fillCarGridList", cars, id)
+							end
+						end
+					end
+					if source == autokauf[5] then
+						CORE:getPlayer(playerSource):callClient("startCarSelection", true, "trailer")
+						for _, car in pairs(carTable) do
+							if car["category"] == "trailer" then
+								local cars = car["name"]
+								local id = car["id"]
+								CORE:getPlayer(playerSource):callClient("fillCarGridList", cars, id)
+							end
+						end
+					end
+						if source == autokauf[6] then
+						CORE:getPlayer(playerSource):callClient("startCarSelection", true, "wang")
+						for _, car in pairs(carTable) do
+							if car["category"] == "normal" then
+								local cars = car["name"]
+								local id = car["id"]
+								CORE:getPlayer(playerSource):callClient("fillCarGridList", cars, id)
+							end
+						end
+					end
+					if source == autokauf[7] then
+						CORE:getPlayer(playerSource):callClient("startCarSelection", true, "ottos")
+						for _, car in pairs(carTable) do
+							if car["category"] == "luxus" or car["category"] == "sport" then
+								local cars = car["name"]
+								local id = car["id"]
+								CORE:getPlayer(playerSource):callClient("fillCarGridList", cars, id)
+							end
+						end
+					end
+					if source == autokauf[8] then
+						CORE:getPlayer(playerSource):callClient("startCarSelection", true, "air")
+						for _, car in pairs(carTable) do
+							if car["category"] == "air" then
+								local cars = car["name"]
+								local id = car["id"]
+								CORE:getPlayer(playerSource):callClient("fillCarGridList", cars, id)
+							end
+						end
+					end
+					if source == autokauf[9] then
+						CORE:getPlayer(playerSource):callClient("startCarSelection", true, "boat")
+						for _, car in pairs(carTable) do
+							if car["category"] == "boat" then
+								local cars = car["name"]
+								local id = car["id"]
+								CORE:getPlayer(playerSource):callClient("fillCarGridList", cars, id)
+							end
 						end
 					end
 				end
-				if source == autokauf[2] then
-					CORE:getPlayer(playerSource):callClient("startCarInfoList", true, "truck")
-					for _, car in pairs(carTable) do
-						if car["category"] == "bus" or car["category"] == "truck" then							
-							local carName = car["name"]
-							local tankart = getTankartName(tostring(car["tankart"]))
-							if car["paintjob"] == true then paintjob = "Verf"..uuml.."gbar" else paintjob = "Nicht verf"..uuml.."gbar" end
-							local text = "Auto: "..carName.."
-Preis: "..tostring(car["preis"]).."$
-T"..Uuml.."V-Klasse: "..tostring(car["TUV"]).."
-Tankvolumen: "..tostring(car["tank"]).."l
-Tankart: "..tankart.."
-Sicherheitsklasse: "..tostring(car["safty"]).."
-Paintjob: "..paintjob
-							local id = car["id"]
-							CORE:getPlayer(playerSource):callClient("fillCarInfoList", carName, text, id)
-						end
-					end
-				end
-				if source == autokauf[3] then
-					CORE:getPlayer(playerSource):callClient("startCarInfoList", true, "van")
-					for _, car in pairs(carTable) do
-						if car["category"] == "van" then							
-							local carName = car["name"]
-							local tankart = getTankartName(tostring(car["tankart"]))
-							if car["paintjob"] == true then paintjob = "Verf"..uuml.."gbar" else paintjob = "Nicht verf"..uuml.."gbar" end
-							local text = "Auto: "..carName.."
-Preis: "..tostring(car["preis"]).."$
-T"..Uuml.."V-Klasse: "..tostring(car["TUV"]).."
-Tankvolumen: "..tostring(car["tank"]).."l
-Tankart: "..tankart.."
-Sicherheitsklasse: "..tostring(car["safty"]).."
-Paintjob: "..paintjob
-							local id = car["id"]
-							CORE:getPlayer(playerSource):callClient("fillCarInfoList", carName, text, id)
-						end
-					end
-				end
-				if source == autokauf[4] then
-					CORE:getPlayer(playerSource):callClient("startCarInfoList", true, "offroad")
-					for _, car in pairs(carTable) do
-						if car["category"] == "offroad" then							
-							local carName = car["name"]
-							local tankart = getTankartName(tostring(car["tankart"]))
-							if car["paintjob"] == true then paintjob = "Verf"..uuml.."gbar" else paintjob = "Nicht verf"..uuml.."gbar" end
-							local text = "Auto: "..carName.."
-Preis: "..tostring(car["preis"]).."$
-T"..Uuml.."V-Klasse: "..tostring(car["TUV"]).."
-Tankvolumen: "..tostring(car["tank"]).."l
-Tankart: "..tankart.."
-Sicherheitsklasse: "..tostring(car["safty"]).."
-Paintjob: "..paintjob
-							local id = car["id"]
-							CORE:getPlayer(playerSource):callClient("fillCarInfoList", carName, text, id)
-						end
-					end
-				end
-				if source == autokauf[5] then
-					CORE:getPlayer(playerSource):callClient("startCarInfoList", true, "trailer")
-					for _, car in pairs(carTable) do
-						if car["category"] == "trailer" then
-							local carName = car["name"]
-							local tankart = getTankartName(tostring(car["tankart"]))
-							if car["paintjob"] == true then paintjob = "Verf"..uuml.."gbar" else paintjob = "Nicht verf"..uuml.."gbar" end
-							local text = "Auto: "..carName.."
-Preis: "..tostring(car["preis"]).."$
-T"..Uuml.."V-Klasse: "..tostring(car["TUV"]).."
-Tankvolumen: "..tostring(car["tank"]).."l
-Tankart: "..tankart.."
-Sicherheitsklasse: "..tostring(car["safty"]).."
-Paintjob: "..paintjob
-							local id = car["id"]
-							CORE:getPlayer(playerSource):callClient("fillCarInfoList", carName, text, id)
-						end
-					end
-				end
-				if source == autokauf[6] then
-					CORE:getPlayer(playerSource):callClient("startCarInfoList", true, "wang")
-					for _, car in pairs(carTable) do
-						if car["category"] == "normal" then
-							local carName = car["name"]
-							local tankart = getTankartName(tostring(car["tankart"]))
-							if car["paintjob"] == true then paintjob = "Verf"..uuml.."gbar" else paintjob = "Nicht verf"..uuml.."gbar" end
-							local text = "Auto: "..carName.."
-Preis: "..tostring(car["preis"]).."$
-T"..Uuml.."V-Klasse: "..tostring(car["TUV"]).."
-Tankvolumen: "..tostring(car["tank"]).."l
-Tankart: "..tankart.."
-Sicherheitsklasse: "..tostring(car["safty"]).."
-Paintjob: "..paintjob
-							local id = car["id"]
-							CORE:getPlayer(playerSource):callClient("fillCarInfoList", carName, text, id)
-						end
-					end
-				end
-				if source == autokauf[7] then
-					CORE:getPlayer(playerSource):callClient("startCarInfoList", true, "ottos")
-					for _, car in pairs(carTable) do
-						if car["category"] == "luxus" or car["category"] == "sport" then
-							local carName = car["name"]
-							local tankart = getTankartName(tostring(car["tankart"]))
-							if car["paintjob"] == true then paintjob = "Verf"..uuml.."gbar" else paintjob = "Nicht verf"..uuml.."gbar" end
-							local text = "Auto: "..carName.."
-Preis: "..tostring(car["preis"]).."$
-T"..Uuml.."V-Klasse: "..tostring(car["TUV"]).."
-Tankvolumen: "..tostring(car["tank"]).."l
-Tankart: "..tankart.."
-Sicherheitsklasse: "..tostring(car["safty"]).."
-Paintjob: "..paintjob
-							local id = car["id"]
-							CORE:getPlayer(playerSource):callClient("fillCarInfoList", carName, text, id)
-						end
-					end
-				end
-				if source == autokauf[8] then
-					CORE:getPlayer(playerSource):callClient("startCarInfoList", true, "air")
-					for _, car in pairs(carTable) do
-						if car["category"] == "air" then							
-							local carName = car["name"]
-							local tankart = getTankartName(tostring(car["tankart"]))
-							if car["paintjob"] == true then paintjob = "Verf"..uuml.."gbar" else paintjob = "Nicht verf"..uuml.."gbar" end
-							local text = "Auto: "..carName.."
-Preis: "..tostring(car["preis"]).."$
-T"..Uuml.."V-Klasse: "..tostring(car["TUV"]).."
-Tankvolumen: "..tostring(car["tank"]).."l
-Tankart: "..tankart.."
-Sicherheitsklasse: "..tostring(car["safty"]).."
-Paintjob: "..paintjob
-							local id = car["id"]
-							CORE:getPlayer(playerSource):callClient("fillCarInfoList", carName, text, id)
-						end
-					end
-				end
-				if source == autokauf[9] then
-					CORE:getPlayer(playerSource):callClient("startCarInfoList", true, "boat")
-					for _, car in pairs(carTable) do
-						if car["category"] == "boat" then
-							local carName = car["name"]
-							local tankart = getTankartName(tostring(car["tankart"]))
-							if car["paintjob"] == true then paintjob = "Verf"..uuml.."gbar" else paintjob = "Nicht verf"..uuml.."gbar" end
-							local text = "Auto: "..carName.."
-Preis: "..tostring(car["preis"]).."$
-T"..Uuml.."V-Klasse: "..tostring(car["TUV"]).."
-Tankvolumen: "..tostring(car["tank"]).."l
-Tankart: "..tankart.."
-Sicherheitsklasse: "..tostring(car["safty"]).."
-Paintjob: "..paintjob
-							local id = car["id"]
-							CORE:getPlayer(playerSource):callClient("fillCarInfoList", carName, text, id)
-						end
-					end
-				end	
-			end	
+			end
 		end
 	end
 end

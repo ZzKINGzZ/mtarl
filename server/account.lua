@@ -170,70 +170,69 @@ function loginPlayer(passwort, user)
 		while true do
 			local row = mysql_fetch_assoc(player)
 			if not row then break end
-		
+
 			if md5(passwort) ~= row["password"] then
 				rpcCallClientFunction(client, "setLabelFalsePSW")
 				break
 			end
-			
+
 			outputDebug("Lade Account...")
-			
+
 			--
 			--local r, g, b, r2, g2, b2 = getSkyGradient()
 			--rpcCallClientFunction(client, "setSkyGradient", r, g, b, r2, g2, b2)
-			
+
 			--local weatherID = getWeather()
 			--rpcCallClientFunction(client, "setWeather", weatherID)
-			
+
 			--local h, m = getTime()
 			--rpcCallClientFunction(client, "setTime", h, m)
-			
+
 			--Klasse initiieren
 			local player = CORE:addPlayer(client)
-			
+
 			setPlayerTeam(client, fixTeam)
-			
 			g_playerstat[client] = {}
-			
+
 			--DEPRECATED
 			g_playerstat[client]["Level"] = row["level"]
 			--NEW
 			player:setLevel(row["level"])
-			
+
 			if row["level"] == "Admin" then
 				addCommandHandler("admin", activateAdminMenu)
 				bindKey(client, "p", "down", activateAdminMenu)
 			end
-			
+
 			--Userid
 			--DEPRECATED
 			g_playerstat[client]["Userid"] = tonumber(row["id"])
 			--NEW
 			player:setUserID(tonumber(row["id"]))
-			
+
 			g_playerstat[client]["Logedin"] = 1
-			
+
 			--Tutorial
 			g_playerstat[client]["Tutorial"] = tonumber(row["tutorial"])
 
 			player:callClient("setLoginVars", row["email"])
-					
+
 			--Muted
 			if tonumber(row["muted"]) == 1 then
 				player:setMuted(true)
 			else
 				player:setMuted(false)
-			end	
-			
+			end
+
 			--Timeout oder normaler Spawn
 			if row["timeout"] == "1" then
 				spawnPlayer(client, tonumber(row["timeoutx"]), tonumber(row["timeouty"]), tonumber(row["timeoutz"])+1)
 				mysql_query(g_mysql["connection"], "UPDATE `players` SET `timeout` = '0' WHERE `id` = '"..g_playerstat[client]["Userid"].."' LIMIT 1;")
 			else
 				spawnPlayer(client, tonumber(row["spawnx"]), tonumber(row["spawny"]), tonumber(row["spawnz"])+1, tonumber(row["spawnrz"]))
-			end	
+			end
 			mysql_query(g_mysql["connection"], "UPDATE `players` SET `online` = '1' WHERE `id` ='"..g_playerstat[client]["Userid"].."' LIMIT 1;")
-			
+
 			--Geld, Health, Armor, Skin, Staatsschulden, Bank
 			player:setMoney(tonumber(row["money"]))
 			g_playerstat[client]["Bank"] = tonumber(row["bank"])
@@ -242,13 +241,13 @@ function loginPlayer(passwort, user)
 			player:setHealth(tonumber(row["health"]))
 			player:setArmor(tonumber(row["armor"]))
 			player:setFightingStyle(tonumber(row["fightingstyle"]))
-			g_playerstat[client]["Staatsschulden"] = tonumber(row["staatsschulden"])			
-			
+    		g_playerstat[client]["Staatsschulden"] = tonumber(row["staatsschulden"])
+
 			if g_playerstat[client]["Staatsschulden"] > 0 then
 				outputChatBox(g_colors["red"].."Du schuldest dem Staat "..g_playerstat[client]["Staatsschulden"].."$", client, 0, 0, 0, true)
 			end
-			
-			g_playerstat[client]["Verkehrstime"] = -1	
+
+			g_playerstat[client]["Verkehrstime"] = -1
 
 			--Wanted
 			setPlayerWantedLevel(client, tonumber(row["wanted"]))
@@ -260,20 +259,20 @@ function loginPlayer(passwort, user)
 			g_handystat["active"][handynummer] = client
 			player:callClient("setPhoneNumber", tostring(handynummer))
 			g_playerstat[client]["handyactive"] = false
-			
+
 			--Knast
 			g_playerstat[client]["Jailed"] = tonumber(row["jailed"])
 			if g_playerstat[client]["Jailed"] > 0 then
 				g_playerstat[client]["Jailtime"] = tonumber(row["jail-resttime"])
 				--setElementInterior(client, 3, 193.1909, 174.9256, 1003.0234)
-				--setElementPosition(client,  193.1909, 174.9256, 1003.0234)		
+    			--setElementPosition(client,  193.1909, 174.9256, 1003.0234)
 				player:setInterior(3)
-				player:setPosition(client, 193.1909, 174.9256, 1003.0234) 
+				player:setPosition(client, 193.1909, 174.9256, 1003.0234)
 			else
 				g_playerstat[client]["Jailtime"] = -1
 			end
 			g_playerstat[client]["busted"] = 0
-			
+
 			--Death
 			g_playerstat[client]["DeathRepsawnTime"] = -1
 
@@ -283,7 +282,7 @@ function loginPlayer(passwort, user)
 			player:setStat(23, tonumber(row["muscle"]))
 			player:setStat(24, tonumber(row["maxhealth"]))
 			player:setStat(25, tonumber(row["sexappeal"]))
-			
+
 			--Weapon
 			player:setStat(69, tonumber(row["pistol-skill"]))
 			player:setStat(70, tonumber(row["pistolS-skill"]))
@@ -296,14 +295,14 @@ function loginPlayer(passwort, user)
 			player:setStat(77, tonumber(row["ak-skill"]))
 			player:setStat(78, tonumber(row["m4-skill"]))
 			player:setStat(79, tonumber(row["sniper-skill"]))
-			
+
 			--Other
 			player:setStat(128, tonumber(row["bulletshit"]))
 			player:setStat(225, tonumber(row["underwater"]))
 			player:setStat(229, tonumber(row["bikeskill"]))
 			player:setStat(230, tonumber(row["cycleskill"]))
 			player:setStat(160, tonumber(row["drivingskill"]))
-			
+
 			--Weapon License
 			if row["weaponLicense"] == "false" then
 				g_playerstat[client]["weaponlizenz1"] = false
@@ -315,19 +314,19 @@ function loginPlayer(passwort, user)
 				if weapons["weaponlizenz2"] == true then g_playerstat[client]["weaponlizenz2"] = true end
 				if weapons["weaponlizenz3"] == true then g_playerstat[client]["weaponlizenz3"] = true end
 			end
-			
+
 			--Fluglizenz
 			if tonumber(row["flightLicense"]) == 1 then
 				g_playerstat[client]["flightlizens"] = true
 			else
 				g_playerstat[client]["flightlizens"] = false
 			end
-			
+
 			--Onfire
 			g_playerstat[client]["Onfire"] = 0
 			g_playerstat[client]["AbortKeys"] = -1
-			
-			--Schl"..uuml.."ssel
+
+			--Schlüssel
 			g_playerstat[client]["Keys"] = 0
 			g_playerstat[client]["Key"] = {}
 			local schluss = mysql_query(g_mysql["connection"], "SELECT * FROM `keys` WHERE `playerid` ="..g_playerstat[client]["Userid"])
@@ -335,20 +334,15 @@ function loginPlayer(passwort, user)
 				while true do
 					local row = mysql_fetch_assoc(schluss)
 					if not row then break end
-					
+
 					if tonumber(row["status"]) > 0 then
 						if tonumber(row["status"]) == 2 then g_playerstat[client]["Keys"] = g_playerstat[client]["Keys"] + 1 end
 						g_playerstat[client]["Key"][tonumber(row["fahrzeugid"])] = tonumber(row["status"])
 					end
-				end	
-			mysql_free_result(schluss)	
-			end	
-			
-			--[[if g_playerstat[client]["Keys"] == 0 then
-				local x, y, z = getElementPosition(client) --Wozu gibt es Taxis?
-				createTempVehicleMTARL(510, x, y, z, 0, 0, 0)
-			end--]]
-			
+				end
+			mysql_free_result(schluss)
+			end
+
 			--Allgemeine Variablen
 			g_playerstat[client]["un"] = 1
 			g_playerstat[client]["jc"] = 0
@@ -356,16 +350,16 @@ function loginPlayer(passwort, user)
 			g_playerstat[client]["canleavehouse"] = -1
 			g_playerstat[client]["healer"] = false
 			g_playerstat[client]["gpsON"] = false
-			
+
 			--Jobs
 			g_playerstat[client]["Job"] = {}
 			g_playerstat[client]["JobRank"] = {}
 			g_playerstat[client]["Jobvar"] = {}
 			g_playerstat[client]["Jobvar"]["general"] = {}
 			g_playerstat[client]["Jobvar"]["general"]["usedVehicles"] = {}
-		
+
 			--nullAllPlayerJobs(client)
-			
+
 			local jobs = mysql_query(g_mysql["connection"], "SELECT * FROM `jobs` WHERE `playerid` ="..g_playerstat[client]["Userid"])
 
 			if jobs then
@@ -375,46 +369,46 @@ function loginPlayer(passwort, user)
 					if tonumber(row["rank"]) > 0 then
 						g_playerstat[client]["Job"][tonumber(row["job"])] = 1
 						g_playerstat[client]["JobRank"][tonumber(row["job"])] = tonumber(row["rank"])
-					end	
+					end
 				end
 			end
-			
+
 			g_playerstat[client]["Jobtime"] = -1
-			
+
 			g_playerstat[client]["currentJob"] = -1
 			g_playerstat[client]["jobExtraMoney"] = 0
 			g_playerstat[client]["jobEntrance"] = 0
 			g_playerstat[client]["JobAfkTime"] = 0
-			
+
 			--Keybinds
 			player:bindKey("b", "down", lockVehicle)
 			player:bindKey("l", "down", changeVehicleLight)
 			player:bindKey("k", "down", changeVehicleEngine)
-			
+
 			local theTable = table.copy(row)
 			triggerEvent("onPlayerLoginMTARL", client, theTable)
-			
-			setCameraTarget(client, client)
-			player:callClient("showLogin", false)	
-			player:callClient("playerLogedInFunction")	
+
+            setCameraTarget(client, client)
+			player:callClient("showLogin", false)
+			player:callClient("playerLogedInFunction")
 
 			showMTARLVersion(client, true)
-			
+
 			--Scoreboard
 			player:setData("ScoreboardHandynummer", tostring(g_playerstat[client]["Handynumber"]), true)
-			
+
 			local theTime = getRealTime()
 			if theTime.minute < 10 then
 				theTime.minute = "0"..theTime.minute
 			end
 			player:setData("ScoreboardOnline", theTime.hour..":"..theTime.minute.." Uhr", true)
-			
+
 			rpcCallClientFunction(client, "setServerOnlineTime", g_serverOnlineTime)
 			rpcCallClientFunction(client, "setServerMaxPlayers", getMaxPlayers())
 			rpcCallClientFunction(client, "setHousePos", tonumber(row["spawnx"]), tonumber(row["spawny"]), tonumber(row["spawnz"]))
-			
+
 			setPlayerScoreboardJob(client, false)
-			
+
 			if g_playerstat[client]["Level"] == "Admin" then
 				player:setData("ScoreboardNameR", 255, true)
 				player:setData("ScoreboardNameG", 0, true)
@@ -438,20 +432,16 @@ function loginPlayer(passwort, user)
 				player:setData("ScoreboardNameG", 255, true)
 				player:setData("ScoreboardNameB", 255, true)
 				setPlayerNametagColor (client, 255, 255, 255)
-			end	
+			end
 		end
-	mysql_free_result(player)	
-	
-	outputDebug("Account geladen ["..getPlayerName(client).."]")
-	
-	if newPlayers[client] == true then
-		sendPlayerInfo(client, "Wilkommen auf MTA:RL!
+    end
+	mysql_free_result(player)
 
-Um einen ersten "..Uuml.."berblick "..uuml.."ber die Funktionen von MTA:RL zu bekommen empfehlen wir die das Playermen"..uuml.." anzusehen (F1). 
-Viel Spa"..szlig.." beim Spielen w"..uuml.."nscht dir das MTA:RL Team.")
+	outputDebug("Account geladen ["..getPlayerName(client).."]")
+
+	if newPlayers[client] == true then
+        sendPlayerInfo(client, "Wilkommen auf MTA:RL!\n\nUm einen ersten Überblick über die Funktionen von MTA:RL zu bekommen empfehlen wir die das Playermenü anzusehen (F1). \nViel Spaß beim Spielen wünscht dir das Team von MTA:RL.")
 		newPlayers[client] = nil
-	end
-	
 	end
 end
 
@@ -460,8 +450,8 @@ function randomCoordForRegister()
 	x[1], y[1], z[1] = -2415.8681640625, 333.24395751953, 34.96875 --SF
 	x[2], y[2], z[2] = 1933.27734375, 1345.9658203125, 9.96875 --LV
 	x[3], y[3], z[3] = 2229.6784667969, -1163.7022705078, 25.785793304443 --LS
-	
-	
+
+
 	local rand = math.random(3)
 	return x[rand], y[rand], z[rand]
 end

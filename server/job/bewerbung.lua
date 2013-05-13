@@ -59,15 +59,8 @@ function handleBewerbung(accepted, playername, jobName)
 				sendPlayerInfo(client, "Du hast "..playername.." eingestellt.")
 				sendPlayerInfo(player, "Deine Bewerbung wurde durch "..getPlayerName(client).." bearbeitet und du wurdest eingestellt.")
 				mysql_query(g_mysql["connection"], "DELETE FROM `post` WHERE `fromPlayer` = '"..playername.."' AND `toPlayerID` = '-1' AND `special` = '"..jobName.."';")
-				addBrief(jobName, g_playerstat[player]["Userid"], "Deine Bewerbung", "Herzlich willkommen! 
- 
-Du hast es geschafft. Wir freuen uns, dich im Job "..jobName.." begr"..uuml..""..szlig.."en zu duerfen! 
-Als unser neuer Mitarbeiter kannst ab sofort an einer der Niederlassungen den Job betreten.
-Wir hoffen dass du deinen Job immer mit gro"..szlig.."er Freude und Sorgfalt ausfuehrst.
- 
-MFG 
-"..getPlayerName(client), ort)
-				return true
+				addBrief(jobName, g_playerstat[player]["Userid"], "Deine Bewerbung", "Herzlich willkommen! \n\nDu hast es geschafft. Wir freuen uns, dich im Job "..jobName.." begrüßen zu dürfen!\nAls unser neuer Mitarbeiter kannst ab sofort an einer der Niederlassungen den Job betreten.\nWir hoffen dass du deinen Job immer mit großer Freude und Sorgfalt ausführst.\n \nMFG \n"..getPlayerName(client), ort)
+                return true
 			else
 				sendPlayerInfo(client, playername.." ist bereits eingestellt.")
 				return false
