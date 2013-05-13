@@ -26,9 +26,9 @@ local g_houses = {}
 local g_pickuph = {}
 local g_colshapeh = {}
 
------------------------------------------
+------------------------------------------
 --pickupin = aussen || pickupout = innen--
------------------------------------------
+------------------------------------------
 
 function initHouses()
 	outputDebug("houses.lua start...")
@@ -125,7 +125,7 @@ function addHouse(x, y, z, intx, inty, intz, int, ownerid, owner)
 	g_houses[lastid]["pickupin"] = pickup
 	addEventHandler("onPlayerPickupHit", g_houses[lastid]["pickupin"], pickupHitHouse)
 	local pickCol = getElementColShape(pickup)
-	addEventHandler("onColShapeLeave", pickCol, pickupColshapeLeavePickupAreaHouse)	
+	addEventHandler("onColShapeLeave", pickCol, pickupColshapeLeavePickupAreaHouse)
 	g_pickuph[g_houses[lastid]["pickupin"]] = lastid
 	g_houses[lastid]["owner"] = ownerid
 	g_houses[lastid]["intx"] = intx
@@ -139,20 +139,15 @@ function addHouse(x, y, z, intx, inty, intz, int, ownerid, owner)
 	g_colshapeh[col] = lastid
 	g_houses[lastid]["colshape"] = col
 	setElementInterior(col, g_houses[lastid]["interior"])
-	setElementDimension(col, g_houses[lastid]["dimension"])	
+	setElementDimension(col, g_houses[lastid]["dimension"])
 	g_pickuph[g_houses[lastid]["pickupout"]] = lastid
 	setElementInterior(g_houses[lastid]["pickupout"], g_houses[lastid]["interior"])
 	setElementDimension(g_houses[lastid]["pickupout"], g_houses[lastid]["dimension"])
 	g_houses[lastid]["locked"] = true
 	g_houses[lastid]["member"] = {}
-	
+
 	local ort = "mailBox"..tostring(math.random(1, 15))
-	addBrief("MTA:RL Bot", ownerid, "Dein neues Haus", "Hallo,
-
-wenn du diese Nachricht liest, weisst du, dass dein Postfach an diesem Haus funktioniert. Lerne doch dein neues Zuhause ein wenig kennen, schau dich nach Nachbarn um oder baue einfach im Haus mit dem Command /bauen.
-
-Viel Spass, 
-Das MTA:RL Team", ort)			
+    addBrief("MTA:RL Bot", ownerid, "Dein neues Haus", "Hallo,\n\nwenn du diese Nachricht liest, weisst du, dass dein Postfach an diesem Haus funktioniert. Lerne doch dein neues Zuh    ause ein wenig kennen, schau dich nach Nachbarn um oder baue einfach im Haus mit dem Command /bauen.\n\nViel Spass, \nDas MTA:RL Team", ort)
 end
 
 function removeHouse(houseid)

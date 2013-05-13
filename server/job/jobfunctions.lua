@@ -184,8 +184,8 @@ function playerLeaveJob(playerSource, staticID, locationID, giveMoney, silentAbo
 					end
 				end
 			end
-		end	
-		
+		end
+
 
 		--Happy paying
 		local entranceTime = g_playerstat[playerSource]["jobEntrance"]
@@ -193,17 +193,16 @@ function playerLeaveJob(playerSource, staticID, locationID, giveMoney, silentAbo
 
 		local timeToPay = currentTimestamp - entranceTime - afkTime
 		local allToPay = g_playerstat[playerSource]["jobExtraMoney"]
-					
+
 		if tJobs[staticID]["extraMoneyLimit"] ~= -1 then
 			if allToPay > tJobs[staticID]["extraMoneyLimit"] then
 				allToPay = tJobs[staticID]["extraMoneyLimit"]
 			end
-		end	
+		end
 		g_playerstat[playerSource]["jobExtraMoney"] = 0
-					
-		local playerInfo = "Gehaltsabrechnung:
-"
-					
+
+		local playerInfo = "Gehaltsabrechnung:\n"
+
 		if not isMiniJob(staticID) then
 			local timePay = 0
 			if tJobs[staticID]["ranks"][playerJobRank] then
@@ -211,38 +210,32 @@ function playerLeaveJob(playerSource, staticID, locationID, giveMoney, silentAbo
 			else
 				round(tJobs[staticID]["ranks"][1]["wage"] * timeToPay)
 			end
-			--sendPlayerInfo(playerSource, "Gehaltsabrechnung:
-Zeitlohn: "..timePay.."$
-Extraverdienst: "..tostring(allToPay).."$")
-			playerInfo = playerInfo .. "Zeitlohn: "..timePay.."$
-Extraverdienst: "..tostring(allToPay).."$"
-			allToPay = allToPay + timePay
+            --sendPlayerInfo(playerSource, "Gehaltsabrechnung:\nZeitlohn: "..timePay.."$\nExtraverdienst: "..tostring(allToPay).."$")
+            playerInfo = playerInfo .. "Zeitlohn: "..timePay.."$\nExtraverdienst: "..tostring(allToPay).."$"
+            allToPay = allToPay + timePay
 		else
-			--sendPlayerInfo(playerSource, "Gehaltsabrechnung:
-"..allToPay.."$ verdient.")
-			playerInfo = playerInfo .. "Gehaltsabrechnung:
-"..allToPay.."$ verdient."
-		end
-					
+		    --sendPlayerInfo(playerSource, "Gehaltsabrechnung:\n"..allToPay.."$ verdient.")
+            playerInfo = playerInfo .. "Gehaltsabrechnung:\n"..allToPay.."$ verdient."
+        end
+
 		if carCheck then
-			playerInfo = playerInfo .. "
-Fahrzeug/e nicht getankt/repariert: -50$"
+            playerInfo = playerInfo .. "\nFahrzeug/e nicht getankt/repariert: -50$"
 			allToPay = allToPay - 50
 		end
-		
+
 		if not silentAbort then
 			sendPlayerInfo(playerSource, playerInfo, true)
-		end	
-			
+		end
+
 		if giveMoney then
 			givePlayerMoney(playerSource, allToPay)
 			giveStaatsKasse(-allToPay)
-		end	
+		end
 		--Waffen
 		takeAllWeapons(playerSource)
 		--Und noch das Scoreboard resetten
 		setPlayerScoreboardJob(playerSource, false)
-					
+
 		--Nicht vergessen die Fahrzeugliste zu nil'en und neu zu erstellen
 		g_playerstat[playerSource]["Jobvar"]["general"]["usedVehicles"] = nil
 		g_playerstat[playerSource]["Jobvar"]["general"]["usedVehicles"] = {}
@@ -254,7 +247,7 @@ end
 function playerEnterJob(playerSource, staticID, locationID)
 	if g_playerstat[playerSource]["currentJob"] == -1 then
 		--MiniJob
-		if isMiniJob(staticID) then					
+		if isMiniJob(staticID) then
 			--Ab in die JobID, reset Vars
 			g_playerstat[playerSource]["currentJob"] = staticID
 			g_playerstat[playerSource]["jobExtraMoney"] = 0
@@ -508,12 +501,8 @@ function addNewPlayerToJob(playerSource, commandName, playername, job)
 					g_playerstat[player]["JobRank"][jobID] = 1
 					outputChatBox(g_colors["green"].."Du wurdest dem Job "..job.." hinzugef"..uuml.."gt!", player, 0, 0, 0, true)
 					outputChatBox(g_colors["green"].."Du hast "..playername.." dem Job "..job.." hinzugef"..uuml.."gt!", playerSource, 0, 0, 0, true)
-					addBrief("MTA:RL Bot", g_playerstat[player]["Userid"], job, "Hallo "..playername..",
- du wurdest soeben dem Job "..job.." hinzugef"..uuml.."gt.
- 
- MFG
- "..getPlayerName(playerSource), ort)
-				end				
+				    addBrief("MTA:RL Bot", g_playerstat[player]["Userid"], job, "Hallo "..playername..",\n du wurdest soeben dem Job "..job.." hinzugef"..uuml.."gt.\n \n MFG\n "..getPlayerName(playerSource), ort)
+                end				
 			else
 				local playersql = mysql_query(g_mysql["connection"], "SELECT * FROM `players` WHERE `playername` = '"..playername.."'")
 				local row = mysql_fetch_assoc(playersql)
