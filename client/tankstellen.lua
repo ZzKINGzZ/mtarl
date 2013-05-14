@@ -38,20 +38,13 @@ local function renderTankstellenPreis()
 		if x and y then
 			local px, py, pz = getElementPosition(getLocalPlayer())
 			local dis = getDistanceBetweenPoints3D(curtanke["x"], curtanke["y"], curtanke["z"], px, py, pz)
-			local text = "Preise:
-"
-			if curtanke["benzinPreis"] > 0 then text = text.."Benzin: "..curtanke["benzinPreis"].."$
-" end
-			if curtanke["superPreis"] > 0 then text = text.."Super: "..curtanke["superPreis"].."$
-" end
-			if curtanke["superPPreis"] > 0 then text = text.."Super Plus: "..curtanke["superPPreis"].."$
-" end
-			if curtanke["dieselPreis"] > 0 then text = text.."Diesel: "..curtanke["dieselPreis"].."$
-" end
-			if curtanke["bootPreis"] > 0 then text = text.."Bootsdiesel: "..curtanke["bootPreis"].."$
-" end
-			if curtanke["kerosinPreis"] > 0 then text = text.."Kerosin: "..curtanke["kerosinPreis"].."$
-" end
+			local text = "Preise:\n"
+			if curtanke["benzinPreis"] > 0 then text = text.."Benzin: "..curtanke["benzinPreis"].."$\n" end
+			if curtanke["superPreis"] > 0 then text = text.."Super: "..curtanke["superPreis"].."$\n" end
+			if curtanke["superPPreis"] > 0 then text = text.."Super Plus: "..curtanke["superPPreis"].."$\”" end
+			if curtanke["dieselPreis"] > 0 then text = text.."Diesel: "..curtanke["dieselPreis"].."$\n" end
+			if curtanke["bootPreis"] > 0 then text = text.."Bootsdiesel: "..curtanke["bootPreis"].."$\n" end
+			if curtanke["kerosinPreis"] > 0 then text = text.."Kerosin: "..curtanke["kerosinPreis"].."$\n" end
 			dxDrawText(text, x, y, 0, 0, tankcol, (15 - dis) / 3)
 		end	
 	end

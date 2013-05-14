@@ -175,7 +175,6 @@ function taxiToggleTaxometer(toggle)
 		showInfoMessage("Taxometer aktiviert.")
 	else
 		local km = km - taxikm
-		showInfoMessage("Taxometer deaktiviert. 
-Du solltest"..round(km*3).."$ verlangen.")
+		showInfoMessage("Taxometer deaktiviert.\nDu solltest"..round(km*3).."$ verlangen.")
 	end
 end

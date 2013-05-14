@@ -30,16 +30,8 @@ function toggleArbeitserlaubnis(toggle, playername, datum)
 	initalizeArbeitserlaubnisGUI()
 	if toggle == true then
 		showCursor(true)
-		guiSetText(g_arbeitserlaubnisgui["text1"], "Arbeitserlaubnis fuer den Spieler "..playername.."
-
-
-Dem Spieler "..playername.." wird es erlaubt, in ganz San Andreas legal, frei und ohne Einschraenkungen zu arbeiten.
-
-
-In Vertretung fuer den Praesidenten ")
-		guiSetText(g_arbeitserlaubnisgui["text2"], "Die Stadtverwaltung
-
-"..tostring(datum))
+		guiSetText(g_arbeitserlaubnisgui["text1"], "Arbeitserlaubnis für den Spieler "..playername.."\n\nDem Spieler "..playername.." wird es erlaubt, in ganz San Andreas legal, frei und ohne Einschränkungen zu arbeiten.\n\nIn Vertretung für den Präsidenten ")
+		guiSetText(g_arbeitserlaubnisgui["text2"], "Die Stadtverwaltung\n\n"..tostring(datum))
 		guiSetVisible(g_arbeitserlaubnisgui["window"], true)
 		addEventHandler("onClientGUIClick", g_arbeitserlaubnisgui["window"], closeArbeitserlaubnis)
 	else
@@ -127,8 +119,7 @@ function newTaskCriminal()
 	taskTimeLeft = 5
 	tasksLeft = tasksLeft - 1
 	
-	guiSetText(g_autodiebGUI["timeleft"], "Restliche Zeit: "..taskTimeLeft.."
-Verbleibende Tasks: "..tasksLeft)
+	guiSetText(g_autodiebGUI["timeleft"], "Restliche Zeit: "..taskTimeLeft.."\nVerbleibende Tasks: "..tasksLeft)
 	
 	if tasksLeft < 1 then
 		stopCarCrackingItem(true)
@@ -144,8 +135,7 @@ end
 function onCarCrackTimer()
 	taskTimeLeft = taskTimeLeft - 1
 	
-	guiSetText(g_autodiebGUI["timeleft"], "Restliche Zeit: "..taskTimeLeft.."
-Verbleibende Tasks: "..tasksLeft)
+	guiSetText(g_autodiebGUI["timeleft"], "Restliche Zeit: "..taskTimeLeft.."\nVerbleibende Tasks: "..tasksLeft)
 	if taskTimeLeft == 0 then
 		stopCarCrackingItem(false)
 	end

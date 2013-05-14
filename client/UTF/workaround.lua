@@ -17,7 +17,7 @@
 
 
 
-﻿auml = "ä"
+auml = "ä"
 ouml = "ö"
 uuml = "ü"
 szlig = "ß"

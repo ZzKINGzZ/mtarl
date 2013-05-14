@@ -99,8 +99,7 @@ function tutorialTimer()
 		if tutorial["cursec"] == 17 then
 			playSoundFrontEnd(15)
 			guiLabelSetColor(tutorial["textlabel"], 255, 255, 0)
-			guiSetText(tutorial["textlabel"], "Willkommen in der Welt von MTA:RL. Mache dich zun"..auml.."chst ein wenig mit der Steuerung vertraut.
- Beachte, dass es sich bei MTA:RL noch um eine Beta handelt")
+			guiSetText(tutorial["textlabel"], "Willkommen in der Welt von MTA:RL. Mache dich zun"..auml.."chst ein wenig mit der Steuerung vertraut.\n\nBeachte, dass es sich bei MTA:RL noch um eine Beta handelt")
 			
 			--setTrainSpeed(tutorial["train"], 0.03)
 			fadeCamera(true, 2)	
@@ -141,14 +140,12 @@ function tutorialTimer()
 		if tutorial["cursec"] == 45 then
 			playSoundFrontEnd(15)
 			deactivatePlayerMenuTutorial()
-			guiSetText(tutorial["textlabel"], "Beachte bitte, dass du dein Passwort niemals im Chat bekannt gibst. Auch Teammitglieder werden dich niemals 
- nach deinem Passwort fragen.")
+			guiSetText(tutorial["textlabel"], "Beachte bitte, dass du dein Passwort niemals im Chat bekannt gibst. Auch Teammitglieder werden dich niemals\nnach deinem Passwort fragen.")
 		end	
 		
 		if tutorial["cursec"] == 50 then
 			playSoundFrontEnd(15)
-			guiSetText(tutorial["textlabel"], "Den angesprochenen Chat kannst du jederzeit mit der Taste t "..ouml.."ffnen. Wir haben ihn erstmal deaktiviert, 
- um dich nicht vom Tutorial abzulenken.")
+			guiSetText(tutorial["textlabel"], "Den angesprochenen Chat kannst du jederzeit mit der Taste t "..ouml.."ffnen. Wir haben ihn erstmal deaktiviert,\num dich nicht vom Tutorial abzulenken.")
 			fadeCamera(false, 5)			
 		end
 		
@@ -193,8 +190,7 @@ function tutorialTimer()
 		if tutorial["cursec"] == 63 then
 			playSoundFrontEnd(15)
 			
-			guiSetText(tutorial["textlabel"], "Du kannst jederzeit mit einem Makler einen Termin vereinbaren und ein eigenes Haus
-oder eine Wohnung kaufen.")
+			guiSetText(tutorial["textlabel"], "Du kannst jederzeit mit einem Makler einen Termin vereinbaren und ein eigenes Haus\noder eine Wohnung kaufen.")
 		end
 		
 		if tutorial["cursec"] == 70 then
@@ -233,8 +229,7 @@ oder eine Wohnung kaufen.")
 			fadeCamera(true, 3)
 			playSoundFrontEnd(15)
 			
-			guiSetText(tutorial["textlabel"], "Du verf"..uuml.."gst ueber eine EC-Karte. Diese l"..auml.."sst dich an jedem Geldautomaten
-in ganz San Andreas jederzeit Geld abheben. Du erkennst sie an den gr"..uuml.."nen Markern.")
+			guiSetText(tutorial["textlabel"], "Du verf"..uuml.."gst ueber eine EC-Karte. Diese l"..auml.."sst dich an jedem Geldautomaten\nin ganz San Andreas jederzeit Geld abheben. Du erkennst sie an den gr"..uuml.."nen Markern.")
 		end
 		
 		if tutorial["cursec"] == 81 then
@@ -286,11 +281,7 @@ in ganz San Andreas jederzeit Geld abheben. Du erkennst sie an den gr"..uuml.."n
 		
 		if tutorial["cursec"] == 123 then
 			playSoundFrontEnd(15)
-			guiSetText(tutorial["textlabel"], "Solltest du noch Fragen haben:
--Nutze das Spielermenue
--Frage ein Teammitglied
--Nutze das Forum
--Frage einen bereits eingewiesenen Nutzer")
+			guiSetText(tutorial["textlabel"], "Solltest du noch Fragen haben:\n-Nutze das Spielermenue\n-Frage ein Teammitglied\n-Nutze das Forum\n-Frage einen bereits eingewiesenen Nutzer")
 		end		
 		
 		if tutorial["cursec"] == 127 then

@@ -33,12 +33,10 @@ end
 function setPhoneNumber(phonenumber)
 	if phonenumber then
 		g_playerstat["Number"] = phonenumber
-		guiSetText(g_Handymenu["Display"], "Meine Handynummer: 
-"..g_playerstat["Number"])
+		guiSetText(g_Handymenu["Display"], "Meine Handynummer:\n"..g_playerstat["Number"])
 		handystate = 1
 	else
-		guiSetText(g_Handymenu["Display"], "Meine Handynummer: 
-"..g_playerstat["Number"])
+		guiSetText(g_Handymenu["Display"], "Meine Handynummer:\n"..g_playerstat["Number"])
 		handystate = 1
 	end
 end
@@ -65,8 +63,7 @@ function setHandyText(text, standard)
 	if standard == false then
 		guiSetText(g_Handymenu["Display"], tostring(text))
 	elseif standard == true then
-		guiSetText(g_Handymenu["Display"], "Meine Handynummer: 
-"..g_playerstat["Number"])
+		guiSetText(g_Handymenu["Display"], "Meine Handynummer:\n"..g_playerstat["Number"])
 	end
 end
 
@@ -76,23 +73,19 @@ function setPhoneNumberToRing(button)
 			if handystate == 1 then
 				guiSetText(g_Handymenu["Display"], "")
 			end
-			local text = (guiGetText(g_Handymenu["Display"]).."*"):gsub('
-', '')
+			local text = (guiGetText(g_Handymenu["Display"]).."*"):gsub('\n', '')
 			guiSetText(g_Handymenu["Display"], text)			
 		elseif source == g_Handymenu["TasteR"] then
 			if handystate == 1 then
 				guiSetText(g_Handymenu["Display"], "")
 			end
-			local text = (guiGetText(g_Handymenu["Display"]).."#"):gsub('
-', '')
+			local text = (guiGetText(g_Handymenu["Display"]).."#"):gsub('\n', '')
 			guiSetText(g_Handymenu["Display"], text)			
 		elseif source == g_Handymenu["Anruf"] then
 			if handystate == 2 then
 				activateHandyTasten(false)			
-				--server.callNumber((guiGetText(g_Handymenu["Display"])):gsub('
-', ''), "old")
-				rpcCallServerFunction("callNumber", (guiGetText(g_Handymenu["Display"])):gsub('
-', ''), "old")
+				--server.callNumber((guiGetText(g_Handymenu["Display"])):gsub('\n', ''), "old")
+				rpcCallServerFunction("callNumber", (guiGetText(g_Handymenu["Display"])):gsub('\n', ''), "old")
 				setCallCancel(true)
 				handystate = 3
 			end
@@ -113,8 +106,7 @@ function setPhoneNumberToRing(button)
 					end
 					local text = guiGetText(g_Handymenu["Display"])
 					guiSetText(g_Handymenu["Display"], text..number)
-					text = (guiGetText(g_Handymenu["Display"])):gsub('
-', '')
+					text = (guiGetText(g_Handymenu["Display"])):gsub('\n', '')
 					guiSetText(g_Handymenu["Display"], text)
 					handystate = 2
 				end

@@ -16,7 +16,6 @@
 --Eine Kopie der GNU General Public License finden Sie unter: http://www.gnu.org/licenses/gpl.txt
 
 
-
 auml = "ä"
 ouml = "ö"
 uuml = "ü"

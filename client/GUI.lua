@@ -795,7 +795,7 @@ function initalizeRegisterGUI()
 			guiLabelSetColor(head, 255, 153, 50)
 			guiLabelSetColor(head2, 0, 0, 0)
 		g_registergui["edit_password2"] = guiCreateEdit(0.8383,0.6833,0.1234,0.0302, "" ,true,g_registergui["window"])
-			guiEditSetMasked(g_registergui["edit_password2f"], true)
+			guiEditSetMasked(g_registergui["edit_password2"], true)
 		g_registergui["label_password2"] = guiCreateLabel(0.7641,0.6969,0.0664,0.0167,"Passwort:",true,g_registergui["window"])
 			--guiLabelSetColor(pin, 0, 0, 0)
 		g_registergui["label_password"] = guiCreateLabel(0.7641,0.7604,0.0453,0.0177,"Passwort:",true,g_registergui["window"])
@@ -977,19 +977,11 @@ end
 function initalizeArbeitserlaubnisGUI()
 	if not g_guiloaded["arbeitserlaubnis"] then
 		g_arbeitserlaubnisgui["window"] = guiCreateWindow(0.3516,0.4167,0.2891,0.3414,"Arbeitserlaubnis",true)
-		g_arbeitserlaubnisgui["text1"] = guiCreateLabel(0.024,0.1051,0.9429,0.5186,"Arbeitserlaubnis f"..uuml.."r Herrn PLAYERNAME
-
-
-Dem Spieler PLAYERNAME wird es erlaubt, in ganz San Andreas legal, frei und ohne Einschraenkungen zu arbeiten.
-
-
-In Vertreung fuer den Praesidenten ",true, g_arbeitserlaubnisgui["window"])
+		g_arbeitserlaubnisgui["text1"] = guiCreateLabel(0.024,0.1051,0.9429,0.5186,"Arbeitserlaubnis f"..uuml.."r Herrn PLAYERNAME\n\nDem Spieler PLAYERNAME wird es erlaubt, in ganz San Andreas legal, frei und ohne Einschraenkungen zu arbeiten.\n\nIn Vertreung fuer den Praesidenten ",true, g_arbeitserlaubnisgui["window"])
 		guiLabelSetColor(g_arbeitserlaubnisgui["text1"],255,255,255)
 		guiLabelSetVerticalAlign(g_arbeitserlaubnisgui["text1"],"top")
 		guiLabelSetHorizontalAlign(g_arbeitserlaubnisgui["text1"],"left",true)
-		g_arbeitserlaubnisgui["text2"] = guiCreateLabel(0.03,0.6407,0.9459,0.2373,"Die Stadtverwaltung
-
-12.12.2010",true,g_arbeitserlaubnisgui["window"])
+		g_arbeitserlaubnisgui["text2"] = guiCreateLabel(0.03,0.6407,0.9459,0.2373,"Die Stadtverwaltung\n\n12.12.2010",true,g_arbeitserlaubnisgui["window"])
 		guiLabelSetColor(g_arbeitserlaubnisgui["text2"],0,40,255)
 		guiLabelSetVerticalAlign(g_arbeitserlaubnisgui["text2"],"top")
 		guiLabelSetHorizontalAlign(g_arbeitserlaubnisgui["text2"],"left",false)
@@ -1121,8 +1113,7 @@ function initAutoDiebGUI()
 		--g_autodiebGUI["progressbar"] = guiCreateProgressBar(0.0168,0.6488,0.7332,0.2619,true,g_autodiebGUI["window"])
 		g_autodiebGUI["topress"] = guiCreateLabel(0.0243,0.1071,0.9459,0.4524,"Button: w",true,g_autodiebGUI["window"])
 		guiSetFont(g_autodiebGUI["topress"],"sa-gothic")
-		g_autodiebGUI["timeleft"] = guiCreateLabel(0.7631,0.6429,0.2257,0.2619,"Restliche Zeit: 0:10
-Verbleibende Tasks: 25",true,g_autodiebGUI["window"])
+		g_autodiebGUI["timeleft"] = guiCreateLabel(0.7631,0.6429,0.2257,0.2619,"Restliche Zeit: 0:10\nVerbleibende Tasks: 25",true,g_autodiebGUI["window"])
 		
 		guiWindowSetSizable(g_autodiebGUI["window"], false)
 		guiWindowSetMovable(g_autodiebGUI["window"], false)		

@@ -78,9 +78,7 @@ addEventHandler("onClientGeneralTimer", localPlayer, infoMenuTimer)
 function showInfoMessage(message, timer)
 	if message then
 		guiSetText(g_infomenu["text"], message)
-		local text = guiGetText(g_Playermenugui["playerMessage"]).."
- 
-"..message
+		local text = guiGetText(g_Playermenugui["playerMessage"]).."\n\n"..message
 		guiSetText(g_Playermenugui["playerMessage"], text)
 		if timer then
 			guiSetVisible(g_infomenu["button"], false)
