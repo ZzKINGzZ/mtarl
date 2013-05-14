@@ -52,9 +52,7 @@ function airCrewEnterJob(playerSource, staticJobID, locationID, playerJobRank)
 	local veh = createTempVehicleMTARL(548, 1652.380859375, 1560.5, 12.466816902161, 0.90087890625, 359.76379394531, 60.847778320313)
 	g_vehiclestat[veh]["AirCar"] = true
 	
-	sendPlayerInfo(playerSource, "Wilkommen, im Minijob Air Cargo! In diesem Job musst du Luftfracht Transportieren.
- 
-Steige nun in dein Flugzeug!")
+	sendPlayerInfo(playerSource, "Wilkommen, im Minijob Air Cargo! In diesem Job musst du Luftfracht Transportieren.\n\nSteige nun in dein Flugzeug!")
 	
 	--Marker+Blip
 	local rand = math.random(#airMarker)	

@@ -432,9 +432,7 @@ function postVehEnter(playerSource)
 							letters = letters + 1
 						end
 					end
-					sendPlayerInfo(playerSource, "Mach dich nun auf den Weg um die Briefk"..auml.."sten zu entleeren.
- 
- Du hast "..letters.." Brief(e) im Trailer", true)
+					sendPlayerInfo(playerSource, "Mach dich nun auf den Weg um die Briefk"..auml.."sten zu entleeren.\n\nDu hast "..letters.." Brief(e) im Trailer", true)
 					letters = nil
 				end
 			elseif veh == 609 then
@@ -509,9 +507,7 @@ function postTrailerAttach(vehicle)
 							letters = letters + 1
 						end
 					end
-					sendPlayerInfo(player, "Mach dich nun auf den Weg um die Briefk"..auml.."sten zu entleeren.
- 
- Du hast "..letters.." Brief(e) im Trailer", true)
+					sendPlayerInfo(player, "Mach dich nun auf den Weg um die Briefk"..auml.."sten zu entleeren.\n\nDu hast "..letters.." Brief(e) im Trailer", true)
 					letters = nil
 				end
 			else

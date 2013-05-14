@@ -62,9 +62,7 @@ function bauCrewEnterJob(playerSource, staticJobID, locationID, playerJobRank)
 	local veh = createTempVehicleMTARL(524, -2101.927734375, 214.25390625, 36.233551025391, 359.93957519531, 359.912109375, 89.335327148438)
 	g_vehiclestat[veh]["BauCar"] = true
 	
-	sendPlayerInfo(playerSource, "Wilkommen, im Minijob Bau! In diesem Job Transportierst du Zement.
- 
-Steige nun in dein Fahrzeug.")
+	sendPlayerInfo(playerSource, "Wilkommen, im Minijob Bau! In diesem Job Transportierst du Zement.\n\nSteige nun in dein Fahrzeug.")
 	
 	--Marker+Blip
 	local rand = math.random(#bauMarker)	

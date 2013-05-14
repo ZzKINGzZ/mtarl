@@ -67,9 +67,7 @@ function mullCrewEnterJob(playerSource, staticJobID, locationID, playerJobRank)
 	local veh = createTempVehicleMTARL(408, 1604.45703125, -1834.046875, 14.052198410034, 1.38427734375, 359.94506835938, 270.97229003906)
 	g_vehiclestat[veh]["MullCar"] = true
 	
-	sendPlayerInfo(playerSource, "Wilkommen, im Minijob M"..uuml.."llabfuhr! In ganz Los Santos stehen M"..uuml.."lltonnen suche sie!
- 
-Nicht alle M"..uuml.."lltonnen sind zur abholung bereit, die die bereit sind stehen an der Stra"..szlig.."e.")
+	sendPlayerInfo(playerSource, "Wilkommen, im Minijob M"..uuml.."llabfuhr! In ganz Los Santos stehen M"..uuml.."lltonnen suche sie!\n\nNicht alle M"..uuml.."lltonnen sind zur abholung bereit, die die bereit sind stehen an der Stra"..szlig.."e.")
 
 	--Jobvars
 	g_playerstat[playerSource]["Jobvar"] = {}

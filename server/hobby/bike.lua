@@ -44,8 +44,7 @@ function onBikeRentalMarkerHit(playerSource)
 				takePlayerMoney(playerSource, 50)
 				g_playerstat[playerSource]["rentalBikeHit"] = nil
 			else
-				sendPlayerInfo(playerSource, "Willkommen im Fahrrad-Verleih! Das Fahrad wird dich 50$ kosten, es wird Ihnen 1 Tag zu verf"..uuml.."gung stehen.
-Gehe Sie erneut in den Marker um das Fahrrad zu holen!", true)
+				sendPlayerInfo(playerSource, "Willkommen im Fahrrad-Verleih! Das Fahrad wird dich 50$ kosten, es wird Ihnen 1 Tag zu verf"..uuml.."gung stehen.\nGehe Sie erneut in den Marker um das Fahrrad zu holen!", true)
 				g_playerstat[playerSource]["rentalBikeHit"] = 1
 			end
 		end

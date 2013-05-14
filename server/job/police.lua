@@ -162,22 +162,22 @@ end
 function policeDeleteObjects(player)
 	if g_playerstat[player]["Jobvar"]["Police"] then
 		g_playerstat[playerSource]["Jobvar"]["Police"] = nil
-		
+
 		if g_playerstat[playerSource]["Jobvar"]["Police"]["Sperre1"] then
 			destroyElement(g_playerstat[playerSource]["Jobvar"]["Police"]["Sperre1"])
 			destroyElement(g_playerstat[playerSource]["Jobvar"]["Police"]["Sperre2"])
 			destroyElement(g_playerstat[playerSource]["Jobvar"]["Police"]["Sperre3"])
 		end
-		
+
 		if g_playerstat[playerSource]["Jobvar"]["Police"]["Nagelband"] then
 			destroyElement(g_playerstat[playerSource]["Jobvar"]["Police"]["Nagelband"])
-			destroyElement(g_playerstat[playerSource]["Jobvar"]["Police"]["NagelbandCol"])	
+			destroyElement(g_playerstat[playerSource]["Jobvar"]["Police"]["NagelbandCol"])
 		end
 
 		if g_playerstat[playerSource]["Jobvar"]["Police"]["Blitzer"] then
 			destroyElement(g_playerstat[playerSource]["Jobvar"]["Police"]["Blitzer"])
 			destroyElement(g_playerstat[playerSource]["Jobvar"]["Police"]["BlitzerCol"])
-		end	
+		end
 	end
 end
 addEventHandler("onPlayerLogoutMTARL", getResourceRootElement(), policeDeleteObjects)
@@ -214,7 +214,7 @@ function punishPlayer(playerSource, commandName, player, money, prisonTime, ...)
 			outputChatBox(g_colors["red"].."Syntax: /strafe [Spieler(teil)name] [Strafgeld] [Strafsekunden Gef"..auml.."gniss] [Begr"..uuml.."ndung]", playerSource, 0, 0, 0, true)
 			return false
 		end
-		
+
 		-- Punishing is only allowed in 'LSPD HQ' interior
 		local px, py, pz = getElementPosition(playerSource)
 		local distanceToPD = getDistanceBetweenPoints3D(x, y, z, 253, 71, 1004)
@@ -227,7 +227,7 @@ function punishPlayer(playerSource, commandName, player, money, prisonTime, ...)
 		if not thePlayer then
 			thePlayer = getPlayerFromString(player)
 		end
-		if not thePlayer then 
+		if not thePlayer then
 			outputChatBox(g_colors["red"].."Dieser Spieler ist nicht online!", playerSource, 255, 255, 255, true)
 			return false
 		end
@@ -302,7 +302,7 @@ function policeRoadblock(playerSource, commandName)
 		else
 			if not getPedOccupiedVehicle(playerSource) then
 				rpcCallClientFunction(playerSource, "policeCreateObject", "Sperre")
-			end	
+			end
 		end
 	end
 end
@@ -318,7 +318,7 @@ function policeNagelband(playerSource, commandName)
 		else
 			if not getPedOccupiedVehicle(playerSource) then
 				rpcCallClientFunction(playerSource, "policeCreateObject", "Nagelband")
-			end	
+			end
 		end
 	end
 end
@@ -341,7 +341,7 @@ function policeBlitzer(playerSource, commandName, velo)
 				end
 				rpcCallClientFunction(playerSource, "policeCreateObject", "Blitzer")
 				g_playerstat[playerSource]["Jobvar"]["Police"]["BlitzerVelo"] = velo
-			end	
+			end
 		end
 	end
 end
@@ -369,11 +369,11 @@ function policeCreateObject(typ, model, x, y, z, rx, ry, rz)
 				g_playerstat[client]["Jobvar"]["Police"]["NagelbandCol"] = createColSphere (x, y, z, 8)
 				setElementParent(g_playerstat[client]["Jobvar"]["Police"]["Nagelband"], client)
 				setElementParent(g_playerstat[client]["Jobvar"]["Police"]["NagelbandCol"], client)
-				addEventHandler("onColShapeHit", g_playerstat[client]["Jobvar"]["Police"]["NagelbandCol"], policeNagelbandHandler)			
-				addEventHandler("onColShapeLeave", g_playerstat[client]["Jobvar"]["Police"]["NagelbandCol"], policeNagelbandHandler)			
+				addEventHandler("onColShapeHit", g_playerstat[client]["Jobvar"]["Police"]["NagelbandCol"], policeNagelbandHandler)
+				addEventHandler("onColShapeLeave", g_playerstat[client]["Jobvar"]["Police"]["NagelbandCol"], policeNagelbandHandler)
 			end
 		elseif typ == "Blitzer" then
-			if not g_playerstat[client]["Jobvar"]["Police"]["Blitzer"] then				
+			if not g_playerstat[client]["Jobvar"]["Police"]["Blitzer"] then
 				local x2, y2, z2 = getPosInFrontOfPlayer(client, 1)
 				local a = math.deg(math.atan((y2 - y) / (x2 - x)))+270
 				g_playerstat[client]["Jobvar"]["Police"]["Blitzer"] = createObject(2600, x2, y2, z2 - 0.3, 0, 0, a)
@@ -422,14 +422,10 @@ function policeBlitzerHandler(element)
 							local overplus = velo - policeBlitzerVar[source]["Velo"]
 							local money = math.floor(overplus * 2)
 							g_playerstat[player]["Staatsschulden"] = g_playerstat[player]["Staatsschulden"] + money
-							sendPlayerInfo(player, "Du wurdest soeben mit "..math.floor(velo).."km/h geblitzt. 
-Das waren "..math.floor(overplus).."km/h zu viel. 
-Deswegen musst du "..money.."$ bezahlen 
-Diese kannst du mit /tilgen bezahlen.", true)
+							sendPlayerInfo(player, "Du wurdest soeben mit "..math.floor(velo).."km/h geblitzt.\nDas waren "..math.floor(overplus).."km/h zu viel.\nDeswegen musst du "..money.."$ bezahlen\nDiese kannst du mit /tilgen bezahlen.", true)
 							local policemoney = math.floor(money / 2)
 							addPlayerJobExtraMoney(policeBlitzerVar[source]["Owner"], policemoney)
-							sendPlayerInfo(policeBlitzerVar[source]["Owner"], "Es wurde soeben "..getPlayerName(player).." mit "..math.floor(velo).."km/h Geblitzt. 
- Daf"..uuml.."r bekommst du "..policemoney.."$.", true)
+							sendPlayerInfo(policeBlitzerVar[source]["Owner"], "Es wurde soeben "..getPlayerName(player).." mit "..math.floor(velo).."km/h Geblitzt.\nDaf"..uuml.."r bekommst du "..policemoney.."$.", true)
 						end
 					end
 				end
@@ -488,7 +484,7 @@ function policeSirensHandler(playerSource, commandName, player)
 			level = level + 1
 			setPlayerWantedLevel(thePlayer, level)
 			sendPlayerInfo(playerSource, "Der Spieler: "..getPlayerName(thePlayer).." hat nun das Wandet-Level: "..tostring(level).."!", true)
-		end				
+		end
 	end
 end
 addCommandHandler("addwanted", policeSirensHandler)
@@ -504,7 +500,7 @@ function policeSirensHandler(playerSource, commandName, player)
 		if not thePlayer then
 			thePlayer = getPlayerFromString(player)
 		end
-		if not thePlayer then 
+		if not thePlayer then
 			outputChatBox(g_colors["red"].."Dieser Spieler ist nicht online!", playerSource, 255, 255, 255, true)
 			return false
 		end

@@ -48,9 +48,7 @@ function sweeperCrewEnterJob(playerSource, staticJobID, locationID, playerJobRan
 	local veh = createTempVehicleMTARL(574, 1719.123046875, 910.2744140625, 10.545475006104, 0, 359.99450683594, 0.2197265625)
 	g_vehiclestat[veh]["SweeperCar"] = true
 	
-	sendPlayerInfo(playerSource, "Wilkommen, im Minijob Sweeper! Las Venturas ist voller Dreck.
- 
-Mach dich auf den Weg um ihn zu beseitigen. Dein Sweeper steht nun bereit.")
+	sendPlayerInfo(playerSource, "Wilkommen, im Minijob Sweeper! Las Venturas ist voller Dreck.\n\nMach dich auf den Weg um ihn zu beseitigen. Dein Sweeper steht nun bereit.")
 
 	--Jobvars
 	g_playerstat[playerSource]["Jobvar"] = {}

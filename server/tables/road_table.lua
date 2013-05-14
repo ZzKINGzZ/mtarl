@@ -912,7 +912,7 @@ streetTable.ew[222] = {
 	x = 1110.0 
 }
 streetTable.ew[223] = {
-	name = "Calderónweg",
+	name = "Caldernweg",
 	x = 1115.0 
 }
 streetTable.ew[224] = {
@@ -1724,7 +1724,7 @@ streetTable.ew[425] = {
 	x = 2125.0 
 }
 streetTable.ew[426] = {
-	name = "Ampèreweg",
+	name = "Ampereweg",
 	x = 2130.0 
 }
 streetTable.ew[427] = {
@@ -5760,7 +5760,7 @@ streetTable.sn[234] = {
 	y = 1170.0 
 }
 streetTable.sn[235] = {
-	name = "Václav-Neumann-Stra"..szlig.."e",
+	name = "Veclav-Neumann-Stra"..szlig.."e",
 	y = 1175.0 
 }
 streetTable.sn[236] = {
@@ -7168,7 +7168,7 @@ streetTable.sn[586] = {
 	y = 2930.0 
 }
 streetTable.sn[587] = {
-	name = "Carl-Hinné-Stra"..szlig.."e",
+	name = "Carl-Hinne-Stra"..szlig.."e",
 	y = 2935.0 
 }
 streetTable.sn[588] = {
@@ -7560,7 +7560,7 @@ streetTable.sn[684] = {
 	y = 3420.0 
 }
 streetTable.sn[685] = {
-	name = "Cézanneweg",
+	name = "Cezanneweg",
 	y = 3425.0 
 }
 streetTable.sn[686] = {
@@ -8636,7 +8636,7 @@ streetTable.sn[953] = {
 	y = 4765.0 
 }
 streetTable.sn[954] = {
-	name = "Etkar-André-Stra"..szlig.."e",
+	name = "Etkar-Andre-Stra"..szlig.."e",
 	y = 4770.0 
 }
 streetTable.sn[955] = {

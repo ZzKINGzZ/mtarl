@@ -49,9 +49,7 @@ function fisherCrewEnterJob(playerSource, staticJobID, locationID, playerJobRank
 	local veh = createTempVehicleMTARL(453, -934.7412109375, 2654.5078125, 40.247562408447, 359.57702636719, 359.79675292969, 134.0771484375)
 	g_vehiclestat[veh]["FischerCar"] = true
 	
-	sendPlayerInfo(playerSource, "Wilkommen, im Minijob Fischer! Im ganzen See sind Fische!
- 
-Fange nun mit dem Boot Fische.")
+	sendPlayerInfo(playerSource, "Wilkommen, im Minijob Fischer! Im ganzen See sind Fische!\n\nFange nun mit dem Boot Fische.")
 
 	--Jobvars
 	g_playerstat[playerSource]["Jobvar"] = {}

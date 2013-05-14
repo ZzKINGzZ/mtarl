@@ -86,14 +86,7 @@ function handleBewerbung(accepted, playername, jobName)
 			mysql_query(g_mysql["connection"], "DELETE FROM `post` WHERE `fromPlayer` = '"..playername.."' AND `toPlayerID` = '-1' AND `special` = '"..jobName.."';")
 			
 			sendPlayerInfo(client, "Du hast "..playername.." eingestellt.")
-			addBrief(jobName, id, "Deine Bewerbung", "Herzlich willkommen! 
- 
-Du hast es geschafft. Wir freuen uns, dich im Job "..jobName.." begrue"..szlig.."en zu d"..uuml.."rfen! 
-Als unser neuer Mitarbeiter kannst ab sofort an einer der Niederlassungen den Job betreten. 
-Wir hoffen dass du deinen Job immer mit gro"..szlig.."er Freude und Sorgfalt ausfuehrst.
- 
-MFG 
-"..getPlayerName(client), ort)
+            addBrief(jobName, id, "Deine Bewerbung", "Herzlich willkommen! \n \nDu hast es geschafft. Wir freuen uns, dich im Job "..jobName.." begrue"..szlig.."en zu d"..uuml.."rfen! \nAls unser neuer Mitarbeiter kannst ab sofort an einer der Niederlassungen den Job betreten. \nWir hoffen dass du deinen Job immer mit gro"..szlig.."er Freude und Sorgfalt ausfuehrst.\n \nMFG \n"..getPlayerName(client), ort)
 		end
 	else
 		--Bewerbung abgelehnt
@@ -102,12 +95,7 @@ MFG
 			sendPlayerInfo(client, "Du hast die Bewerbung von "..playername.." abgelehnt.")
 			sendPlayerInfo(player, "Deine Bewerbung bei "..jobName.." wurde durch "..getPlayerName(client).." bearbeitet und abgelehnt.")
 			mysql_query(g_mysql["connection"], "DELETE FROM `post` WHERE `fromPlayer` = '"..playername.."' AND `toPlayerID` = '-1' AND `special` = '"..jobName.."';")
-			addBrief(jobName, g_playerstat[player]["Userid"], "Deine Bewerbung", "Hallo "..playername..", 
-leider muessen wir die Mitteilen das deine Bewerbung bei "..jobName.." abgelehnt wurde. 
-Bei Fragen kannst du dich gerne an "..getPlayerName(client).." wenden.
- 
-MFG 
-"..getPlayerName(client).." ", ort)
+			addBrief(jobName, g_playerstat[player]["Userid"], "Deine Bewerbung", "Hallo "..playername..",\nleider muessen wir die Mitteilen das deine Bewerbung bei "..jobName.." abgelehnt wurde.\nBei Fragen kannst du dich gerne an "..getPlayerName(client).." wenden.\n\nMFG\n"..getPlayerName(client).." ", ort)
 			return true
 		else
 			mysql_query(g_mysql["connection"], "DELETE FROM `post` WHERE `fromPlayer` = '"..playername.."' AND `toPlayerID` = '-1' AND `special` = '"..jobName.."';")
@@ -116,12 +104,7 @@ MFG
 			local row = mysql_fetch_assoc(res)
 			local id = tonumber(row["id"])			
 			mysql_free_result(res)
-			addBrief(jobName, id, "Deine Bewerbung", "Hallo "..playername..", 
-leider muessen wir die Mitteilen das deine Bewerbung bei "..jobName.." abgelehnt wurde. 
-Bei Fragen kannst du dich gerne an "..getPlayerName(client).." wenden.
- 
-MFG 
-"..getPlayerName(client)" ", ort)
+			addBrief(jobName, id, "Deine Bewerbung", "Hallo "..playername..",\nleider muessen wir die Mitteilen das deine Bewerbung bei "..jobName.." abgelehnt wurde.\nBei Fragen kannst du dich gerne an "..getPlayerName(client).." wenden.\n\nMFG\n"..getPlayerName(client)" ", ort)
 			return true
 		end
 	end
