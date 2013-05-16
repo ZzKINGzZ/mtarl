@@ -128,7 +128,7 @@ function initalizeVehicles()
 						for key, val in pairs(table.load(row["handling"])) do
 							--print(tostring(key).."|"..tostring(val))
 							if key and val then
-								--Da wir centerOfMass eh niemals "..auml.."ndern werden
+								--Da wir centerOfMass eh niemals ändern werden
 								--lassen wir wie es ist
 								if val ~= "centerOfMass" then
 									setVehicleHandling(vehicle, key, val)		
@@ -138,7 +138,7 @@ function initalizeVehicles()
 					end
 				end--]]	
 				
-				--T"..Uuml.."V
+				--T".."ÜV
 				if tonumber(row["TUV"]) then
 					g_vehiclestat[vehicle]["tuv"] = tonumber(row["TUV"])
 				end
@@ -195,14 +195,14 @@ function initalizeVehicles()
 				setVehicleFuelTankExplodable(vehicle, false)
 				setVehicleOverrideLights(vehicle, 1)
 				setVehicleLocked(vehicle, true)	
-				setVehicleDamageProof(vehicle, true) --Fahrzeuge undamagabel machen, wenn keiner die f"..auml.."hrt
+				setVehicleDamageProof(vehicle, true) --Fahrzeuge undamagabel machen, wenn keiner die fährt
 				
 				--Radio
 				setElementData(vehicle, "radioChannel", 0)
 				
 				triggerEvent("onVehicleSetVarsMTARL", vehicle)
 				
-				--Z"..uuml.."ge non-derailable
+				--Züge non-derailable
 				if getVehicleType(vehicle) == "Train" then
 					setTrainDerailable(vehicle, false)
 				end				
@@ -343,7 +343,7 @@ function lockVehicle(playerSource)
 								outputChatBox(g_colors["yellow"].."Du hast das Fahrzeug aufgeschlossen!", playerSource, 255, 255, 255, true)
 								playSoundFrontEnd(playerSource, 42)
 							else
-								--Schlie"..szlig.."en
+								--Schließen
 								setVehicleLocked(vehicle, true)
 								outputChatBox(g_colors["yellow"].."Du hast das Fahrzeug abgeschlossen!", playerSource, 255, 255, 255, true)
 								playSoundFrontEnd(playerSource, 41)
@@ -392,13 +392,13 @@ function giveKeyToUser(playerSource, commandName, playerName)
 			local vehicleid = g_vehiclestat[vehicle]["ID"]
 			if g_playerstat[playerSource]["Key"][vehicleid] == 2 then	
 				g_playerstat[newPlayer]["Key"][vehicleid] = 1
-				--outputChatBox(g_colors["darkorange"].."Du hast "..playerName.." einen Schl"..uuml.."ssel fuer dein Auto gegeben ("..getVehicleName(vehicle)..")!", playerSource, 255, 255, 255, true)
-				sendPlayerInfo(playerSource, "Du hast "..playerName.." einen Schl"..uuml.."ssel fuer dein Fahrzeug gegeben ("..getVehicleName(vehicle)..").")
-				--outputChatBox(g_colors["darkorange"]..""..getPlayerName(playerSource).." hat dir einen Schl"..uuml.."ssel fuer dein Auto gegeben ("..getVehicleName(vehicle)..")!", newPlayer, 255, 255, 255, true)
-				sendPlayerInfo(newPlayer, getPlayerName(playerSource).." hat dir einen Schl"..uuml.."ssel fuer sein Fahrzeug gegeben ("..getVehicleName(vehicle)..").")
+				--outputChatBox(g_colors["darkorange"].."Du hast "..playerName.." einen Schlüssel fuer dein Auto gegeben ("..getVehicleName(vehicle)..")!", playerSource, 255, 255, 255, true)
+				sendPlayerInfo(playerSource, "Du hast "..playerName.." einen Schlüssel fuer dein Fahrzeug gegeben ("..getVehicleName(vehicle)..").")
+				--outputChatBox(g_colors["darkorange"]..""..getPlayerName(playerSource).." hat dir einen Schlüssel fuer dein Auto gegeben ("..getVehicleName(vehicle)..")!", newPlayer, 255, 255, 255, true)
+				sendPlayerInfo(newPlayer, getPlayerName(playerSource).." hat dir einen Schlüssel fuer sein Fahrzeug gegeben ("..getVehicleName(vehicle)..").")
 			end
 		else
-			outputChatBox(g_colors["red"].."Es ist kein Fahrzeug in der N"..auml.."he!", playerSource, 255, 255, 255, true)
+			outputChatBox(g_colors["red"].."Es ist kein Fahrzeug in der Nähe!", playerSource, 255, 255, 255, true)
 			return false
 		end
 	else
@@ -428,16 +428,16 @@ function makeUserOwner(playerSource, commandName, playerName)
 				g_playerstat[playerSource]["Key"][vehicleid] = 0
 				g_playerstat[newPlayer]["Key"][vehicleid] = 2
 				--outputChatBox(g_colors["darkorange"].."Du hast "..playerName.." deinen Wagen gegeben ("..getVehicleName(vehicle)..")!", playerSource, 255, 255, 255, true)
-				sendPlayerInfo(playerSource, "Du hast "..playerName.." zum neuen Eigent"..uuml.."mer deines Fahrzeugs gemacht ("..getVehicleName(vehicle)..").")
-				--outputChatBox(g_colors["darkorange"]..""..getPlayerName(playerSource).." hat dich zum Eigent"..uuml.."mer seines Fahrzeugs gemacht ("..getVehicleName(vehicle)..")!", newPlayer, 255, 255, 255, true)
-				sendPlayerInfo(newPlayer, getPlayerName(playerSource).." hat dich zum Eigent"..uuml.."mer seines Fahrzeugs gemacht ("..getVehicleName(vehicle)..").")
+				sendPlayerInfo(playerSource, "Du hast "..playerName.." zum neuen Eigentümer deines Fahrzeugs gemacht ("..getVehicleName(vehicle)..").")
+				--outputChatBox(g_colors["darkorange"]..""..getPlayerName(playerSource).." hat dich zum Eigentümer seines Fahrzeugs gemacht ("..getVehicleName(vehicle)..")!", newPlayer, 255, 255, 255, true)
+				sendPlayerInfo(newPlayer, getPlayerName(playerSource).." hat dich zum Eigentümer seines Fahrzeugs gemacht ("..getVehicleName(vehicle)..").")
 			end
 		else
-			outputChatBox(g_colors["red"].."Es ist kein Fahrzeug in der N"..auml.."he!", playerSource, 255, 255, 255, true)
+			outputChatBox(g_colors["red"].."Es ist kein Fahrzeug in der Nähe!", playerSource, 255, 255, 255, true)
 			return false
 		end
 	else
-		outputChatBox(g_colors["red"].."Du musst neben einem Fahrzeug stehen das dir geh"..ouml.."rt!", playerSource, 255, 255, 255, true)
+		outputChatBox(g_colors["red"].."Du musst neben einem Fahrzeug stehen das dir gehört!", playerSource, 255, 255, 255, true)
 		return false
 	end
 end
@@ -630,7 +630,7 @@ function createTempVehicleMTARL(model, x, y, z, rx, ry, rz)
 	--Radio
 	setElementData(vehicle, "radioChannel", 0)
 
-	--Z"..uuml.."ge non-derailable
+	--Züge non-derailable
 	if getVehicleType(vehicle) == "Train" then
 		setTrainDerailable(vehicle, false)
 	end
@@ -757,8 +757,8 @@ local function setDamageTrue(player, seat, jacked)
 	end
 	
 	if seat == 0 then
-		setVehicleDamageProof(source, false) --Nehmen wir den Unzerst"..ouml.."rbarmodus
-		setVehicleDoorsUndamageable(source, false) --Damit die T"..uuml.."ren kaputt gehen
+		setVehicleDamageProof(source, false) --Nehmen wir den Unzerstörbarmodus
+		setVehicleDoorsUndamageable(source, false) --Damit die Türen kaputt gehen
 	end	
 	
 	--Gebrauchtwagen:
@@ -789,7 +789,7 @@ addEventHandler("onVehicleStartEnter", getRootElement(), setDamageTrue)
 local function setDamageFalse(player, seat, jacker)
 	if seat == 0 then
 		setVehicleDamageProof(source, true) --Und geben wir ihn wieder
-		setVehicleDoorsUndamageable(source, true) --Damit die T"..uuml.."ren nicht kaputt gehen
+		setVehicleDoorsUndamageable(source, true) --Damit die Türen nicht kaputt gehen
 	end	
 end
 addEventHandler("onVehicleStartExit", getRootElement(), setDamageFalse)
@@ -804,9 +804,9 @@ local function checkTUV(playerSource, commandName)
 			local restH = restMin/60
 			local restDays = restH/24
 			if restTime > 0 then
-				outputChatBox(g_colors["red"].."Der T"..Uuml.."V ist noch "..math.ceil(tostring(restDays)).." Tage g"..uuml.."ltig!", playerSource, 0, 0, 0, true)
+				outputChatBox(g_colors["red"].."Der T".."ÜV ist noch "..math.ceil(tostring(restDays)).." Tage gültig!", playerSource, 0, 0, 0, true)
 			else
-				outputChatBox(g_colors["red"].."Der T"..Uuml.."V ist abgelaufen!", playerSource, 0, 0, 0, true)
+				outputChatBox(g_colors["red"].."Der T".."ÜV ist abgelaufen!", playerSource, 0, 0, 0, true)
 			end
 		end
 	end

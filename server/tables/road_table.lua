@@ -24,7 +24,7 @@ streetTable.ew = {}
 streetTable.sn = {}
 
 streetTable.ew[1] = {
-	name = "Herlo"..szlig.."sohnstra"..szlig.."e",
+	name = "Herloßsohnstraße",
 	x = 5.0 
 }
 streetTable.ew[2] = {
@@ -32,7 +32,7 @@ streetTable.ew[2] = {
 	x = 10.0 
 }
 streetTable.ew[3] = {
-	name = "F"..auml.."rberstra"..szlig.."e",
+	name = "Färberstraße",
 	x = 15.0 
 }
 streetTable.ew[4] = {
@@ -40,11 +40,11 @@ streetTable.ew[4] = {
 	x = 20.0 
 }
 streetTable.ew[5] = {
-	name = "Gro"..szlig.."mannstra"..szlig.."e",
+	name = "Großmannstraße",
 	x = 25.0 
 }
 streetTable.ew[6] = {
-	name = "Haselstra"..szlig.."e",
+	name = "Haselstraße",
 	x = 30.0 
 }
 streetTable.ew[7] = {
@@ -52,11 +52,11 @@ streetTable.ew[7] = {
 	x = 35.0 
 }
 streetTable.ew[8] = {
-	name = "Kippenbergstra"..szlig.."e",
+	name = "Kippenbergstraße",
 	x = 40.0 
 }
 streetTable.ew[9] = {
-	name = "Wilhelm-Seyfferth-Stra"..szlig.."e",
+	name = "Wilhelm-Seyfferth-Straße",
 	x = 45.0 
 }
 streetTable.ew[10] = {
@@ -64,7 +64,7 @@ streetTable.ew[10] = {
 	x = 50.0 
 }
 streetTable.ew[11] = {
-	name = "Hirschfelder Stra"..szlig.."e",
+	name = "Hirschfelder Straße",
 	x = 55.0 
 }
 streetTable.ew[12] = {
@@ -72,27 +72,27 @@ streetTable.ew[12] = {
 	x = 60.0 
 }
 streetTable.ew[13] = {
-	name = "G"..ouml.."bschelwitzer Stra"..szlig.."e",
+	name = "Göbschelwitzer Straße",
 	x = 65.0 
 }
 streetTable.ew[14] = {
-	name = "Kanalstra"..szlig.."e",
+	name = "Kanalstraße",
 	x = 70.0 
 }
 streetTable.ew[15] = {
-	name = "Clara-Wieck-Stra"..szlig.."e",
+	name = "Clara-Wieck-Straße",
 	x = 75.0 
 }
 streetTable.ew[16] = {
-	name = "Zu den G"..auml.."rten",
+	name = "Zu den Gärten",
 	x = 80.0 
 }
 streetTable.ew[17] = {
-	name = "Eitingonstra"..szlig.."e",
+	name = "Eitingonstraße",
 	x = 85.0 
 }
 streetTable.ew[18] = {
-	name = "Kr"..ouml.."nerstra"..szlig.."e",
+	name = "Krönerstraße",
 	x = 90.0 
 }
 streetTable.ew[19] = {
@@ -104,19 +104,19 @@ streetTable.ew[20] = {
 	x = 100.0 
 }
 streetTable.ew[21] = {
-	name = "Sch"..ouml.."nauer Landstra"..szlig.."e",
+	name = "Schönauer Landstraße",
 	x = 105.0 
 }
 streetTable.ew[22] = {
-	name = "Voigtstra"..szlig.."e",
+	name = "Voigtstraße",
 	x = 110.0 
 }
 streetTable.ew[23] = {
-	name = "Max-Metzger-Stra"..szlig.."e",
+	name = "Max-Metzger-Straße",
 	x = 115.0 
 }
 streetTable.ew[24] = {
-	name = "Puschstra"..szlig.."e",
+	name = "Puschstraße",
 	x = 120.0 
 }
 streetTable.ew[25] = {
@@ -124,39 +124,39 @@ streetTable.ew[25] = {
 	x = 125.0 
 }
 streetTable.ew[26] = {
-	name = "Roscherstra"..szlig.."e",
+	name = "Roscherstraße",
 	x = 130.0 
 }
 streetTable.ew[27] = {
-	name = "Nimrodstra"..szlig.."e",
+	name = "Nimrodstraße",
 	x = 135.0 
 }
 streetTable.ew[28] = {
-	name = "Am R"..ouml.."schenhof",
+	name = "Am Röschenhof",
 	x = 140.0 
 }
 streetTable.ew[29] = {
-	name = "Kurze Stra"..szlig.."e",
+	name = "Kurze Straße",
 	x = 145.0 
 }
 streetTable.ew[30] = {
-	name = "Rothenburger Stra"..szlig.."e",
+	name = "Rothenburger Straße",
 	x = 150.0 
 }
 streetTable.ew[31] = {
-	name = "Funkenburgstra"..szlig.."e",
+	name = "Funkenburgstraße",
 	x = 155.0 
 }
 streetTable.ew[32] = {
-	name = "Mottelerstra"..szlig.."e",
+	name = "Mottelerstraße",
 	x = 160.0 
 }
 streetTable.ew[33] = {
-	name = "Forsetistra"..szlig.."e",
+	name = "Forsetistraße",
 	x = 165.0 
 }
 streetTable.ew[34] = {
-	name = "Lene-Voigt-Stra"..szlig.."e",
+	name = "Lene-Voigt-Straße",
 	x = 170.0 
 }
 streetTable.ew[35] = {
@@ -168,23 +168,23 @@ streetTable.ew[36] = {
 	x = 180.0 
 }
 streetTable.ew[37] = {
-	name = "Schrammsteinstra"..szlig.."e",
+	name = "Schrammsteinstraße",
 	x = 185.0 
 }
 streetTable.ew[38] = {
-	name = "Paul-Ernst-Stra"..szlig.."e",
+	name = "Paul-Ernst-Straße",
 	x = 190.0 
 }
 streetTable.ew[39] = {
-	name = "Tieckstra"..szlig.."e",
+	name = "Tieckstraße",
 	x = 195.0 
 }
 streetTable.ew[40] = {
-	name = "H"..auml.."ndelstra"..szlig.."e",
+	name = "Händelstraße",
 	x = 200.0 
 }
 streetTable.ew[41] = {
-	name = "Edlichstra"..szlig.."e",
+	name = "Edlichstraße",
 	x = 205.0 
 }
 streetTable.ew[42] = {
@@ -192,7 +192,7 @@ streetTable.ew[42] = {
 	x = 210.0 
 }
 streetTable.ew[43] = {
-	name = "Wendenstra"..szlig.."e",
+	name = "Wendenstraße",
 	x = 215.0 
 }
 streetTable.ew[44] = {
@@ -200,7 +200,7 @@ streetTable.ew[44] = {
 	x = 220.0 
 }
 streetTable.ew[45] = {
-	name = "Hickmannstra"..szlig.."e",
+	name = "Hickmannstraße",
 	x = 225.0 
 }
 streetTable.ew[46] = {
@@ -212,7 +212,7 @@ streetTable.ew[47] = {
 	x = 235.0 
 }
 streetTable.ew[48] = {
-	name = "Albert-Vollsack-Stra"..szlig.."e",
+	name = "Albert-Vollsack-Straße",
 	x = 240.0 
 }
 streetTable.ew[49] = {
@@ -224,7 +224,7 @@ streetTable.ew[50] = {
 	x = 250.0 
 }
 streetTable.ew[51] = {
-	name = "Schwimmerstra"..szlig.."e",
+	name = "Schwimmerstraße",
 	x = 255.0 
 }
 streetTable.ew[52] = {
@@ -232,15 +232,15 @@ streetTable.ew[52] = {
 	x = 260.0 
 }
 streetTable.ew[53] = {
-	name = "Achatstra"..szlig.."e",
+	name = "Achatstraße",
 	x = 265.0 
 }
 streetTable.ew[54] = {
-	name = "Zschortauer Stra"..szlig.."e",
+	name = "Zschortauer Straße",
 	x = 270.0 
 }
 streetTable.ew[55] = {
-	name = "Nietzschestra"..szlig.."e",
+	name = "Nietzschestraße",
 	x = 275.0 
 }
 streetTable.ew[56] = {
@@ -248,11 +248,11 @@ streetTable.ew[56] = {
 	x = 280.0 
 }
 streetTable.ew[57] = {
-	name = "P"..uuml.."chauer Stra"..szlig.."e",
+	name = "Püchauer Straße",
 	x = 285.0 
 }
 streetTable.ew[58] = {
-	name = "Rippachtalstra"..szlig.."e",
+	name = "Rippachtalstraße",
 	x = 290.0 
 }
 streetTable.ew[59] = {
@@ -264,7 +264,7 @@ streetTable.ew[60] = {
 	x = 300.0 
 }
 streetTable.ew[61] = {
-	name = "Holsteinstra"..szlig.."e",
+	name = "Holsteinstraße",
 	x = 305.0 
 }
 streetTable.ew[62] = {
@@ -288,7 +288,7 @@ streetTable.ew[66] = {
 	x = 330.0 
 }
 streetTable.ew[67] = {
-	name = "Max-Liebermann-Stra"..szlig.."e",
+	name = "Max-Liebermann-Straße",
 	x = 335.0 
 }
 streetTable.ew[68] = {
@@ -296,7 +296,7 @@ streetTable.ew[68] = {
 	x = 340.0 
 }
 streetTable.ew[69] = {
-	name = "Anna-Kuhnow-Stra"..szlig.."e",
+	name = "Anna-Kuhnow-Straße",
 	x = 345.0 
 }
 streetTable.ew[70] = {
@@ -304,7 +304,7 @@ streetTable.ew[70] = {
 	x = 350.0 
 }
 streetTable.ew[71] = {
-	name = "Neubauernstra"..szlig.."e",
+	name = "Neubauernstraße",
 	x = 355.0 
 }
 streetTable.ew[72] = {
@@ -312,7 +312,7 @@ streetTable.ew[72] = {
 	x = 360.0 
 }
 streetTable.ew[73] = {
-	name = "Rodelandstra"..szlig.."e",
+	name = "Rodelandstraße",
 	x = 365.0 
 }
 streetTable.ew[74] = {
@@ -336,11 +336,11 @@ streetTable.ew[78] = {
 	x = 390.0 
 }
 streetTable.ew[79] = {
-	name = "Zweenfurther Stra"..szlig.."e",
+	name = "Zweenfurther Straße",
 	x = 395.0 
 }
 streetTable.ew[80] = {
-	name = "Rudolph-Herrmann-Stra"..szlig.."e",
+	name = "Rudolph-Herrmann-Straße",
 	x = 400.0 
 }
 streetTable.ew[81] = {
@@ -348,35 +348,35 @@ streetTable.ew[81] = {
 	x = 405.0 
 }
 streetTable.ew[82] = {
-	name = "Carlebachstra"..szlig.."e",
+	name = "Carlebachstraße",
 	x = 410.0 
 }
 streetTable.ew[83] = {
-	name = "Zerbster Stra"..szlig.."e",
+	name = "Zerbster Straße",
 	x = 415.0 
 }
 streetTable.ew[84] = {
-	name = "B"..ouml.."cklinweg",
+	name = "Böcklinweg",
 	x = 420.0 
 }
 streetTable.ew[85] = {
-	name = "L"..ouml.."nsstra"..szlig.."e",
+	name = "Lönsstraße",
 	x = 425.0 
 }
 streetTable.ew[86] = {
-	name = "Froschk"..ouml.."nigweg",
+	name = "Froschkönigweg",
 	x = 430.0 
 }
 streetTable.ew[87] = {
-	name = "T"..auml.."ubchenweg",
+	name = "Täubchenweg",
 	x = 435.0 
 }
 streetTable.ew[88] = {
-	name = "G"..uuml.."nselstra"..szlig.."e",
+	name = "Günselstraße",
 	x = 440.0 
 }
 streetTable.ew[89] = {
-	name = "Dieselstra"..szlig.."e",
+	name = "Dieselstraße",
 	x = 445.0 
 }
 streetTable.ew[90] = {
@@ -384,11 +384,11 @@ streetTable.ew[90] = {
 	x = 450.0 
 }
 streetTable.ew[91] = {
-	name = "Gr"..ouml.."pplerstra"..szlig.."e",
+	name = "Gröpplerstraße",
 	x = 455.0 
 }
 streetTable.ew[92] = {
-	name = "Steinstra"..szlig.."e",
+	name = "Steinstraße",
 	x = 460.0 
 }
 streetTable.ew[93] = {
@@ -396,11 +396,11 @@ streetTable.ew[93] = {
 	x = 465.0 
 }
 streetTable.ew[94] = {
-	name = "P"..ouml.."ppigstra"..szlig.."e",
+	name = "Pöppigstraße",
 	x = 470.0 
 }
 streetTable.ew[95] = {
-	name = "Hofer Stra"..szlig.."e",
+	name = "Hofer Straße",
 	x = 475.0 
 }
 streetTable.ew[96] = {
@@ -408,7 +408,7 @@ streetTable.ew[96] = {
 	x = 480.0 
 }
 streetTable.ew[97] = {
-	name = "Windscheidstra"..szlig.."e",
+	name = "Windscheidstraße",
 	x = 485.0 
 }
 streetTable.ew[98] = {
@@ -416,11 +416,11 @@ streetTable.ew[98] = {
 	x = 490.0 
 }
 streetTable.ew[99] = {
-	name = "Kurt-Schumacher-Stra"..szlig.."e",
+	name = "Kurt-Schumacher-Straße",
 	x = 495.0 
 }
 streetTable.ew[100] = {
-	name = "Gr"..uuml.."nfinkenweg",
+	name = "Grünfinkenweg",
 	x = 500.0 
 }
 streetTable.ew[101] = {
@@ -428,19 +428,19 @@ streetTable.ew[101] = {
 	x = 505.0 
 }
 streetTable.ew[102] = {
-	name = "Wendlerstra"..szlig.."e",
+	name = "Wendlerstraße",
 	x = 510.0 
 }
 streetTable.ew[103] = {
-	name = "Reginenstra"..szlig.."e",
+	name = "Reginenstraße",
 	x = 515.0 
 }
 streetTable.ew[104] = {
-	name = "Markthallenstra"..szlig.."e",
+	name = "Markthallenstraße",
 	x = 520.0 
 }
 streetTable.ew[105] = {
-	name = "Am Fl"..ouml..""..szlig.."gen",
+	name = "Am Flößgen",
 	x = 525.0 
 }
 streetTable.ew[106] = {
@@ -448,23 +448,23 @@ streetTable.ew[106] = {
 	x = 530.0 
 }
 streetTable.ew[107] = {
-	name = "Klarastra"..szlig.."e",
+	name = "Klarastraße",
 	x = 535.0 
 }
 streetTable.ew[108] = {
-	name = "K"..ouml.."hraer Stra"..szlig.."e",
+	name = "Köhraer Straße",
 	x = 540.0 
 }
 streetTable.ew[109] = {
-	name = "Heinrich-Oelerich-Stra"..szlig.."e",
+	name = "Heinrich-Oelerich-Straße",
 	x = 545.0 
 }
 streetTable.ew[110] = {
-	name = "Diesterwegstra"..szlig.."e",
+	name = "Diesterwegstraße",
 	x = 550.0 
 }
 streetTable.ew[111] = {
-	name = "Sophienstra"..szlig.."e",
+	name = "Sophienstraße",
 	x = 555.0 
 }
 streetTable.ew[112] = {
@@ -472,7 +472,7 @@ streetTable.ew[112] = {
 	x = 560.0 
 }
 streetTable.ew[113] = {
-	name = "Barbarastra"..szlig.."e",
+	name = "Barbarastraße",
 	x = 565.0 
 }
 streetTable.ew[114] = {
@@ -480,11 +480,11 @@ streetTable.ew[114] = {
 	x = 570.0 
 }
 streetTable.ew[115] = {
-	name = "Sommerfelder Stra"..szlig.."e",
+	name = "Sommerfelder Straße",
 	x = 575.0 
 }
 streetTable.ew[116] = {
-	name = "Freiberger Stra"..szlig.."e",
+	name = "Freiberger Straße",
 	x = 580.0 
 }
 streetTable.ew[117] = {
@@ -492,7 +492,7 @@ streetTable.ew[117] = {
 	x = 585.0 
 }
 streetTable.ew[118] = {
-	name = "Albrechtshainer Stra"..szlig.."e",
+	name = "Albrechtshainer Straße",
 	x = 590.0 
 }
 streetTable.ew[119] = {
@@ -500,11 +500,11 @@ streetTable.ew[119] = {
 	x = 595.0 
 }
 streetTable.ew[120] = {
-	name = "Walter-Heinze-Stra"..szlig.."e",
+	name = "Walter-Heinze-Straße",
 	x = 600.0 
 }
 streetTable.ew[121] = {
-	name = "R"..uuml.."bezahlweg",
+	name = "Rübezahlweg",
 	x = 605.0 
 }
 streetTable.ew[122] = {
@@ -516,15 +516,15 @@ streetTable.ew[123] = {
 	x = 615.0 
 }
 streetTable.ew[124] = {
-	name = "Rotdornstra"..szlig.."e",
+	name = "Rotdornstraße",
 	x = 620.0 
 }
 streetTable.ew[125] = {
-	name = "Mahlmannstra"..szlig.."e",
+	name = "Mahlmannstraße",
 	x = 625.0 
 }
 streetTable.ew[126] = {
-	name = "Schomburgkstra"..szlig.."e",
+	name = "Schomburgkstraße",
 	x = 630.0 
 }
 streetTable.ew[127] = {
@@ -552,7 +552,7 @@ streetTable.ew[132] = {
 	x = 660.0 
 }
 streetTable.ew[133] = {
-	name = "Lilienthalstra"..szlig.."e",
+	name = "Lilienthalstraße",
 	x = 665.0 
 }
 streetTable.ew[134] = {
@@ -564,15 +564,15 @@ streetTable.ew[135] = {
 	x = 675.0 
 }
 streetTable.ew[136] = {
-	name = "Turnerstra"..szlig.."e",
+	name = "Turnerstraße",
 	x = 680.0 
 }
 streetTable.ew[137] = {
-	name = "Junghan"..szlig.."stra"..szlig.."e",
+	name = "Junghanßstraße",
 	x = 685.0 
 }
 streetTable.ew[138] = {
-	name = "Knesebeckstra"..szlig.."e",
+	name = "Knesebeckstraße",
 	x = 690.0 
 }
 streetTable.ew[139] = {
@@ -580,19 +580,19 @@ streetTable.ew[139] = {
 	x = 695.0 
 }
 streetTable.ew[140] = {
-	name = "Carpzovstra"..szlig.."e",
+	name = "Carpzovstraße",
 	x = 700.0 
 }
 streetTable.ew[141] = {
-	name = "Ludwig-Hupfeld-Stra"..szlig.."e",
+	name = "Ludwig-Hupfeld-Straße",
 	x = 705.0 
 }
 streetTable.ew[142] = {
-	name = "Christianstra"..szlig.."e",
+	name = "Christianstraße",
 	x = 710.0 
 }
 streetTable.ew[143] = {
-	name = "Pansastra"..szlig.."e",
+	name = "Pansastraße",
 	x = 715.0 
 }
 streetTable.ew[144] = {
@@ -600,7 +600,7 @@ streetTable.ew[144] = {
 	x = 720.0 
 }
 streetTable.ew[145] = {
-	name = "Harnackstra"..szlig.."e",
+	name = "Harnackstraße",
 	x = 725.0 
 }
 streetTable.ew[146] = {
@@ -608,11 +608,11 @@ streetTable.ew[146] = {
 	x = 730.0 
 }
 streetTable.ew[147] = {
-	name = "Gustav-Adolf-Stra"..szlig.."e",
+	name = "Gustav-Adolf-Straße",
 	x = 735.0 
 }
 streetTable.ew[148] = {
-	name = "Lindenstra"..szlig.."e",
+	name = "Lindenstraße",
 	x = 740.0 
 }
 streetTable.ew[149] = {
@@ -620,15 +620,15 @@ streetTable.ew[149] = {
 	x = 745.0 
 }
 streetTable.ew[150] = {
-	name = "Oel"..szlig.."nerstra"..szlig.."e",
+	name = "Oelßnerstraße",
 	x = 750.0 
 }
 streetTable.ew[151] = {
-	name = "P"..ouml.."rstener Stra"..szlig.."e",
+	name = "Pörstener Straße",
 	x = 755.0 
 }
 streetTable.ew[152] = {
-	name = "Reinhold-Kr"..uuml.."ger-Stra"..szlig.."e",
+	name = "Reinhold-Krüger-Straße",
 	x = 760.0 
 }
 streetTable.ew[153] = {
@@ -640,15 +640,15 @@ streetTable.ew[154] = {
 	x = 770.0 
 }
 streetTable.ew[155] = {
-	name = "Huttenstra"..szlig.."e",
+	name = "Huttenstraße",
 	x = 775.0 
 }
 streetTable.ew[156] = {
-	name = "Theodor-Voigt-Stra"..szlig.."e",
+	name = "Theodor-Voigt-Straße",
 	x = 780.0 
 }
 streetTable.ew[157] = {
-	name = "Obludastra"..szlig.."e",
+	name = "Obludastraße",
 	x = 785.0 
 }
 streetTable.ew[158] = {
@@ -656,31 +656,31 @@ streetTable.ew[158] = {
 	x = 790.0 
 }
 streetTable.ew[159] = {
-	name = "Theobald-Beer-Stra"..szlig.."e",
+	name = "Theobald-Beer-Straße",
 	x = 795.0 
 }
 streetTable.ew[160] = {
-	name = "D"..auml.."umlingsweg",
+	name = "Däumlingsweg",
 	x = 800.0 
 }
 streetTable.ew[161] = {
-	name = "Plau"..szlig.."iger Weg",
+	name = "Plaußiger Weg",
 	x = 805.0 
 }
 streetTable.ew[162] = {
-	name = "Eva-Maria-Buch-Stra"..szlig.."e",
+	name = "Eva-Maria-Buch-Straße",
 	x = 810.0 
 }
 streetTable.ew[163] = {
-	name = "Leibnitzstra"..szlig.."e",
+	name = "Leibnitzstraße",
 	x = 815.0 
 }
 streetTable.ew[164] = {
-	name = "Thomas-Mann-Stra"..szlig.."e",
+	name = "Thomas-Mann-Straße",
 	x = 820.0 
 }
 streetTable.ew[165] = {
-	name = "Kohlenstra"..szlig.."e",
+	name = "Kohlenstraße",
 	x = 825.0 
 }
 streetTable.ew[166] = {
@@ -688,7 +688,7 @@ streetTable.ew[166] = {
 	x = 830.0 
 }
 streetTable.ew[167] = {
-	name = "Goldsternstra"..szlig.."e",
+	name = "Goldsternstraße",
 	x = 835.0 
 }
 streetTable.ew[168] = {
@@ -696,19 +696,19 @@ streetTable.ew[168] = {
 	x = 840.0 
 }
 streetTable.ew[169] = {
-	name = "Egelstra"..szlig.."e",
+	name = "Egelstraße",
 	x = 845.0 
 }
 streetTable.ew[170] = {
-	name = "Engelmannstra"..szlig.."e",
+	name = "Engelmannstraße",
 	x = 850.0 
 }
 streetTable.ew[171] = {
-	name = "Gro"..szlig.."er Brockhaus",
+	name = "Großer Brockhaus",
 	x = 855.0 
 }
 streetTable.ew[172] = {
-	name = "Gewandg"..auml..""..szlig.."chen",
+	name = "Gewandgäßchen",
 	x = 860.0 
 }
 streetTable.ew[173] = {
@@ -716,11 +716,11 @@ streetTable.ew[173] = {
 	x = 865.0 
 }
 streetTable.ew[174] = {
-	name = "K"..ouml.."nneritzstra"..szlig.."e",
+	name = "Könneritzstraße",
 	x = 870.0 
 }
 streetTable.ew[175] = {
-	name = "Hohentichelnstra"..szlig.."e",
+	name = "Hohentichelnstraße",
 	x = 875.0 
 }
 streetTable.ew[176] = {
@@ -728,19 +728,19 @@ streetTable.ew[176] = {
 	x = 880.0 
 }
 streetTable.ew[177] = {
-	name = "Neue Stra"..szlig.."e",
+	name = "Neue Straße",
 	x = 885.0 
 }
 streetTable.ew[178] = {
-	name = "M"..ouml.."ckernsche Stra"..szlig.."e",
+	name = "Möckernsche Straße",
 	x = 890.0 
 }
 streetTable.ew[179] = {
-	name = "M"..uuml.."hlgrabenweg",
+	name = "Mühlgrabenweg",
 	x = 895.0 
 }
 streetTable.ew[180] = {
-	name = "Raustra"..szlig.."e",
+	name = "Raustraße",
 	x = 900.0 
 }
 streetTable.ew[181] = {
@@ -748,7 +748,7 @@ streetTable.ew[181] = {
 	x = 905.0 
 }
 streetTable.ew[182] = {
-	name = "Theresienstra"..szlig.."e",
+	name = "Theresienstraße",
 	x = 910.0 
 }
 streetTable.ew[183] = {
@@ -756,7 +756,7 @@ streetTable.ew[183] = {
 	x = 915.0 
 }
 streetTable.ew[184] = {
-	name = "B"..ouml.."sdorfer Ring",
+	name = "Bösdorfer Ring",
 	x = 920.0 
 }
 streetTable.ew[185] = {
@@ -768,7 +768,7 @@ streetTable.ew[186] = {
 	x = 930.0 
 }
 streetTable.ew[187] = {
-	name = "Weimarer Stra"..szlig.."e",
+	name = "Weimarer Straße",
 	x = 935.0 
 }
 streetTable.ew[188] = {
@@ -776,7 +776,7 @@ streetTable.ew[188] = {
 	x = 940.0 
 }
 streetTable.ew[189] = {
-	name = "Paul-List-Stra"..szlig.."e",
+	name = "Paul-List-Straße",
 	x = 945.0 
 }
 streetTable.ew[190] = {
@@ -784,7 +784,7 @@ streetTable.ew[190] = {
 	x = 950.0 
 }
 streetTable.ew[191] = {
-	name = "Klingenstra"..szlig.."e",
+	name = "Klingenstraße",
 	x = 955.0 
 }
 streetTable.ew[192] = {
@@ -792,7 +792,7 @@ streetTable.ew[192] = {
 	x = 960.0 
 }
 streetTable.ew[193] = {
-	name = "K"..uuml.."chenholzallee",
+	name = "Küchenholzallee",
 	x = 965.0 
 }
 streetTable.ew[194] = {
@@ -800,23 +800,23 @@ streetTable.ew[194] = {
 	x = 970.0 
 }
 streetTable.ew[195] = {
-	name = "Linkelstra"..szlig.."e",
+	name = "Linkelstraße",
 	x = 975.0 
 }
 streetTable.ew[196] = {
-	name = "Blumenstra"..szlig.."e",
+	name = "Blumenstraße",
 	x = 980.0 
 }
 streetTable.ew[197] = {
-	name = "Gottfried-Keller-Stra"..szlig.."e",
+	name = "Gottfried-Keller-Straße",
 	x = 985.0 
 }
 streetTable.ew[198] = {
-	name = "L"..ouml..""..szlig.."niger Stra"..szlig.."e",
+	name = "Lößniger Straße",
 	x = 990.0 
 }
 streetTable.ew[199] = {
-	name = "Verdistra"..szlig.."e",
+	name = "Verdistraße",
 	x = 995.0 
 }
 streetTable.ew[200] = {
@@ -824,11 +824,11 @@ streetTable.ew[200] = {
 	x = 1000.0 
 }
 streetTable.ew[201] = {
-	name = "Lomonossowstra"..szlig.."e",
+	name = "Lomonossowstraße",
 	x = 1005.0 
 }
 streetTable.ew[202] = {
-	name = "Kuhturmstra"..szlig.."e",
+	name = "Kuhturmstraße",
 	x = 1010.0 
 }
 streetTable.ew[203] = {
@@ -840,15 +840,15 @@ streetTable.ew[204] = {
 	x = 1020.0 
 }
 streetTable.ew[205] = {
-	name = "Shukowstra"..szlig.."e",
+	name = "Shukowstraße",
 	x = 1025.0 
 }
 streetTable.ew[206] = {
-	name = "Karl-Blechen-Stra"..szlig.."e",
+	name = "Karl-Blechen-Straße",
 	x = 1030.0 
 }
 streetTable.ew[207] = {
-	name = "Weidlichstra"..szlig.."e",
+	name = "Weidlichstraße",
 	x = 1035.0 
 }
 streetTable.ew[208] = {
@@ -856,7 +856,7 @@ streetTable.ew[208] = {
 	x = 1040.0 
 }
 streetTable.ew[209] = {
-	name = "Ro"..szlig.."bachstra"..szlig.."e",
+	name = "Roßbachstraße",
 	x = 1045.0 
 }
 streetTable.ew[210] = {
@@ -864,7 +864,7 @@ streetTable.ew[210] = {
 	x = 1050.0 
 }
 streetTable.ew[211] = {
-	name = "Mothesstra"..szlig.."e",
+	name = "Mothesstraße",
 	x = 1055.0 
 }
 streetTable.ew[212] = {
@@ -876,7 +876,7 @@ streetTable.ew[213] = {
 	x = 1065.0 
 }
 streetTable.ew[214] = {
-	name = "Halberst"..auml.."dter Stra"..szlig.."e",
+	name = "Halberstädter Straße",
 	x = 1070.0 
 }
 streetTable.ew[215] = {
@@ -884,7 +884,7 @@ streetTable.ew[215] = {
 	x = 1075.0 
 }
 streetTable.ew[216] = {
-	name = "Wei"..szlig.."dornweg",
+	name = "Weißdornweg",
 	x = 1080.0 
 }
 streetTable.ew[217] = {
@@ -892,19 +892,19 @@ streetTable.ew[217] = {
 	x = 1085.0 
 }
 streetTable.ew[218] = {
-	name = "Spittastra"..szlig.."e",
+	name = "Spittastraße",
 	x = 1090.0 
 }
 streetTable.ew[219] = {
-	name = "Georg-Schwarz-Stra"..szlig.."e",
+	name = "Georg-Schwarz-Straße",
 	x = 1095.0 
 }
 streetTable.ew[220] = {
-	name = "Dantestra"..szlig.."e",
+	name = "Dantestraße",
 	x = 1100.0 
 }
 streetTable.ew[221] = {
-	name = "Matth"..auml.."ikirchhof",
+	name = "Matthäikirchhof",
 	x = 1105.0 
 }
 streetTable.ew[222] = {
@@ -916,7 +916,7 @@ streetTable.ew[223] = {
 	x = 1115.0 
 }
 streetTable.ew[224] = {
-	name = "Mecklenburger Stra"..szlig.."e",
+	name = "Mecklenburger Straße",
 	x = 1120.0 
 }
 streetTable.ew[225] = {
@@ -924,7 +924,7 @@ streetTable.ew[225] = {
 	x = 1125.0 
 }
 streetTable.ew[226] = {
-	name = "Dittrichstra"..szlig.."e",
+	name = "Dittrichstraße",
 	x = 1130.0 
 }
 streetTable.ew[227] = {
@@ -932,15 +932,15 @@ streetTable.ew[227] = {
 	x = 1135.0 
 }
 streetTable.ew[228] = {
-	name = "Peilickestra"..szlig.."e",
+	name = "Peilickestraße",
 	x = 1140.0 
 }
 streetTable.ew[229] = {
-	name = "Seffnerstra"..szlig.."e",
+	name = "Seffnerstraße",
 	x = 1145.0 
 }
 streetTable.ew[230] = {
-	name = "Kreuzstra"..szlig.."e",
+	name = "Kreuzstraße",
 	x = 1150.0 
 }
 streetTable.ew[231] = {
@@ -952,15 +952,15 @@ streetTable.ew[232] = {
 	x = 1160.0 
 }
 streetTable.ew[233] = {
-	name = "Koburger Stra"..szlig.."e",
+	name = "Koburger Straße",
 	x = 1165.0 
 }
 streetTable.ew[234] = {
-	name = "Ulmer Stra"..szlig.."e",
+	name = "Ulmer Straße",
 	x = 1170.0 
 }
 streetTable.ew[235] = {
-	name = "Forststra"..szlig.."e",
+	name = "Forststraße",
 	x = 1175.0 
 }
 streetTable.ew[236] = {
@@ -976,7 +976,7 @@ streetTable.ew[238] = {
 	x = 1190.0 
 }
 streetTable.ew[239] = {
-	name = "Jonsdorfer Stra"..szlig.."e",
+	name = "Jonsdorfer Straße",
 	x = 1195.0 
 }
 streetTable.ew[240] = {
@@ -988,27 +988,27 @@ streetTable.ew[241] = {
 	x = 1205.0 
 }
 streetTable.ew[242] = {
-	name = "Nienborgstra"..szlig.."e",
+	name = "Nienborgstraße",
 	x = 1210.0 
 }
 streetTable.ew[243] = {
-	name = "B"..auml.."stleinstra"..szlig.."e",
+	name = "Bästleinstraße",
 	x = 1215.0 
 }
 streetTable.ew[244] = {
-	name = "K"..ouml.."rnerplatz",
+	name = "Körnerplatz",
 	x = 1220.0 
 }
 streetTable.ew[245] = {
-	name = "Michaelisstra"..szlig.."e",
+	name = "Michaelisstraße",
 	x = 1225.0 
 }
 streetTable.ew[246] = {
-	name = "Cleudner Stra"..szlig.."e",
+	name = "Cleudner Straße",
 	x = 1230.0 
 }
 streetTable.ew[247] = {
-	name = "Ehrenberger Stra"..szlig.."e",
+	name = "Ehrenberger Straße",
 	x = 1235.0 
 }
 streetTable.ew[248] = {
@@ -1016,51 +1016,51 @@ streetTable.ew[248] = {
 	x = 1240.0 
 }
 streetTable.ew[249] = {
-	name = "P"..ouml.."sgrabenweg",
+	name = "Pösgrabenweg",
 	x = 1245.0 
 }
 streetTable.ew[250] = {
-	name = "Amalienstra"..szlig.."e",
+	name = "Amalienstraße",
 	x = 1250.0 
 }
 streetTable.ew[251] = {
-	name = "Rittergutsstra"..szlig.."e",
+	name = "Rittergutsstraße",
 	x = 1255.0 
 }
 streetTable.ew[252] = {
-	name = "Heimteichstra"..szlig.."e",
+	name = "Heimteichstraße",
 	x = 1260.0 
 }
 streetTable.ew[253] = {
-	name = "W"..ouml.."llnerstra"..szlig.."e",
+	name = "Wöllnerstraße",
 	x = 1265.0 
 }
 streetTable.ew[254] = {
-	name = "Elsbethstra"..szlig.."e",
+	name = "Elsbethstraße",
 	x = 1270.0 
 }
 streetTable.ew[255] = {
-	name = "Flei"..szlig.."nerstra"..szlig.."e",
+	name = "Fleißnerstraße",
 	x = 1275.0 
 }
 streetTable.ew[256] = {
-	name = "Dombrowskistra"..szlig.."e",
+	name = "Dombrowskistraße",
 	x = 1280.0 
 }
 streetTable.ew[257] = {
-	name = "Turmgutstra"..szlig.."e",
+	name = "Turmgutstraße",
 	x = 1285.0 
 }
 streetTable.ew[258] = {
-	name = "Zadestra"..szlig.."e",
+	name = "Zadestraße",
 	x = 1290.0 
 }
 streetTable.ew[259] = {
-	name = "Telemannstra"..szlig.."e",
+	name = "Telemannstraße",
 	x = 1295.0 
 }
 streetTable.ew[260] = {
-	name = "Agricolastra"..szlig.."e",
+	name = "Agricolastraße",
 	x = 1300.0 
 }
 streetTable.ew[261] = {
@@ -1068,7 +1068,7 @@ streetTable.ew[261] = {
 	x = 1305.0 
 }
 streetTable.ew[262] = {
-	name = "Probstheidaer Stra"..szlig.."e",
+	name = "Probstheidaer Straße",
 	x = 1310.0 
 }
 streetTable.ew[263] = {
@@ -1076,23 +1076,23 @@ streetTable.ew[263] = {
 	x = 1315.0 
 }
 streetTable.ew[264] = {
-	name = "Faradaystra"..szlig.."e",
+	name = "Faradaystraße",
 	x = 1320.0 
 }
 streetTable.ew[265] = {
-	name = "Lobensteiner Stra"..szlig.."e",
+	name = "Lobensteiner Straße",
 	x = 1325.0 
 }
 streetTable.ew[266] = {
-	name = "D"..uuml.."rnsteiner Weg",
+	name = "Dürnsteiner Weg",
 	x = 1330.0 
 }
 streetTable.ew[267] = {
-	name = "Ludolf-Colditz-Stra"..szlig.."e",
+	name = "Ludolf-Colditz-Straße",
 	x = 1335.0 
 }
 streetTable.ew[268] = {
-	name = "Schmutzlerstra"..szlig.."e",
+	name = "Schmutzlerstraße",
 	x = 1340.0 
 }
 streetTable.ew[269] = {
@@ -1104,19 +1104,19 @@ streetTable.ew[270] = {
 	x = 1350.0 
 }
 streetTable.ew[271] = {
-	name = "Thierschstra"..szlig.."e",
+	name = "Thierschstraße",
 	x = 1355.0 
 }
 streetTable.ew[272] = {
-	name = "L"..auml.."hnestra"..szlig.."e",
+	name = "Lähnestraße",
 	x = 1360.0 
 }
 streetTable.ew[273] = {
-	name = "Salamanderstra"..szlig.."e",
+	name = "Salamanderstraße",
 	x = 1365.0 
 }
 streetTable.ew[274] = {
-	name = "Windm"..uuml.."hlenweg",
+	name = "Windmühlenweg",
 	x = 1370.0 
 }
 streetTable.ew[275] = {
@@ -1132,11 +1132,11 @@ streetTable.ew[277] = {
 	x = 1385.0 
 }
 streetTable.ew[278] = {
-	name = "Wachsmuthstra"..szlig.."e",
+	name = "Wachsmuthstraße",
 	x = 1390.0 
 }
 streetTable.ew[279] = {
-	name = "Morgensternstra"..szlig.."e",
+	name = "Morgensternstraße",
 	x = 1395.0 
 }
 streetTable.ew[280] = {
@@ -1144,11 +1144,11 @@ streetTable.ew[280] = {
 	x = 1400.0 
 }
 streetTable.ew[281] = {
-	name = "Gr"..uuml.."ner Weg",
+	name = "Grüner Weg",
 	x = 1405.0 
 }
 streetTable.ew[282] = {
-	name = "Karl-Tauchnitz-Stra"..szlig.."e",
+	name = "Karl-Tauchnitz-Straße",
 	x = 1410.0 
 }
 streetTable.ew[283] = {
@@ -1156,15 +1156,15 @@ streetTable.ew[283] = {
 	x = 1415.0 
 }
 streetTable.ew[284] = {
-	name = "Coblenzer Stra"..szlig.."e",
+	name = "Coblenzer Straße",
 	x = 1420.0 
 }
 streetTable.ew[285] = {
-	name = "Pr"..uuml.."nstra"..szlig.."e",
+	name = "Prünstraße",
 	x = 1425.0 
 }
 streetTable.ew[286] = {
-	name = "Defoestra"..szlig.."e",
+	name = "Defoestraße",
 	x = 1430.0 
 }
 streetTable.ew[287] = {
@@ -1176,43 +1176,43 @@ streetTable.ew[288] = {
 	x = 1440.0 
 }
 streetTable.ew[289] = {
-	name = "Rankestra"..szlig.."e",
+	name = "Rankestraße",
 	x = 1445.0 
 }
 streetTable.ew[290] = {
-	name = "Schweinfurter Stra"..szlig.."e",
+	name = "Schweinfurter Straße",
 	x = 1450.0 
 }
 streetTable.ew[291] = {
-	name = "Regensburger Stra"..szlig.."e",
+	name = "Regensburger Straße",
 	x = 1455.0 
 }
 streetTable.ew[292] = {
-	name = "Salzg"..auml..""..szlig.."chen",
+	name = "Salzgäßchen",
 	x = 1460.0 
 }
 streetTable.ew[293] = {
-	name = "Porschestra"..szlig.."e",
+	name = "Porschestraße",
 	x = 1465.0 
 }
 streetTable.ew[294] = {
-	name = "Watestra"..szlig.."e",
+	name = "Watestraße",
 	x = 1470.0 
 }
 streetTable.ew[295] = {
-	name = "Anzengruberstra"..szlig.."e",
+	name = "Anzengruberstraße",
 	x = 1475.0 
 }
 streetTable.ew[296] = {
-	name = "Seiffener Stra"..szlig.."e",
+	name = "Seiffener Straße",
 	x = 1480.0 
 }
 streetTable.ew[297] = {
-	name = "Volckmarstra"..szlig.."e",
+	name = "Volckmarstraße",
 	x = 1485.0 
 }
 streetTable.ew[298] = {
-	name = "Tauchaer Stra"..szlig.."e",
+	name = "Tauchaer Straße",
 	x = 1490.0 
 }
 streetTable.ew[299] = {
@@ -1220,15 +1220,15 @@ streetTable.ew[299] = {
 	x = 1495.0 
 }
 streetTable.ew[300] = {
-	name = "Stormstra"..szlig.."e",
+	name = "Stormstraße",
 	x = 1500.0 
 }
 streetTable.ew[301] = {
-	name = "Trufanowstra"..szlig.."e",
+	name = "Trufanowstraße",
 	x = 1505.0 
 }
 streetTable.ew[302] = {
-	name = "Ernestistra"..szlig.."e",
+	name = "Ernestistraße",
 	x = 1510.0 
 }
 streetTable.ew[303] = {
@@ -1236,7 +1236,7 @@ streetTable.ew[303] = {
 	x = 1515.0 
 }
 streetTable.ew[304] = {
-	name = "Bahnhofstra"..szlig.."e",
+	name = "Bahnhofstraße",
 	x = 1520.0 
 }
 streetTable.ew[305] = {
@@ -1244,11 +1244,11 @@ streetTable.ew[305] = {
 	x = 1525.0 
 }
 streetTable.ew[306] = {
-	name = "Palmstra"..szlig.."e",
+	name = "Palmstraße",
 	x = 1530.0 
 }
 streetTable.ew[307] = {
-	name = "Bormannstra"..szlig.."e",
+	name = "Bormannstraße",
 	x = 1535.0 
 }
 streetTable.ew[308] = {
@@ -1260,27 +1260,27 @@ streetTable.ew[309] = {
 	x = 1545.0 
 }
 streetTable.ew[310] = {
-	name = "Wernerstra"..szlig.."e",
+	name = "Wernerstraße",
 	x = 1550.0 
 }
 streetTable.ew[311] = {
-	name = "Friedrichshafner Stra"..szlig.."e",
+	name = "Friedrichshafner Straße",
 	x = 1555.0 
 }
 streetTable.ew[312] = {
-	name = "Ringstra"..szlig.."e",
+	name = "Ringstraße",
 	x = 1560.0 
 }
 streetTable.ew[313] = {
-	name = "Pettenkoferstra"..szlig.."e",
+	name = "Pettenkoferstraße",
 	x = 1565.0 
 }
 streetTable.ew[314] = {
-	name = "Reineckestra"..szlig.."e",
+	name = "Reineckestraße",
 	x = 1570.0 
 }
 streetTable.ew[315] = {
-	name = "Augustenstra"..szlig.."e",
+	name = "Augustenstraße",
 	x = 1575.0 
 }
 streetTable.ew[316] = {
@@ -1292,11 +1292,11 @@ streetTable.ew[317] = {
 	x = 1585.0 
 }
 streetTable.ew[318] = {
-	name = "Brambacher Stra"..szlig.."e",
+	name = "Brambacher Straße",
 	x = 1590.0 
 }
 streetTable.ew[319] = {
-	name = "Georg-Maurer-Stra"..szlig.."e",
+	name = "Georg-Maurer-Straße",
 	x = 1595.0 
 }
 streetTable.ew[320] = {
@@ -1304,15 +1304,15 @@ streetTable.ew[320] = {
 	x = 1600.0 
 }
 streetTable.ew[321] = {
-	name = "H"..auml.."nischstra"..szlig.."e",
+	name = "Hänischstraße",
 	x = 1605.0 
 }
 streetTable.ew[322] = {
-	name = "Paul-Flechsig-Stra"..szlig.."e",
+	name = "Paul-Flechsig-Straße",
 	x = 1610.0 
 }
 streetTable.ew[323] = {
-	name = "Stralsunder Stra"..szlig.."e",
+	name = "Stralsunder Straße",
 	x = 1615.0 
 }
 streetTable.ew[324] = {
@@ -1324,7 +1324,7 @@ streetTable.ew[325] = {
 	x = 1625.0 
 }
 streetTable.ew[326] = {
-	name = "Leostra"..szlig.."e",
+	name = "Leostraße",
 	x = 1630.0 
 }
 streetTable.ew[327] = {
@@ -1336,23 +1336,23 @@ streetTable.ew[328] = {
 	x = 1640.0 
 }
 streetTable.ew[329] = {
-	name = "Jordanstra"..szlig.."e",
+	name = "Jordanstraße",
 	x = 1645.0 
 }
 streetTable.ew[330] = {
-	name = "H"..ouml.."ltystra"..szlig.."e",
+	name = "Höltystraße",
 	x = 1650.0 
 }
 streetTable.ew[331] = {
-	name = "Kurt-Eisner-Stra"..szlig.."e",
+	name = "Kurt-Eisner-Straße",
 	x = 1655.0 
 }
 streetTable.ew[332] = {
-	name = "Wustmannstra"..szlig.."e",
+	name = "Wustmannstraße",
 	x = 1660.0 
 }
 streetTable.ew[333] = {
-	name = "Prellerstra"..szlig.."e",
+	name = "Prellerstraße",
 	x = 1665.0 
 }
 streetTable.ew[334] = {
@@ -1364,7 +1364,7 @@ streetTable.ew[335] = {
 	x = 1675.0 
 }
 streetTable.ew[336] = {
-	name = "Sasstra"..szlig.."e",
+	name = "Sasstraße",
 	x = 1680.0 
 }
 streetTable.ew[337] = {
@@ -1372,11 +1372,11 @@ streetTable.ew[337] = {
 	x = 1685.0 
 }
 streetTable.ew[338] = {
-	name = "Handelsstra"..szlig.."e",
+	name = "Handelsstraße",
 	x = 1690.0 
 }
 streetTable.ew[339] = {
-	name = "Igelstra"..szlig.."e",
+	name = "Igelstraße",
 	x = 1695.0 
 }
 streetTable.ew[340] = {
@@ -1396,31 +1396,31 @@ streetTable.ew[343] = {
 	x = 1715.0 
 }
 streetTable.ew[344] = {
-	name = "M"..ouml.."lkauer Dorfplatz",
+	name = "Mölkauer Dorfplatz",
 	x = 1720.0 
 }
 streetTable.ew[345] = {
-	name = "Baunackstra"..szlig.."e",
+	name = "Baunackstraße",
 	x = 1725.0 
 }
 streetTable.ew[346] = {
-	name = "Humboldtstra"..szlig.."e",
+	name = "Humboldtstraße",
 	x = 1730.0 
 }
 streetTable.ew[347] = {
-	name = "Bausestra"..szlig.."e",
+	name = "Bausestraße",
 	x = 1735.0 
 }
 streetTable.ew[348] = {
-	name = "Bontjes-van-Beek-Stra"..szlig.."e",
+	name = "Bontjes-van-Beek-Straße",
 	x = 1740.0 
 }
 streetTable.ew[349] = {
-	name = "Gr"..uuml.."ne Gasse",
+	name = "Grüne Gasse",
 	x = 1745.0 
 }
 streetTable.ew[350] = {
-	name = "Dybwadstra"..szlig.."e",
+	name = "Dybwadstraße",
 	x = 1750.0 
 }
 streetTable.ew[351] = {
@@ -1428,19 +1428,19 @@ streetTable.ew[351] = {
 	x = 1755.0 
 }
 streetTable.ew[352] = {
-	name = "Liliensteinstra"..szlig.."e",
+	name = "Liliensteinstraße",
 	x = 1760.0 
 }
 streetTable.ew[353] = {
-	name = "Fasanenh"..ouml.."he",
+	name = "Fasanenhöhe",
 	x = 1765.0 
 }
 streetTable.ew[354] = {
-	name = "G"..uuml.."ntheritzer Weg",
+	name = "Güntheritzer Weg",
 	x = 1770.0 
 }
 streetTable.ew[355] = {
-	name = "Plau"..szlig.."iger Stra"..szlig.."e",
+	name = "Plaußiger Straße",
 	x = 1775.0 
 }
 streetTable.ew[356] = {
@@ -1452,11 +1452,11 @@ streetTable.ew[357] = {
 	x = 1785.0 
 }
 streetTable.ew[358] = {
-	name = "Nu"..szlig.."baumweg",
+	name = "Nußbaumweg",
 	x = 1790.0 
 }
 streetTable.ew[359] = {
-	name = "Volksgartenstra"..szlig.."e",
+	name = "Volksgartenstraße",
 	x = 1795.0 
 }
 streetTable.ew[360] = {
@@ -1464,19 +1464,19 @@ streetTable.ew[360] = {
 	x = 1800.0 
 }
 streetTable.ew[361] = {
-	name = "Rosestra"..szlig.."e",
+	name = "Rosestraße",
 	x = 1805.0 
 }
 streetTable.ew[362] = {
-	name = "Schongauerstra"..szlig.."e",
+	name = "Schongauerstraße",
 	x = 1810.0 
 }
 streetTable.ew[363] = {
-	name = "Barbussestra"..szlig.."e",
+	name = "Barbussestraße",
 	x = 1815.0 
 }
 streetTable.ew[364] = {
-	name = "Malteserstra"..szlig.."e",
+	name = "Malteserstraße",
 	x = 1820.0 
 }
 streetTable.ew[365] = {
@@ -1500,31 +1500,31 @@ streetTable.ew[369] = {
 	x = 1845.0 
 }
 streetTable.ew[370] = {
-	name = "Knorrstra"..szlig.."e",
+	name = "Knorrstraße",
 	x = 1850.0 
 }
 streetTable.ew[371] = {
-	name = "Ritter-Pflugk-Stra"..szlig.."e",
+	name = "Ritter-Pflugk-Straße",
 	x = 1855.0 
 }
 streetTable.ew[372] = {
-	name = "Elisabethstra"..szlig.."e",
+	name = "Elisabethstraße",
 	x = 1860.0 
 }
 streetTable.ew[373] = {
-	name = "Ratzelstra"..szlig.."e",
+	name = "Ratzelstraße",
 	x = 1865.0 
 }
 streetTable.ew[374] = {
-	name = "Kolmstra"..szlig.."e",
+	name = "Kolmstraße",
 	x = 1870.0 
 }
 streetTable.ew[375] = {
-	name = "Kindstra"..szlig.."e",
+	name = "Kindstraße",
 	x = 1875.0 
 }
 streetTable.ew[376] = {
-	name = "Angerstra"..szlig.."e",
+	name = "Angerstraße",
 	x = 1880.0 
 }
 streetTable.ew[377] = {
@@ -1532,7 +1532,7 @@ streetTable.ew[377] = {
 	x = 1885.0 
 }
 streetTable.ew[378] = {
-	name = "Sosaer Stra"..szlig.."e",
+	name = "Sosaer Straße",
 	x = 1890.0 
 }
 streetTable.ew[379] = {
@@ -1540,11 +1540,11 @@ streetTable.ew[379] = {
 	x = 1895.0 
 }
 streetTable.ew[380] = {
-	name = "Selneckerstra"..szlig.."e",
+	name = "Selneckerstraße",
 	x = 1900.0 
 }
 streetTable.ew[381] = {
-	name = "Elli-Voigt-Stra"..szlig.."e",
+	name = "Elli-Voigt-Straße",
 	x = 1905.0 
 }
 streetTable.ew[382] = {
@@ -1556,7 +1556,7 @@ streetTable.ew[383] = {
 	x = 1915.0 
 }
 streetTable.ew[384] = {
-	name = "Hainstra"..szlig.."e",
+	name = "Hainstraße",
 	x = 1920.0 
 }
 streetTable.ew[385] = {
@@ -1564,7 +1564,7 @@ streetTable.ew[385] = {
 	x = 1925.0 
 }
 streetTable.ew[386] = {
-	name = "Brandvorwerkstra"..szlig.."e",
+	name = "Brandvorwerkstraße",
 	x = 1930.0 
 }
 streetTable.ew[387] = {
@@ -1572,7 +1572,7 @@ streetTable.ew[387] = {
 	x = 1935.0 
 }
 streetTable.ew[388] = {
-	name = "Bautzmannstra"..szlig.."e",
+	name = "Bautzmannstraße",
 	x = 1940.0 
 }
 streetTable.ew[389] = {
@@ -1580,27 +1580,27 @@ streetTable.ew[389] = {
 	x = 1945.0 
 }
 streetTable.ew[390] = {
-	name = "Preu"..szlig.."enseite",
+	name = "Preußenseite",
 	x = 1950.0 
 }
 streetTable.ew[391] = {
-	name = "Gottschedstra"..szlig.."e",
+	name = "Gottschedstraße",
 	x = 1955.0 
 }
 streetTable.ew[392] = {
-	name = "Erhardstra"..szlig.."e",
+	name = "Erhardstraße",
 	x = 1960.0 
 }
 streetTable.ew[393] = {
-	name = "Karolusstra"..szlig.."e",
+	name = "Karolusstraße",
 	x = 1965.0 
 }
 streetTable.ew[394] = {
-	name = "Prof.-Dr.-Koch-Stra"..szlig.."e",
+	name = "Prof.-Dr.-Koch-Straße",
 	x = 1970.0 
 }
 streetTable.ew[395] = {
-	name = "Freirodaer Stra"..szlig.."e",
+	name = "Freirodaer Straße",
 	x = 1975.0 
 }
 streetTable.ew[396] = {
@@ -1608,15 +1608,15 @@ streetTable.ew[396] = {
 	x = 1980.0 
 }
 streetTable.ew[397] = {
-	name = "H"..auml.."uslergasse",
+	name = "Häuslergasse",
 	x = 1985.0 
 }
 streetTable.ew[398] = {
-	name = "Barfu"..szlig.."g"..auml..""..szlig.."chen",
+	name = "Barfußgäßchen",
 	x = 1990.0 
 }
 streetTable.ew[399] = {
-	name = "Heidelberger Stra"..szlig.."e",
+	name = "Heidelberger Straße",
 	x = 1995.0 
 }
 streetTable.ew[400] = {
@@ -1624,15 +1624,15 @@ streetTable.ew[400] = {
 	x = 2000.0 
 }
 streetTable.ew[401] = {
-	name = "Naumburger Stra"..szlig.."e",
+	name = "Naumburger Straße",
 	x = 2005.0 
 }
 streetTable.ew[402] = {
-	name = "Baalsdorfer Stra"..szlig.."e",
+	name = "Baalsdorfer Straße",
 	x = 2010.0 
 }
 streetTable.ew[403] = {
-	name = "Uhrigstra"..szlig.."e",
+	name = "Uhrigstraße",
 	x = 2015.0 
 }
 streetTable.ew[404] = {
@@ -1640,19 +1640,19 @@ streetTable.ew[404] = {
 	x = 2020.0 
 }
 streetTable.ew[405] = {
-	name = "An der M"..uuml.."hle",
+	name = "An der Mühle",
 	x = 2025.0 
 }
 streetTable.ew[406] = {
-	name = "Diderotstra"..szlig.."e",
+	name = "Diderotstraße",
 	x = 2030.0 
 }
 streetTable.ew[407] = {
-	name = "Pr"..ouml.."ttitzer Weg",
+	name = "Pröttitzer Weg",
 	x = 2035.0 
 }
 streetTable.ew[408] = {
-	name = "Am Alten M"..uuml.."hlgraben",
+	name = "Am Alten Mühlgraben",
 	x = 2040.0 
 }
 streetTable.ew[409] = {
@@ -1660,7 +1660,7 @@ streetTable.ew[409] = {
 	x = 2045.0 
 }
 streetTable.ew[410] = {
-	name = "Thomasiusstra"..szlig.."e",
+	name = "Thomasiusstraße",
 	x = 2050.0 
 }
 streetTable.ew[411] = {
@@ -1668,19 +1668,19 @@ streetTable.ew[411] = {
 	x = 2055.0 
 }
 streetTable.ew[412] = {
-	name = "Curiestra"..szlig.."e",
+	name = "Curiestraße",
 	x = 2060.0 
 }
 streetTable.ew[413] = {
-	name = "Scheumannstra"..szlig.."e",
+	name = "Scheumannstraße",
 	x = 2065.0 
 }
 streetTable.ew[414] = {
-	name = "Ahornstra"..szlig.."e",
+	name = "Ahornstraße",
 	x = 2070.0 
 }
 streetTable.ew[415] = {
-	name = "Ihmelsstra"..szlig.."e",
+	name = "Ihmelsstraße",
 	x = 2075.0 
 }
 streetTable.ew[416] = {
@@ -1692,11 +1692,11 @@ streetTable.ew[417] = {
 	x = 2085.0 
 }
 streetTable.ew[418] = {
-	name = "Entsbergerstra"..szlig.."e",
+	name = "Entsbergerstraße",
 	x = 2090.0 
 }
 streetTable.ew[419] = {
-	name = "Fr"..ouml.."schelstra"..szlig.."e",
+	name = "Fröschelstraße",
 	x = 2095.0 
 }
 streetTable.ew[420] = {
@@ -1708,11 +1708,11 @@ streetTable.ew[421] = {
 	x = 2105.0 
 }
 streetTable.ew[422] = {
-	name = "Falladastra"..szlig.."e",
+	name = "Falladastraße",
 	x = 2110.0 
 }
 streetTable.ew[423] = {
-	name = "Arthur-Polenz-Stra"..szlig.."e",
+	name = "Arthur-Polenz-Straße",
 	x = 2115.0 
 }
 streetTable.ew[424] = {
@@ -1720,7 +1720,7 @@ streetTable.ew[424] = {
 	x = 2120.0 
 }
 streetTable.ew[425] = {
-	name = "Baumgarten-Crusius-Stra"..szlig.."e",
+	name = "Baumgarten-Crusius-Straße",
 	x = 2125.0 
 }
 streetTable.ew[426] = {
@@ -1732,23 +1732,23 @@ streetTable.ew[427] = {
 	x = 2135.0 
 }
 streetTable.ew[428] = {
-	name = "Winkelstra"..szlig.."e",
+	name = "Winkelstraße",
 	x = 2140.0 
 }
 streetTable.ew[429] = {
-	name = "Leinestra"..szlig.."e",
+	name = "Leinestraße",
 	x = 2145.0 
 }
 streetTable.ew[430] = {
-	name = "L"..uuml.."tzschenaer Stra"..szlig.."e",
+	name = "Lützschenaer Straße",
 	x = 2150.0 
 }
 streetTable.ew[431] = {
-	name = "Bei der Kr"..auml.."henh"..uuml.."tte",
+	name = "Bei der Krähenhütte",
 	x = 2155.0 
 }
 streetTable.ew[432] = {
-	name = "T"..auml.."schnerstra"..szlig.."e",
+	name = "Täschnerstraße",
 	x = 2160.0 
 }
 streetTable.ew[433] = {
@@ -1756,11 +1756,11 @@ streetTable.ew[433] = {
 	x = 2165.0 
 }
 streetTable.ew[434] = {
-	name = "Karlstra"..szlig.."e",
+	name = "Karlstraße",
 	x = 2170.0 
 }
 streetTable.ew[435] = {
-	name = "Idastra"..szlig.."e",
+	name = "Idastraße",
 	x = 2175.0 
 }
 streetTable.ew[436] = {
@@ -1768,7 +1768,7 @@ streetTable.ew[436] = {
 	x = 2180.0 
 }
 streetTable.ew[437] = {
-	name = "Walter-G"..uuml.."nther-Weg",
+	name = "Walter-Günther-Weg",
 	x = 2185.0 
 }
 streetTable.ew[438] = {
@@ -1776,7 +1776,7 @@ streetTable.ew[438] = {
 	x = 2190.0 
 }
 streetTable.ew[439] = {
-	name = "Max-Planck-Stra"..szlig.."e",
+	name = "Max-Planck-Straße",
 	x = 2195.0 
 }
 streetTable.ew[440] = {
@@ -1784,35 +1784,35 @@ streetTable.ew[440] = {
 	x = 2200.0 
 }
 streetTable.ew[441] = {
-	name = "Saalecker Stra"..szlig.."e",
+	name = "Saalecker Straße",
 	x = 2205.0 
 }
 streetTable.ew[442] = {
-	name = "Kiewer Stra"..szlig.."e",
+	name = "Kiewer Straße",
 	x = 2210.0 
 }
 streetTable.ew[443] = {
-	name = "Zillstra"..szlig.."e",
+	name = "Zillstraße",
 	x = 2215.0 
 }
 streetTable.ew[444] = {
-	name = "Mariannenstra"..szlig.."e",
+	name = "Mariannenstraße",
 	x = 2220.0 
 }
 streetTable.ew[445] = {
-	name = "Am Fl"..uuml.."gelrad",
+	name = "Am Flügelrad",
 	x = 2225.0 
 }
 streetTable.ew[446] = {
-	name = "Sportplatzstra"..szlig.."e",
+	name = "Sportplatzstraße",
 	x = 2230.0 
 }
 streetTable.ew[447] = {
-	name = "Saxoniastra"..szlig.."e",
+	name = "Saxoniastraße",
 	x = 2235.0 
 }
 streetTable.ew[448] = {
-	name = "Donarstra"..szlig.."e",
+	name = "Donarstraße",
 	x = 2240.0 
 }
 streetTable.ew[449] = {
@@ -1824,7 +1824,7 @@ streetTable.ew[450] = {
 	x = 2250.0 
 }
 streetTable.ew[451] = {
-	name = "Nerchauer Stra"..szlig.."e",
+	name = "Nerchauer Straße",
 	x = 2255.0 
 }
 streetTable.ew[452] = {
@@ -1832,7 +1832,7 @@ streetTable.ew[452] = {
 	x = 2260.0 
 }
 streetTable.ew[453] = {
-	name = "Ostheimstra"..szlig.."e",
+	name = "Ostheimstraße",
 	x = 2265.0 
 }
 streetTable.ew[454] = {
@@ -1840,23 +1840,23 @@ streetTable.ew[454] = {
 	x = 2270.0 
 }
 streetTable.ew[455] = {
-	name = "Br"..uuml.."ckenstra"..szlig.."e",
+	name = "Brückenstraße",
 	x = 2275.0 
 }
 streetTable.ew[456] = {
-	name = "Kossaer Stra"..szlig.."e",
+	name = "Kossaer Straße",
 	x = 2280.0 
 }
 streetTable.ew[457] = {
-	name = "Erich-Weinert-Stra"..szlig.."e",
+	name = "Erich-Weinert-Straße",
 	x = 2285.0 
 }
 streetTable.ew[458] = {
-	name = "K"..ouml.."tzschauer Stra"..szlig.."e",
+	name = "Kötzschauer Straße",
 	x = 2290.0 
 }
 streetTable.ew[459] = {
-	name = "Ernst-Schneller-Stra"..szlig.."e",
+	name = "Ernst-Schneller-Straße",
 	x = 2295.0 
 }
 streetTable.ew[460] = {
@@ -1872,35 +1872,35 @@ streetTable.ew[462] = {
 	x = 2310.0 
 }
 streetTable.ew[463] = {
-	name = "Gr"..uuml.."nauer Allee",
+	name = "Grünauer Allee",
 	x = 2315.0 
 }
 streetTable.ew[464] = {
-	name = "T"..ouml.."pferstra"..szlig.."e",
+	name = "Töpferstraße",
 	x = 2320.0 
 }
 streetTable.ew[465] = {
-	name = "Ro"..szlig.."stra"..szlig.."e",
+	name = "Roßstraße",
 	x = 2325.0 
 }
 streetTable.ew[466] = {
-	name = "Saalfelder Stra"..szlig.."e",
+	name = "Saalfelder Straße",
 	x = 2330.0 
 }
 streetTable.ew[467] = {
-	name = "Goldacher Stra"..szlig.."e",
+	name = "Goldacher Straße",
 	x = 2335.0 
 }
 streetTable.ew[468] = {
-	name = "William-Zipperer-Stra"..szlig.."e",
+	name = "William-Zipperer-Straße",
 	x = 2340.0 
 }
 streetTable.ew[469] = {
-	name = "Grenzstra"..szlig.."e",
+	name = "Grenzstraße",
 	x = 2345.0 
 }
 streetTable.ew[470] = {
-	name = "Oskar-Calov-Stra"..szlig.."e",
+	name = "Oskar-Calov-Straße",
 	x = 2350.0 
 }
 streetTable.ew[471] = {
@@ -1912,11 +1912,11 @@ streetTable.ew[472] = {
 	x = 2360.0 
 }
 streetTable.ew[473] = {
-	name = "Zollikoferstra"..szlig.."e",
+	name = "Zollikoferstraße",
 	x = 2365.0 
 }
 streetTable.ew[474] = {
-	name = "Schuhmacherg"..auml..""..szlig.."chen",
+	name = "Schuhmachergäßchen",
 	x = 2370.0 
 }
 streetTable.ew[475] = {
@@ -1924,11 +1924,11 @@ streetTable.ew[475] = {
 	x = 2375.0 
 }
 streetTable.ew[476] = {
-	name = "Oberdorfstra"..szlig.."e",
+	name = "Oberdorfstraße",
 	x = 2380.0 
 }
 streetTable.ew[477] = {
-	name = "Parthenstra"..szlig.."e",
+	name = "Parthenstraße",
 	x = 2385.0 
 }
 streetTable.ew[478] = {
@@ -1936,15 +1936,15 @@ streetTable.ew[478] = {
 	x = 2390.0 
 }
 streetTable.ew[479] = {
-	name = "Dahlienstra"..szlig.."e",
+	name = "Dahlienstraße",
 	x = 2395.0 
 }
 streetTable.ew[480] = {
-	name = "Herrmann-Meyer-Stra"..szlig.."e",
+	name = "Herrmann-Meyer-Straße",
 	x = 2400.0 
 }
 streetTable.ew[481] = {
-	name = "Arno-Nitzsche-Stra"..szlig.."e",
+	name = "Arno-Nitzsche-Straße",
 	x = 2405.0 
 }
 streetTable.ew[482] = {
@@ -1952,15 +1952,15 @@ streetTable.ew[482] = {
 	x = 2410.0 
 }
 streetTable.ew[483] = {
-	name = "Vordere Schlobachstra"..szlig.."e",
+	name = "Vordere Schlobachstraße",
 	x = 2415.0 
 }
 streetTable.ew[484] = {
-	name = "B"..uuml.."ttnerweg",
+	name = "Büttnerweg",
 	x = 2420.0 
 }
 streetTable.ew[485] = {
-	name = "Diamantstra"..szlig.."e",
+	name = "Diamantstraße",
 	x = 2425.0 
 }
 streetTable.ew[486] = {
@@ -1968,7 +1968,7 @@ streetTable.ew[486] = {
 	x = 2430.0 
 }
 streetTable.ew[487] = {
-	name = "Arthur-Winkler-Stra"..szlig.."e",
+	name = "Arthur-Winkler-Straße",
 	x = 2435.0 
 }
 streetTable.ew[488] = {
@@ -1980,7 +1980,7 @@ streetTable.ew[489] = {
 	x = 2445.0 
 }
 streetTable.ew[490] = {
-	name = "Burghausener Stra"..szlig.."e",
+	name = "Burghausener Straße",
 	x = 2450.0 
 }
 streetTable.ew[491] = {
@@ -1988,27 +1988,27 @@ streetTable.ew[491] = {
 	x = 2455.0 
 }
 streetTable.ew[492] = {
-	name = "K"..ouml.."nigsteinstra"..szlig.."e",
+	name = "Königsteinstraße",
 	x = 2460.0 
 }
 streetTable.ew[493] = {
-	name = "B"..auml.."rlauchweg",
+	name = "Bärlauchweg",
 	x = 2465.0 
 }
 streetTable.ew[494] = {
-	name = "Anton-Zickmantel-Stra"..szlig.."e",
+	name = "Anton-Zickmantel-Straße",
 	x = 2470.0 
 }
 streetTable.ew[495] = {
-	name = "Rosenstra"..szlig.."e",
+	name = "Rosenstraße",
 	x = 2475.0 
 }
 streetTable.ew[496] = {
-	name = "Stauffenbergstra"..szlig.."e",
+	name = "Stauffenbergstraße",
 	x = 2480.0 
 }
 streetTable.ew[497] = {
-	name = "Kreuzdornstra"..szlig.."e",
+	name = "Kreuzdornstraße",
 	x = 2485.0 
 }
 streetTable.ew[498] = {
@@ -2016,7 +2016,7 @@ streetTable.ew[498] = {
 	x = 2490.0 
 }
 streetTable.ew[499] = {
-	name = "Hugo-Junkers-Stra"..szlig.."e",
+	name = "Hugo-Junkers-Straße",
 	x = 2495.0 
 }
 streetTable.ew[500] = {
@@ -2028,19 +2028,19 @@ streetTable.ew[501] = {
 	x = 2505.0 
 }
 streetTable.ew[502] = {
-	name = "Breitschuhstra"..szlig.."e",
+	name = "Breitschuhstraße",
 	x = 2510.0 
 }
 streetTable.ew[503] = {
-	name = "Papierm"..uuml.."hlstra"..szlig.."e",
+	name = "Papiermühlstraße",
 	x = 2515.0 
 }
 streetTable.ew[504] = {
-	name = "Lionstra"..szlig.."e",
+	name = "Lionstraße",
 	x = 2520.0 
 }
 streetTable.ew[505] = {
-	name = "Hilligerstra"..szlig.."e",
+	name = "Hilligerstraße",
 	x = 2525.0 
 }
 streetTable.ew[506] = {
@@ -2048,11 +2048,11 @@ streetTable.ew[506] = {
 	x = 2530.0 
 }
 streetTable.ew[507] = {
-	name = "Friedrich-Naumann-Stra"..szlig.."e",
+	name = "Friedrich-Naumann-Straße",
 	x = 2535.0 
 }
 streetTable.ew[508] = {
-	name = "Elsastra"..szlig.."e",
+	name = "Elsastraße",
 	x = 2540.0 
 }
 streetTable.ew[509] = {
@@ -2064,11 +2064,11 @@ streetTable.ew[510] = {
 	x = 2550.0 
 }
 streetTable.ew[511] = {
-	name = "L"..ouml.."wenzahnweg",
+	name = "Löwenzahnweg",
 	x = 2555.0 
 }
 streetTable.ew[512] = {
-	name = "Immenstra"..szlig.."e",
+	name = "Immenstraße",
 	x = 2560.0 
 }
 streetTable.ew[513] = {
@@ -2076,7 +2076,7 @@ streetTable.ew[513] = {
 	x = 2565.0 
 }
 streetTable.ew[514] = {
-	name = "Hermundurenstra"..szlig.."e",
+	name = "Hermundurenstraße",
 	x = 2570.0 
 }
 streetTable.ew[515] = {
@@ -2088,15 +2088,15 @@ streetTable.ew[516] = {
 	x = 2580.0 
 }
 streetTable.ew[517] = {
-	name = "Pater-Gordian-Stra"..szlig.."e",
+	name = "Pater-Gordian-Straße",
 	x = 2585.0 
 }
 streetTable.ew[518] = {
-	name = "Schenkendorfstra"..szlig.."e",
+	name = "Schenkendorfstraße",
 	x = 2590.0 
 }
 streetTable.ew[519] = {
-	name = "Reichsbahnerstra"..szlig.."e",
+	name = "Reichsbahnerstraße",
 	x = 2595.0 
 }
 streetTable.ew[520] = {
@@ -2104,15 +2104,15 @@ streetTable.ew[520] = {
 	x = 2600.0 
 }
 streetTable.ew[521] = {
-	name = "Travniker Stra"..szlig.."e",
+	name = "Travniker Straße",
 	x = 2605.0 
 }
 streetTable.ew[522] = {
-	name = "Kleiststra"..szlig.."e",
+	name = "Kleiststraße",
 	x = 2610.0 
 }
 streetTable.ew[523] = {
-	name = "Cranachstra"..szlig.."e",
+	name = "Cranachstraße",
 	x = 2615.0 
 }
 streetTable.ew[524] = {
@@ -2124,11 +2124,11 @@ streetTable.ew[525] = {
 	x = 2625.0 
 }
 streetTable.ew[526] = {
-	name = "Johannes-R.-Becher-Stra"..szlig.."e",
+	name = "Johannes-R.-Becher-Straße",
 	x = 2630.0 
 }
 streetTable.ew[527] = {
-	name = "Friedrich-List-Stra"..szlig.."e",
+	name = "Friedrich-List-Straße",
 	x = 2635.0 
 }
 streetTable.ew[528] = {
@@ -2136,31 +2136,31 @@ streetTable.ew[528] = {
 	x = 2640.0 
 }
 streetTable.ew[529] = {
-	name = "Leipziger Stra"..szlig.."e",
+	name = "Leipziger Straße",
 	x = 2645.0 
 }
 streetTable.ew[530] = {
-	name = "St"..ouml.."ckelplatz",
+	name = "Stöckelplatz",
 	x = 2650.0 
 }
 streetTable.ew[531] = {
-	name = "Wiederitzscher Stra"..szlig.."e",
+	name = "Wiederitzscher Straße",
 	x = 2655.0 
 }
 streetTable.ew[532] = {
-	name = "L"..auml.."rchenweg",
+	name = "Lärchenweg",
 	x = 2660.0 
 }
 streetTable.ew[533] = {
-	name = "P"..ouml.."gnerstra"..szlig.."e",
+	name = "Pögnerstraße",
 	x = 2665.0 
 }
 streetTable.ew[534] = {
-	name = "Ritterstra"..szlig.."e",
+	name = "Ritterstraße",
 	x = 2670.0 
 }
 streetTable.ew[535] = {
-	name = "Walnu"..szlig.."weg",
+	name = "Walnußweg",
 	x = 2675.0 
 }
 streetTable.ew[536] = {
@@ -2168,7 +2168,7 @@ streetTable.ew[536] = {
 	x = 2680.0 
 }
 streetTable.ew[537] = {
-	name = "Connewitzer Stra"..szlig.."e",
+	name = "Connewitzer Straße",
 	x = 2685.0 
 }
 streetTable.ew[538] = {
@@ -2176,11 +2176,11 @@ streetTable.ew[538] = {
 	x = 2690.0 
 }
 streetTable.ew[539] = {
-	name = "Hillerstra"..szlig.."e",
+	name = "Hillerstraße",
 	x = 2695.0 
 }
 streetTable.ew[540] = {
-	name = "Poserstra"..szlig.."e",
+	name = "Poserstraße",
 	x = 2700.0 
 }
 streetTable.ew[541] = {
@@ -2188,7 +2188,7 @@ streetTable.ew[541] = {
 	x = 2705.0 
 }
 streetTable.ew[542] = {
-	name = "Bernhard-G"..ouml.."ring-Stra"..szlig.."e",
+	name = "Bernhard-Göring-Straße",
 	x = 2710.0 
 }
 streetTable.ew[543] = {
@@ -2196,35 +2196,35 @@ streetTable.ew[543] = {
 	x = 2715.0 
 }
 streetTable.ew[544] = {
-	name = "Wilhelm-Sammet-Stra"..szlig.."e",
+	name = "Wilhelm-Sammet-Straße",
 	x = 2720.0 
 }
 streetTable.ew[545] = {
-	name = "Friedrich-Ebert-Stra"..szlig.."e",
+	name = "Friedrich-Ebert-Straße",
 	x = 2725.0 
 }
 streetTable.ew[546] = {
-	name = "Nagelstra"..szlig.."e",
+	name = "Nagelstraße",
 	x = 2730.0 
 }
 streetTable.ew[547] = {
-	name = "Calaustra"..szlig.."e",
+	name = "Calaustraße",
 	x = 2735.0 
 }
 streetTable.ew[548] = {
-	name = "Adolf-Koppe-Stra"..szlig.."e",
+	name = "Adolf-Koppe-Straße",
 	x = 2740.0 
 }
 streetTable.ew[549] = {
-	name = "Fasanenh"..uuml.."gel",
+	name = "Fasanenhügel",
 	x = 2745.0 
 }
 streetTable.ew[550] = {
-	name = "Untere Eichst"..auml.."dtstra"..szlig.."e",
+	name = "Untere Eichstädtstraße",
 	x = 2750.0 
 }
 streetTable.ew[551] = {
-	name = "Dauthestra"..szlig.."e",
+	name = "Dauthestraße",
 	x = 2755.0 
 }
 streetTable.ew[552] = {
@@ -2232,11 +2232,11 @@ streetTable.ew[552] = {
 	x = 2760.0 
 }
 streetTable.ew[553] = {
-	name = "N"..uuml.."rnberger Stra"..szlig.."e",
+	name = "Nürnberger Straße",
 	x = 2765.0 
 }
 streetTable.ew[554] = {
-	name = "Ferdinand-Jost-Stra"..szlig.."e",
+	name = "Ferdinand-Jost-Straße",
 	x = 2770.0 
 }
 streetTable.ew[555] = {
@@ -2244,7 +2244,7 @@ streetTable.ew[555] = {
 	x = 2775.0 
 }
 streetTable.ew[556] = {
-	name = "Coppistra"..szlig.."e",
+	name = "Coppistraße",
 	x = 2780.0 
 }
 streetTable.ew[557] = {
@@ -2252,11 +2252,11 @@ streetTable.ew[557] = {
 	x = 2785.0 
 }
 streetTable.ew[558] = {
-	name = "Benedixstra"..szlig.."e",
+	name = "Benedixstraße",
 	x = 2790.0 
 }
 streetTable.ew[559] = {
-	name = "Wolffstra"..szlig.."e",
+	name = "Wolffstraße",
 	x = 2795.0 
 }
 streetTable.ew[560] = {
@@ -2264,31 +2264,31 @@ streetTable.ew[560] = {
 	x = 2800.0 
 }
 streetTable.ew[561] = {
-	name = "Fontanestra"..szlig.."e",
+	name = "Fontanestraße",
 	x = 2805.0 
 }
 streetTable.ew[562] = {
-	name = "Lucknerstra"..szlig.."e",
+	name = "Lucknerstraße",
 	x = 2810.0 
 }
 streetTable.ew[563] = {
-	name = "Schw"..auml.."grichenstra"..szlig.."e",
+	name = "Schwägrichenstraße",
 	x = 2815.0 
 }
 streetTable.ew[564] = {
-	name = "An der M"..auml.."rchenwiese",
+	name = "An der Märchenwiese",
 	x = 2820.0 
 }
 streetTable.ew[565] = {
-	name = "Reinhardtstra"..szlig.."e",
+	name = "Reinhardtstraße",
 	x = 2825.0 
 }
 streetTable.ew[566] = {
-	name = "Radiusstra"..szlig.."e",
+	name = "Radiusstraße",
 	x = 2830.0 
 }
 streetTable.ew[567] = {
-	name = "J.-C.-Hinrichs-Stra"..szlig.."e",
+	name = "J.-C.-Hinrichs-Straße",
 	x = 2835.0 
 }
 streetTable.ew[568] = {
@@ -2296,11 +2296,11 @@ streetTable.ew[568] = {
 	x = 2840.0 
 }
 streetTable.ew[569] = {
-	name = "G"..auml.."rtnereiweg",
+	name = "Gärtnereiweg",
 	x = 2845.0 
 }
 streetTable.ew[570] = {
-	name = "George-B"..auml.."hr-Stra"..szlig.."e",
+	name = "George-Bähr-Straße",
 	x = 2850.0 
 }
 streetTable.ew[571] = {
@@ -2308,19 +2308,19 @@ streetTable.ew[571] = {
 	x = 2855.0 
 }
 streetTable.ew[572] = {
-	name = "Mei"..szlig.."ner Stra"..szlig.."e",
+	name = "Meißner Straße",
 	x = 2860.0 
 }
 streetTable.ew[573] = {
-	name = "Zur Wei"..szlig.."en Mark",
+	name = "Zur Weißen Mark",
 	x = 2865.0 
 }
 streetTable.ew[574] = {
-	name = "Beipertstra"..szlig.."e",
+	name = "Beipertstraße",
 	x = 2870.0 
 }
 streetTable.ew[575] = {
-	name = "Thomas-M"..uuml.."ntzer-Stra"..szlig.."e",
+	name = "Thomas-Müntzer-Straße",
 	x = 2875.0 
 }
 streetTable.ew[576] = {
@@ -2332,7 +2332,7 @@ streetTable.ew[577] = {
 	x = 2885.0 
 }
 streetTable.ew[578] = {
-	name = "Schauerstra"..szlig.."e",
+	name = "Schauerstraße",
 	x = 2890.0 
 }
 streetTable.ew[579] = {
@@ -2344,23 +2344,23 @@ streetTable.ew[580] = {
 	x = 2900.0 
 }
 streetTable.ew[581] = {
-	name = "Herzberger Stra"..szlig.."e",
+	name = "Herzberger Straße",
 	x = 2905.0 
 }
 streetTable.ew[582] = {
-	name = "Gr"..uuml.."ner Winkel",
+	name = "Grüner Winkel",
 	x = 2910.0 
 }
 streetTable.ew[583] = {
-	name = "Hohenthalstra"..szlig.."e",
+	name = "Hohenthalstraße",
 	x = 2915.0 
 }
 streetTable.ew[584] = {
-	name = "Seehausener Stra"..szlig.."e",
+	name = "Seehausener Straße",
 	x = 2920.0 
 }
 streetTable.ew[585] = {
-	name = "Belterstra"..szlig.."e",
+	name = "Belterstraße",
 	x = 2925.0 
 }
 streetTable.ew[586] = {
@@ -2368,27 +2368,27 @@ streetTable.ew[586] = {
 	x = 2930.0 
 }
 streetTable.ew[587] = {
-	name = "Baaderstra"..szlig.."e",
+	name = "Baaderstraße",
 	x = 2935.0 
 }
 streetTable.ew[588] = {
-	name = "Hempelstra"..szlig.."e",
+	name = "Hempelstraße",
 	x = 2940.0 
 }
 streetTable.ew[589] = {
-	name = "Knauthainer Stra"..szlig.."e",
+	name = "Knauthainer Straße",
 	x = 2945.0 
 }
 streetTable.ew[590] = {
-	name = "Brandensteinstra"..szlig.."e",
+	name = "Brandensteinstraße",
 	x = 2950.0 
 }
 streetTable.ew[591] = {
-	name = "Hamburger Stra"..szlig.."e",
+	name = "Hamburger Straße",
 	x = 2955.0 
 }
 streetTable.ew[592] = {
-	name = "Albrecht-D"..uuml.."rer-Platz",
+	name = "Albrecht-Dürer-Platz",
 	x = 2960.0 
 }
 streetTable.ew[593] = {
@@ -2404,27 +2404,27 @@ streetTable.ew[595] = {
 	x = 2975.0 
 }
 streetTable.ew[596] = {
-	name = "Fucikstra"..szlig.."e",
+	name = "Fucikstraße",
 	x = 2980.0 
 }
 streetTable.ew[597] = {
-	name = "Hessenstra"..szlig.."e",
+	name = "Hessenstraße",
 	x = 2985.0 
 }
 streetTable.ew[598] = {
-	name = "Tresckowstra"..szlig.."e",
+	name = "Tresckowstraße",
 	x = 2990.0 
 }
 streetTable.ew[599] = {
-	name = "G"..ouml.."hrenzer Weg",
+	name = "Göhrenzer Weg",
 	x = 2995.0 
 }
 streetTable.ew[600] = {
-	name = "D"..ouml.."lziger Weg",
+	name = "Dölziger Weg",
 	x = 3000.0 
 }
 streetTable.ew[601] = {
-	name = "Cradefelder Stra"..szlig.."e",
+	name = "Cradefelder Straße",
 	x = 3005.0 
 }
 streetTable.ew[602] = {
@@ -2432,15 +2432,15 @@ streetTable.ew[602] = {
 	x = 3010.0 
 }
 streetTable.ew[603] = {
-	name = "Windorfer Stra"..szlig.."e",
+	name = "Windorfer Straße",
 	x = 3015.0 
 }
 streetTable.ew[604] = {
-	name = "Wunderlichstra"..szlig.."e",
+	name = "Wunderlichstraße",
 	x = 3020.0 
 }
 streetTable.ew[605] = {
-	name = "Auguste-Schmidt-Stra"..szlig.."e",
+	name = "Auguste-Schmidt-Straße",
 	x = 3025.0 
 }
 streetTable.ew[606] = {
@@ -2448,35 +2448,35 @@ streetTable.ew[606] = {
 	x = 3030.0 
 }
 streetTable.ew[607] = {
-	name = "Teichmannstra"..szlig.."e",
+	name = "Teichmannstraße",
 	x = 3035.0 
 }
 streetTable.ew[608] = {
-	name = "M"..uuml.."llerring",
+	name = "Müllerring",
 	x = 3040.0 
 }
 streetTable.ew[609] = {
-	name = "M"..ouml.."ckernscher Weg",
+	name = "Möckernscher Weg",
 	x = 3045.0 
 }
 streetTable.ew[610] = {
-	name = "M"..uuml.."hlweg",
+	name = "Mühlweg",
 	x = 3050.0 
 }
 streetTable.ew[611] = {
-	name = "Witkowskistra"..szlig.."e",
+	name = "Witkowskistraße",
 	x = 3055.0 
 }
 streetTable.ew[612] = {
-	name = "Kohrener Stra"..szlig.."e",
+	name = "Kohrener Straße",
 	x = 3060.0 
 }
 streetTable.ew[613] = {
-	name = "Thierbacher Stra"..szlig.."e",
+	name = "Thierbacher Straße",
 	x = 3065.0 
 }
 streetTable.ew[614] = {
-	name = "Friedrich-Wolf-Stra"..szlig.."e",
+	name = "Friedrich-Wolf-Straße",
 	x = 3070.0 
 }
 streetTable.ew[615] = {
@@ -2488,19 +2488,19 @@ streetTable.ew[616] = {
 	x = 3080.0 
 }
 streetTable.ew[617] = {
-	name = "Blankenburger Stra"..szlig.."e",
+	name = "Blankenburger Straße",
 	x = 3085.0 
 }
 streetTable.ew[618] = {
-	name = "Katzstra"..szlig.."e",
+	name = "Katzstraße",
 	x = 3090.0 
 }
 streetTable.ew[619] = {
-	name = "Arno-Bruchardt-Stra"..szlig.."e",
+	name = "Arno-Bruchardt-Straße",
 	x = 3095.0 
 }
 streetTable.ew[620] = {
-	name = "Zum F"..ouml.."rderturm",
+	name = "Zum Förderturm",
 	x = 3100.0 
 }
 streetTable.ew[621] = {
@@ -2516,19 +2516,19 @@ streetTable.ew[623] = {
 	x = 3115.0 
 }
 streetTable.ew[624] = {
-	name = "Erfurter Stra"..szlig.."e",
+	name = "Erfurter Straße",
 	x = 3120.0 
 }
 streetTable.ew[625] = {
-	name = "B"..ouml.."senbergstra"..szlig.."e",
+	name = "Bösenbergstraße",
 	x = 3125.0 
 }
 streetTable.ew[626] = {
-	name = "Lessingstra"..szlig.."e",
+	name = "Lessingstraße",
 	x = 3130.0 
 }
 streetTable.ew[627] = {
-	name = "Dresdner Stra"..szlig.."e",
+	name = "Dresdner Straße",
 	x = 3135.0 
 }
 streetTable.ew[628] = {
@@ -2536,23 +2536,23 @@ streetTable.ew[628] = {
 	x = 3140.0 
 }
 streetTable.ew[629] = {
-	name = "Geschwister-Scholl-Stra"..szlig.."e",
+	name = "Geschwister-Scholl-Straße",
 	x = 3145.0 
 }
 streetTable.ew[630] = {
-	name = "Gerberstra"..szlig.."e",
+	name = "Gerberstraße",
 	x = 3150.0 
 }
 streetTable.ew[631] = {
-	name = "Zimmerstra"..szlig.."e",
+	name = "Zimmerstraße",
 	x = 3155.0 
 }
 streetTable.ew[632] = {
-	name = "Hohe Stra"..szlig.."e",
+	name = "Hohe Straße",
 	x = 3160.0 
 }
 streetTable.ew[633] = {
-	name = "Dankwartstra"..szlig.."e",
+	name = "Dankwartstraße",
 	x = 3165.0 
 }
 streetTable.ew[634] = {
@@ -2560,55 +2560,55 @@ streetTable.ew[634] = {
 	x = 3170.0 
 }
 streetTable.ew[635] = {
-	name = "Weigelienstra"..szlig.."e",
+	name = "Weigelienstraße",
 	x = 3175.0 
 }
 streetTable.ew[636] = {
-	name = "St"..ouml.."ckelstra"..szlig.."e",
+	name = "Stöckelstraße",
 	x = 3180.0 
 }
 streetTable.ew[637] = {
-	name = "Hans-Marchwitza-Stra"..szlig.."e",
+	name = "Hans-Marchwitza-Straße",
 	x = 3185.0 
 }
 streetTable.ew[638] = {
-	name = "An der Hauptstra"..szlig.."e",
+	name = "An der Hauptstraße",
 	x = 3190.0 
 }
 streetTable.ew[639] = {
-	name = "Lazarusstra"..szlig.."e",
+	name = "Lazarusstraße",
 	x = 3195.0 
 }
 streetTable.ew[640] = {
-	name = "Georg-Schumann-Stra"..szlig.."e",
+	name = "Georg-Schumann-Straße",
 	x = 3200.0 
 }
 streetTable.ew[641] = {
-	name = "An der Tabaksm"..uuml.."hle",
+	name = "An der Tabaksmühle",
 	x = 3205.0 
 }
 streetTable.ew[642] = {
-	name = "Stahmelner H"..ouml.."he",
+	name = "Stahmelner Höhe",
 	x = 3210.0 
 }
 streetTable.ew[643] = {
-	name = "Sch"..ouml.."nauer Stra"..szlig.."e",
+	name = "Schönauer Straße",
 	x = 3215.0 
 }
 streetTable.ew[644] = {
-	name = "Kleine Gartenstra"..szlig.."e",
+	name = "Kleine Gartenstraße",
 	x = 3220.0 
 }
 streetTable.ew[645] = {
-	name = "Hedwig-Burgheim-Stra"..szlig.."e",
+	name = "Hedwig-Burgheim-Straße",
 	x = 3225.0 
 }
 streetTable.ew[646] = {
-	name = "Franz-Schlobach-Stra"..szlig.."e",
+	name = "Franz-Schlobach-Straße",
 	x = 3230.0 
 }
 streetTable.ew[647] = {
-	name = "Paul-Schneider-Stra"..szlig.."e",
+	name = "Paul-Schneider-Straße",
 	x = 3235.0 
 }
 streetTable.ew[648] = {
@@ -2616,19 +2616,19 @@ streetTable.ew[648] = {
 	x = 3240.0 
 }
 streetTable.ew[649] = {
-	name = "Heinrich-Budde-Stra"..szlig.."e",
+	name = "Heinrich-Budde-Straße",
 	x = 3245.0 
 }
 streetTable.ew[650] = {
-	name = "M"..uuml.."hligstra"..szlig.."e",
+	name = "Mühligstraße",
 	x = 3250.0 
 }
 streetTable.ew[651] = {
-	name = "Mitschurinstra"..szlig.."e",
+	name = "Mitschurinstraße",
 	x = 3255.0 
 }
 streetTable.ew[652] = {
-	name = "Lagerhofstra"..szlig.."e",
+	name = "Lagerhofstraße",
 	x = 3260.0 
 }
 streetTable.ew[653] = {
@@ -2636,15 +2636,15 @@ streetTable.ew[653] = {
 	x = 3265.0 
 }
 streetTable.ew[654] = {
-	name = "Rochlitzstra"..szlig.."e",
+	name = "Rochlitzstraße",
 	x = 3270.0 
 }
 streetTable.ew[655] = {
-	name = "Walter-K"..ouml.."hn-Stra"..szlig.."e",
+	name = "Walter-Köhn-Straße",
 	x = 3275.0 
 }
 streetTable.ew[656] = {
-	name = "Sigismundstra"..szlig.."e",
+	name = "Sigismundstraße",
 	x = 3280.0 
 }
 streetTable.ew[657] = {
@@ -2652,11 +2652,11 @@ streetTable.ew[657] = {
 	x = 3285.0 
 }
 streetTable.ew[658] = {
-	name = "Kiebitzstra"..szlig.."e",
+	name = "Kiebitzstraße",
 	x = 3290.0 
 }
 streetTable.ew[659] = {
-	name = "Lermontowstra"..szlig.."e",
+	name = "Lermontowstraße",
 	x = 3295.0 
 }
 streetTable.ew[660] = {
@@ -2668,7 +2668,7 @@ streetTable.ew[661] = {
 	x = 3305.0 
 }
 streetTable.ew[662] = {
-	name = "Heisenbergstra"..szlig.."e",
+	name = "Heisenbergstraße",
 	x = 3310.0 
 }
 streetTable.ew[663] = {
@@ -2680,7 +2680,7 @@ streetTable.ew[664] = {
 	x = 3320.0 
 }
 streetTable.ew[665] = {
-	name = "Bl"..uuml.."cherstra"..szlig.."e",
+	name = "Blücherstraße",
 	x = 3325.0 
 }
 streetTable.ew[666] = {
@@ -2688,31 +2688,31 @@ streetTable.ew[666] = {
 	x = 3330.0 
 }
 streetTable.ew[667] = {
-	name = "Lobst"..auml.."dter Stra"..szlig.."e",
+	name = "Lobstädter Straße",
 	x = 3335.0 
 }
 streetTable.ew[668] = {
-	name = "Althener Stra"..szlig.."e",
+	name = "Althener Straße",
 	x = 3340.0 
 }
 streetTable.ew[669] = {
-	name = "Baumeyerstra"..szlig.."e",
+	name = "Baumeyerstraße",
 	x = 3345.0 
 }
 streetTable.ew[670] = {
-	name = "Untere M"..uuml.."hlenstra"..szlig.."e",
+	name = "Untere Mühlenstraße",
 	x = 3350.0 
 }
 streetTable.ew[671] = {
-	name = "Gottleubaer Stra"..szlig.."e",
+	name = "Gottleubaer Straße",
 	x = 3355.0 
 }
 streetTable.ew[672] = {
-	name = "Zehmenstra"..szlig.."e",
+	name = "Zehmenstraße",
 	x = 3360.0 
 }
 streetTable.ew[673] = {
-	name = "Sorbenstra"..szlig.."e",
+	name = "Sorbenstraße",
 	x = 3365.0 
 }
 streetTable.ew[674] = {
@@ -2720,23 +2720,23 @@ streetTable.ew[674] = {
 	x = 3370.0 
 }
 streetTable.ew[675] = {
-	name = "Miltenberger Stra"..szlig.."e",
+	name = "Miltenberger Straße",
 	x = 3375.0 
 }
 streetTable.ew[676] = {
-	name = "Wiedebachstra"..szlig.."e",
+	name = "Wiedebachstraße",
 	x = 3380.0 
 }
 streetTable.ew[677] = {
-	name = "Hammerstra"..szlig.."e",
+	name = "Hammerstraße",
 	x = 3385.0 
 }
 streetTable.ew[678] = {
-	name = "Lampestra"..szlig.."e",
+	name = "Lampestraße",
 	x = 3390.0 
 }
 streetTable.ew[679] = {
-	name = "Stra"..szlig.."e der Einheit",
+	name = "Straße der Einheit",
 	x = 3395.0 
 }
 streetTable.ew[680] = {
@@ -2748,7 +2748,7 @@ streetTable.ew[681] = {
 	x = 3405.0 
 }
 streetTable.ew[682] = {
-	name = "T"..auml.."schners Garten",
+	name = "Täschners Garten",
 	x = 3410.0 
 }
 streetTable.ew[683] = {
@@ -2756,19 +2756,19 @@ streetTable.ew[683] = {
 	x = 3415.0 
 }
 streetTable.ew[684] = {
-	name = "Sternbachstra"..szlig.."e",
+	name = "Sternbachstraße",
 	x = 3420.0 
 }
 streetTable.ew[685] = {
-	name = "Apostelstra"..szlig.."e",
+	name = "Apostelstraße",
 	x = 3425.0 
 }
 streetTable.ew[686] = {
-	name = "Charlottenstra"..szlig.."e",
+	name = "Charlottenstraße",
 	x = 3430.0 
 }
 streetTable.ew[687] = {
-	name = "Gudrunstra"..szlig.."e",
+	name = "Gudrunstraße",
 	x = 3435.0 
 }
 streetTable.ew[688] = {
@@ -2776,7 +2776,7 @@ streetTable.ew[688] = {
 	x = 3440.0 
 }
 streetTable.ew[689] = {
-	name = "Flemmingstra"..szlig.."e",
+	name = "Flemmingstraße",
 	x = 3445.0 
 }
 streetTable.ew[690] = {
@@ -2784,7 +2784,7 @@ streetTable.ew[690] = {
 	x = 3450.0 
 }
 streetTable.ew[691] = {
-	name = "Lipinskistra"..szlig.."e",
+	name = "Lipinskistraße",
 	x = 3455.0 
 }
 streetTable.ew[692] = {
@@ -2800,7 +2800,7 @@ streetTable.ew[694] = {
 	x = 3470.0 
 }
 streetTable.ew[695] = {
-	name = "Eichbergstra"..szlig.."e",
+	name = "Eichbergstraße",
 	x = 3475.0 
 }
 streetTable.ew[696] = {
@@ -2808,7 +2808,7 @@ streetTable.ew[696] = {
 	x = 3480.0 
 }
 streetTable.ew[697] = {
-	name = "R"..ouml.."ntgenstra"..szlig.."e",
+	name = "Röntgenstraße",
 	x = 3485.0 
 }
 streetTable.ew[698] = {
@@ -2816,7 +2816,7 @@ streetTable.ew[698] = {
 	x = 3490.0 
 }
 streetTable.ew[699] = {
-	name = "Karl-H"..auml.."rting-Stra"..szlig.."e",
+	name = "Karl-Härting-Straße",
 	x = 3495.0 
 }
 streetTable.ew[700] = {
@@ -2824,7 +2824,7 @@ streetTable.ew[700] = {
 	x = 3500.0 
 }
 streetTable.ew[701] = {
-	name = "Alte Holzhausener Stra"..szlig.."e",
+	name = "Alte Holzhausener Straße",
 	x = 3505.0 
 }
 streetTable.ew[702] = {
@@ -2836,11 +2836,11 @@ streetTable.ew[703] = {
 	x = 3515.0 
 }
 streetTable.ew[704] = {
-	name = "Rolf-Axen-Stra"..szlig.."e",
+	name = "Rolf-Axen-Straße",
 	x = 3520.0 
 }
 streetTable.ew[705] = {
-	name = "Lewienstra"..szlig.."e",
+	name = "Lewienstraße",
 	x = 3525.0 
 }
 streetTable.ew[706] = {
@@ -2848,11 +2848,11 @@ streetTable.ew[706] = {
 	x = 3530.0 
 }
 streetTable.ew[707] = {
-	name = "P"..ouml.."ppelmannstra"..szlig.."e",
+	name = "Pöppelmannstraße",
 	x = 3535.0 
 }
 streetTable.ew[708] = {
-	name = "Karl-Heine-Stra"..szlig.."e",
+	name = "Karl-Heine-Straße",
 	x = 3540.0 
 }
 streetTable.ew[709] = {
@@ -2860,11 +2860,11 @@ streetTable.ew[709] = {
 	x = 3545.0 
 }
 streetTable.ew[710] = {
-	name = "H"..uuml.."fnerstra"..szlig.."e",
+	name = "Hüfnerstraße",
 	x = 3550.0 
 }
 streetTable.ew[711] = {
-	name = "Christian-Ferkel-Stra"..szlig.."e",
+	name = "Christian-Ferkel-Straße",
 	x = 3555.0 
 }
 streetTable.ew[712] = {
@@ -2872,7 +2872,7 @@ streetTable.ew[712] = {
 	x = 3560.0 
 }
 streetTable.ew[713] = {
-	name = "Pohlestra"..szlig.."e",
+	name = "Pohlestraße",
 	x = 3565.0 
 }
 streetTable.ew[714] = {
@@ -2880,11 +2880,11 @@ streetTable.ew[714] = {
 	x = 3570.0 
 }
 streetTable.ew[715] = {
-	name = "Rosenowstra"..szlig.."e",
+	name = "Rosenowstraße",
 	x = 3575.0 
 }
 streetTable.ew[716] = {
-	name = "Andreasstra"..szlig.."e",
+	name = "Andreasstraße",
 	x = 3580.0 
 }
 streetTable.ew[717] = {
@@ -2892,11 +2892,11 @@ streetTable.ew[717] = {
 	x = 3585.0 
 }
 streetTable.ew[718] = {
-	name = "Kunadstra"..szlig.."e",
+	name = "Kunadstraße",
 	x = 3590.0 
 }
 streetTable.ew[719] = {
-	name = "Erika-von-Brockdorff-Stra"..szlig.."",
+	name = "Erika-von-Brockdorff-Straß",
 	x = 3595.0 
 }
 streetTable.ew[720] = {
@@ -2904,7 +2904,7 @@ streetTable.ew[720] = {
 	x = 3600.0 
 }
 streetTable.ew[721] = {
-	name = "Konradstra"..szlig.."e",
+	name = "Konradstraße",
 	x = 3605.0 
 }
 streetTable.ew[722] = {
@@ -2912,11 +2912,11 @@ streetTable.ew[722] = {
 	x = 3610.0 
 }
 streetTable.ew[723] = {
-	name = "Wiskenstra"..szlig.."e",
+	name = "Wiskenstraße",
 	x = 3615.0 
 }
 streetTable.ew[724] = {
-	name = "Br"..uuml.."derstra"..szlig.."e",
+	name = "Brüderstraße",
 	x = 3620.0 
 }
 streetTable.ew[725] = {
@@ -2924,15 +2924,15 @@ streetTable.ew[725] = {
 	x = 3625.0 
 }
 streetTable.ew[726] = {
-	name = "Stefan-Zweig-Stra"..szlig.."e",
+	name = "Stefan-Zweig-Straße",
 	x = 3630.0 
 }
 streetTable.ew[727] = {
-	name = "Langhansstra"..szlig.."e",
+	name = "Langhansstraße",
 	x = 3635.0 
 }
 streetTable.ew[728] = {
-	name = "Gontscharowstra"..szlig.."e",
+	name = "Gontscharowstraße",
 	x = 3640.0 
 }
 streetTable.ew[729] = {
@@ -2940,7 +2940,7 @@ streetTable.ew[729] = {
 	x = 3645.0 
 }
 streetTable.ew[730] = {
-	name = "Taubestra"..szlig.."e",
+	name = "Taubestraße",
 	x = 3650.0 
 }
 streetTable.ew[731] = {
@@ -2956,15 +2956,15 @@ streetTable.ew[733] = {
 	x = 3665.0 
 }
 streetTable.ew[734] = {
-	name = "Friedrichstra"..szlig.."e",
+	name = "Friedrichstraße",
 	x = 3670.0 
 }
 streetTable.ew[735] = {
-	name = "Franckestra"..szlig.."e",
+	name = "Franckestraße",
 	x = 3675.0 
 }
 streetTable.ew[736] = {
-	name = "Elsterstra"..szlig.."e",
+	name = "Elsterstraße",
 	x = 3680.0 
 }
 streetTable.ew[737] = {
@@ -2972,7 +2972,7 @@ streetTable.ew[737] = {
 	x = 3685.0 
 }
 streetTable.ew[738] = {
-	name = "Dufourstra"..szlig.."e",
+	name = "Dufourstraße",
 	x = 3690.0 
 }
 streetTable.ew[739] = {
@@ -2980,11 +2980,11 @@ streetTable.ew[739] = {
 	x = 3695.0 
 }
 streetTable.ew[740] = {
-	name = "Gau"..szlig.."stra"..szlig.."e",
+	name = "Gaußstraße",
 	x = 3700.0 
 }
 streetTable.ew[741] = {
-	name = "Verl"..auml.."ngerte Schwedenstra"..szlig.."e",
+	name = "Verlängerte Schwedenstraße",
 	x = 3705.0 
 }
 streetTable.ew[742] = {
@@ -2996,15 +2996,15 @@ streetTable.ew[743] = {
 	x = 3715.0 
 }
 streetTable.ew[744] = {
-	name = "Sch"..ouml.."nauer Ring",
+	name = "Schönauer Ring",
 	x = 3720.0 
 }
 streetTable.ew[745] = {
-	name = "Heinrich-Mann-Stra"..szlig.."e",
+	name = "Heinrich-Mann-Straße",
 	x = 3725.0 
 }
 streetTable.ew[746] = {
-	name = "Gedikestra"..szlig.."e",
+	name = "Gedikestraße",
 	x = 3730.0 
 }
 streetTable.ew[747] = {
@@ -3020,11 +3020,11 @@ streetTable.ew[749] = {
 	x = 3745.0 
 }
 streetTable.ew[750] = {
-	name = "Seifertshainer Stra"..szlig.."e",
+	name = "Seifertshainer Straße",
 	x = 3750.0 
 }
 streetTable.ew[751] = {
-	name = "Sporerg"..auml..""..szlig.."chen",
+	name = "Sporergäßchen",
 	x = 3755.0 
 }
 streetTable.ew[752] = {
@@ -3044,7 +3044,7 @@ streetTable.ew[755] = {
 	x = 3775.0 
 }
 streetTable.ew[756] = {
-	name = "Jacobstra"..szlig.."e",
+	name = "Jacobstraße",
 	x = 3780.0 
 }
 streetTable.ew[757] = {
@@ -3056,11 +3056,11 @@ streetTable.ew[758] = {
 	x = 3790.0 
 }
 streetTable.ew[759] = {
-	name = "Paul-Gruner-Stra"..szlig.."e",
+	name = "Paul-Gruner-Straße",
 	x = 3795.0 
 }
 streetTable.ew[760] = {
-	name = "Auerbachstra"..szlig.."e",
+	name = "Auerbachstraße",
 	x = 3800.0 
 }
 streetTable.ew[761] = {
@@ -3072,7 +3072,7 @@ streetTable.ew[762] = {
 	x = 3810.0 
 }
 streetTable.ew[763] = {
-	name = "Obere M"..uuml.."hlenstra"..szlig.."e",
+	name = "Obere Mühlenstraße",
 	x = 3815.0 
 }
 streetTable.ew[764] = {
@@ -3084,7 +3084,7 @@ streetTable.ew[765] = {
 	x = 3825.0 
 }
 streetTable.ew[766] = {
-	name = "Dornbergerstra"..szlig.."e",
+	name = "Dornbergerstraße",
 	x = 3830.0 
 }
 streetTable.ew[767] = {
@@ -3092,11 +3092,11 @@ streetTable.ew[767] = {
 	x = 3835.0 
 }
 streetTable.ew[768] = {
-	name = "Eisenacher Stra"..szlig.."e",
+	name = "Eisenacher Straße",
 	x = 3840.0 
 }
 streetTable.ew[769] = {
-	name = "Erdmannstra"..szlig.."e",
+	name = "Erdmannstraße",
 	x = 3845.0 
 }
 streetTable.ew[770] = {
@@ -3108,15 +3108,15 @@ streetTable.ew[771] = {
 	x = 3855.0 
 }
 streetTable.ew[772] = {
-	name = "S"..uuml.."dblick",
+	name = "Südblick",
 	x = 3860.0 
 }
 streetTable.ew[773] = {
-	name = "Raiffeisenstra"..szlig.."e",
+	name = "Raiffeisenstraße",
 	x = 3865.0 
 }
 streetTable.ew[774] = {
-	name = "Rudolph-Sack-Stra"..szlig.."e",
+	name = "Rudolph-Sack-Straße",
 	x = 3870.0 
 }
 streetTable.ew[775] = {
@@ -3128,43 +3128,43 @@ streetTable.ew[776] = {
 	x = 3880.0 
 }
 streetTable.ew[777] = {
-	name = "Bergerstra"..szlig.."e",
+	name = "Bergerstraße",
 	x = 3885.0 
 }
 streetTable.ew[778] = {
-	name = "Gebr"..uuml.."der-Weber-Weg",
+	name = "Gebrüder-Weber-Weg",
 	x = 3890.0 
 }
 streetTable.ew[779] = {
-	name = "Crusiusstra"..szlig.."e",
+	name = "Crusiusstraße",
 	x = 3895.0 
 }
 streetTable.ew[780] = {
-	name = "Kochstra"..szlig.."e",
+	name = "Kochstraße",
 	x = 3900.0 
 }
 streetTable.ew[781] = {
-	name = "Bonhoefferstra"..szlig.."e",
+	name = "Bonhoefferstraße",
 	x = 3905.0 
 }
 streetTable.ew[782] = {
-	name = "L"..uuml.."tzner Plan",
+	name = "Lützner Plan",
 	x = 3910.0 
 }
 streetTable.ew[783] = {
-	name = "St"..uuml.."nzer Weg",
+	name = "Stünzer Weg",
 	x = 3915.0 
 }
 streetTable.ew[784] = {
-	name = "Einsteinstra"..szlig.."e",
+	name = "Einsteinstraße",
 	x = 3920.0 
 }
 streetTable.ew[785] = {
-	name = "Martin-Herrmann-Stra"..szlig.."e",
+	name = "Martin-Herrmann-Straße",
 	x = 3925.0 
 }
 streetTable.ew[786] = {
-	name = "Zur S"..auml.."gem"..uuml.."hle",
+	name = "Zur Sägemühle",
 	x = 3930.0 
 }
 streetTable.ew[787] = {
@@ -3172,7 +3172,7 @@ streetTable.ew[787] = {
 	x = 3935.0 
 }
 streetTable.ew[788] = {
-	name = "Gleitsmannstra"..szlig.."e",
+	name = "Gleitsmannstraße",
 	x = 3940.0 
 }
 streetTable.ew[789] = {
@@ -3180,7 +3180,7 @@ streetTable.ew[789] = {
 	x = 3945.0 
 }
 streetTable.ew[790] = {
-	name = "Dennewitzer Stra"..szlig.."e",
+	name = "Dennewitzer Straße",
 	x = 3950.0 
 }
 streetTable.ew[791] = {
@@ -3188,7 +3188,7 @@ streetTable.ew[791] = {
 	x = 3955.0 
 }
 streetTable.ew[792] = {
-	name = "Rohrteichstra"..szlig.."e",
+	name = "Rohrteichstraße",
 	x = 3960.0 
 }
 streetTable.ew[793] = {
@@ -3196,11 +3196,11 @@ streetTable.ew[793] = {
 	x = 3965.0 
 }
 streetTable.ew[794] = {
-	name = "B"..ouml.."ttcherweg",
+	name = "Böttcherweg",
 	x = 3970.0 
 }
 streetTable.ew[795] = {
-	name = "Jadassohnstra"..szlig.."e",
+	name = "Jadassohnstraße",
 	x = 3975.0 
 }
 streetTable.ew[796] = {
@@ -3208,11 +3208,11 @@ streetTable.ew[796] = {
 	x = 3980.0 
 }
 streetTable.ew[797] = {
-	name = "Diakonissenstra"..szlig.."e",
+	name = "Diakonissenstraße",
 	x = 3985.0 
 }
 streetTable.ew[798] = {
-	name = "Alte Theklaer Stra"..szlig.."e",
+	name = "Alte Theklaer Straße",
 	x = 3990.0 
 }
 streetTable.ew[799] = {
@@ -3220,7 +3220,7 @@ streetTable.ew[799] = {
 	x = 3995.0 
 }
 streetTable.ew[800] = {
-	name = "Alte D"..uuml.."bener Landstra"..szlig.."e",
+	name = "Alte Dübener Landstraße",
 	x = 4000.0 
 }
 streetTable.ew[801] = {
@@ -3228,7 +3228,7 @@ streetTable.ew[801] = {
 	x = 4005.0 
 }
 streetTable.ew[802] = {
-	name = "Heilbronner Stra"..szlig.."e",
+	name = "Heilbronner Straße",
 	x = 4010.0 
 }
 streetTable.ew[803] = {
@@ -3244,15 +3244,15 @@ streetTable.ew[805] = {
 	x = 4025.0 
 }
 streetTable.ew[806] = {
-	name = "Radefelder Stra"..szlig.."e",
+	name = "Radefelder Straße",
 	x = 4030.0 
 }
 streetTable.ew[807] = {
-	name = "Albert-Schweitzer-Stra"..szlig.."e",
+	name = "Albert-Schweitzer-Straße",
 	x = 4035.0 
 }
 streetTable.ew[808] = {
-	name = "Gretschelstra"..szlig.."e",
+	name = "Gretschelstraße",
 	x = 4040.0 
 }
 streetTable.ew[809] = {
@@ -3264,11 +3264,11 @@ streetTable.ew[810] = {
 	x = 4050.0 
 }
 streetTable.ew[811] = {
-	name = "Erlanger Stra"..szlig.."e",
+	name = "Erlanger Straße",
 	x = 4055.0 
 }
 streetTable.ew[812] = {
-	name = "Adolf-Damaschke-Stra"..szlig.."e",
+	name = "Adolf-Damaschke-Straße",
 	x = 4060.0 
 }
 streetTable.ew[813] = {
@@ -3280,7 +3280,7 @@ streetTable.ew[814] = {
 	x = 4070.0 
 }
 streetTable.ew[815] = {
-	name = "Engertstra"..szlig.."e",
+	name = "Engertstraße",
 	x = 4075.0 
 }
 streetTable.ew[816] = {
@@ -3296,11 +3296,11 @@ streetTable.ew[818] = {
 	x = 4090.0 
 }
 streetTable.ew[819] = {
-	name = "Reiskestra"..szlig.."e",
+	name = "Reiskestraße",
 	x = 4095.0 
 }
 streetTable.ew[820] = {
-	name = "Salzhandelsstra"..szlig.."e",
+	name = "Salzhandelsstraße",
 	x = 4100.0 
 }
 streetTable.ew[821] = {
@@ -3308,35 +3308,35 @@ streetTable.ew[821] = {
 	x = 4105.0 
 }
 streetTable.ew[822] = {
-	name = "Rembrandtstra"..szlig.."e",
+	name = "Rembrandtstraße",
 	x = 4110.0 
 }
 streetTable.ew[823] = {
-	name = "Hirzelstra"..szlig.."e",
+	name = "Hirzelstraße",
 	x = 4115.0 
 }
 streetTable.ew[824] = {
-	name = "Sch"..ouml.."nauer Lachen",
+	name = "Schönauer Lachen",
 	x = 4120.0 
 }
 streetTable.ew[825] = {
-	name = "Kurt-Weill-Stra"..szlig.."e",
+	name = "Kurt-Weill-Straße",
 	x = 4125.0 
 }
 streetTable.ew[826] = {
-	name = "Glockenstra"..szlig.."e",
+	name = "Glockenstraße",
 	x = 4130.0 
 }
 streetTable.ew[827] = {
-	name = "Verl"..auml.."ngerte Max-Liebermann-Stra"..szlig.."e",
+	name = "Verlängerte Max-Liebermann-Straße",
 	x = 4135.0 
 }
 streetTable.ew[828] = {
-	name = "Nikolai-Rumjanzew-Stra"..szlig.."e",
+	name = "Nikolai-Rumjanzew-Straße",
 	x = 4140.0 
 }
 streetTable.ew[829] = {
-	name = "Th"..auml.."rigenstra"..szlig.."e",
+	name = "Thärigenstraße",
 	x = 4145.0 
 }
 streetTable.ew[830] = {
@@ -3344,15 +3344,15 @@ streetTable.ew[830] = {
 	x = 4150.0 
 }
 streetTable.ew[831] = {
-	name = Auml.."u"..szlig.."erer Zeisigweg",
+	name = "Äußerer Zeisigweg",
 	x = 4155.0 
 }
 streetTable.ew[832] = {
-	name = "Thiemstra"..szlig.."e",
+	name = "Thiemstraße",
 	x = 4160.0 
 }
 streetTable.ew[833] = {
-	name = "Buschenaustra"..szlig.."e",
+	name = "Buschenaustraße",
 	x = 4165.0 
 }
 streetTable.ew[834] = {
@@ -3360,15 +3360,15 @@ streetTable.ew[834] = {
 	x = 4170.0 
 }
 streetTable.ew[835] = {
-	name = "Tucholskystra"..szlig.."e",
+	name = "Tucholskystraße",
 	x = 4175.0 
 }
 streetTable.ew[836] = {
-	name = "Fl"..ouml..""..szlig.."enstra"..szlig.."e",
+	name = "Flößenstraße",
 	x = 4180.0 
 }
 streetTable.ew[837] = {
-	name = "Forchheimer Stra"..szlig.."e",
+	name = "Forchheimer Straße",
 	x = 4185.0 
 }
 streetTable.ew[838] = {
@@ -3392,19 +3392,19 @@ streetTable.ew[842] = {
 	x = 4210.0 
 }
 streetTable.ew[843] = {
-	name = "Lumumbastra"..szlig.."e",
+	name = "Lumumbastraße",
 	x = 4215.0 
 }
 streetTable.ew[844] = {
-	name = "M"..ouml.."biusplatz",
+	name = "Möbiusplatz",
 	x = 4220.0 
 }
 streetTable.ew[845] = {
-	name = "Dorfstra"..szlig.."e",
+	name = "Dorfstraße",
 	x = 4225.0 
 }
 streetTable.ew[846] = {
-	name = "Au"..szlig.."enring",
+	name = "Außenring",
 	x = 4230.0 
 }
 streetTable.ew[847] = {
@@ -3428,23 +3428,23 @@ streetTable.ew[851] = {
 	x = 4255.0 
 }
 streetTable.ew[852] = {
-	name = "Gustav-Mahler-Stra"..szlig.."e",
+	name = "Gustav-Mahler-Straße",
 	x = 4260.0 
 }
 streetTable.ew[853] = {
-	name = "Kleinp"..ouml.."snaer Anger",
+	name = "Kleinpösnaer Anger",
 	x = 4265.0 
 }
 streetTable.ew[854] = {
-	name = "Kopernikusstra"..szlig.."e",
+	name = "Kopernikusstraße",
 	x = 4270.0 
 }
 streetTable.ew[855] = {
-	name = "Stra"..szlig.."e am See",
+	name = "Straße am See",
 	x = 4275.0 
 }
 streetTable.ew[856] = {
-	name = "Gemeindeamtsstra"..szlig.."e",
+	name = "Gemeindeamtsstraße",
 	x = 4280.0 
 }
 streetTable.ew[857] = {
@@ -3452,7 +3452,7 @@ streetTable.ew[857] = {
 	x = 4285.0 
 }
 streetTable.ew[858] = {
-	name = "Wodanstra"..szlig.."e",
+	name = "Wodanstraße",
 	x = 4290.0 
 }
 streetTable.ew[859] = {
@@ -3464,7 +3464,7 @@ streetTable.ew[860] = {
 	x = 4300.0 
 }
 streetTable.ew[861] = {
-	name = "K"..ouml.."mmlitzer Weg",
+	name = "Kömmlitzer Weg",
 	x = 4305.0 
 }
 streetTable.ew[862] = {
@@ -3472,7 +3472,7 @@ streetTable.ew[862] = {
 	x = 4310.0 
 }
 streetTable.ew[863] = {
-	name = "Kregelstra"..szlig.."e",
+	name = "Kregelstraße",
 	x = 4315.0 
 }
 streetTable.ew[864] = {
@@ -3484,15 +3484,15 @@ streetTable.ew[865] = {
 	x = 4325.0 
 }
 streetTable.ew[866] = {
-	name = "Prinz-Eugen-Stra"..szlig.."e",
+	name = "Prinz-Eugen-Straße",
 	x = 4330.0 
 }
 streetTable.ew[867] = {
-	name = "Sellerh"..auml.."user Stra"..szlig.."e",
+	name = "Sellerhäuser Straße",
 	x = 4335.0 
 }
 streetTable.ew[868] = {
-	name = "P"..ouml.."litzstra"..szlig.."e",
+	name = "Pölitzstraße",
 	x = 4340.0 
 }
 streetTable.ew[869] = {
@@ -3508,15 +3508,15 @@ streetTable.ew[871] = {
 	x = 4355.0 
 }
 streetTable.ew[872] = {
-	name = "Gustav-Scheibe-Stra"..szlig.."e",
+	name = "Gustav-Scheibe-Straße",
 	x = 4360.0 
 }
 streetTable.ew[873] = {
-	name = "Gotenstra"..szlig.."e",
+	name = "Gotenstraße",
 	x = 4365.0 
 }
 streetTable.ew[874] = {
-	name = "Suhler Stra"..szlig.."e",
+	name = "Suhler Straße",
 	x = 4370.0 
 }
 streetTable.ew[875] = {
@@ -3524,11 +3524,11 @@ streetTable.ew[875] = {
 	x = 4375.0 
 }
 streetTable.ew[876] = {
-	name = "Lauchst"..auml.."dter Stra"..szlig.."e",
+	name = "Lauchstädter Straße",
 	x = 4380.0 
 }
 streetTable.ew[877] = {
-	name = "Zur Lindenh"..ouml.."he",
+	name = "Zur Lindenhöhe",
 	x = 4385.0 
 }
 streetTable.ew[878] = {
@@ -3540,7 +3540,7 @@ streetTable.ew[879] = {
 	x = 4395.0 
 }
 streetTable.ew[880] = {
-	name = "Karl-Vogel-Stra"..szlig.."e",
+	name = "Karl-Vogel-Straße",
 	x = 4400.0 
 }
 streetTable.ew[881] = {
@@ -3548,11 +3548,11 @@ streetTable.ew[881] = {
 	x = 4405.0 
 }
 streetTable.ew[882] = {
-	name = "Schwindstra"..szlig.."e",
+	name = "Schwindstraße",
 	x = 4410.0 
 }
 streetTable.ew[883] = {
-	name = "Edisonstra"..szlig.."e",
+	name = "Edisonstraße",
 	x = 4415.0 
 }
 streetTable.ew[884] = {
@@ -3564,19 +3564,19 @@ streetTable.ew[885] = {
 	x = 4425.0 
 }
 streetTable.ew[886] = {
-	name = "Klenaustra"..szlig.."e",
+	name = "Klenaustraße",
 	x = 4430.0 
 }
 streetTable.ew[887] = {
-	name = "Goethestra"..szlig.."e",
+	name = "Goethestraße",
 	x = 4435.0 
 }
 streetTable.ew[888] = {
-	name = "Dachauer Stra"..szlig.."e",
+	name = "Dachauer Straße",
 	x = 4440.0 
 }
 streetTable.ew[889] = {
-	name = "D"..uuml.."bener Landstra"..szlig.."e",
+	name = "Dübener Landstraße",
 	x = 4445.0 
 }
 streetTable.ew[890] = {
@@ -3584,7 +3584,7 @@ streetTable.ew[890] = {
 	x = 4450.0 
 }
 streetTable.ew[891] = {
-	name = "Crottendorfer Stra"..szlig.."e",
+	name = "Crottendorfer Straße",
 	x = 4455.0 
 }
 streetTable.ew[892] = {
@@ -3592,35 +3592,35 @@ streetTable.ew[892] = {
 	x = 4460.0 
 }
 streetTable.ew[893] = {
-	name = "Kapellenstra"..szlig.."e",
+	name = "Kapellenstraße",
 	x = 4465.0 
 }
 streetTable.ew[894] = {
-	name = "Weinbergstra"..szlig.."e",
+	name = "Weinbergstraße",
 	x = 4470.0 
 }
 streetTable.ew[895] = {
-	name = "Eberlestra"..szlig.."e",
+	name = "Eberlestraße",
 	x = 4475.0 
 }
 streetTable.ew[896] = {
-	name = "Jaspisstra"..szlig.."e",
+	name = "Jaspisstraße",
 	x = 4480.0 
 }
 streetTable.ew[897] = {
-	name = "W"..uuml.."rzburger Stra"..szlig.."e",
+	name = "Würzburger Straße",
 	x = 4485.0 
 }
 streetTable.ew[898] = {
-	name = "Martin-Drucker-Stra"..szlig.."e",
+	name = "Martin-Drucker-Straße",
 	x = 4490.0 
 }
 streetTable.ew[899] = {
-	name = "M"..ouml.."rikestra"..szlig.."e",
+	name = "Mörikestraße",
 	x = 4495.0 
 }
 streetTable.ew[900] = {
-	name = "An der Meusdorfer H"..ouml.."he",
+	name = "An der Meusdorfer Höhe",
 	x = 4500.0 
 }
 streetTable.ew[901] = {
@@ -3628,15 +3628,15 @@ streetTable.ew[901] = {
 	x = 4505.0 
 }
 streetTable.ew[902] = {
-	name = "Rotfuchsstra"..szlig.."e",
+	name = "Rotfuchsstraße",
 	x = 4510.0 
 }
 streetTable.ew[903] = {
-	name = "Plau"..szlig.."iger Dorfstra"..szlig.."e",
+	name = "Plaußiger Dorfstraße",
 	x = 4515.0 
 }
 streetTable.ew[904] = {
-	name = "Lochmannstra"..szlig.."e",
+	name = "Lochmannstraße",
 	x = 4520.0 
 }
 streetTable.ew[905] = {
@@ -3644,7 +3644,7 @@ streetTable.ew[905] = {
 	x = 4525.0 
 }
 streetTable.ew[906] = {
-	name = "An der Alten M"..uuml.."hle",
+	name = "An der Alten Mühle",
 	x = 4530.0 
 }
 streetTable.ew[907] = {
@@ -3656,7 +3656,7 @@ streetTable.ew[908] = {
 	x = 4540.0 
 }
 streetTable.ew[909] = {
-	name = "Gra"..szlig.."dorfer Stra"..szlig.."e",
+	name = "Graßdorfer Straße",
 	x = 4545.0 
 }
 streetTable.ew[910] = {
@@ -3664,23 +3664,23 @@ streetTable.ew[910] = {
 	x = 4550.0 
 }
 streetTable.ew[911] = {
-	name = "Aurelienstra"..szlig.."e",
+	name = "Aurelienstraße",
 	x = 4555.0 
 }
 streetTable.ew[912] = {
-	name = "G"..ouml.."rlitzer Stra"..szlig.."e",
+	name = "Görlitzer Straße",
 	x = 4560.0 
 }
 streetTable.ew[913] = {
-	name = "Brunhildstra"..szlig.."e",
+	name = "Brunhildstraße",
 	x = 4565.0 
 }
 streetTable.ew[914] = {
-	name = "Werkst"..auml.."ttenweg",
+	name = "Werkstättenweg",
 	x = 4570.0 
 }
 streetTable.ew[915] = {
-	name = "Leuckartstra"..szlig.."e",
+	name = "Leuckartstraße",
 	x = 4575.0 
 }
 streetTable.ew[916] = {
@@ -3692,23 +3692,23 @@ streetTable.ew[917] = {
 	x = 4585.0 
 }
 streetTable.ew[918] = {
-	name = "Gohliser Stra"..szlig.."e",
+	name = "Gohliser Straße",
 	x = 4590.0 
 }
 streetTable.ew[919] = {
-	name = "Zum Birkenw"..auml.."ldchen",
+	name = "Zum Birkenwäldchen",
 	x = 4595.0 
 }
 streetTable.ew[920] = {
-	name = "Tiefe Stra"..szlig.."e",
+	name = "Tiefe Straße",
 	x = 4600.0 
 }
 streetTable.ew[921] = {
-	name = "Lindenthaler Stra"..szlig.."e",
+	name = "Lindenthaler Straße",
 	x = 4605.0 
 }
 streetTable.ew[922] = {
-	name = "Lange Stra"..szlig.."e",
+	name = "Lange Straße",
 	x = 4610.0 
 }
 streetTable.ew[923] = {
@@ -3720,23 +3720,23 @@ streetTable.ew[924] = {
 	x = 4620.0 
 }
 streetTable.ew[925] = {
-	name = "H"..auml.."nicher M"..uuml.."hle",
+	name = "Hänicher Mühle",
 	x = 4625.0 
 }
 streetTable.ew[926] = {
-	name = "Hersvelder Stra"..szlig.."e",
+	name = "Hersvelder Straße",
 	x = 4630.0 
 }
 streetTable.ew[927] = {
-	name = "Maria-Grollmu"..szlig.."-Stra"..szlig.."e",
+	name = "Maria-Grollmuß-Straße",
 	x = 4635.0 
 }
 streetTable.ew[928] = {
-	name = "Am P"..ouml.."sgraben",
+	name = "Am Pösgraben",
 	x = 4640.0 
 }
 streetTable.ew[929] = {
-	name = "Kasseler Stra"..szlig.."e",
+	name = "Kasseler Straße",
 	x = 4645.0 
 }
 streetTable.ew[930] = {
@@ -3744,11 +3744,11 @@ streetTable.ew[930] = {
 	x = 4650.0 
 }
 streetTable.ew[931] = {
-	name = "Wollk"..auml.."mmereistra"..szlig.."e",
+	name = "Wollkämmereistraße",
 	x = 4655.0 
 }
 streetTable.ew[932] = {
-	name = "Wichernstra"..szlig.."e",
+	name = "Wichernstraße",
 	x = 4660.0 
 }
 streetTable.ew[933] = {
@@ -3756,7 +3756,7 @@ streetTable.ew[933] = {
 	x = 4665.0 
 }
 streetTable.ew[934] = {
-	name = "Hellriegelstra"..szlig.."e",
+	name = "Hellriegelstraße",
 	x = 4670.0 
 }
 streetTable.ew[935] = {
@@ -3764,15 +3764,15 @@ streetTable.ew[935] = {
 	x = 4675.0 
 }
 streetTable.ew[936] = {
-	name = "M"..uuml.."hlparkweg",
+	name = "Mühlparkweg",
 	x = 4680.0 
 }
 streetTable.ew[937] = {
-	name = "St"..ouml.."tteritzer Landstra"..szlig.."e",
+	name = "Stötteritzer Landstraße",
 	x = 4685.0 
 }
 streetTable.ew[938] = {
-	name = "D"..uuml.."rrplatz",
+	name = "Dürrplatz",
 	x = 4690.0 
 }
 streetTable.ew[939] = {
@@ -3784,27 +3784,27 @@ streetTable.ew[940] = {
 	x = 4700.0 
 }
 streetTable.ew[941] = {
-	name = "Renftstra"..szlig.."e",
+	name = "Renftstraße",
 	x = 4705.0 
 }
 streetTable.ew[942] = {
-	name = "Schlesierstra"..szlig.."e",
+	name = "Schlesierstraße",
 	x = 4710.0 
 }
 streetTable.ew[943] = {
-	name = "Cohnheimstra"..szlig.."e",
+	name = "Cohnheimstraße",
 	x = 4715.0 
 }
 streetTable.ew[944] = {
-	name = "Prager Stra"..szlig.."e",
+	name = "Prager Straße",
 	x = 4720.0 
 }
 streetTable.ew[945] = {
-	name = "Alte Seehausener Stra"..szlig.."e",
+	name = "Alte Seehausener Straße",
 	x = 4725.0 
 }
 streetTable.ew[946] = {
-	name = "Wilhelm-His-Stra"..szlig.."e",
+	name = "Wilhelm-His-Straße",
 	x = 4730.0 
 }
 streetTable.ew[947] = {
@@ -3812,7 +3812,7 @@ streetTable.ew[947] = {
 	x = 4735.0 
 }
 streetTable.ew[948] = {
-	name = "Rousseaustra"..szlig.."e",
+	name = "Rousseaustraße",
 	x = 4740.0 
 }
 streetTable.ew[949] = {
@@ -3820,27 +3820,27 @@ streetTable.ew[949] = {
 	x = 4745.0 
 }
 streetTable.ew[950] = {
-	name = "Annaberger Stra"..szlig.."e",
+	name = "Annaberger Straße",
 	x = 4750.0 
 }
 streetTable.ew[951] = {
-	name = "Weinbrennerstra"..szlig.."e",
+	name = "Weinbrennerstraße",
 	x = 4755.0 
 }
 streetTable.ew[952] = {
-	name = "L"..ouml.."hrstra"..szlig.."e",
+	name = "Löhrstraße",
 	x = 4760.0 
 }
 streetTable.ew[953] = {
-	name = "Bogislawstra"..szlig.."e",
+	name = "Bogislawstraße",
 	x = 4765.0 
 }
 streetTable.ew[954] = {
-	name = "Bussestra"..szlig.."e",
+	name = "Bussestraße",
 	x = 4770.0 
 }
 streetTable.ew[955] = {
-	name = "Packhofstra"..szlig.."e",
+	name = "Packhofstraße",
 	x = 4775.0 
 }
 streetTable.ew[956] = {
@@ -3856,27 +3856,27 @@ streetTable.ew[958] = {
 	x = 4790.0 
 }
 streetTable.ew[959] = {
-	name = "Seebenischer Stra"..szlig.."e",
+	name = "Seebenischer Straße",
 	x = 4795.0 
 }
 streetTable.ew[960] = {
-	name = "Prof.-Andreas-Schubert-Stra"..szlig.."e",
+	name = "Prof.-Andreas-Schubert-Straße",
 	x = 4800.0 
 }
 streetTable.ew[961] = {
-	name = Auml.."u"..szlig.."ere Raustra"..szlig.."e",
+	name = "Äußere Raustraße",
 	x = 4805.0 
 }
 streetTable.ew[962] = {
-	name = "Stra"..szlig.."e der 53",
+	name = "Straße der 53",
 	x = 4810.0 
 }
 streetTable.ew[963] = {
-	name = "Staffelsteinstra"..szlig.."e",
+	name = "Staffelsteinstraße",
 	x = 4815.0 
 }
 streetTable.ew[964] = {
-	name = "Steffensstra"..szlig.."e",
+	name = "Steffensstraße",
 	x = 4820.0 
 }
 streetTable.ew[965] = {
@@ -3888,11 +3888,11 @@ streetTable.ew[966] = {
 	x = 4830.0 
 }
 streetTable.ew[967] = {
-	name = "Katzmannstra"..szlig.."e",
+	name = "Katzmannstraße",
 	x = 4835.0 
 }
 streetTable.ew[968] = {
-	name = "Stollberger Stra"..szlig.."e",
+	name = "Stollberger Straße",
 	x = 4840.0 
 }
 streetTable.ew[969] = {
@@ -3904,11 +3904,11 @@ streetTable.ew[970] = {
 	x = 4850.0 
 }
 streetTable.ew[971] = {
-	name = "Magdeburger Stra"..szlig.."e",
+	name = "Magdeburger Straße",
 	x = 4855.0 
 }
 streetTable.ew[972] = {
-	name = "Paul-Heyse-Stra"..szlig.."e",
+	name = "Paul-Heyse-Straße",
 	x = 4860.0 
 }
 streetTable.ew[973] = {
@@ -3916,19 +3916,19 @@ streetTable.ew[973] = {
 	x = 4865.0 
 }
 streetTable.ew[974] = {
-	name = "Karl-Mannsfeld-Stra"..szlig.."e",
+	name = "Karl-Mannsfeld-Straße",
 	x = 4870.0 
 }
 streetTable.ew[975] = {
-	name = "Ponickaustra"..szlig.."e",
+	name = "Ponickaustraße",
 	x = 4875.0 
 }
 streetTable.ew[976] = {
-	name = "Morungenstra"..szlig.."e",
+	name = "Morungenstraße",
 	x = 4880.0 
 }
 streetTable.ew[977] = {
-	name = "Krokerstra"..szlig.."e",
+	name = "Krokerstraße",
 	x = 4885.0 
 }
 streetTable.ew[978] = {
@@ -3936,11 +3936,11 @@ streetTable.ew[978] = {
 	x = 4890.0 
 }
 streetTable.ew[979] = {
-	name = "Sch"..ouml.."nbergstra"..szlig.."e",
+	name = "Schönbergstraße",
 	x = 4895.0 
 }
 streetTable.ew[980] = {
-	name = "L"..uuml.."tzowstra"..szlig.."e",
+	name = "Lützowstraße",
 	x = 4900.0 
 }
 streetTable.ew[981] = {
@@ -3956,7 +3956,7 @@ streetTable.ew[983] = {
 	x = 4915.0 
 }
 streetTable.ew[984] = {
-	name = "Brackestra"..szlig.."e",
+	name = "Brackestraße",
 	x = 4920.0 
 }
 streetTable.ew[985] = {
@@ -3968,7 +3968,7 @@ streetTable.ew[986] = {
 	x = 4930.0 
 }
 streetTable.ew[987] = {
-	name = "Witzlebenstra"..szlig.."e",
+	name = "Witzlebenstraße",
 	x = 4935.0 
 }
 streetTable.ew[988] = {
@@ -3984,7 +3984,7 @@ streetTable.ew[990] = {
 	x = 4950.0 
 }
 streetTable.ew[991] = {
-	name = "Vivaldistra"..szlig.."e",
+	name = "Vivaldistraße",
 	x = 4955.0 
 }
 streetTable.ew[992] = {
@@ -3992,7 +3992,7 @@ streetTable.ew[992] = {
 	x = 4960.0 
 }
 streetTable.ew[993] = {
-	name = "Petzscher Stra"..szlig.."e",
+	name = "Petzscher Straße",
 	x = 4965.0 
 }
 streetTable.ew[994] = {
@@ -4000,19 +4000,19 @@ streetTable.ew[994] = {
 	x = 4970.0 
 }
 streetTable.ew[995] = {
-	name = "Otto-Adam-Stra"..szlig.."e",
+	name = "Otto-Adam-Straße",
 	x = 4975.0 
 }
 streetTable.ew[996] = {
-	name = "Geyerstra"..szlig.."e",
+	name = "Geyerstraße",
 	x = 4980.0 
 }
 streetTable.ew[997] = {
-	name = "Hussitenstra"..szlig.."e",
+	name = "Hussitenstraße",
 	x = 4985.0 
 }
 streetTable.ew[998] = {
-	name = "Liviastra"..szlig.."e",
+	name = "Liviastraße",
 	x = 4990.0 
 }
 streetTable.ew[999] = {
@@ -4020,19 +4020,19 @@ streetTable.ew[999] = {
 	x = 4995.0 
 }
 streetTable.ew[1000] = {
-	name = "Braustra"..szlig.."e",
+	name = "Braustraße",
 	x = 5000.0 
 }
 streetTable.ew[1001] = {
-	name = "Quedlinburger Stra"..szlig.."e",
+	name = "Quedlinburger Straße",
 	x = 5005.0 
 }
 streetTable.ew[1002] = {
-	name = "Leo-Tolstoi-Stra"..szlig.."e",
+	name = "Leo-Tolstoi-Straße",
 	x = 5010.0 
 }
 streetTable.ew[1003] = {
-	name = "Rudolf-Breitscheid-Stra"..szlig.."e",
+	name = "Rudolf-Breitscheid-Straße",
 	x = 5015.0 
 }
 streetTable.ew[1004] = {
@@ -4040,11 +4040,11 @@ streetTable.ew[1004] = {
 	x = 5020.0 
 }
 streetTable.ew[1005] = {
-	name = "Landhausstra"..szlig.."e",
+	name = "Landhausstraße",
 	x = 5025.0 
 }
 streetTable.ew[1006] = {
-	name = "Gletschersteinstra"..szlig.."e",
+	name = "Gletschersteinstraße",
 	x = 5030.0 
 }
 streetTable.ew[1007] = {
@@ -4052,7 +4052,7 @@ streetTable.ew[1007] = {
 	x = 5035.0 
 }
 streetTable.ew[1008] = {
-	name = "Gleisstra"..szlig.."e",
+	name = "Gleisstraße",
 	x = 5040.0 
 }
 streetTable.ew[1009] = {
@@ -4060,11 +4060,11 @@ streetTable.ew[1009] = {
 	x = 5045.0 
 }
 streetTable.ew[1010] = {
-	name = "Fritz-Simonis-Stra"..szlig.."e",
+	name = "Fritz-Simonis-Straße",
 	x = 5050.0 
 }
 streetTable.ew[1011] = {
-	name = "Johann-Adolf-Stra"..szlig.."e",
+	name = "Johann-Adolf-Straße",
 	x = 5055.0 
 }
 streetTable.ew[1012] = {
@@ -4076,27 +4076,27 @@ streetTable.ew[1013] = {
 	x = 5065.0 
 }
 streetTable.ew[1014] = {
-	name = "Harkortstra"..szlig.."e",
+	name = "Harkortstraße",
 	x = 5070.0 
 }
 streetTable.ew[1015] = {
-	name = "Karl-Winkler-Stra"..szlig.."e",
+	name = "Karl-Winkler-Straße",
 	x = 5075.0 
 }
 streetTable.ew[1016] = {
-	name = "Industriestra"..szlig.."e",
+	name = "Industriestraße",
 	x = 5080.0 
 }
 streetTable.ew[1017] = {
-	name = "D"..uuml.."rrstra"..szlig.."e",
+	name = "Dürrstraße",
 	x = 5085.0 
 }
 streetTable.ew[1018] = {
-	name = "Hermann-Brade-Stra"..szlig.."e",
+	name = "Hermann-Brade-Straße",
 	x = 5090.0 
 }
 streetTable.ew[1019] = {
-	name = "Gundermannstra"..szlig.."e",
+	name = "Gundermannstraße",
 	x = 5095.0 
 }
 streetTable.ew[1020] = {
@@ -4104,7 +4104,7 @@ streetTable.ew[1020] = {
 	x = 5100.0 
 }
 streetTable.ew[1021] = {
-	name = "Wielandstra"..szlig.."e",
+	name = "Wielandstraße",
 	x = 5105.0 
 }
 streetTable.ew[1022] = {
@@ -4112,11 +4112,11 @@ streetTable.ew[1022] = {
 	x = 5110.0 
 }
 streetTable.ew[1023] = {
-	name = "Italiaanderstra"..szlig.."e",
+	name = "Italiaanderstraße",
 	x = 5115.0 
 }
 streetTable.ew[1024] = {
-	name = "Berberitzenstra"..szlig.."e",
+	name = "Berberitzenstraße",
 	x = 5120.0 
 }
 streetTable.ew[1025] = {
@@ -4124,19 +4124,19 @@ streetTable.ew[1025] = {
 	x = 5125.0 
 }
 streetTable.ew[1026] = {
-	name = "Auenhainer Stra"..szlig.."e",
+	name = "Auenhainer Straße",
 	x = 5130.0 
 }
 streetTable.ew[1027] = {
-	name = "Onckenstra"..szlig.."e",
+	name = "Onckenstraße",
 	x = 5135.0 
 }
 streetTable.ew[1028] = {
-	name = "Geraer Stra"..szlig.."e",
+	name = "Geraer Straße",
 	x = 5140.0 
 }
 streetTable.ew[1029] = {
-	name = "Gorbitzer Stra"..szlig.."e",
+	name = "Gorbitzer Straße",
 	x = 5145.0 
 }
 streetTable.ew[1030] = {
@@ -4148,7 +4148,7 @@ streetTable.ew[1031] = {
 	x = 5155.0 
 }
 streetTable.ew[1032] = {
-	name = "Giebnerstra"..szlig.."e",
+	name = "Giebnerstraße",
 	x = 5160.0 
 }
 streetTable.ew[1033] = {
@@ -4160,7 +4160,7 @@ streetTable.ew[1034] = {
 	x = 5170.0 
 }
 streetTable.ew[1035] = {
-	name = "Josephinenstra"..szlig.."e",
+	name = "Josephinenstraße",
 	x = 5175.0 
 }
 streetTable.ew[1036] = {
@@ -4168,7 +4168,7 @@ streetTable.ew[1036] = {
 	x = 5180.0 
 }
 streetTable.ew[1037] = {
-	name = "Th"..uuml.."ringer Stra"..szlig.."e",
+	name = "Thüringer Straße",
 	x = 5185.0 
 }
 streetTable.ew[1038] = {
@@ -4176,7 +4176,7 @@ streetTable.ew[1038] = {
 	x = 5190.0 
 }
 streetTable.ew[1039] = {
-	name = "Auenstra"..szlig.."e",
+	name = "Auenstraße",
 	x = 5195.0 
 }
 streetTable.ew[1040] = {
@@ -4184,7 +4184,7 @@ streetTable.ew[1040] = {
 	x = 5200.0 
 }
 streetTable.ew[1041] = {
-	name = "Marcher Stra"..szlig.."e",
+	name = "Marcher Straße",
 	x = 5205.0 
 }
 streetTable.ew[1042] = {
@@ -4196,11 +4196,11 @@ streetTable.ew[1043] = {
 	x = 5215.0 
 }
 streetTable.ew[1044] = {
-	name = "Wilhelmstra"..szlig.."e",
+	name = "Wilhelmstraße",
 	x = 5220.0 
 }
 streetTable.ew[1045] = {
-	name = "Oschatzer Stra"..szlig.."e",
+	name = "Oschatzer Straße",
 	x = 5225.0 
 }
 streetTable.ew[1046] = {
@@ -4208,15 +4208,15 @@ streetTable.ew[1046] = {
 	x = 5230.0 
 }
 streetTable.ew[1047] = {
-	name = "Riesaer Stra"..szlig.."e",
+	name = "Riesaer Straße",
 	x = 5235.0 
 }
 streetTable.ew[1048] = {
-	name = "K"..auml.."the-Kollwitz-Stra"..szlig.."e",
+	name = "Käthe-Kollwitz-Straße",
 	x = 5240.0 
 }
 streetTable.ew[1049] = {
-	name = "Gotzkowskystra"..szlig.."e",
+	name = "Gotzkowskystraße",
 	x = 5245.0 
 }
 streetTable.ew[1050] = {
@@ -4224,15 +4224,15 @@ streetTable.ew[1050] = {
 	x = 5250.0 
 }
 streetTable.ew[1051] = {
-	name = "Carl-Maria-von-Weber-Stra"..szlig.."e",
+	name = "Carl-Maria-von-Weber-Straße",
 	x = 5255.0 
 }
 streetTable.ew[1052] = {
-	name = "Johann-Eck-Stra"..szlig.."e",
+	name = "Johann-Eck-Straße",
 	x = 5260.0 
 }
 streetTable.ew[1053] = {
-	name = "Untere Nordstra"..szlig.."e",
+	name = "Untere Nordstraße",
 	x = 5265.0 
 }
 streetTable.ew[1054] = {
@@ -4248,7 +4248,7 @@ streetTable.ew[1056] = {
 	x = 5280.0 
 }
 streetTable.ew[1057] = {
-	name = "Nieritzstra"..szlig.."e",
+	name = "Nieritzstraße",
 	x = 5285.0 
 }
 streetTable.ew[1058] = {
@@ -4256,27 +4256,27 @@ streetTable.ew[1058] = {
 	x = 5290.0 
 }
 streetTable.ew[1059] = {
-	name = "Wettiner Stra"..szlig.."e",
+	name = "Wettiner Straße",
 	x = 5295.0 
 }
 streetTable.ew[1060] = {
-	name = "M"..ouml.."biusstra"..szlig.."e",
+	name = "Möbiusstraße",
 	x = 5300.0 
 }
 streetTable.ew[1061] = {
-	name = "Klempererstra"..szlig.."e",
+	name = "Klempererstraße",
 	x = 5305.0 
 }
 streetTable.ew[1062] = {
-	name = "Stifterstra"..szlig.."e",
+	name = "Stifterstraße",
 	x = 5310.0 
 }
 streetTable.ew[1063] = {
-	name = "Beuchaer Stra"..szlig.."e",
+	name = "Beuchaer Straße",
 	x = 5315.0 
 }
 streetTable.ew[1064] = {
-	name = "Leupoldstra"..szlig.."e",
+	name = "Leupoldstraße",
 	x = 5320.0 
 }
 streetTable.ew[1065] = {
@@ -4288,15 +4288,15 @@ streetTable.ew[1066] = {
 	x = 5330.0 
 }
 streetTable.ew[1067] = {
-	name = "Gottschallstra"..szlig.."e",
+	name = "Gottschallstraße",
 	x = 5335.0 
 }
 streetTable.ew[1068] = {
-	name = "Saphirstra"..szlig.."e",
+	name = "Saphirstraße",
 	x = 5340.0 
 }
 streetTable.ew[1069] = {
-	name = "Mommsenstra"..szlig.."e",
+	name = "Mommsenstraße",
 	x = 5345.0 
 }
 streetTable.ew[1070] = {
@@ -4304,31 +4304,31 @@ streetTable.ew[1070] = {
 	x = 5350.0 
 }
 streetTable.ew[1071] = {
-	name = "Sch"..uuml.."tzstra"..szlig.."e",
+	name = "Schützstraße",
 	x = 5355.0 
 }
 streetTable.ew[1072] = {
-	name = "Am "..Uuml.."bergang",
+	name = "Am ".."Übergang",
 	x = 5360.0 
 }
 streetTable.ew[1073] = {
-	name = "Jungmannstra"..szlig.."e",
+	name = "Jungmannstraße",
 	x = 5365.0 
 }
 streetTable.ew[1074] = {
-	name = "Maigl"..ouml.."ckchenweg",
+	name = "Maiglöckchenweg",
 	x = 5370.0 
 }
 streetTable.ew[1075] = {
-	name = "Hermelinstra"..szlig.."e",
+	name = "Hermelinstraße",
 	x = 5375.0 
 }
 streetTable.ew[1076] = {
-	name = "Emil-M"..auml.."rz-Stra"..szlig.."e",
+	name = "Emil-März-Straße",
 	x = 5380.0 
 }
 streetTable.ew[1077] = {
-	name = "Berggartenstra"..szlig.."e",
+	name = "Berggartenstraße",
 	x = 5385.0 
 }
 streetTable.ew[1078] = {
@@ -4336,15 +4336,15 @@ streetTable.ew[1078] = {
 	x = 5390.0 
 }
 streetTable.ew[1079] = {
-	name = "Zillerstra"..szlig.."e",
+	name = "Zillerstraße",
 	x = 5395.0 
 }
 streetTable.ew[1080] = {
-	name = "Oberholzstra"..szlig.."e",
+	name = "Oberholzstraße",
 	x = 5400.0 
 }
 streetTable.ew[1081] = {
-	name = "Stockartstra"..szlig.."e",
+	name = "Stockartstraße",
 	x = 5405.0 
 }
 streetTable.ew[1082] = {
@@ -4352,47 +4352,47 @@ streetTable.ew[1082] = {
 	x = 5410.0 
 }
 streetTable.ew[1083] = {
-	name = "Manetstra"..szlig.."e",
+	name = "Manetstraße",
 	x = 5415.0 
 }
 streetTable.ew[1084] = {
-	name = "Wieselstra"..szlig.."e",
+	name = "Wieselstraße",
 	x = 5420.0 
 }
 streetTable.ew[1085] = {
-	name = "Leonhard-Frank-Stra"..szlig.."e",
+	name = "Leonhard-Frank-Straße",
 	x = 5425.0 
 }
 streetTable.ew[1086] = {
-	name = "M"..ouml.."lkauer Stra"..szlig.."e",
+	name = "Mölkauer Straße",
 	x = 5430.0 
 }
 streetTable.ew[1087] = {
-	name = "Kuhnaustra"..szlig.."e",
+	name = "Kuhnaustraße",
 	x = 5435.0 
 }
 streetTable.ew[1088] = {
-	name = "Naunhofer Stra"..szlig.."e",
+	name = "Naunhofer Straße",
 	x = 5440.0 
 }
 streetTable.ew[1089] = {
-	name = "Gerhardstra"..szlig.."e",
+	name = "Gerhardstraße",
 	x = 5445.0 
 }
 streetTable.ew[1090] = {
-	name = "Breisgaustra"..szlig.."e",
+	name = "Breisgaustraße",
 	x = 5450.0 
 }
 streetTable.ew[1091] = {
-	name = "Breunsdorffstra"..szlig.."e",
+	name = "Breunsdorffstraße",
 	x = 5455.0 
 }
 streetTable.ew[1092] = {
-	name = "Schulstra"..szlig.."e",
+	name = "Schulstraße",
 	x = 5460.0 
 }
 streetTable.ew[1093] = {
-	name = "Holbergstra"..szlig.."e",
+	name = "Holbergstraße",
 	x = 5465.0 
 }
 streetTable.ew[1094] = {
@@ -4400,7 +4400,7 @@ streetTable.ew[1094] = {
 	x = 5470.0 
 }
 streetTable.ew[1095] = {
-	name = "Sylter Stra"..szlig.."e",
+	name = "Sylter Straße",
 	x = 5475.0 
 }
 streetTable.ew[1096] = {
@@ -4408,11 +4408,11 @@ streetTable.ew[1096] = {
 	x = 5480.0 
 }
 streetTable.ew[1097] = {
-	name = "Markranst"..auml.."dter Stra"..szlig.."e",
+	name = "Markranstädter Straße",
 	x = 5485.0 
 }
 streetTable.ew[1098] = {
-	name = "Schr"..auml.."gweg",
+	name = "Schrägweg",
 	x = 5490.0 
 }
 streetTable.ew[1099] = {
@@ -4420,19 +4420,19 @@ streetTable.ew[1099] = {
 	x = 5495.0 
 }
 streetTable.ew[1100] = {
-	name = "Kulkwitzer Stra"..szlig.."e",
+	name = "Kulkwitzer Straße",
 	x = 5500.0 
 }
 streetTable.ew[1101] = {
-	name = "Alte Stra"..szlig.."e",
+	name = "Alte Straße",
 	x = 5505.0 
 }
 streetTable.ew[1102] = {
-	name = "Mauersbergerstra"..szlig.."e",
+	name = "Mauersbergerstraße",
 	x = 5510.0 
 }
 streetTable.ew[1103] = {
-	name = "Permoserstra"..szlig.."e",
+	name = "Permoserstraße",
 	x = 5515.0 
 }
 streetTable.ew[1104] = {
@@ -4440,27 +4440,27 @@ streetTable.ew[1104] = {
 	x = 5520.0 
 }
 streetTable.ew[1105] = {
-	name = "Kr"..auml.."tzbergstra"..szlig.."e",
+	name = "Krätzbergstraße",
 	x = 5525.0 
 }
 streetTable.ew[1106] = {
-	name = "Humperdinckstra"..szlig.."e",
+	name = "Humperdinckstraße",
 	x = 5530.0 
 }
 streetTable.ew[1107] = {
-	name = "Otto-Engert-Stra"..szlig.."e",
+	name = "Otto-Engert-Straße",
 	x = 5535.0 
 }
 streetTable.ew[1108] = {
-	name = "Plo"..szlig.."stra"..szlig.."e",
+	name = "Ploßstraße",
 	x = 5540.0 
 }
 streetTable.ew[1109] = {
-	name = "Seestra"..szlig.."e",
+	name = "Seestraße",
 	x = 5545.0 
 }
 streetTable.ew[1110] = {
-	name = "Marienbrunnenstra"..szlig.."e",
+	name = "Marienbrunnenstraße",
 	x = 5550.0 
 }
 streetTable.ew[1111] = {
@@ -4468,11 +4468,11 @@ streetTable.ew[1111] = {
 	x = 5555.0 
 }
 streetTable.ew[1112] = {
-	name = "Inselstra"..szlig.."e",
+	name = "Inselstraße",
 	x = 5560.0 
 }
 streetTable.ew[1113] = {
-	name = "Hoffmannstra"..szlig.."e",
+	name = "Hoffmannstraße",
 	x = 5565.0 
 }
 streetTable.ew[1114] = {
@@ -4488,15 +4488,15 @@ streetTable.ew[1116] = {
 	x = 5580.0 
 }
 streetTable.ew[1117] = {
-	name = "Ursula-G"..ouml.."tze-Stra"..szlig.."e",
+	name = "Ursula-Götze-Straße",
 	x = 5585.0 
 }
 streetTable.ew[1118] = {
-	name = "Karlsruher Stra"..szlig.."e",
+	name = "Karlsruher Straße",
 	x = 5590.0 
 }
 streetTable.ew[1119] = {
-	name = "Heinrich-Heine-Stra"..szlig.."e",
+	name = "Heinrich-Heine-Straße",
 	x = 5595.0 
 }
 streetTable.ew[1120] = {
@@ -4504,7 +4504,7 @@ streetTable.ew[1120] = {
 	x = 5600.0 
 }
 streetTable.ew[1121] = {
-	name = "Gro"..szlig.."p"..ouml.."snaer Stra"..szlig.."e",
+	name = "Großpösnaer Straße",
 	x = 5605.0 
 }
 streetTable.ew[1122] = {
@@ -4512,15 +4512,15 @@ streetTable.ew[1122] = {
 	x = 5610.0 
 }
 streetTable.ew[1123] = {
-	name = "Teubnerstra"..szlig.."e",
+	name = "Teubnerstraße",
 	x = 5615.0 
 }
 streetTable.ew[1124] = {
-	name = "Amselstra"..szlig.."e",
+	name = "Amselstraße",
 	x = 5620.0 
 }
 streetTable.ew[1125] = {
-	name = "Pfarrholzstra"..szlig.."e",
+	name = "Pfarrholzstraße",
 	x = 5625.0 
 }
 streetTable.ew[1126] = {
@@ -4532,7 +4532,7 @@ streetTable.ew[1127] = {
 	x = 5635.0 
 }
 streetTable.ew[1128] = {
-	name = "Rathenaustra"..szlig.."e",
+	name = "Rathenaustraße",
 	x = 5640.0 
 }
 streetTable.ew[1129] = {
@@ -4544,23 +4544,23 @@ streetTable.ew[1130] = {
 	x = 5650.0 
 }
 streetTable.ew[1131] = {
-	name = "Schletterstra"..szlig.."e",
+	name = "Schletterstraße",
 	x = 5655.0 
 }
 streetTable.ew[1132] = {
-	name = "Glafeystra"..szlig.."e",
+	name = "Glafeystraße",
 	x = 5660.0 
 }
 streetTable.ew[1133] = {
-	name = "L"..uuml.."tzner Stra"..szlig.."e",
+	name = "Lützner Straße",
 	x = 5665.0 
 }
 streetTable.ew[1134] = {
-	name = "Lichtenfelser Stra"..szlig.."e",
+	name = "Lichtenfelser Straße",
 	x = 5670.0 
 }
 streetTable.ew[1135] = {
-	name = "Lorenzstra"..szlig.."e",
+	name = "Lorenzstraße",
 	x = 5675.0 
 }
 streetTable.ew[1136] = {
@@ -4568,15 +4568,15 @@ streetTable.ew[1136] = {
 	x = 5680.0 
 }
 streetTable.ew[1137] = {
-	name = "Kamenzer Stra"..szlig.."e",
+	name = "Kamenzer Straße",
 	x = 5685.0 
 }
 streetTable.ew[1138] = {
-	name = "Karl-B"..uuml.."cher-Stra"..szlig.."e",
+	name = "Karl-Bücher-Straße",
 	x = 5690.0 
 }
 streetTable.ew[1139] = {
-	name = "Werkst"..auml.."ttenstra"..szlig.."e",
+	name = "Werkstättenstraße",
 	x = 5695.0 
 }
 streetTable.ew[1140] = {
@@ -4584,7 +4584,7 @@ streetTable.ew[1140] = {
 	x = 5700.0 
 }
 streetTable.ew[1141] = {
-	name = "Eduardstra"..szlig.."e",
+	name = "Eduardstraße",
 	x = 5705.0 
 }
 streetTable.ew[1142] = {
@@ -4596,19 +4596,19 @@ streetTable.ew[1143] = {
 	x = 5715.0 
 }
 streetTable.ew[1144] = {
-	name = "Teslastra"..szlig.."e",
+	name = "Teslastraße",
 	x = 5720.0 
 }
 streetTable.ew[1145] = {
-	name = "Rehwagenstra"..szlig.."e",
+	name = "Rehwagenstraße",
 	x = 5725.0 
 }
 streetTable.ew[1146] = {
-	name = "Wehrmannstra"..szlig.."e",
+	name = "Wehrmannstraße",
 	x = 5730.0 
 }
 streetTable.ew[1147] = {
-	name = "Mascovstra"..szlig.."e",
+	name = "Mascovstraße",
 	x = 5735.0 
 }
 streetTable.ew[1148] = {
@@ -4628,11 +4628,11 @@ streetTable.ew[1151] = {
 	x = 5755.0 
 }
 streetTable.ew[1152] = {
-	name = "Edmond-Kaiser-Stra"..szlig.."e",
+	name = "Edmond-Kaiser-Straße",
 	x = 5760.0 
 }
 streetTable.ew[1153] = {
-	name = "Renkwitzstra"..szlig.."e",
+	name = "Renkwitzstraße",
 	x = 5765.0 
 }
 streetTable.ew[1154] = {
@@ -4652,7 +4652,7 @@ streetTable.ew[1157] = {
 	x = 5785.0 
 }
 streetTable.ew[1158] = {
-	name = "Stra"..szlig.."bergerstra"..szlig.."e",
+	name = "Straßbergerstraße",
 	x = 5790.0 
 }
 streetTable.ew[1159] = {
@@ -4660,7 +4660,7 @@ streetTable.ew[1159] = {
 	x = 5795.0 
 }
 streetTable.ew[1160] = {
-	name = "Watzdorfstra"..szlig.."e",
+	name = "Watzdorfstraße",
 	x = 5800.0 
 }
 streetTable.ew[1161] = {
@@ -4684,23 +4684,23 @@ streetTable.ew[1165] = {
 	x = 5825.0 
 }
 streetTable.ew[1166] = {
-	name = "Simsonstra"..szlig.."e",
+	name = "Simsonstraße",
 	x = 5830.0 
 }
 streetTable.ew[1167] = {
-	name = "Thietmarstra"..szlig.."e",
+	name = "Thietmarstraße",
 	x = 5835.0 
 }
 streetTable.ew[1168] = {
-	name = "Hildburgstra"..szlig.."e",
+	name = "Hildburgstraße",
 	x = 5840.0 
 }
 streetTable.ew[1169] = {
-	name = "Kleinp"..ouml.."snaer Stra"..szlig.."e",
+	name = "Kleinpösnaer Straße",
 	x = 5845.0 
 }
 streetTable.ew[1170] = {
-	name = "Reichpietschstra"..szlig.."e",
+	name = "Reichpietschstraße",
 	x = 5850.0 
 }
 streetTable.ew[1171] = {
@@ -4708,11 +4708,11 @@ streetTable.ew[1171] = {
 	x = 5855.0 
 }
 streetTable.ew[1172] = {
-	name = "Robert-Volkmann-Stra"..szlig.."e",
+	name = "Robert-Volkmann-Straße",
 	x = 5860.0 
 }
 streetTable.ew[1173] = {
-	name = "Littstra"..szlig.."e",
+	name = "Littstraße",
 	x = 5865.0 
 }
 streetTable.ew[1174] = {
@@ -4720,7 +4720,7 @@ streetTable.ew[1174] = {
 	x = 5870.0 
 }
 streetTable.ew[1175] = {
-	name = "H"..auml.."hnelstra"..szlig.."e",
+	name = "Hähnelstraße",
 	x = 5875.0 
 }
 streetTable.ew[1176] = {
@@ -4728,19 +4728,19 @@ streetTable.ew[1176] = {
 	x = 5880.0 
 }
 streetTable.ew[1177] = {
-	name = "D"..auml.."hnhardtstra"..szlig.."e",
+	name = "Dähnhardtstraße",
 	x = 5885.0 
 }
 streetTable.ew[1178] = {
-	name = "Hermann-Schein-Stra"..szlig.."e",
+	name = "Hermann-Schein-Straße",
 	x = 5890.0 
 }
 streetTable.ew[1179] = {
-	name = "Olbrichtstra"..szlig.."e",
+	name = "Olbrichtstraße",
 	x = 5895.0 
 }
 streetTable.ew[1180] = {
-	name = "Salomonstra"..szlig.."e",
+	name = "Salomonstraße",
 	x = 5900.0 
 }
 streetTable.ew[1181] = {
@@ -4748,19 +4748,19 @@ streetTable.ew[1181] = {
 	x = 5905.0 
 }
 streetTable.ew[1182] = {
-	name = "Dr.-Margarete-Blank-Stra"..szlig.."e",
+	name = "Dr.-Margarete-Blank-Straße",
 	x = 5910.0 
 }
 streetTable.ew[1183] = {
-	name = "Kissinger Stra"..szlig.."e",
+	name = "Kissinger Straße",
 	x = 5915.0 
 }
 streetTable.ew[1184] = {
-	name = "M"..uuml.."ckenhainer Weg",
+	name = "Mückenhainer Weg",
 	x = 5920.0 
 }
 streetTable.ew[1185] = {
-	name = "R"..uuml.."ckertstra"..szlig.."e",
+	name = "Rückertstraße",
 	x = 5925.0 
 }
 streetTable.ew[1186] = {
@@ -4768,19 +4768,19 @@ streetTable.ew[1186] = {
 	x = 5930.0 
 }
 streetTable.ew[1187] = {
-	name = "Brahestra"..szlig.."e",
+	name = "Brahestraße",
 	x = 5935.0 
 }
 streetTable.ew[1188] = {
-	name = "Max-Pommer-Stra"..szlig.."e",
+	name = "Max-Pommer-Straße",
 	x = 5940.0 
 }
 streetTable.ew[1189] = {
-	name = "Waldstra"..szlig.."e",
+	name = "Waldstraße",
 	x = 5945.0 
 }
 streetTable.ew[1190] = {
-	name = "Kirschbergstra"..szlig.."e",
+	name = "Kirschbergstraße",
 	x = 5950.0 
 }
 streetTable.ew[1191] = {
@@ -4788,11 +4788,11 @@ streetTable.ew[1191] = {
 	x = 5955.0 
 }
 streetTable.ew[1192] = {
-	name = "Koloniestra"..szlig.."e",
+	name = "Koloniestraße",
 	x = 5960.0 
 }
 streetTable.ew[1193] = {
-	name = "Str"..uuml.."mpellstra"..szlig.."e",
+	name = "Strümpellstraße",
 	x = 5965.0 
 }
 streetTable.ew[1194] = {
@@ -4800,11 +4800,11 @@ streetTable.ew[1194] = {
 	x = 5970.0 
 }
 streetTable.ew[1195] = {
-	name = "Kurt-H"..auml.."nselmann-Weg",
+	name = "Kurt-Hänselmann-Weg",
 	x = 5975.0 
 }
 streetTable.ew[1196] = {
-	name = "Lausicker Stra"..szlig.."e",
+	name = "Lausicker Straße",
 	x = 5980.0 
 }
 streetTable.ew[1197] = {
@@ -4812,7 +4812,7 @@ streetTable.ew[1197] = {
 	x = 5985.0 
 }
 streetTable.ew[1198] = {
-	name = "Les-Epesses-Stra"..szlig.."e",
+	name = "Les-Epesses-Straße",
 	x = 5990.0 
 }
 streetTable.ew[1199] = {
@@ -4828,7 +4828,7 @@ streetTable.sn[1] = {
 	y = 5.0 
 }
 streetTable.sn[2] = {
-	name = "J"..ouml.."hst"..auml.."dter Stra"..szlig.."e",
+	name = "Jöhstädter Straße",
 	y = 10.0 
 }
 streetTable.sn[3] = {
@@ -4836,11 +4836,11 @@ streetTable.sn[3] = {
 	y = 15.0 
 }
 streetTable.sn[4] = {
-	name = "Hans-Weigel-Stra"..szlig.."e",
+	name = "Hans-Weigel-Straße",
 	y = 20.0 
 }
 streetTable.sn[5] = {
-	name = "Schachtstra"..szlig.."e",
+	name = "Schachtstraße",
 	y = 25.0 
 }
 streetTable.sn[6] = {
@@ -4852,7 +4852,7 @@ streetTable.sn[7] = {
 	y = 35.0 
 }
 streetTable.sn[8] = {
-	name = "Lamprechtstra"..szlig.."e",
+	name = "Lamprechtstraße",
 	y = 40.0 
 }
 streetTable.sn[9] = {
@@ -4860,11 +4860,11 @@ streetTable.sn[9] = {
 	y = 45.0 
 }
 streetTable.sn[10] = {
-	name = "Stentzlerstra"..szlig.."e",
+	name = "Stentzlerstraße",
 	y = 50.0 
 }
 streetTable.sn[11] = {
-	name = "Lotterstra"..szlig.."e",
+	name = "Lotterstraße",
 	y = 55.0 
 }
 streetTable.sn[12] = {
@@ -4872,19 +4872,19 @@ streetTable.sn[12] = {
 	y = 60.0 
 }
 streetTable.sn[13] = {
-	name = "Hans-Driesch-Stra"..szlig.."e",
+	name = "Hans-Driesch-Straße",
 	y = 65.0 
 }
 streetTable.sn[14] = {
-	name = "Diezmannstra"..szlig.."e",
+	name = "Diezmannstraße",
 	y = 70.0 
 }
 streetTable.sn[15] = {
-	name = "Nonnenstra"..szlig.."e",
+	name = "Nonnenstraße",
 	y = 75.0 
 }
 streetTable.sn[16] = {
-	name = "Ro"..szlig.."marktstra"..szlig.."e",
+	name = "Roßmarktstraße",
 	y = 80.0 
 }
 streetTable.sn[17] = {
@@ -4892,7 +4892,7 @@ streetTable.sn[17] = {
 	y = 85.0 
 }
 streetTable.sn[18] = {
-	name = "Eichh"..ouml.."rnchenweg",
+	name = "Eichhörnchenweg",
 	y = 90.0 
 }
 streetTable.sn[19] = {
@@ -4900,7 +4900,7 @@ streetTable.sn[19] = {
 	y = 95.0 
 }
 streetTable.sn[20] = {
-	name = "Mosenthinstra"..szlig.."e",
+	name = "Mosenthinstraße",
 	y = 100.0 
 }
 streetTable.sn[21] = {
@@ -4908,15 +4908,15 @@ streetTable.sn[21] = {
 	y = 105.0 
 }
 streetTable.sn[22] = {
-	name = "Friedrich-Dittes-Stra"..szlig.."e",
+	name = "Friedrich-Dittes-Straße",
 	y = 110.0 
 }
 streetTable.sn[23] = {
-	name = "Schiebestra"..szlig.."e",
+	name = "Schiebestraße",
 	y = 115.0 
 }
 streetTable.sn[24] = {
-	name = "Wachauer Stra"..szlig.."e",
+	name = "Wachauer Straße",
 	y = 120.0 
 }
 streetTable.sn[25] = {
@@ -4924,7 +4924,7 @@ streetTable.sn[25] = {
 	y = 125.0 
 }
 streetTable.sn[26] = {
-	name = "Salzstra"..szlig.."e",
+	name = "Salzstraße",
 	y = 130.0 
 }
 streetTable.sn[27] = {
@@ -4932,31 +4932,31 @@ streetTable.sn[27] = {
 	y = 135.0 
 }
 streetTable.sn[28] = {
-	name = "Keplerstra"..szlig.."e",
+	name = "Keplerstraße",
 	y = 140.0 
 }
 streetTable.sn[29] = {
-	name = "Theodor-Neubauer-Stra"..szlig.."e",
+	name = "Theodor-Neubauer-Straße",
 	y = 145.0 
 }
 streetTable.sn[30] = {
-	name = "Wilhelm-Michel-Stra"..szlig.."e",
+	name = "Wilhelm-Michel-Straße",
 	y = 150.0 
 }
 streetTable.sn[31] = {
-	name = "Hohenheidaer Stra"..szlig.."e",
+	name = "Hohenheidaer Straße",
 	y = 155.0 
 }
 streetTable.sn[32] = {
-	name = "Augustinerstra"..szlig.."e",
+	name = "Augustinerstraße",
 	y = 160.0 
 }
 streetTable.sn[33] = {
-	name = "Pohlentzstra"..szlig.."e",
+	name = "Pohlentzstraße",
 	y = 165.0 
 }
 streetTable.sn[34] = {
-	name = "Lindenthaler Hauptstra"..szlig.."e",
+	name = "Lindenthaler Hauptstraße",
 	y = 170.0 
 }
 streetTable.sn[35] = {
@@ -4964,15 +4964,15 @@ streetTable.sn[35] = {
 	y = 175.0 
 }
 streetTable.sn[36] = {
-	name = "Friedensstra"..szlig.."e",
+	name = "Friedensstraße",
 	y = 180.0 
 }
 streetTable.sn[37] = {
-	name = "Renoirstra"..szlig.."e",
+	name = "Renoirstraße",
 	y = 185.0 
 }
 streetTable.sn[38] = {
-	name = "Mockauer Stra"..szlig.."e",
+	name = "Mockauer Straße",
 	y = 190.0 
 }
 streetTable.sn[39] = {
@@ -4980,7 +4980,7 @@ streetTable.sn[39] = {
 	y = 195.0 
 }
 streetTable.sn[40] = {
-	name = "L"..ouml.."bauer Stra"..szlig.."e",
+	name = "Löbauer Straße",
 	y = 200.0 
 }
 streetTable.sn[41] = {
@@ -4988,43 +4988,43 @@ streetTable.sn[41] = {
 	y = 205.0 
 }
 streetTable.sn[42] = {
-	name = "Ottostra"..szlig.."e",
+	name = "Ottostraße",
 	y = 210.0 
 }
 streetTable.sn[43] = {
-	name = "Eigenheimstra"..szlig.."e",
+	name = "Eigenheimstraße",
 	y = 215.0 
 }
 streetTable.sn[44] = {
-	name = "Salzmannstra"..szlig.."e",
+	name = "Salzmannstraße",
 	y = 220.0 
 }
 streetTable.sn[45] = {
-	name = "Wittestra"..szlig.."e",
+	name = "Wittestraße",
 	y = 225.0 
 }
 streetTable.sn[46] = {
-	name = "Dornr"..ouml.."schenweg",
+	name = "Dornröschenweg",
 	y = 230.0 
 }
 streetTable.sn[47] = {
-	name = "Ranst"..auml.."dter Steinweg",
+	name = "Ranstädter Steinweg",
 	y = 235.0 
 }
 streetTable.sn[48] = {
-	name = "Mechlerstra"..szlig.."e",
+	name = "Mechlerstraße",
 	y = 240.0 
 }
 streetTable.sn[49] = {
-	name = "Mittelstra"..szlig.."e",
+	name = "Mittelstraße",
 	y = 245.0 
 }
 streetTable.sn[50] = {
-	name = "Zirkonstra"..szlig.."e",
+	name = "Zirkonstraße",
 	y = 250.0 
 }
 streetTable.sn[51] = {
-	name = "S"..uuml.."dtangente",
+	name = "Südtangente",
 	y = 255.0 
 }
 streetTable.sn[52] = {
@@ -5036,7 +5036,7 @@ streetTable.sn[53] = {
 	y = 265.0 
 }
 streetTable.sn[54] = {
-	name = "Georg-Gro"..szlig.."e-Stra"..szlig.."e",
+	name = "Georg-Große-Straße",
 	y = 270.0 
 }
 streetTable.sn[55] = {
@@ -5044,19 +5044,19 @@ streetTable.sn[55] = {
 	y = 275.0 
 }
 streetTable.sn[56] = {
-	name = "Mozartstra"..szlig.."e",
+	name = "Mozartstraße",
 	y = 280.0 
 }
 streetTable.sn[57] = {
-	name = "Oldenburger Stra"..szlig.."e",
+	name = "Oldenburger Straße",
 	y = 285.0 
 }
 streetTable.sn[58] = {
-	name = "Zum W"..auml.."ldchen",
+	name = "Zum Wäldchen",
 	y = 290.0 
 }
 streetTable.sn[59] = {
-	name = "Mainzer Stra"..szlig.."e",
+	name = "Mainzer Straße",
 	y = 295.0 
 }
 streetTable.sn[60] = {
@@ -5064,7 +5064,7 @@ streetTable.sn[60] = {
 	y = 300.0 
 }
 streetTable.sn[61] = {
-	name = "Gr"..uuml.."nauer Blick",
+	name = "Grünauer Blick",
 	y = 305.0 
 }
 streetTable.sn[62] = {
@@ -5072,7 +5072,7 @@ streetTable.sn[62] = {
 	y = 310.0 
 }
 streetTable.sn[63] = {
-	name = "Probsteistra"..szlig.."e",
+	name = "Probsteistraße",
 	y = 315.0 
 }
 streetTable.sn[64] = {
@@ -5080,19 +5080,19 @@ streetTable.sn[64] = {
 	y = 320.0 
 }
 streetTable.sn[65] = {
-	name = "K"..ouml.."rnerstra"..szlig.."e",
+	name = "Körnerstraße",
 	y = 325.0 
 }
 streetTable.sn[66] = {
-	name = "H"..uuml.."fferstra"..szlig.."e",
+	name = "Hüfferstraße",
 	y = 330.0 
 }
 streetTable.sn[67] = {
-	name = "Leopoldstra"..szlig.."e",
+	name = "Leopoldstraße",
 	y = 335.0 
 }
 streetTable.sn[68] = {
-	name = "Eythstra"..szlig.."e",
+	name = "Eythstraße",
 	y = 340.0 
 }
 streetTable.sn[69] = {
@@ -5100,11 +5100,11 @@ streetTable.sn[69] = {
 	y = 345.0 
 }
 streetTable.sn[70] = {
-	name = "Franz-Flemming-Stra"..szlig.."e",
+	name = "Franz-Flemming-Straße",
 	y = 350.0 
 }
 streetTable.sn[71] = {
-	name = "Wilsnacker Stra"..szlig.."e",
+	name = "Wilsnacker Straße",
 	y = 355.0 
 }
 streetTable.sn[72] = {
@@ -5112,7 +5112,7 @@ streetTable.sn[72] = {
 	y = 360.0 
 }
 streetTable.sn[73] = {
-	name = "Marschnerstra"..szlig.."e",
+	name = "Marschnerstraße",
 	y = 365.0 
 }
 streetTable.sn[74] = {
@@ -5120,23 +5120,23 @@ streetTable.sn[74] = {
 	y = 370.0 
 }
 streetTable.sn[75] = {
-	name = "Friedrich-Bosse-Stra"..szlig.."e",
+	name = "Friedrich-Bosse-Straße",
 	y = 375.0 
 }
 streetTable.sn[76] = {
-	name = "Stresemannstra"..szlig.."e",
+	name = "Stresemannstraße",
 	y = 380.0 
 }
 streetTable.sn[77] = {
-	name = "Erich-K"..ouml.."hn-Stra"..szlig.."e",
+	name = "Erich-Köhn-Straße",
 	y = 385.0 
 }
 streetTable.sn[78] = {
-	name = "Nollendorfstra"..szlig.."e",
+	name = "Nollendorfstraße",
 	y = 390.0 
 }
 streetTable.sn[79] = {
-	name = "Primavesistra"..szlig.."e",
+	name = "Primavesistraße",
 	y = 395.0 
 }
 streetTable.sn[80] = {
@@ -5144,11 +5144,11 @@ streetTable.sn[80] = {
 	y = 400.0 
 }
 streetTable.sn[81] = {
-	name = "Schimmelstra"..szlig.."e",
+	name = "Schimmelstraße",
 	y = 405.0 
 }
 streetTable.sn[82] = {
-	name = "Odermannstra"..szlig.."e",
+	name = "Odermannstraße",
 	y = 410.0 
 }
 streetTable.sn[83] = {
@@ -5156,19 +5156,19 @@ streetTable.sn[83] = {
 	y = 415.0 
 }
 streetTable.sn[84] = {
-	name = "Basedowstra"..szlig.."e",
+	name = "Basedowstraße",
 	y = 420.0 
 }
 streetTable.sn[85] = {
-	name = "Schopenhauerstra"..szlig.."e",
+	name = "Schopenhauerstraße",
 	y = 425.0 
 }
 streetTable.sn[86] = {
-	name = "Plovdiver Stra"..szlig.."e",
+	name = "Plovdiver Straße",
 	y = 430.0 
 }
 streetTable.sn[87] = {
-	name = "Schirmerstra"..szlig.."e",
+	name = "Schirmerstraße",
 	y = 435.0 
 }
 streetTable.sn[88] = {
@@ -5180,7 +5180,7 @@ streetTable.sn[89] = {
 	y = 445.0 
 }
 streetTable.sn[90] = {
-	name = "Raimundstra"..szlig.."e",
+	name = "Raimundstraße",
 	y = 450.0 
 }
 streetTable.sn[91] = {
@@ -5188,15 +5188,15 @@ streetTable.sn[91] = {
 	y = 455.0 
 }
 streetTable.sn[92] = {
-	name = "Franz-Mehring-Stra"..szlig.."e",
+	name = "Franz-Mehring-Straße",
 	y = 460.0 
 }
 streetTable.sn[93] = {
-	name = "Goldgl"..ouml.."ckchenstra"..szlig.."e",
+	name = "Goldglöckchenstraße",
 	y = 465.0 
 }
 streetTable.sn[94] = {
-	name = "Amazonstra"..szlig.."e",
+	name = "Amazonstraße",
 	y = 470.0 
 }
 streetTable.sn[95] = {
@@ -5204,23 +5204,23 @@ streetTable.sn[95] = {
 	y = 475.0 
 }
 streetTable.sn[96] = {
-	name = "Nernststra"..szlig.."e",
+	name = "Nernststraße",
 	y = 480.0 
 }
 streetTable.sn[97] = {
-	name = "Talstra"..szlig.."e",
+	name = "Talstraße",
 	y = 485.0 
 }
 streetTable.sn[98] = {
-	name = "Volbedingstra"..szlig.."e",
+	name = "Volbedingstraße",
 	y = 490.0 
 }
 streetTable.sn[99] = {
-	name = "Bautzner Stra"..szlig.."e",
+	name = "Bautzner Straße",
 	y = 495.0 
 }
 streetTable.sn[100] = {
-	name = "Reuningstra"..szlig.."e",
+	name = "Reuningstraße",
 	y = 500.0 
 }
 streetTable.sn[101] = {
@@ -5228,11 +5228,11 @@ streetTable.sn[101] = {
 	y = 505.0 
 }
 streetTable.sn[102] = {
-	name = "Ferdinand-Gruner-Stra"..szlig.."e",
+	name = "Ferdinand-Gruner-Straße",
 	y = 510.0 
 }
 streetTable.sn[103] = {
-	name = "Gartenstra"..szlig.."e",
+	name = "Gartenstraße",
 	y = 515.0 
 }
 streetTable.sn[104] = {
@@ -5244,11 +5244,11 @@ streetTable.sn[105] = {
 	y = 525.0 
 }
 streetTable.sn[106] = {
-	name = "Steinbergstra"..szlig.."e",
+	name = "Steinbergstraße",
 	y = 530.0 
 }
 streetTable.sn[107] = {
-	name = "Sternheimstra"..szlig.."e",
+	name = "Sternheimstraße",
 	y = 535.0 
 }
 streetTable.sn[108] = {
@@ -5256,15 +5256,15 @@ streetTable.sn[108] = {
 	y = 540.0 
 }
 streetTable.sn[109] = {
-	name = "Sch"..uuml.."tzenhausstra"..szlig.."e",
+	name = "Schützenhausstraße",
 	y = 545.0 
 }
 streetTable.sn[110] = {
-	name = "Carl-Munde-Stra"..szlig.."e",
+	name = "Carl-Munde-Straße",
 	y = 550.0 
 }
 streetTable.sn[111] = {
-	name = "Mannheimer Stra"..szlig.."e",
+	name = "Mannheimer Straße",
 	y = 555.0 
 }
 streetTable.sn[112] = {
@@ -5276,15 +5276,15 @@ streetTable.sn[113] = {
 	y = 565.0 
 }
 streetTable.sn[114] = {
-	name = "Thomas-Wagner-Stra"..szlig.."e",
+	name = "Thomas-Wagner-Straße",
 	y = 570.0 
 }
 streetTable.sn[115] = {
-	name = "Gerhard-Ellrodt-Stra"..szlig.."e",
+	name = "Gerhard-Ellrodt-Straße",
 	y = 575.0 
 }
 streetTable.sn[116] = {
-	name = "Pflugkstra"..szlig.."e",
+	name = "Pflugkstraße",
 	y = 580.0 
 }
 streetTable.sn[117] = {
@@ -5296,11 +5296,11 @@ streetTable.sn[118] = {
 	y = 590.0 
 }
 streetTable.sn[119] = {
-	name = "Otto-Schmiedt-Stra"..szlig.."e",
+	name = "Otto-Schmiedt-Straße",
 	y = 595.0 
 }
 streetTable.sn[120] = {
-	name = "Lukasstra"..szlig.."e",
+	name = "Lukasstraße",
 	y = 600.0 
 }
 streetTable.sn[121] = {
@@ -5308,11 +5308,11 @@ streetTable.sn[121] = {
 	y = 605.0 
 }
 streetTable.sn[122] = {
-	name = "Wolfener Stra"..szlig.."e",
+	name = "Wolfener Straße",
 	y = 610.0 
 }
 streetTable.sn[123] = {
-	name = "Helgol"..auml.."nder Weg",
+	name = "Helgoländer Weg",
 	y = 615.0 
 }
 streetTable.sn[124] = {
@@ -5324,11 +5324,11 @@ streetTable.sn[125] = {
 	y = 625.0 
 }
 streetTable.sn[126] = {
-	name = "Stockmannstra"..szlig.."e",
+	name = "Stockmannstraße",
 	y = 630.0 
 }
 streetTable.sn[127] = {
-	name = "Feuerbachstra"..szlig.."e",
+	name = "Feuerbachstraße",
 	y = 635.0 
 }
 streetTable.sn[128] = {
@@ -5336,7 +5336,7 @@ streetTable.sn[128] = {
 	y = 640.0 
 }
 streetTable.sn[129] = {
-	name = "K"..ouml.."stritzer Stra"..szlig.."e",
+	name = "Köstritzer Straße",
 	y = 645.0 
 }
 streetTable.sn[130] = {
@@ -5344,19 +5344,19 @@ streetTable.sn[130] = {
 	y = 650.0 
 }
 streetTable.sn[131] = {
-	name = "Knaurstra"..szlig.."e",
+	name = "Knaurstraße",
 	y = 655.0 
 }
 streetTable.sn[132] = {
-	name = "Ziegelstra"..szlig.."e",
+	name = "Ziegelstraße",
 	y = 660.0 
 }
 streetTable.sn[133] = {
-	name = "Raschwitzer Stra"..szlig.."e",
+	name = "Raschwitzer Straße",
 	y = 665.0 
 }
 streetTable.sn[134] = {
-	name = "Georg-Herwegh-Stra"..szlig.."e",
+	name = "Georg-Herwegh-Straße",
 	y = 670.0 
 }
 streetTable.sn[135] = {
@@ -5364,15 +5364,15 @@ streetTable.sn[135] = {
 	y = 675.0 
 }
 streetTable.sn[136] = {
-	name = "Majakowskistra"..szlig.."e",
+	name = "Majakowskistraße",
 	y = 680.0 
 }
 streetTable.sn[137] = {
-	name = "Hauschildstra"..szlig.."e",
+	name = "Hauschildstraße",
 	y = 685.0 
 }
 streetTable.sn[138] = {
-	name = "Dinterstra"..szlig.."e",
+	name = "Dinterstraße",
 	y = 690.0 
 }
 streetTable.sn[139] = {
@@ -5392,11 +5392,11 @@ streetTable.sn[142] = {
 	y = 710.0 
 }
 streetTable.sn[143] = {
-	name = Auml.."u"..szlig.."ere Friedrich-Naumann-Stra"..szlig.."e",
+	name = "Äußere Friedrich-Naumann-Straße",
 	y = 715.0 
 }
 streetTable.sn[144] = {
-	name = "Basteistra"..szlig.."e",
+	name = "Basteistraße",
 	y = 720.0 
 }
 streetTable.sn[145] = {
@@ -5404,23 +5404,23 @@ streetTable.sn[145] = {
 	y = 725.0 
 }
 streetTable.sn[146] = {
-	name = "Neunkirchener Stra"..szlig.."e",
+	name = "Neunkirchener Straße",
 	y = 730.0 
 }
 streetTable.sn[147] = {
-	name = "Falkensteinstra"..szlig.."e",
+	name = "Falkensteinstraße",
 	y = 735.0 
 }
 streetTable.sn[148] = {
-	name = "B"..uuml.."hringstra"..szlig.."e",
+	name = "Bühringstraße",
 	y = 740.0 
 }
 streetTable.sn[149] = {
-	name = "Stahmelner Stra"..szlig.."e",
+	name = "Stahmelner Straße",
 	y = 745.0 
 }
 streetTable.sn[150] = {
-	name = "Burgstra"..szlig.."e",
+	name = "Burgstraße",
 	y = 750.0 
 }
 streetTable.sn[151] = {
@@ -5436,11 +5436,11 @@ streetTable.sn[153] = {
 	y = 765.0 
 }
 streetTable.sn[154] = {
-	name = "Gustav-K"..uuml.."hn-Stra"..szlig.."e",
+	name = "Gustav-Kühn-Straße",
 	y = 770.0 
 }
 streetTable.sn[155] = {
-	name = "Leibnizstra"..szlig.."e",
+	name = "Leibnizstraße",
 	y = 775.0 
 }
 streetTable.sn[156] = {
@@ -5456,7 +5456,7 @@ streetTable.sn[158] = {
 	y = 790.0 
 }
 streetTable.sn[159] = {
-	name = "Wittenberger Stra"..szlig.."e",
+	name = "Wittenberger Straße",
 	y = 795.0 
 }
 streetTable.sn[160] = {
@@ -5464,7 +5464,7 @@ streetTable.sn[160] = {
 	y = 800.0 
 }
 streetTable.sn[161] = {
-	name = "Christian-Schmid-Stra"..szlig.."e",
+	name = "Christian-Schmid-Straße",
 	y = 805.0 
 }
 streetTable.sn[162] = {
@@ -5476,19 +5476,19 @@ streetTable.sn[163] = {
 	y = 815.0 
 }
 streetTable.sn[164] = {
-	name = "Gotthelfstra"..szlig.."e",
+	name = "Gotthelfstraße",
 	y = 820.0 
 }
 streetTable.sn[165] = {
-	name = "Ulrichstra"..szlig.."e",
+	name = "Ulrichstraße",
 	y = 825.0 
 }
 streetTable.sn[166] = {
-	name = "Beuthstra"..szlig.."e",
+	name = "Beuthstraße",
 	y = 830.0 
 }
 streetTable.sn[167] = {
-	name = "K"..auml.."rrnerstra"..szlig.."e",
+	name = "Kärrnerstraße",
 	y = 835.0 
 }
 streetTable.sn[168] = {
@@ -5496,11 +5496,11 @@ streetTable.sn[168] = {
 	y = 840.0 
 }
 streetTable.sn[169] = {
-	name = "Tschammerstra"..szlig.."e",
+	name = "Tschammerstraße",
 	y = 845.0 
 }
 streetTable.sn[170] = {
-	name = "Hummelstra"..szlig.."e",
+	name = "Hummelstraße",
 	y = 850.0 
 }
 streetTable.sn[171] = {
@@ -5512,27 +5512,27 @@ streetTable.sn[172] = {
 	y = 860.0 
 }
 streetTable.sn[173] = {
-	name = "Offenburger Stra"..szlig.."e",
+	name = "Offenburger Straße",
 	y = 865.0 
 }
 streetTable.sn[174] = {
-	name = "An der Br"..uuml.."cke",
+	name = "An der Brücke",
 	y = 870.0 
 }
 streetTable.sn[175] = {
-	name = "Zweifelstra"..szlig.."e",
+	name = "Zweifelstraße",
 	y = 875.0 
 }
 streetTable.sn[176] = {
-	name = "Giordano-Bruno-Stra"..szlig.."e",
+	name = "Giordano-Bruno-Straße",
 	y = 880.0 
 }
 streetTable.sn[177] = {
-	name = "Paul-Michael-Stra"..szlig.."e",
+	name = "Paul-Michael-Straße",
 	y = 885.0 
 }
 streetTable.sn[178] = {
-	name = "Hainbuchenstra"..szlig.."e",
+	name = "Hainbuchenstraße",
 	y = 890.0 
 }
 streetTable.sn[179] = {
@@ -5540,7 +5540,7 @@ streetTable.sn[179] = {
 	y = 895.0 
 }
 streetTable.sn[180] = {
-	name = "Eisenbahnstra"..szlig.."e",
+	name = "Eisenbahnstraße",
 	y = 900.0 
 }
 streetTable.sn[181] = {
@@ -5548,19 +5548,19 @@ streetTable.sn[181] = {
 	y = 905.0 
 }
 streetTable.sn[182] = {
-	name = "Fichtestra"..szlig.."e",
+	name = "Fichtestraße",
 	y = 910.0 
 }
 streetTable.sn[183] = {
-	name = "Dorstigstra"..szlig.."e",
+	name = "Dorstigstraße",
 	y = 915.0 
 }
 streetTable.sn[184] = {
-	name = "Posastra"..szlig.."e",
+	name = "Posastraße",
 	y = 920.0 
 }
 streetTable.sn[185] = {
-	name = "Friedrich-Schmidt-Stra"..szlig.."e",
+	name = "Friedrich-Schmidt-Straße",
 	y = 925.0 
 }
 streetTable.sn[186] = {
@@ -5568,7 +5568,7 @@ streetTable.sn[186] = {
 	y = 930.0 
 }
 streetTable.sn[187] = {
-	name = "Matthissonstra"..szlig.."e",
+	name = "Matthissonstraße",
 	y = 935.0 
 }
 streetTable.sn[188] = {
@@ -5576,15 +5576,15 @@ streetTable.sn[188] = {
 	y = 940.0 
 }
 streetTable.sn[189] = {
-	name = "Herrnhuter Stra"..szlig.."e",
+	name = "Herrnhuter Straße",
 	y = 945.0 
 }
 streetTable.sn[190] = {
-	name = "Gottschalkstra"..szlig.."e",
+	name = "Gottschalkstraße",
 	y = 950.0 
 }
 streetTable.sn[191] = {
-	name = "Beethovenstra"..szlig.."e",
+	name = "Beethovenstraße",
 	y = 955.0 
 }
 streetTable.sn[192] = {
@@ -5596,7 +5596,7 @@ streetTable.sn[193] = {
 	y = 965.0 
 }
 streetTable.sn[194] = {
-	name = "Eduard-von-Hartmann-Stra"..szlig.."e",
+	name = "Eduard-von-Hartmann-Straße",
 	y = 970.0 
 }
 streetTable.sn[195] = {
@@ -5608,7 +5608,7 @@ streetTable.sn[196] = {
 	y = 980.0 
 }
 streetTable.sn[197] = {
-	name = "Max-Borsdorf-Stra"..szlig.."e",
+	name = "Max-Borsdorf-Straße",
 	y = 985.0 
 }
 streetTable.sn[198] = {
@@ -5616,23 +5616,23 @@ streetTable.sn[198] = {
 	y = 990.0 
 }
 streetTable.sn[199] = {
-	name = "Gellertstra"..szlig.."e",
+	name = "Gellertstraße",
 	y = 995.0 
 }
 streetTable.sn[200] = {
-	name = "Ernst-Hasse-Stra"..szlig.."e",
+	name = "Ernst-Hasse-Straße",
 	y = 1000.0 
 }
 streetTable.sn[201] = {
-	name = "Hirtenholzstra"..szlig.."e",
+	name = "Hirtenholzstraße",
 	y = 1005.0 
 }
 streetTable.sn[202] = {
-	name = "Etzelstra"..szlig.."e",
+	name = "Etzelstraße",
 	y = 1010.0 
 }
 streetTable.sn[203] = {
-	name = "Jupiterstra"..szlig.."e",
+	name = "Jupiterstraße",
 	y = 1015.0 
 }
 streetTable.sn[204] = {
@@ -5644,11 +5644,11 @@ streetTable.sn[205] = {
 	y = 1025.0 
 }
 streetTable.sn[206] = {
-	name = "Schillerstra"..szlig.."e",
+	name = "Schillerstraße",
 	y = 1030.0 
 }
 streetTable.sn[207] = {
-	name = "Borsdorfer Stra"..szlig.."e",
+	name = "Borsdorfer Straße",
 	y = 1035.0 
 }
 streetTable.sn[208] = {
@@ -5656,7 +5656,7 @@ streetTable.sn[208] = {
 	y = 1040.0 
 }
 streetTable.sn[209] = {
-	name = "St"..uuml.."nz-M"..ouml.."lkauer Weg",
+	name = "Stünz-Mölkauer Weg",
 	y = 1045.0 
 }
 streetTable.sn[210] = {
@@ -5664,11 +5664,11 @@ streetTable.sn[210] = {
 	y = 1050.0 
 }
 streetTable.sn[211] = {
-	name = "Beckerstra"..szlig.."e",
+	name = "Beckerstraße",
 	y = 1055.0 
 }
 streetTable.sn[212] = {
-	name = "Ludwigstra"..szlig.."e",
+	name = "Ludwigstraße",
 	y = 1060.0 
 }
 streetTable.sn[213] = {
@@ -5676,27 +5676,27 @@ streetTable.sn[213] = {
 	y = 1065.0 
 }
 streetTable.sn[214] = {
-	name = "Libellenstra"..szlig.."e",
+	name = "Libellenstraße",
 	y = 1070.0 
 }
 streetTable.sn[215] = {
-	name = "Heimdallstra"..szlig.."e",
+	name = "Heimdallstraße",
 	y = 1075.0 
 }
 streetTable.sn[216] = {
-	name = "Kantor-Hase-Stra"..szlig.."e",
+	name = "Kantor-Hase-Straße",
 	y = 1080.0 
 }
 streetTable.sn[217] = {
-	name = "Hofmeisterstra"..szlig.."e",
+	name = "Hofmeisterstraße",
 	y = 1085.0 
 }
 streetTable.sn[218] = {
-	name = "Corinthstra"..szlig.."e",
+	name = "Corinthstraße",
 	y = 1090.0 
 }
 streetTable.sn[219] = {
-	name = "Quasnitzer H"..ouml.."he",
+	name = "Quasnitzer Höhe",
 	y = 1095.0 
 }
 streetTable.sn[220] = {
@@ -5708,7 +5708,7 @@ streetTable.sn[221] = {
 	y = 1105.0 
 }
 streetTable.sn[222] = {
-	name = "W"..ouml.."bbeliner Stra"..szlig.."e",
+	name = "Wöbbeliner Straße",
 	y = 1110.0 
 }
 streetTable.sn[223] = {
@@ -5716,11 +5716,11 @@ streetTable.sn[223] = {
 	y = 1115.0 
 }
 streetTable.sn[224] = {
-	name = "Rackwitzer Stra"..szlig.."e",
+	name = "Rackwitzer Straße",
 	y = 1120.0 
 }
 streetTable.sn[225] = {
-	name = "Max-Reger-Stra"..szlig.."e",
+	name = "Max-Reger-Straße",
 	y = 1125.0 
 }
 streetTable.sn[226] = {
@@ -5728,15 +5728,15 @@ streetTable.sn[226] = {
 	y = 1130.0 
 }
 streetTable.sn[227] = {
-	name = "Schnorrstra"..szlig.."e",
+	name = "Schnorrstraße",
 	y = 1135.0 
 }
 streetTable.sn[228] = {
-	name = "B"..uuml.."rgerstra"..szlig.."e",
+	name = "Bürgerstraße",
 	y = 1140.0 
 }
 streetTable.sn[229] = {
-	name = "Ziolkowskistra"..szlig.."e",
+	name = "Ziolkowskistraße",
 	y = 1145.0 
 }
 streetTable.sn[230] = {
@@ -5744,35 +5744,35 @@ streetTable.sn[230] = {
 	y = 1150.0 
 }
 streetTable.sn[231] = {
-	name = "Moschelesstra"..szlig.."e",
+	name = "Moschelesstraße",
 	y = 1155.0 
 }
 streetTable.sn[232] = {
-	name = "Spetlakstra"..szlig.."e",
+	name = "Spetlakstraße",
 	y = 1160.0 
 }
 streetTable.sn[233] = {
-	name = "Bucksdorffstra"..szlig.."e",
+	name = "Bucksdorffstraße",
 	y = 1165.0 
 }
 streetTable.sn[234] = {
-	name = "Br"..ouml.."sigkestra"..szlig.."e",
+	name = "Brösigkestraße",
 	y = 1170.0 
 }
 streetTable.sn[235] = {
-	name = "Veclav-Neumann-Stra"..szlig.."e",
+	name = "Veclav-Neumann-Straße",
 	y = 1175.0 
 }
 streetTable.sn[236] = {
-	name = "Fregestra"..szlig.."e",
+	name = "Fregestraße",
 	y = 1180.0 
 }
 streetTable.sn[237] = {
-	name = "Naund"..ouml.."rfchen",
+	name = "Naundörfchen",
 	y = 1185.0 
 }
 streetTable.sn[238] = {
-	name = "Menckestra"..szlig.."e",
+	name = "Menckestraße",
 	y = 1190.0 
 }
 streetTable.sn[239] = {
@@ -5780,35 +5780,35 @@ streetTable.sn[239] = {
 	y = 1195.0 
 }
 streetTable.sn[240] = {
-	name = "Brandiser Stra"..szlig.."e",
+	name = "Brandiser Straße",
 	y = 1200.0 
 }
 streetTable.sn[241] = {
-	name = "Kriemhildstra"..szlig.."e",
+	name = "Kriemhildstraße",
 	y = 1205.0 
 }
 streetTable.sn[242] = {
-	name = "Hedwigstra"..szlig.."e",
+	name = "Hedwigstraße",
 	y = 1210.0 
 }
 streetTable.sn[243] = {
-	name = "Siegfriedstra"..szlig.."e",
+	name = "Siegfriedstraße",
 	y = 1215.0 
 }
 streetTable.sn[244] = {
-	name = "Arndtstra"..szlig.."e",
+	name = "Arndtstraße",
 	y = 1220.0 
 }
 streetTable.sn[245] = {
-	name = "Spohrstra"..szlig.."e",
+	name = "Spohrstraße",
 	y = 1225.0 
 }
 streetTable.sn[246] = {
-	name = "Hildegardstra"..szlig.."e",
+	name = "Hildegardstraße",
 	y = 1230.0 
 }
 streetTable.sn[247] = {
-	name = "Holteistra"..szlig.."e",
+	name = "Holteistraße",
 	y = 1235.0 
 }
 streetTable.sn[248] = {
@@ -5820,7 +5820,7 @@ streetTable.sn[249] = {
 	y = 1245.0 
 }
 streetTable.sn[250] = {
-	name = "Schwedenstra"..szlig.."e",
+	name = "Schwedenstraße",
 	y = 1250.0 
 }
 streetTable.sn[251] = {
@@ -5828,7 +5828,7 @@ streetTable.sn[251] = {
 	y = 1255.0 
 }
 streetTable.sn[252] = {
-	name = "Schinkelstra"..szlig.."e",
+	name = "Schinkelstraße",
 	y = 1260.0 
 }
 streetTable.sn[253] = {
@@ -5836,31 +5836,31 @@ streetTable.sn[253] = {
 	y = 1265.0 
 }
 streetTable.sn[254] = {
-	name = "Preu"..szlig.."erg"..auml..""..szlig.."chen",
+	name = "Preußergäßchen",
 	y = 1270.0 
 }
 streetTable.sn[255] = {
-	name = "Fraunhoferstra"..szlig.."e",
+	name = "Fraunhoferstraße",
 	y = 1275.0 
 }
 streetTable.sn[256] = {
-	name = "Threnaer Stra"..szlig.."e",
+	name = "Threnaer Straße",
 	y = 1280.0 
 }
 streetTable.sn[257] = {
-	name = "Oberl"..auml.."uterstra"..szlig.."e",
+	name = "Oberläuterstraße",
 	y = 1285.0 
 }
 streetTable.sn[258] = {
-	name = "Otto-Militzer-Stra"..szlig.."e",
+	name = "Otto-Militzer-Straße",
 	y = 1290.0 
 }
 streetTable.sn[259] = {
-	name = "Felsenbirnenstra"..szlig.."e",
+	name = "Felsenbirnenstraße",
 	y = 1295.0 
 }
 streetTable.sn[260] = {
-	name = "Birkenstra"..szlig.."e",
+	name = "Birkenstraße",
 	y = 1300.0 
 }
 streetTable.sn[261] = {
@@ -5868,7 +5868,7 @@ streetTable.sn[261] = {
 	y = 1305.0 
 }
 streetTable.sn[262] = {
-	name = "Josephstra"..szlig.."e",
+	name = "Josephstraße",
 	y = 1310.0 
 }
 streetTable.sn[263] = {
@@ -5880,27 +5880,27 @@ streetTable.sn[264] = {
 	y = 1320.0 
 }
 streetTable.sn[265] = {
-	name = "Rotk"..auml.."ppchenweg",
+	name = "Rotkäppchenweg",
 	y = 1325.0 
 }
 streetTable.sn[266] = {
-	name = "Endnerstra"..szlig.."e",
+	name = "Endnerstraße",
 	y = 1330.0 
 }
 streetTable.sn[267] = {
-	name = "Gr"..uuml.."newaldstra"..szlig.."e",
+	name = "Grünewaldstraße",
 	y = 1335.0 
 }
 streetTable.sn[268] = {
-	name = "Ganghoferstra"..szlig.."e",
+	name = "Ganghoferstraße",
 	y = 1340.0 
 }
 streetTable.sn[269] = {
-	name = "Markkleeberger Stra"..szlig.."e",
+	name = "Markkleeberger Straße",
 	y = 1345.0 
 }
 streetTable.sn[270] = {
-	name = "Katharinenstra"..szlig.."e",
+	name = "Katharinenstraße",
 	y = 1350.0 
 }
 streetTable.sn[271] = {
@@ -5908,43 +5908,43 @@ streetTable.sn[271] = {
 	y = 1355.0 
 }
 streetTable.sn[272] = {
-	name = "August-Scheibe-Stra"..szlig.."e",
+	name = "August-Scheibe-Straße",
 	y = 1360.0 
 }
 streetTable.sn[273] = {
-	name = "J"..ouml.."cherstra"..szlig.."e",
+	name = "Jöcherstraße",
 	y = 1365.0 
 }
 streetTable.sn[274] = {
-	name = "Alfred-K"..auml.."stner-Stra"..szlig.."e",
+	name = "Alfred-Kästner-Straße",
 	y = 1370.0 
 }
 streetTable.sn[275] = {
-	name = "Arnst"..auml.."dter Kehre",
+	name = "Arnstädter Kehre",
 	y = 1375.0 
 }
 streetTable.sn[276] = {
-	name = "Smaragdstra"..szlig.."e",
+	name = "Smaragdstraße",
 	y = 1380.0 
 }
 streetTable.sn[277] = {
-	name = "Hans-Beimler-Stra"..szlig.."e",
+	name = "Hans-Beimler-Straße",
 	y = 1385.0 
 }
 streetTable.sn[278] = {
-	name = "Rietschelstra"..szlig.."e",
+	name = "Rietschelstraße",
 	y = 1390.0 
 }
 streetTable.sn[279] = {
-	name = "Schellingstra"..szlig.."e",
+	name = "Schellingstraße",
 	y = 1395.0 
 }
 streetTable.sn[280] = {
-	name = "Zur Alten B"..auml.."ckerei",
+	name = "Zur Alten Bäckerei",
 	y = 1400.0 
 }
 streetTable.sn[281] = {
-	name = "Judith-Auer-Stra"..szlig.."e",
+	name = "Judith-Auer-Straße",
 	y = 1405.0 
 }
 streetTable.sn[282] = {
@@ -5952,19 +5952,19 @@ streetTable.sn[282] = {
 	y = 1410.0 
 }
 streetTable.sn[283] = {
-	name = "R"..uuml.."digerstra"..szlig.."e",
+	name = "Rüdigerstraße",
 	y = 1415.0 
 }
 streetTable.sn[284] = {
-	name = "Neue Leipziger Stra"..szlig.."e",
+	name = "Neue Leipziger Straße",
 	y = 1420.0 
 }
 streetTable.sn[285] = {
-	name = "Hauckstra"..szlig.."e",
+	name = "Hauckstraße",
 	y = 1425.0 
 }
 streetTable.sn[286] = {
-	name = "Pittlerstra"..szlig.."e",
+	name = "Pittlerstraße",
 	y = 1430.0 
 }
 streetTable.sn[287] = {
@@ -5976,15 +5976,15 @@ streetTable.sn[288] = {
 	y = 1440.0 
 }
 streetTable.sn[289] = {
-	name = "Am Pfefferbr"..uuml.."ckchen",
+	name = "Am Pfefferbrückchen",
 	y = 1445.0 
 }
 streetTable.sn[290] = {
-	name = "Senefelderstra"..szlig.."e",
+	name = "Senefelderstraße",
 	y = 1450.0 
 }
 streetTable.sn[291] = {
-	name = "Karl-Ferlemann-Stra"..szlig.."e",
+	name = "Karl-Ferlemann-Straße",
 	y = 1455.0 
 }
 streetTable.sn[292] = {
@@ -5992,15 +5992,15 @@ streetTable.sn[292] = {
 	y = 1460.0 
 }
 streetTable.sn[293] = {
-	name = "Antonienstra"..szlig.."e",
+	name = "Antonienstraße",
 	y = 1465.0 
 }
 streetTable.sn[294] = {
-	name = "Pufendorfstra"..szlig.."e",
+	name = "Pufendorfstraße",
 	y = 1470.0 
 }
 streetTable.sn[295] = {
-	name = "Berthastra"..szlig.."e",
+	name = "Berthastraße",
 	y = 1475.0 
 }
 streetTable.sn[296] = {
@@ -6008,7 +6008,7 @@ streetTable.sn[296] = {
 	y = 1480.0 
 }
 streetTable.sn[297] = {
-	name = "H"..uuml.."nerfeldstra"..szlig.."e",
+	name = "Hünerfeldstraße",
 	y = 1485.0 
 }
 streetTable.sn[298] = {
@@ -6016,15 +6016,15 @@ streetTable.sn[298] = {
 	y = 1490.0 
 }
 streetTable.sn[299] = {
-	name = "Tannenwaldstra"..szlig.."e",
+	name = "Tannenwaldstraße",
 	y = 1495.0 
 }
 streetTable.sn[300] = {
-	name = "G"..auml.."rtnergasse",
+	name = "Gärtnergasse",
 	y = 1500.0 
 }
 streetTable.sn[301] = {
-	name = "Markgrafenstra"..szlig.."e",
+	name = "Markgrafenstraße",
 	y = 1505.0 
 }
 streetTable.sn[302] = {
@@ -6032,19 +6032,19 @@ streetTable.sn[302] = {
 	y = 1510.0 
 }
 streetTable.sn[303] = {
-	name = "Annenstra"..szlig.."e",
+	name = "Annenstraße",
 	y = 1515.0 
 }
 streetTable.sn[304] = {
-	name = "Hartriegelstra"..szlig.."e",
+	name = "Hartriegelstraße",
 	y = 1520.0 
 }
 streetTable.sn[305] = {
-	name = "Paul-Kl"..ouml.."psch-Stra"..szlig.."e",
+	name = "Paul-Klöpsch-Straße",
 	y = 1525.0 
 }
 streetTable.sn[306] = {
-	name = "Lenzstra"..szlig.."e",
+	name = "Lenzstraße",
 	y = 1530.0 
 }
 streetTable.sn[307] = {
@@ -6052,11 +6052,11 @@ streetTable.sn[307] = {
 	y = 1535.0 
 }
 streetTable.sn[308] = {
-	name = "Ludwig-Beck-Stra"..szlig.."e",
+	name = "Ludwig-Beck-Straße",
 	y = 1540.0 
 }
 streetTable.sn[309] = {
-	name = "Osth"..ouml.."he",
+	name = "Osthöhe",
 	y = 1545.0 
 }
 streetTable.sn[310] = {
@@ -6064,7 +6064,7 @@ streetTable.sn[310] = {
 	y = 1550.0 
 }
 streetTable.sn[311] = {
-	name = "Delitzscher Stra"..szlig.."e",
+	name = "Delitzscher Straße",
 	y = 1555.0 
 }
 streetTable.sn[312] = {
@@ -6080,47 +6080,47 @@ streetTable.sn[314] = {
 	y = 1570.0 
 }
 streetTable.sn[315] = {
-	name = "Otto-Thiele-Stra"..szlig.."e",
+	name = "Otto-Thiele-Straße",
 	y = 1575.0 
 }
 streetTable.sn[316] = {
-	name = "G"..uuml.."ldengossaer Stra"..szlig.."e",
+	name = "Güldengossaer Straße",
 	y = 1580.0 
 }
 streetTable.sn[317] = {
-	name = "D"..ouml.."sner Weg",
+	name = "Dösner Weg",
 	y = 1585.0 
 }
 streetTable.sn[318] = {
-	name = "Amselh"..ouml.."he",
+	name = "Amselhöhe",
 	y = 1590.0 
 }
 streetTable.sn[319] = {
-	name = "Trinitatisstra"..szlig.."e",
+	name = "Trinitatisstraße",
 	y = 1595.0 
 }
 streetTable.sn[320] = {
-	name = "G"..uuml.."terbahnhofstra"..szlig.."e",
+	name = "Güterbahnhofstraße",
 	y = 1600.0 
 }
 streetTable.sn[321] = {
-	name = "Nordstra"..szlig.."e",
+	name = "Nordstraße",
 	y = 1605.0 
 }
 streetTable.sn[322] = {
-	name = "Walter-Barth-Stra"..szlig.."e",
+	name = "Walter-Barth-Straße",
 	y = 1610.0 
 }
 streetTable.sn[323] = {
-	name = "Kastanienstra"..szlig.."e",
+	name = "Kastanienstraße",
 	y = 1615.0 
 }
 streetTable.sn[324] = {
-	name = "Emil-Kluge-Stra"..szlig.."e",
+	name = "Emil-Kluge-Straße",
 	y = 1620.0 
 }
 streetTable.sn[325] = {
-	name = "Dortmunder Stra"..szlig.."e",
+	name = "Dortmunder Straße",
 	y = 1625.0 
 }
 streetTable.sn[326] = {
@@ -6132,7 +6132,7 @@ streetTable.sn[327] = {
 	y = 1635.0 
 }
 streetTable.sn[328] = {
-	name = "Marmontstra"..szlig.."e",
+	name = "Marmontstraße",
 	y = 1640.0 
 }
 streetTable.sn[329] = {
@@ -6140,23 +6140,23 @@ streetTable.sn[329] = {
 	y = 1645.0 
 }
 streetTable.sn[330] = {
-	name = "Curschmannstra"..szlig.."e",
+	name = "Curschmannstraße",
 	y = 1650.0 
 }
 streetTable.sn[331] = {
-	name = "St"..ouml.."rmthaler Stra"..szlig.."e",
+	name = "Störmthaler Straße",
 	y = 1655.0 
 }
 streetTable.sn[332] = {
-	name = "Kieler Stra"..szlig.."e",
+	name = "Kieler Straße",
 	y = 1660.0 
 }
 streetTable.sn[333] = {
-	name = "Huberstra"..szlig.."e",
+	name = "Huberstraße",
 	y = 1665.0 
 }
 streetTable.sn[334] = {
-	name = "Bretschneiderstra"..szlig.."e",
+	name = "Bretschneiderstraße",
 	y = 1670.0 
 }
 streetTable.sn[335] = {
@@ -6164,15 +6164,15 @@ streetTable.sn[335] = {
 	y = 1675.0 
 }
 streetTable.sn[336] = {
-	name = "Kolbestra"..szlig.."e",
+	name = "Kolbestraße",
 	y = 1680.0 
 }
 streetTable.sn[337] = {
-	name = "Dietzgenstra"..szlig.."e",
+	name = "Dietzgenstraße",
 	y = 1685.0 
 }
 streetTable.sn[338] = {
-	name = Ouml.."lhafenstra"..szlig.."e",
+	name = "Ölhafenstraße",
 	y = 1690.0 
 }
 streetTable.sn[339] = {
@@ -6192,19 +6192,19 @@ streetTable.sn[342] = {
 	y = 1710.0 
 }
 streetTable.sn[343] = {
-	name = "Ro"..szlig.."m"..auml..""..szlig.."lerstra"..szlig.."e",
+	name = "Roßmäßlerstraße",
 	y = 1715.0 
 }
 streetTable.sn[344] = {
-	name = "M"..uuml.."hlstra"..szlig.."e",
+	name = "Mühlstraße",
 	y = 1720.0 
 }
 streetTable.sn[345] = {
-	name = "Stephanstra"..szlig.."e",
+	name = "Stephanstraße",
 	y = 1725.0 
 }
 streetTable.sn[346] = {
-	name = "Liebigstra"..szlig.."e",
+	name = "Liebigstraße",
 	y = 1730.0 
 }
 streetTable.sn[347] = {
@@ -6212,7 +6212,7 @@ streetTable.sn[347] = {
 	y = 1735.0 
 }
 streetTable.sn[348] = {
-	name = "Hermannstra"..szlig.."e",
+	name = "Hermannstraße",
 	y = 1740.0 
 }
 streetTable.sn[349] = {
@@ -6220,7 +6220,7 @@ streetTable.sn[349] = {
 	y = 1745.0 
 }
 streetTable.sn[350] = {
-	name = "Wenckstra"..szlig.."e",
+	name = "Wenckstraße",
 	y = 1750.0 
 }
 streetTable.sn[351] = {
@@ -6228,11 +6228,11 @@ streetTable.sn[351] = {
 	y = 1755.0 
 }
 streetTable.sn[352] = {
-	name = "Schwylststra"..szlig.."e",
+	name = "Schwylststraße",
 	y = 1760.0 
 }
 streetTable.sn[353] = {
-	name = "Frickestra"..szlig.."e",
+	name = "Frickestraße",
 	y = 1765.0 
 }
 streetTable.sn[354] = {
@@ -6240,7 +6240,7 @@ streetTable.sn[354] = {
 	y = 1770.0 
 }
 streetTable.sn[355] = {
-	name = "Korolenkostra"..szlig.."e",
+	name = "Korolenkostraße",
 	y = 1775.0 
 }
 streetTable.sn[356] = {
@@ -6252,11 +6252,11 @@ streetTable.sn[357] = {
 	y = 1785.0 
 }
 streetTable.sn[358] = {
-	name = "Auenseestra"..szlig.."e",
+	name = "Auenseestraße",
 	y = 1790.0 
 }
 streetTable.sn[359] = {
-	name = "Wurzner Stra"..szlig.."e",
+	name = "Wurzner Straße",
 	y = 1795.0 
 }
 streetTable.sn[360] = {
@@ -6264,19 +6264,19 @@ streetTable.sn[360] = {
 	y = 1800.0 
 }
 streetTable.sn[361] = {
-	name = "Auguste-Schulze-Stra"..szlig.."e",
+	name = "Auguste-Schulze-Straße",
 	y = 1805.0 
 }
 streetTable.sn[362] = {
-	name = "Cr"..ouml.."berner Stra"..szlig.."e",
+	name = "Cröberner Straße",
 	y = 1810.0 
 }
 streetTable.sn[363] = {
-	name = "Erich-Thiele-Stra"..szlig.."e",
+	name = "Erich-Thiele-Straße",
 	y = 1815.0 
 }
 streetTable.sn[364] = {
-	name = "Hubertusstra"..szlig.."e",
+	name = "Hubertusstraße",
 	y = 1820.0 
 }
 streetTable.sn[365] = {
@@ -6284,23 +6284,23 @@ streetTable.sn[365] = {
 	y = 1825.0 
 }
 streetTable.sn[366] = {
-	name = "Bisamstra"..szlig.."e",
+	name = "Bisamstraße",
 	y = 1830.0 
 }
 streetTable.sn[367] = {
-	name = "Schlegelstra"..szlig.."e",
+	name = "Schlegelstraße",
 	y = 1835.0 
 }
 streetTable.sn[368] = {
-	name = "G"..uuml.."ntherstra"..szlig.."e",
+	name = "Güntherstraße",
 	y = 1840.0 
 }
 streetTable.sn[369] = {
-	name = "Nu"..szlig.."baumallee",
+	name = "Nußbaumallee",
 	y = 1845.0 
 }
 streetTable.sn[370] = {
-	name = "Im D"..ouml.."litzer Holz",
+	name = "Im Dölitzer Holz",
 	y = 1850.0 
 }
 streetTable.sn[371] = {
@@ -6316,7 +6316,7 @@ streetTable.sn[373] = {
 	y = 1865.0 
 }
 streetTable.sn[374] = {
-	name = "Am J"..auml.."gerhaus",
+	name = "Am Jägerhaus",
 	y = 1870.0 
 }
 streetTable.sn[375] = {
@@ -6332,11 +6332,11 @@ streetTable.sn[377] = {
 	y = 1885.0 
 }
 streetTable.sn[378] = {
-	name = "K"..ouml.."bisstra"..szlig.."e",
+	name = "Köbisstraße",
 	y = 1890.0 
 }
 streetTable.sn[379] = {
-	name = "Auf der H"..ouml.."he",
+	name = "Auf der Höhe",
 	y = 1895.0 
 }
 streetTable.sn[380] = {
@@ -6344,27 +6344,27 @@ streetTable.sn[380] = {
 	y = 1900.0 
 }
 streetTable.sn[381] = {
-	name = "Feldstra"..szlig.."e",
+	name = "Feldstraße",
 	y = 1905.0 
 }
 streetTable.sn[382] = {
-	name = "Hohmannstra"..szlig.."e",
+	name = "Hohmannstraße",
 	y = 1910.0 
 }
 streetTable.sn[383] = {
-	name = "Rinckartstra"..szlig.."e",
+	name = "Rinckartstraße",
 	y = 1915.0 
 }
 streetTable.sn[384] = {
-	name = "G"..auml.."nsebl"..uuml.."mchenweg",
+	name = "Gänseblümchenweg",
 	y = 1920.0 
 }
 streetTable.sn[385] = {
-	name = "D"..ouml.."rrienstra"..szlig.."e",
+	name = "Dörrienstraße",
 	y = 1925.0 
 }
 streetTable.sn[386] = {
-	name = "G"..ouml.."hrenzer Stra"..szlig.."e",
+	name = "Göhrenzer Straße",
 	y = 1930.0 
 }
 streetTable.sn[387] = {
@@ -6376,23 +6376,23 @@ streetTable.sn[388] = {
 	y = 1940.0 
 }
 streetTable.sn[389] = {
-	name = "Am G"..uuml.."terring",
+	name = "Am Güterring",
 	y = 1945.0 
 }
 streetTable.sn[390] = {
-	name = "Hardenbergstra"..szlig.."e",
+	name = "Hardenbergstraße",
 	y = 1950.0 
 }
 streetTable.sn[391] = {
-	name = "Sch"..ouml.."fflerweg",
+	name = "Schöfflerweg",
 	y = 1955.0 
 }
 streetTable.sn[392] = {
-	name = "Nathanaelstra"..szlig.."e",
+	name = "Nathanaelstraße",
 	y = 1960.0 
 }
 streetTable.sn[393] = {
-	name = "Jahnstra"..szlig.."e",
+	name = "Jahnstraße",
 	y = 1965.0 
 }
 streetTable.sn[394] = {
@@ -6400,19 +6400,19 @@ streetTable.sn[394] = {
 	y = 1970.0 
 }
 streetTable.sn[395] = {
-	name = "Wertheimer Stra"..szlig.."e",
+	name = "Wertheimer Straße",
 	y = 1975.0 
 }
 streetTable.sn[396] = {
-	name = "Claudiusstra"..szlig.."e",
+	name = "Claudiusstraße",
 	y = 1980.0 
 }
 streetTable.sn[397] = {
-	name = "Christoph-Probst-Stra"..szlig.."e",
+	name = "Christoph-Probst-Straße",
 	y = 1985.0 
 }
 streetTable.sn[398] = {
-	name = "Hauptmannstra"..szlig.."e",
+	name = "Hauptmannstraße",
 	y = 1990.0 
 }
 streetTable.sn[399] = {
@@ -6420,15 +6420,15 @@ streetTable.sn[399] = {
 	y = 1995.0 
 }
 streetTable.sn[400] = {
-	name = "Sommerlindenstra"..szlig.."e",
+	name = "Sommerlindenstraße",
 	y = 2000.0 
 }
 streetTable.sn[401] = {
-	name = "Teichgr"..auml.."berstra"..szlig.."e",
+	name = "Teichgräberstraße",
 	y = 2005.0 
 }
 streetTable.sn[402] = {
-	name = "Nonnenm"..uuml.."hlgasse",
+	name = "Nonnenmühlgasse",
 	y = 2010.0 
 }
 streetTable.sn[403] = {
@@ -6440,7 +6440,7 @@ streetTable.sn[404] = {
 	y = 2020.0 
 }
 streetTable.sn[405] = {
-	name = "Th"..uuml.."nenstra"..szlig.."e",
+	name = "Thünenstraße",
 	y = 2025.0 
 }
 streetTable.sn[406] = {
@@ -6448,15 +6448,15 @@ streetTable.sn[406] = {
 	y = 2030.0 
 }
 streetTable.sn[407] = {
-	name = "Hermann-Liebmann-Stra"..szlig.."e",
+	name = "Hermann-Liebmann-Straße",
 	y = 2035.0 
 }
 streetTable.sn[408] = {
-	name = "Carusstra"..szlig.."e",
+	name = "Carusstraße",
 	y = 2040.0 
 }
 streetTable.sn[409] = {
-	name = "Hallesche Stra"..szlig.."e",
+	name = "Hallesche Straße",
 	y = 2045.0 
 }
 streetTable.sn[410] = {
@@ -6468,11 +6468,11 @@ streetTable.sn[411] = {
 	y = 2055.0 
 }
 streetTable.sn[412] = {
-	name = "Krakauer Stra"..szlig.."e",
+	name = "Krakauer Straße",
 	y = 2060.0 
 }
 streetTable.sn[413] = {
-	name = "Stra"..szlig.."e des 18. Oktober",
+	name = "Straße des 18. Oktober",
 	y = 2065.0 
 }
 streetTable.sn[414] = {
@@ -6484,39 +6484,39 @@ streetTable.sn[415] = {
 	y = 2075.0 
 }
 streetTable.sn[416] = {
-	name = "Demmeringstra"..szlig.."e",
+	name = "Demmeringstraße",
 	y = 2080.0 
 }
 streetTable.sn[417] = {
-	name = "Oelsnitzer Stra"..szlig.."e",
+	name = "Oelsnitzer Straße",
 	y = 2085.0 
 }
 streetTable.sn[418] = {
-	name = "Kuntzschmannstra"..szlig.."e",
+	name = "Kuntzschmannstraße",
 	y = 2090.0 
 }
 streetTable.sn[419] = {
-	name = "Grillenstra"..szlig.."e",
+	name = "Grillenstraße",
 	y = 2095.0 
 }
 streetTable.sn[420] = {
-	name = "Sachsenh"..ouml.."he",
+	name = "Sachsenhöhe",
 	y = 2100.0 
 }
 streetTable.sn[421] = {
-	name = "M"..uuml.."hlbergsiedlung",
+	name = "Mühlbergsiedlung",
 	y = 2105.0 
 }
 streetTable.sn[422] = {
-	name = "Preu"..szlig.."enstra"..szlig.."e",
+	name = "Preußenstraße",
 	y = 2110.0 
 }
 streetTable.sn[423] = {
-	name = "Werfelstra"..szlig.."e",
+	name = "Werfelstraße",
 	y = 2115.0 
 }
 streetTable.sn[424] = {
-	name = "Ostrowskistra"..szlig.."e",
+	name = "Ostrowskistraße",
 	y = 2120.0 
 }
 streetTable.sn[425] = {
@@ -6528,39 +6528,39 @@ streetTable.sn[426] = {
 	y = 2130.0 
 }
 streetTable.sn[427] = {
-	name = "Kurt-Krah-Stra"..szlig.."e",
+	name = "Kurt-Krah-Straße",
 	y = 2135.0 
 }
 streetTable.sn[428] = {
-	name = "Emilienstra"..szlig.."e",
+	name = "Emilienstraße",
 	y = 2140.0 
 }
 streetTable.sn[429] = {
-	name = "Karlst"..auml.."dter Stra"..szlig.."e",
+	name = "Karlstädter Straße",
 	y = 2145.0 
 }
 streetTable.sn[430] = {
-	name = "Heinrichstra"..szlig.."e",
+	name = "Heinrichstraße",
 	y = 2150.0 
 }
 streetTable.sn[431] = {
-	name = "Willi-Bredel-Stra"..szlig.."e",
+	name = "Willi-Bredel-Straße",
 	y = 2155.0 
 }
 streetTable.sn[432] = {
-	name = "Papitzer Stra"..szlig.."e",
+	name = "Papitzer Straße",
 	y = 2160.0 
 }
 streetTable.sn[433] = {
-	name = "Topasstra"..szlig.."e",
+	name = "Topasstraße",
 	y = 2165.0 
 }
 streetTable.sn[434] = {
-	name = "Penckstra"..szlig.."e",
+	name = "Penckstraße",
 	y = 2170.0 
 }
 streetTable.sn[435] = {
-	name = "Davidstra"..szlig.."e",
+	name = "Davidstraße",
 	y = 2175.0 
 }
 streetTable.sn[436] = {
@@ -6568,7 +6568,7 @@ streetTable.sn[436] = {
 	y = 2180.0 
 }
 streetTable.sn[437] = {
-	name = "K"..ouml.."rnerweg",
+	name = "Körnerweg",
 	y = 2185.0 
 }
 streetTable.sn[438] = {
@@ -6576,7 +6576,7 @@ streetTable.sn[438] = {
 	y = 2190.0 
 }
 streetTable.sn[439] = {
-	name = "K"..uuml.."mmelweg",
+	name = "Kümmelweg",
 	y = 2195.0 
 }
 streetTable.sn[440] = {
@@ -6600,7 +6600,7 @@ streetTable.sn[444] = {
 	y = 2220.0 
 }
 streetTable.sn[445] = {
-	name = "St"..uuml.."nzer Stra"..szlig.."e",
+	name = "Stünzer Straße",
 	y = 2225.0 
 }
 streetTable.sn[446] = {
@@ -6608,7 +6608,7 @@ streetTable.sn[446] = {
 	y = 2230.0 
 }
 streetTable.sn[447] = {
-	name = "Semmelweisstra"..szlig.."e",
+	name = "Semmelweisstraße",
 	y = 2235.0 
 }
 streetTable.sn[448] = {
@@ -6620,7 +6620,7 @@ streetTable.sn[449] = {
 	y = 2245.0 
 }
 streetTable.sn[450] = {
-	name = "Simildenstra"..szlig.."e",
+	name = "Simildenstraße",
 	y = 2250.0 
 }
 streetTable.sn[451] = {
@@ -6628,19 +6628,19 @@ streetTable.sn[451] = {
 	y = 2255.0 
 }
 streetTable.sn[452] = {
-	name = "Riemannstra"..szlig.."e",
+	name = "Riemannstraße",
 	y = 2260.0 
 }
 streetTable.sn[453] = {
-	name = "Auenblickstra"..szlig.."e",
+	name = "Auenblickstraße",
 	y = 2265.0 
 }
 streetTable.sn[454] = {
-	name = "Konstantinstra"..szlig.."e",
+	name = "Konstantinstraße",
 	y = 2270.0 
 }
 streetTable.sn[455] = {
-	name = "Friederikenstra"..szlig.."e",
+	name = "Friederikenstraße",
 	y = 2275.0 
 }
 streetTable.sn[456] = {
@@ -6648,23 +6648,23 @@ streetTable.sn[456] = {
 	y = 2280.0 
 }
 streetTable.sn[457] = {
-	name = "Waldkerbelstra"..szlig.."e",
+	name = "Waldkerbelstraße",
 	y = 2285.0 
 }
 streetTable.sn[458] = {
-	name = "Bleichertstra"..szlig.."e",
+	name = "Bleichertstraße",
 	y = 2290.0 
 }
 streetTable.sn[459] = {
-	name = "Schwarzackerstra"..szlig.."e",
+	name = "Schwarzackerstraße",
 	y = 2295.0 
 }
 streetTable.sn[460] = {
-	name = "Holzh"..auml.."user Stra"..szlig.."e",
+	name = "Holzhäuser Straße",
 	y = 2300.0 
 }
 streetTable.sn[461] = {
-	name = "Schneiderstra"..szlig.."e",
+	name = "Schneiderstraße",
 	y = 2305.0 
 }
 streetTable.sn[462] = {
@@ -6672,7 +6672,7 @@ streetTable.sn[462] = {
 	y = 2310.0 
 }
 streetTable.sn[463] = {
-	name = "Potschkaustra"..szlig.."e",
+	name = "Potschkaustraße",
 	y = 2315.0 
 }
 streetTable.sn[464] = {
@@ -6684,27 +6684,27 @@ streetTable.sn[465] = {
 	y = 2325.0 
 }
 streetTable.sn[466] = {
-	name = "Julian-Marchlewski-Stra"..szlig.."e",
+	name = "Julian-Marchlewski-Straße",
 	y = 2330.0 
 }
 streetTable.sn[467] = {
-	name = "Reichsstra"..szlig.."e",
+	name = "Reichsstraße",
 	y = 2335.0 
 }
 streetTable.sn[468] = {
-	name = "Kn"..ouml.."flerstra"..szlig.."e",
+	name = "Knöflerstraße",
 	y = 2340.0 
 }
 streetTable.sn[469] = {
-	name = "Garskestra"..szlig.."e",
+	name = "Garskestraße",
 	y = 2345.0 
 }
 streetTable.sn[470] = {
-	name = "Atriumstra"..szlig.."e",
+	name = "Atriumstraße",
 	y = 2350.0 
 }
 streetTable.sn[471] = {
-	name = "Philipp-Rosenthal-Stra"..szlig.."e",
+	name = "Philipp-Rosenthal-Straße",
 	y = 2355.0 
 }
 streetTable.sn[472] = {
@@ -6712,7 +6712,7 @@ streetTable.sn[472] = {
 	y = 2360.0 
 }
 streetTable.sn[473] = {
-	name = "Am Sch"..auml.."ferh"..uuml.."gel",
+	name = "Am Schäferhügel",
 	y = 2365.0 
 }
 streetTable.sn[474] = {
@@ -6720,7 +6720,7 @@ streetTable.sn[474] = {
 	y = 2370.0 
 }
 streetTable.sn[475] = {
-	name = "Yorckstra"..szlig.."e ",
+	name = "Yorckstraße ",
 	y = 2375.0 
 }
 streetTable.sn[476] = {
@@ -6728,23 +6728,23 @@ streetTable.sn[476] = {
 	y = 2380.0 
 }
 streetTable.sn[477] = {
-	name = "Sperontesstra"..szlig.."e",
+	name = "Sperontesstraße",
 	y = 2385.0 
 }
 streetTable.sn[478] = {
-	name = "Viktoriastra"..szlig.."e",
+	name = "Viktoriastraße",
 	y = 2390.0 
 }
 streetTable.sn[479] = {
-	name = "Giselherstra"..szlig.."e",
+	name = "Giselherstraße",
 	y = 2395.0 
 }
 streetTable.sn[480] = {
-	name = "Buchener Stra"..szlig.."e",
+	name = "Buchener Straße",
 	y = 2400.0 
 }
 streetTable.sn[481] = {
-	name = "Alte Salzstra"..szlig.."e",
+	name = "Alte Salzstraße",
 	y = 2405.0 
 }
 streetTable.sn[482] = {
@@ -6752,11 +6752,11 @@ streetTable.sn[482] = {
 	y = 2410.0 
 }
 streetTable.sn[483] = {
-	name = "Cocciusstra"..szlig.."e",
+	name = "Cocciusstraße",
 	y = 2415.0 
 }
 streetTable.sn[484] = {
-	name = "Pommernstra"..szlig.."e",
+	name = "Pommernstraße",
 	y = 2420.0 
 }
 streetTable.sn[485] = {
@@ -6764,15 +6764,15 @@ streetTable.sn[485] = {
 	y = 2425.0 
 }
 streetTable.sn[486] = {
-	name = "Voltairestra"..szlig.."e",
+	name = "Voltairestraße",
 	y = 2430.0 
 }
 streetTable.sn[487] = {
-	name = "Hauptstra"..szlig.."e",
+	name = "Hauptstraße",
 	y = 2435.0 
 }
 streetTable.sn[488] = {
-	name = "Gersterstra"..szlig.."e",
+	name = "Gersterstraße",
 	y = 2440.0 
 }
 streetTable.sn[489] = {
@@ -6780,7 +6780,7 @@ streetTable.sn[489] = {
 	y = 2445.0 
 }
 streetTable.sn[490] = {
-	name = "Luckaer Stra"..szlig.."e",
+	name = "Luckaer Straße",
 	y = 2450.0 
 }
 streetTable.sn[491] = {
@@ -6788,7 +6788,7 @@ streetTable.sn[491] = {
 	y = 2455.0 
 }
 streetTable.sn[492] = {
-	name = "Alexander-Alesius-Stra"..szlig.."e",
+	name = "Alexander-Alesius-Straße",
 	y = 2460.0 
 }
 streetTable.sn[493] = {
@@ -6796,7 +6796,7 @@ streetTable.sn[493] = {
 	y = 2465.0 
 }
 streetTable.sn[494] = {
-	name = "D"..ouml.."belner Stra"..szlig.."e",
+	name = "Döbelner Straße",
 	y = 2470.0 
 }
 streetTable.sn[495] = {
@@ -6812,15 +6812,15 @@ streetTable.sn[497] = {
 	y = 2485.0 
 }
 streetTable.sn[498] = {
-	name = "Bischofstra"..szlig.."e",
+	name = "Bischofstraße",
 	y = 2490.0 
 }
 streetTable.sn[499] = {
-	name = "Neust"..auml.."dter Markt",
+	name = "Neustädter Markt",
 	y = 2495.0 
 }
 streetTable.sn[500] = {
-	name = "Cichoriusstra"..szlig.."e",
+	name = "Cichoriusstraße",
 	y = 2500.0 
 }
 streetTable.sn[501] = {
@@ -6828,7 +6828,7 @@ streetTable.sn[501] = {
 	y = 2505.0 
 }
 streetTable.sn[502] = {
-	name = "Eilenburger Stra"..szlig.."e",
+	name = "Eilenburger Straße",
 	y = 2510.0 
 }
 streetTable.sn[503] = {
@@ -6840,35 +6840,35 @@ streetTable.sn[504] = {
 	y = 2520.0 
 }
 streetTable.sn[505] = {
-	name = "Zeumerstra"..szlig.."e",
+	name = "Zeumerstraße",
 	y = 2525.0 
 }
 streetTable.sn[506] = {
-	name = "Hoyerstra"..szlig.."e",
+	name = "Hoyerstraße",
 	y = 2530.0 
 }
 streetTable.sn[507] = {
-	name = "Sch"..ouml.."nauer Allee",
+	name = "Schönauer Allee",
 	y = 2535.0 
 }
 streetTable.sn[508] = {
-	name = "Espenhainer Stra"..szlig.."e",
+	name = "Espenhainer Straße",
 	y = 2540.0 
 }
 streetTable.sn[509] = {
-	name = "Zsch"..ouml.."lkauer Weg",
+	name = "Zschölkauer Weg",
 	y = 2545.0 
 }
 streetTable.sn[510] = {
-	name = "Am G"..auml.."nseanger",
+	name = "Am Gänseanger",
 	y = 2550.0 
 }
 streetTable.sn[511] = {
-	name = "Aschenbr"..ouml.."delweg",
+	name = "Aschenbrödelweg",
 	y = 2555.0 
 }
 streetTable.sn[512] = {
-	name = "Cunnersdorfer Stra"..szlig.."e",
+	name = "Cunnersdorfer Straße",
 	y = 2560.0 
 }
 streetTable.sn[513] = {
@@ -6876,7 +6876,7 @@ streetTable.sn[513] = {
 	y = 2565.0 
 }
 streetTable.sn[514] = {
-	name = "Albrecht-D"..uuml.."rer-Weg",
+	name = "Albrecht-Dürer-Weg",
 	y = 2570.0 
 }
 streetTable.sn[515] = {
@@ -6884,15 +6884,15 @@ streetTable.sn[515] = {
 	y = 2575.0 
 }
 streetTable.sn[516] = {
-	name = "Kohlgartenstra"..szlig.."e",
+	name = "Kohlgartenstraße",
 	y = 2580.0 
 }
 streetTable.sn[517] = {
-	name = "Abrahamstra"..szlig.."e",
+	name = "Abrahamstraße",
 	y = 2585.0 
 }
 streetTable.sn[518] = {
-	name = "Helenenstra"..szlig.."e",
+	name = "Helenenstraße",
 	y = 2590.0 
 }
 streetTable.sn[519] = {
@@ -6900,11 +6900,11 @@ streetTable.sn[519] = {
 	y = 2595.0 
 }
 streetTable.sn[520] = {
-	name = "Schlotterbeckstra"..szlig.."e",
+	name = "Schlotterbeckstraße",
 	y = 2600.0 
 }
 streetTable.sn[521] = {
-	name = "Aschaffenburger Stra"..szlig.."e",
+	name = "Aschaffenburger Straße",
 	y = 2605.0 
 }
 streetTable.sn[522] = {
@@ -6912,11 +6912,11 @@ streetTable.sn[522] = {
 	y = 2610.0 
 }
 streetTable.sn[523] = {
-	name = "Platanenstra"..szlig.."e",
+	name = "Platanenstraße",
 	y = 2615.0 
 }
 streetTable.sn[524] = {
-	name = "W"..auml.."chterstra"..szlig.."e",
+	name = "Wächterstraße",
 	y = 2620.0 
 }
 streetTable.sn[525] = {
@@ -6924,7 +6924,7 @@ streetTable.sn[525] = {
 	y = 2625.0 
 }
 streetTable.sn[526] = {
-	name = "Am M"..uuml.."ckenschl"..ouml..""..szlig.."chen",
+	name = "Am Mückenschlößchen",
 	y = 2630.0 
 }
 streetTable.sn[527] = {
@@ -6932,15 +6932,15 @@ streetTable.sn[527] = {
 	y = 2635.0 
 }
 streetTable.sn[528] = {
-	name = "Gorkistra"..szlig.."e",
+	name = "Gorkistraße",
 	y = 2640.0 
 }
 streetTable.sn[529] = {
-	name = "An der G"..auml.."rtnerei",
+	name = "An der Gärtnerei",
 	y = 2645.0 
 }
 streetTable.sn[530] = {
-	name = "Dieskaustra"..szlig.."e",
+	name = "Dieskaustraße",
 	y = 2650.0 
 }
 streetTable.sn[531] = {
@@ -6948,11 +6948,11 @@ streetTable.sn[531] = {
 	y = 2655.0 
 }
 streetTable.sn[532] = {
-	name = "Fuchshainer Stra"..szlig.."e",
+	name = "Fuchshainer Straße",
 	y = 2660.0 
 }
 streetTable.sn[533] = {
-	name = "Jupp-M"..uuml.."ller-Stra"..szlig.."e",
+	name = "Jupp-Müller-Straße",
 	y = 2665.0 
 }
 streetTable.sn[534] = {
@@ -6960,15 +6960,15 @@ streetTable.sn[534] = {
 	y = 2670.0 
 }
 streetTable.sn[535] = {
-	name = "Glesiener Stra"..szlig.."e",
+	name = "Glesiener Straße",
 	y = 2675.0 
 }
 streetTable.sn[536] = {
-	name = "Schr"..ouml.."terstra"..szlig.."e",
+	name = "Schröterstraße",
 	y = 2680.0 
 }
 streetTable.sn[537] = {
-	name = "Herbert-Thiele-Stra"..szlig.."e",
+	name = "Herbert-Thiele-Straße",
 	y = 2685.0 
 }
 streetTable.sn[538] = {
@@ -6976,43 +6976,43 @@ streetTable.sn[538] = {
 	y = 2690.0 
 }
 streetTable.sn[539] = {
-	name = "Ungerstra"..szlig.."e",
+	name = "Ungerstraße",
 	y = 2695.0 
 }
 streetTable.sn[540] = {
-	name = "Kr"..ouml.."belstra"..szlig.."e",
+	name = "Kröbelstraße",
 	y = 2700.0 
 }
 streetTable.sn[541] = {
-	name = "Clemens-Thieme-Stra"..szlig.."e",
+	name = "Clemens-Thieme-Straße",
 	y = 2705.0 
 }
 streetTable.sn[542] = {
-	name = "Zweinaundorfer Stra"..szlig.."e",
+	name = "Zweinaundorfer Straße",
 	y = 2710.0 
 }
 streetTable.sn[543] = {
-	name = "Schreberstra"..szlig.."e",
+	name = "Schreberstraße",
 	y = 2715.0 
 }
 streetTable.sn[544] = {
-	name = "Erlenstra"..szlig.."e",
+	name = "Erlenstraße",
 	y = 2720.0 
 }
 streetTable.sn[545] = {
-	name = "Schmiedeberger Stra"..szlig.."e",
+	name = "Schmiedeberger Straße",
 	y = 2725.0 
 }
 streetTable.sn[546] = {
-	name = "Hartungstra"..szlig.."e",
+	name = "Hartungstraße",
 	y = 2730.0 
 }
 streetTable.sn[547] = {
-	name = "Wilhelm-Plesse-Stra"..szlig.."e",
+	name = "Wilhelm-Plesse-Straße",
 	y = 2735.0 
 }
 streetTable.sn[548] = {
-	name = "Hotherstra"..szlig.."e",
+	name = "Hotherstraße",
 	y = 2740.0 
 }
 streetTable.sn[549] = {
@@ -7020,15 +7020,15 @@ streetTable.sn[549] = {
 	y = 2745.0 
 }
 streetTable.sn[550] = {
-	name = "Schl"..ouml..""..szlig.."chenweg",
+	name = "Schlößchenweg",
 	y = 2750.0 
 }
 streetTable.sn[551] = {
-	name = "Fritz-Reuter-Stra"..szlig.."e",
+	name = "Fritz-Reuter-Straße",
 	y = 2755.0 
 }
 streetTable.sn[552] = {
-	name = "Fabrikstra"..szlig.."e",
+	name = "Fabrikstraße",
 	y = 2760.0 
 }
 streetTable.sn[553] = {
@@ -7040,11 +7040,11 @@ streetTable.sn[554] = {
 	y = 2770.0 
 }
 streetTable.sn[555] = {
-	name = "T"..uuml.."rkisstra"..szlig.."e",
+	name = "Türkisstraße",
 	y = 2775.0 
 }
 streetTable.sn[556] = {
-	name = "Teschstra"..szlig.."e",
+	name = "Teschstraße",
 	y = 2780.0 
 }
 streetTable.sn[557] = {
@@ -7052,11 +7052,11 @@ streetTable.sn[557] = {
 	y = 2785.0 
 }
 streetTable.sn[558] = {
-	name = "Fechnerstra"..szlig.."e",
+	name = "Fechnerstraße",
 	y = 2790.0 
 }
 streetTable.sn[559] = {
-	name = "Tschernyschewskistra"..szlig.."e",
+	name = "Tschernyschewskistraße",
 	y = 2795.0 
 }
 streetTable.sn[560] = {
@@ -7064,15 +7064,15 @@ streetTable.sn[560] = {
 	y = 2800.0 
 }
 streetTable.sn[561] = {
-	name = "Liechtensteinstra"..szlig.."e",
+	name = "Liechtensteinstraße",
 	y = 2805.0 
 }
 streetTable.sn[562] = {
-	name = "Wasserwerkstra"..szlig.."e",
+	name = "Wasserwerkstraße",
 	y = 2810.0 
 }
 streetTable.sn[563] = {
-	name = "Natonekstra"..szlig.."e",
+	name = "Natonekstraße",
 	y = 2815.0 
 }
 streetTable.sn[564] = {
@@ -7088,43 +7088,43 @@ streetTable.sn[566] = {
 	y = 2830.0 
 }
 streetTable.sn[567] = {
-	name = "Theodor-Heuss-Stra"..szlig.."e",
+	name = "Theodor-Heuss-Straße",
 	y = 2835.0 
 }
 streetTable.sn[568] = {
-	name = "Karl-Rothe-Stra"..szlig.."e",
+	name = "Karl-Rothe-Straße",
 	y = 2840.0 
 }
 streetTable.sn[569] = {
-	name = "Virchowstra"..szlig.."e",
+	name = "Virchowstraße",
 	y = 2845.0 
 }
 streetTable.sn[570] = {
-	name = "Zwickauer Stra"..szlig.."e",
+	name = "Zwickauer Straße",
 	y = 2850.0 
 }
 streetTable.sn[571] = {
-	name = "Uferstra"..szlig.."e",
+	name = "Uferstraße",
 	y = 2855.0 
 }
 streetTable.sn[572] = {
-	name = "Teichstra"..szlig.."e",
+	name = "Teichstraße",
 	y = 2860.0 
 }
 streetTable.sn[573] = {
-	name = "Am K"..uuml.."nstlerbogen",
+	name = "Am Künstlerbogen",
 	y = 2865.0 
 }
 streetTable.sn[574] = {
-	name = "Falterstra"..szlig.."e",
+	name = "Falterstraße",
 	y = 2870.0 
 }
 streetTable.sn[575] = {
-	name = "Sabinenstra"..szlig.."e",
+	name = "Sabinenstraße",
 	y = 2875.0 
 }
 streetTable.sn[576] = {
-	name = "Kiesgrubenstra"..szlig.."e",
+	name = "Kiesgrubenstraße",
 	y = 2880.0 
 }
 streetTable.sn[577] = {
@@ -7132,7 +7132,7 @@ streetTable.sn[577] = {
 	y = 2885.0 
 }
 streetTable.sn[578] = {
-	name = "Torgauer Stra"..szlig.."e",
+	name = "Torgauer Straße",
 	y = 2890.0 
 }
 streetTable.sn[579] = {
@@ -7148,11 +7148,11 @@ streetTable.sn[581] = {
 	y = 2905.0 
 }
 streetTable.sn[582] = {
-	name = "Wincklerstra"..szlig.."e",
+	name = "Wincklerstraße",
 	y = 2910.0 
 }
 streetTable.sn[583] = {
-	name = "Gie"..szlig.."erstra"..szlig.."e",
+	name = "Gießerstraße",
 	y = 2915.0 
 }
 streetTable.sn[584] = {
@@ -7160,23 +7160,23 @@ streetTable.sn[584] = {
 	y = 2920.0 
 }
 streetTable.sn[585] = {
-	name = "Ernst-Th"..auml.."lmann-Platz",
+	name = "Ernst-Thälmann-Platz",
 	y = 2925.0 
 }
 streetTable.sn[586] = {
-	name = "Heinrich-Schmidt-Stra"..szlig.."e",
+	name = "Heinrich-Schmidt-Straße",
 	y = 2930.0 
 }
 streetTable.sn[587] = {
-	name = "Carl-Hinne-Stra"..szlig.."e",
+	name = "Carl-Hinne-Straße",
 	y = 2935.0 
 }
 streetTable.sn[588] = {
-	name = "Gutenbergstra"..szlig.."e",
+	name = "Gutenbergstraße",
 	y = 2940.0 
 }
 streetTable.sn[589] = {
-	name = "Heinrothstra"..szlig.."e",
+	name = "Heinrothstraße",
 	y = 2945.0 
 }
 streetTable.sn[590] = {
@@ -7184,11 +7184,11 @@ streetTable.sn[590] = {
 	y = 2950.0 
 }
 streetTable.sn[591] = {
-	name = "Benediktusstra"..szlig.."e",
+	name = "Benediktusstraße",
 	y = 2955.0 
 }
 streetTable.sn[592] = {
-	name = "Klo"..szlig.."stra"..szlig.."e",
+	name = "Kloßstraße",
 	y = 2960.0 
 }
 streetTable.sn[593] = {
@@ -7196,11 +7196,11 @@ streetTable.sn[593] = {
 	y = 2965.0 
 }
 streetTable.sn[594] = {
-	name = "Hans-Grade-Stra"..szlig.."e",
+	name = "Hans-Grade-Straße",
 	y = 2970.0 
 }
 streetTable.sn[595] = {
-	name = "Am Ritterschl"..ouml..""..szlig.."chen",
+	name = "Am Ritterschlößchen",
 	y = 2975.0 
 }
 streetTable.sn[596] = {
@@ -7208,7 +7208,7 @@ streetTable.sn[596] = {
 	y = 2980.0 
 }
 streetTable.sn[597] = {
-	name = "Martinstra"..szlig.."e",
+	name = "Martinstraße",
 	y = 2985.0 
 }
 streetTable.sn[598] = {
@@ -7216,11 +7216,11 @@ streetTable.sn[598] = {
 	y = 2990.0 
 }
 streetTable.sn[599] = {
-	name = "Pitschkestra"..szlig.."e",
+	name = "Pitschkestraße",
 	y = 2995.0 
 }
 streetTable.sn[600] = {
-	name = "Wegastra"..szlig.."e",
+	name = "Wegastraße",
 	y = 3000.0 
 }
 streetTable.sn[601] = {
@@ -7228,15 +7228,15 @@ streetTable.sn[601] = {
 	y = 3005.0 
 }
 streetTable.sn[602] = {
-	name = "Ernst-Keil-Stra"..szlig.."e",
+	name = "Ernst-Keil-Straße",
 	y = 3010.0 
 }
 streetTable.sn[603] = {
-	name = "Ernst-Meier-Stra"..szlig.."e",
+	name = "Ernst-Meier-Straße",
 	y = 3015.0 
 }
 streetTable.sn[604] = {
-	name = "Pfaffensteinstra"..szlig.."e",
+	name = "Pfaffensteinstraße",
 	y = 3020.0 
 }
 streetTable.sn[605] = {
@@ -7256,15 +7256,15 @@ streetTable.sn[608] = {
 	y = 3040.0 
 }
 streetTable.sn[609] = {
-	name = "Melanchthonstra"..szlig.."e",
+	name = "Melanchthonstraße",
 	y = 3045.0 
 }
 streetTable.sn[610] = {
-	name = "Buchenwaldstra"..szlig.."e",
+	name = "Buchenwaldstraße",
 	y = 3050.0 
 }
 streetTable.sn[611] = {
-	name = "Wintergartenstra"..szlig.."e",
+	name = "Wintergartenstraße",
 	y = 3055.0 
 }
 streetTable.sn[612] = {
@@ -7272,7 +7272,7 @@ streetTable.sn[612] = {
 	y = 3060.0 
 }
 streetTable.sn[613] = {
-	name = "Karl-Helbig-Stra"..szlig.."e",
+	name = "Karl-Helbig-Straße",
 	y = 3065.0 
 }
 streetTable.sn[614] = {
@@ -7280,11 +7280,11 @@ streetTable.sn[614] = {
 	y = 3070.0 
 }
 streetTable.sn[615] = {
-	name = "Am M"..uuml.."hlengrund",
+	name = "Am Mühlengrund",
 	y = 3075.0 
 }
 streetTable.sn[616] = {
-	name = "Sch"..ouml.."nbachstra"..szlig.."e",
+	name = "Schönbachstraße",
 	y = 3080.0 
 }
 streetTable.sn[617] = {
@@ -7292,19 +7292,19 @@ streetTable.sn[617] = {
 	y = 3085.0 
 }
 streetTable.sn[618] = {
-	name = "Lortzingstra"..szlig.."e",
+	name = "Lortzingstraße",
 	y = 3090.0 
 }
 streetTable.sn[619] = {
-	name = "Erikenstra"..szlig.."e",
+	name = "Erikenstraße",
 	y = 3095.0 
 }
 streetTable.sn[620] = {
-	name = "Zwenkauer Stra"..szlig.."e",
+	name = "Zwenkauer Straße",
 	y = 3100.0 
 }
 streetTable.sn[621] = {
-	name = "Schreiberstra"..szlig.."e",
+	name = "Schreiberstraße",
 	y = 3105.0 
 }
 streetTable.sn[622] = {
@@ -7316,7 +7316,7 @@ streetTable.sn[623] = {
 	y = 3115.0 
 }
 streetTable.sn[624] = {
-	name = "Kirchstra"..szlig.."e",
+	name = "Kirchstraße",
 	y = 3120.0 
 }
 streetTable.sn[625] = {
@@ -7324,19 +7324,19 @@ streetTable.sn[625] = {
 	y = 3125.0 
 }
 streetTable.sn[626] = {
-	name = "Baumeister-G"..uuml.."nther-Stra"..szlig.."e",
+	name = "Baumeister-Günther-Straße",
 	y = 3130.0 
 }
 streetTable.sn[627] = {
-	name = "Ecksteinstra"..szlig.."e",
+	name = "Ecksteinstraße",
 	y = 3135.0 
 }
 streetTable.sn[628] = {
-	name = "Arthur-Hoffmann-Stra"..szlig.."e",
+	name = "Arthur-Hoffmann-Straße",
 	y = 3140.0 
 }
 streetTable.sn[629] = {
-	name = "Saarl"..auml.."nder Stra"..szlig.."e",
+	name = "Saarländer Straße",
 	y = 3145.0 
 }
 streetTable.sn[630] = {
@@ -7344,7 +7344,7 @@ streetTable.sn[630] = {
 	y = 3150.0 
 }
 streetTable.sn[631] = {
-	name = "Ahlfeldstra"..szlig.."e",
+	name = "Ahlfeldstraße",
 	y = 3155.0 
 }
 streetTable.sn[632] = {
@@ -7352,11 +7352,11 @@ streetTable.sn[632] = {
 	y = 3160.0 
 }
 streetTable.sn[633] = {
-	name = "Goldschmidtstra"..szlig.."e",
+	name = "Goldschmidtstraße",
 	y = 3165.0 
 }
 streetTable.sn[634] = {
-	name = "Richard-Leisebein-Stra"..szlig.."e",
+	name = "Richard-Leisebein-Straße",
 	y = 3170.0 
 }
 streetTable.sn[635] = {
@@ -7364,15 +7364,15 @@ streetTable.sn[635] = {
 	y = 3175.0 
 }
 streetTable.sn[636] = {
-	name = "Gundorfer Stra"..szlig.."e",
+	name = "Gundorfer Straße",
 	y = 3180.0 
 }
 streetTable.sn[637] = {
-	name = "Husemannstra"..szlig.."e",
+	name = "Husemannstraße",
 	y = 3185.0 
 }
 streetTable.sn[638] = {
-	name = "Gogolstra"..szlig.."e",
+	name = "Gogolstraße",
 	y = 3190.0 
 }
 streetTable.sn[639] = {
@@ -7380,27 +7380,27 @@ streetTable.sn[639] = {
 	y = 3195.0 
 }
 streetTable.sn[640] = {
-	name = "Zentralstra"..szlig.."e",
+	name = "Zentralstraße",
 	y = 3200.0 
 }
 streetTable.sn[641] = {
-	name = "Balzacstra"..szlig.."e",
+	name = "Balzacstraße",
 	y = 3205.0 
 }
 streetTable.sn[642] = {
-	name = "Samuel-Lampel-Stra"..szlig.."e",
+	name = "Samuel-Lampel-Straße",
 	y = 3210.0 
 }
 streetTable.sn[643] = {
-	name = "Lintacherstra"..szlig.."e",
+	name = "Lintacherstraße",
 	y = 3215.0 
 }
 streetTable.sn[644] = {
-	name = "Bernsteinstra"..szlig.."e",
+	name = "Bernsteinstraße",
 	y = 3220.0 
 }
 streetTable.sn[645] = {
-	name = "Engelsdorfer Stra"..szlig.."e",
+	name = "Engelsdorfer Straße",
 	y = 3225.0 
 }
 streetTable.sn[646] = {
@@ -7408,7 +7408,7 @@ streetTable.sn[646] = {
 	y = 3230.0 
 }
 streetTable.sn[647] = {
-	name = "Hertzstra"..szlig.."e",
+	name = "Hertzstraße",
 	y = 3235.0 
 }
 streetTable.sn[648] = {
@@ -7416,7 +7416,7 @@ streetTable.sn[648] = {
 	y = 3240.0 
 }
 streetTable.sn[649] = {
-	name = "B"..ouml.."ttcherg"..auml..""..szlig.."chen",
+	name = "Böttchergäßchen",
 	y = 3245.0 
 }
 streetTable.sn[650] = {
@@ -7424,7 +7424,7 @@ streetTable.sn[650] = {
 	y = 3250.0 
 }
 streetTable.sn[651] = {
-	name = "Frommannstra"..szlig.."e",
+	name = "Frommannstraße",
 	y = 3255.0 
 }
 streetTable.sn[652] = {
@@ -7432,7 +7432,7 @@ streetTable.sn[652] = {
 	y = 3260.0 
 }
 streetTable.sn[653] = {
-	name = "Drei-Linden-H"..ouml.."he",
+	name = "Drei-Linden-Höhe",
 	y = 3265.0 
 }
 streetTable.sn[654] = {
@@ -7440,11 +7440,11 @@ streetTable.sn[654] = {
 	y = 3270.0 
 }
 streetTable.sn[655] = {
-	name = "Kurt-Kresse-Stra"..szlig.."e",
+	name = "Kurt-Kresse-Straße",
 	y = 3275.0 
 }
 streetTable.sn[656] = {
-	name = "Eichlerstra"..szlig.."e",
+	name = "Eichlerstraße",
 	y = 3280.0 
 }
 streetTable.sn[657] = {
@@ -7452,7 +7452,7 @@ streetTable.sn[657] = {
 	y = 3285.0 
 }
 streetTable.sn[658] = {
-	name = "Breite Stra"..szlig.."e",
+	name = "Breite Straße",
 	y = 3290.0 
 }
 streetTable.sn[659] = {
@@ -7460,27 +7460,27 @@ streetTable.sn[659] = {
 	y = 3295.0 
 }
 streetTable.sn[660] = {
-	name = "Thaerstra"..szlig.."e",
+	name = "Thaerstraße",
 	y = 3300.0 
 }
 streetTable.sn[661] = {
-	name = "Ansbacher Stra"..szlig.."e",
+	name = "Ansbacher Straße",
 	y = 3305.0 
 }
 streetTable.sn[662] = {
-	name = "Don-Carlos-Stra"..szlig.."e",
+	name = "Don-Carlos-Straße",
 	y = 3310.0 
 }
 streetTable.sn[663] = {
-	name = "Klingerstra"..szlig.."e",
+	name = "Klingerstraße",
 	y = 3315.0 
 }
 streetTable.sn[664] = {
-	name = "D"..ouml.."llingstra"..szlig.."e",
+	name = "Döllingstraße",
 	y = 3320.0 
 }
 streetTable.sn[665] = {
-	name = "Eichendorffstra"..szlig.."e",
+	name = "Eichendorffstraße",
 	y = 3325.0 
 }
 streetTable.sn[666] = {
@@ -7488,19 +7488,19 @@ streetTable.sn[666] = {
 	y = 3330.0 
 }
 streetTable.sn[667] = {
-	name = "Melscher Stra"..szlig.."e",
+	name = "Melscher Straße",
 	y = 3335.0 
 }
 streetTable.sn[668] = {
-	name = "Bahnstra"..szlig.."e",
+	name = "Bahnstraße",
 	y = 3340.0 
 }
 streetTable.sn[669] = {
-	name = "R"..auml.."pitzer Stra"..szlig.."e",
+	name = "Räpitzer Straße",
 	y = 3345.0 
 }
 streetTable.sn[670] = {
-	name = "Alte Dorfstra"..szlig.."e",
+	name = "Alte Dorfstraße",
 	y = 3350.0 
 }
 streetTable.sn[671] = {
@@ -7508,7 +7508,7 @@ streetTable.sn[671] = {
 	y = 3355.0 
 }
 streetTable.sn[672] = {
-	name = "An der Sch"..auml.."ferei",
+	name = "An der Schäferei",
 	y = 3360.0 
 }
 streetTable.sn[673] = {
@@ -7520,7 +7520,7 @@ streetTable.sn[674] = {
 	y = 3370.0 
 }
 streetTable.sn[675] = {
-	name = "Heinrich-B"..uuml.."chner-Stra"..szlig.."e",
+	name = "Heinrich-Büchner-Straße",
 	y = 3375.0 
 }
 streetTable.sn[676] = {
@@ -7532,11 +7532,11 @@ streetTable.sn[677] = {
 	y = 3385.0 
 }
 streetTable.sn[678] = {
-	name = "Alexanderstra"..szlig.."e",
+	name = "Alexanderstraße",
 	y = 3390.0 
 }
 streetTable.sn[679] = {
-	name = "Landsberger Stra"..szlig.."e",
+	name = "Landsberger Straße",
 	y = 3395.0 
 }
 streetTable.sn[680] = {
@@ -7544,15 +7544,15 @@ streetTable.sn[680] = {
 	y = 3400.0 
 }
 streetTable.sn[681] = {
-	name = "B"..ouml.."hmestra"..szlig.."e",
+	name = "Böhmestraße",
 	y = 3405.0 
 }
 streetTable.sn[682] = {
-	name = "Breitkopfstra"..szlig.."e",
+	name = "Breitkopfstraße",
 	y = 3410.0 
 }
 streetTable.sn[683] = {
-	name = "Am L"..ouml.."segraben",
+	name = "Am Lösegraben",
 	y = 3415.0 
 }
 streetTable.sn[684] = {
@@ -7564,11 +7564,11 @@ streetTable.sn[685] = {
 	y = 3425.0 
 }
 streetTable.sn[686] = {
-	name = "Christian-Grunert-Stra"..szlig.."e",
+	name = "Christian-Grunert-Straße",
 	y = 3430.0 
 }
 streetTable.sn[687] = {
-	name = "Fortunabadstra"..szlig.."e",
+	name = "Fortunabadstraße",
 	y = 3435.0 
 }
 streetTable.sn[688] = {
@@ -7580,7 +7580,7 @@ streetTable.sn[689] = {
 	y = 3445.0 
 }
 streetTable.sn[690] = {
-	name = "Luftschiffstra"..szlig.."e",
+	name = "Luftschiffstraße",
 	y = 3450.0 
 }
 streetTable.sn[691] = {
@@ -7588,11 +7588,11 @@ streetTable.sn[691] = {
 	y = 3455.0 
 }
 streetTable.sn[692] = {
-	name = "Emmausstra"..szlig.."e",
+	name = "Emmausstraße",
 	y = 3460.0 
 }
 streetTable.sn[693] = {
-	name = "Audorfstra"..szlig.."e",
+	name = "Audorfstraße",
 	y = 3465.0 
 }
 streetTable.sn[694] = {
@@ -7600,11 +7600,11 @@ streetTable.sn[694] = {
 	y = 3470.0 
 }
 streetTable.sn[695] = {
-	name = "Rathausstra"..szlig.."e",
+	name = "Rathausstraße",
 	y = 3475.0 
 }
 streetTable.sn[696] = {
-	name = "Gutshofstra"..szlig.."e",
+	name = "Gutshofstraße",
 	y = 3480.0 
 }
 streetTable.sn[697] = {
@@ -7612,11 +7612,11 @@ streetTable.sn[697] = {
 	y = 3485.0 
 }
 streetTable.sn[698] = {
-	name = "Neust"..auml.."dter Stra"..szlig.."e",
+	name = "Neustädter Straße",
 	y = 3490.0 
 }
 streetTable.sn[699] = {
-	name = "Narsdorfer Stra"..szlig.."e",
+	name = "Narsdorfer Straße",
 	y = 3495.0 
 }
 streetTable.sn[700] = {
@@ -7628,7 +7628,7 @@ streetTable.sn[701] = {
 	y = 3505.0 
 }
 streetTable.sn[702] = {
-	name = "Blochstra"..szlig.."e",
+	name = "Blochstraße",
 	y = 3510.0 
 }
 streetTable.sn[703] = {
@@ -7636,19 +7636,19 @@ streetTable.sn[703] = {
 	y = 3515.0 
 }
 streetTable.sn[704] = {
-	name = "Riedelstra"..szlig.."e",
+	name = "Riedelstraße",
 	y = 3520.0 
 }
 streetTable.sn[705] = {
-	name = "Friedhofstra"..szlig.."e",
+	name = "Friedhofstraße",
 	y = 3525.0 
 }
 streetTable.sn[706] = {
-	name = "Triftstra"..szlig.."e",
+	name = "Triftstraße",
 	y = 3530.0 
 }
 streetTable.sn[707] = {
-	name = "Graffstra"..szlig.."e",
+	name = "Graffstraße",
 	y = 3535.0 
 }
 streetTable.sn[708] = {
@@ -7660,7 +7660,7 @@ streetTable.sn[709] = {
 	y = 3545.0 
 }
 streetTable.sn[710] = {
-	name = "H"..auml.."u"..szlig.."erstra"..szlig.."e",
+	name = "Häußerstraße",
 	y = 3550.0 
 }
 streetTable.sn[711] = {
@@ -7672,7 +7672,7 @@ streetTable.sn[712] = {
 	y = 3560.0 
 }
 streetTable.sn[713] = {
-	name = "Steinberger Stra"..szlig.."e",
+	name = "Steinberger Straße",
 	y = 3565.0 
 }
 streetTable.sn[714] = {
@@ -7680,27 +7680,27 @@ streetTable.sn[714] = {
 	y = 3570.0 
 }
 streetTable.sn[715] = {
-	name = "Gustav-Esche-Stra"..szlig.."e",
+	name = "Gustav-Esche-Straße",
 	y = 3575.0 
 }
 streetTable.sn[716] = {
-	name = "B"..ouml.."hlitzer M"..uuml.."hle",
+	name = "Böhlitzer Mühle",
 	y = 3580.0 
 }
 streetTable.sn[717] = {
-	name = "Hildebrandstra"..szlig.."e",
+	name = "Hildebrandstraße",
 	y = 3585.0 
 }
 streetTable.sn[718] = {
-	name = "Weststra"..szlig.."e",
+	name = "Weststraße",
 	y = 3590.0 
 }
 streetTable.sn[719] = {
-	name = "An der Hebem"..auml.."rchte",
+	name = "An der Hebemärchte",
 	y = 3595.0 
 }
 streetTable.sn[720] = {
-	name = "Marienberger Stra"..szlig.."e",
+	name = "Marienberger Straße",
 	y = 3600.0 
 }
 streetTable.sn[721] = {
@@ -7712,11 +7712,11 @@ streetTable.sn[722] = {
 	y = 3610.0 
 }
 streetTable.sn[723] = {
-	name = "Roseggerstra"..szlig.."e",
+	name = "Roseggerstraße",
 	y = 3615.0 
 }
 streetTable.sn[724] = {
-	name = "Gaschwitzer Stra"..szlig.."e",
+	name = "Gaschwitzer Straße",
 	y = 3620.0 
 }
 streetTable.sn[725] = {
@@ -7724,19 +7724,19 @@ streetTable.sn[725] = {
 	y = 3625.0 
 }
 streetTable.sn[726] = {
-	name = "Ludwigsburger Stra"..szlig.."e",
+	name = "Ludwigsburger Straße",
 	y = 3630.0 
 }
 streetTable.sn[727] = {
-	name = "Elsterm"..uuml.."hlweg",
+	name = "Elstermühlweg",
 	y = 3635.0 
 }
 streetTable.sn[728] = {
-	name = "Robert-Mayer-Stra"..szlig.."e",
+	name = "Robert-Mayer-Straße",
 	y = 3640.0 
 }
 streetTable.sn[729] = {
-	name = "Gittelstra"..szlig.."e",
+	name = "Gittelstraße",
 	y = 3645.0 
 }
 streetTable.sn[730] = {
@@ -7744,31 +7744,31 @@ streetTable.sn[730] = {
 	y = 3650.0 
 }
 streetTable.sn[731] = {
-	name = "P"..ouml.."tzschker Weg",
+	name = "Pötzschker Weg",
 	y = 3655.0 
 }
 streetTable.sn[732] = {
-	name = "Klausenerstra"..szlig.."e",
+	name = "Klausenerstraße",
 	y = 3660.0 
 }
 streetTable.sn[733] = {
-	name = "Ro"..szlig.."markt",
+	name = "Roßmarkt",
 	y = 3665.0 
 }
 streetTable.sn[734] = {
-	name = "Richterstra"..szlig.."e",
+	name = "Richterstraße",
 	y = 3670.0 
 }
 streetTable.sn[735] = {
-	name = "Louis-F"..uuml.."rnberg-Stra"..szlig.."e",
+	name = "Louis-Fürnberg-Straße",
 	y = 3675.0 
 }
 streetTable.sn[736] = {
-	name = "Felsenkellerstra"..szlig.."e",
+	name = "Felsenkellerstraße",
 	y = 3680.0 
 }
 streetTable.sn[737] = {
-	name = "Chopinstra"..szlig.."e",
+	name = "Chopinstraße",
 	y = 3685.0 
 }
 streetTable.sn[738] = {
@@ -7776,7 +7776,7 @@ streetTable.sn[738] = {
 	y = 3690.0 
 }
 streetTable.sn[739] = {
-	name = "Gr"..uuml.."ner Bogen",
+	name = "Grüner Bogen",
 	y = 3695.0 
 }
 streetTable.sn[740] = {
@@ -7788,11 +7788,11 @@ streetTable.sn[741] = {
 	y = 3705.0 
 }
 streetTable.sn[742] = {
-	name = "Ginsterstra"..szlig.."e",
+	name = "Ginsterstraße",
 	y = 3710.0 
 }
 streetTable.sn[743] = {
-	name = "Ameisenstra"..szlig.."e",
+	name = "Ameisenstraße",
 	y = 3715.0 
 }
 streetTable.sn[744] = {
@@ -7800,19 +7800,19 @@ streetTable.sn[744] = {
 	y = 3720.0 
 }
 streetTable.sn[745] = {
-	name = "Eggebrechtstra"..szlig.."e",
+	name = "Eggebrechtstraße",
 	y = 3725.0 
 }
 streetTable.sn[746] = {
-	name = "Carl-Weichelt-Stra"..szlig.."e",
+	name = "Carl-Weichelt-Straße",
 	y = 3730.0 
 }
 streetTable.sn[747] = {
-	name = "Weberknechtstra"..szlig.."e",
+	name = "Weberknechtstraße",
 	y = 3735.0 
 }
 streetTable.sn[748] = {
-	name = "Galileistra"..szlig.."e",
+	name = "Galileistraße",
 	y = 3740.0 
 }
 streetTable.sn[749] = {
@@ -7824,19 +7824,19 @@ streetTable.sn[750] = {
 	y = 3750.0 
 }
 streetTable.sn[751] = {
-	name = "Friesenstra"..szlig.."e",
+	name = "Friesenstraße",
 	y = 3755.0 
 }
 streetTable.sn[752] = {
-	name = "Schillingstra"..szlig.."e",
+	name = "Schillingstraße",
 	y = 3760.0 
 }
 streetTable.sn[753] = {
-	name = "Haferkornstra"..szlig.."e",
+	name = "Haferkornstraße",
 	y = 3765.0 
 }
 streetTable.sn[754] = {
-	name = "Helmertstra"..szlig.."e",
+	name = "Helmertstraße",
 	y = 3770.0 
 }
 streetTable.sn[755] = {
@@ -7844,35 +7844,35 @@ streetTable.sn[755] = {
 	y = 3775.0 
 }
 streetTable.sn[756] = {
-	name = "Molitorstra"..szlig.."e",
+	name = "Molitorstraße",
 	y = 3780.0 
 }
 streetTable.sn[757] = {
-	name = "Hornstra"..szlig.."e",
+	name = "Hornstraße",
 	y = 3785.0 
 }
 streetTable.sn[758] = {
-	name = "Seeburgstra"..szlig.."e",
+	name = "Seeburgstraße",
 	y = 3790.0 
 }
 streetTable.sn[759] = {
-	name = "Fridtjof-Nansen-Stra"..szlig.."e",
+	name = "Fridtjof-Nansen-Straße",
 	y = 3795.0 
 }
 streetTable.sn[760] = {
-	name = "F"..ouml.."pplstra"..szlig.."e",
+	name = "Föpplstraße",
 	y = 3800.0 
 }
 streetTable.sn[761] = {
-	name = "Turgenjewstra"..szlig.."e",
+	name = "Turgenjewstraße",
 	y = 3805.0 
 }
 streetTable.sn[762] = {
-	name = "Bayreuther Stra"..szlig.."e",
+	name = "Bayreuther Straße",
 	y = 3810.0 
 }
 streetTable.sn[763] = {
-	name = "Mendelejewstra"..szlig.."e",
+	name = "Mendelejewstraße",
 	y = 3815.0 
 }
 streetTable.sn[764] = {
@@ -7880,15 +7880,15 @@ streetTable.sn[764] = {
 	y = 3820.0 
 }
 streetTable.sn[765] = {
-	name = "Sattelhofstra"..szlig.."e",
+	name = "Sattelhofstraße",
 	y = 3825.0 
 }
 streetTable.sn[766] = {
-	name = "Ehrensteinstra"..szlig.."e",
+	name = "Ehrensteinstraße",
 	y = 3830.0 
 }
 streetTable.sn[767] = {
-	name = "Wilhelm-Busch-Stra"..szlig.."e",
+	name = "Wilhelm-Busch-Straße",
 	y = 3835.0 
 }
 streetTable.sn[768] = {
@@ -7896,7 +7896,7 @@ streetTable.sn[768] = {
 	y = 3840.0 
 }
 streetTable.sn[769] = {
-	name = "Schkorlopper Stra"..szlig.."e",
+	name = "Schkorlopper Straße",
 	y = 3845.0 
 }
 streetTable.sn[770] = {
@@ -7904,15 +7904,15 @@ streetTable.sn[770] = {
 	y = 3850.0 
 }
 streetTable.sn[771] = {
-	name = "R"..ouml.."delstra"..szlig.."e",
+	name = "Rödelstraße",
 	y = 3855.0 
 }
 streetTable.sn[772] = {
-	name = "Fl"..ouml.."haer Stra"..szlig.."e",
+	name = "Flöhaer Straße",
 	y = 3860.0 
 }
 streetTable.sn[773] = {
-	name = "Grabaustra"..szlig.."e",
+	name = "Grabaustraße",
 	y = 3865.0 
 }
 streetTable.sn[774] = {
@@ -7924,11 +7924,11 @@ streetTable.sn[775] = {
 	y = 3875.0 
 }
 streetTable.sn[776] = {
-	name = "Sebastian-Bach-Stra"..szlig.."e",
+	name = "Sebastian-Bach-Straße",
 	y = 3880.0 
 }
 streetTable.sn[777] = {
-	name = "G"..ouml.."teborger Stra"..szlig.."e",
+	name = "Göteborger Straße",
 	y = 3885.0 
 }
 streetTable.sn[778] = {
@@ -7936,15 +7936,15 @@ streetTable.sn[778] = {
 	y = 3890.0 
 }
 streetTable.sn[779] = {
-	name = "Otterstra"..szlig.."e",
+	name = "Otterstraße",
 	y = 3895.0 
 }
 streetTable.sn[780] = {
-	name = "Wilhelminenstra"..szlig.."e",
+	name = "Wilhelminenstraße",
 	y = 3900.0 
 }
 streetTable.sn[781] = {
-	name = "Leisniger Stra"..szlig.."e",
+	name = "Leisniger Straße",
 	y = 3905.0 
 }
 streetTable.sn[782] = {
@@ -7956,11 +7956,11 @@ streetTable.sn[783] = {
 	y = 3915.0 
 }
 streetTable.sn[784] = {
-	name = "Rudolphstra"..szlig.."e",
+	name = "Rudolphstraße",
 	y = 3920.0 
 }
 streetTable.sn[785] = {
-	name = "Bothestra"..szlig.."e",
+	name = "Bothestraße",
 	y = 3925.0 
 }
 streetTable.sn[786] = {
@@ -7968,19 +7968,19 @@ streetTable.sn[786] = {
 	y = 3930.0 
 }
 streetTable.sn[787] = {
-	name = "Alfred-Schurig-Stra"..szlig.."e",
+	name = "Alfred-Schurig-Straße",
 	y = 3935.0 
 }
 streetTable.sn[788] = {
-	name = "Bienitzstra"..szlig.."e",
+	name = "Bienitzstraße",
 	y = 3940.0 
 }
 streetTable.sn[789] = {
-	name = "Pau"..szlig.."nitzstra"..szlig.."e",
+	name = "Paußnitzstraße",
 	y = 3945.0 
 }
 streetTable.sn[790] = {
-	name = "Ferdinand-Lassalle-Stra"..szlig.."e",
+	name = "Ferdinand-Lassalle-Straße",
 	y = 3950.0 
 }
 streetTable.sn[791] = {
@@ -7988,7 +7988,7 @@ streetTable.sn[791] = {
 	y = 3955.0 
 }
 streetTable.sn[792] = {
-	name = "Stiftsstra"..szlig.."e",
+	name = "Stiftsstraße",
 	y = 3960.0 
 }
 streetTable.sn[793] = {
@@ -7996,11 +7996,11 @@ streetTable.sn[793] = {
 	y = 3965.0 
 }
 streetTable.sn[794] = {
-	name = "Fr"..ouml.."belstra"..szlig.."e",
+	name = "Fröbelstraße",
 	y = 3970.0 
 }
 streetTable.sn[795] = {
-	name = "S"..uuml.."dplatz",
+	name = "Südplatz",
 	y = 3975.0 
 }
 streetTable.sn[796] = {
@@ -8008,7 +8008,7 @@ streetTable.sn[796] = {
 	y = 3980.0 
 }
 streetTable.sn[797] = {
-	name = "Schulze-Delitzsch-Stra"..szlig.."e",
+	name = "Schulze-Delitzsch-Straße",
 	y = 3985.0 
 }
 streetTable.sn[798] = {
@@ -8016,7 +8016,7 @@ streetTable.sn[798] = {
 	y = 3990.0 
 }
 streetTable.sn[799] = {
-	name = "Ro"..szlig.."platz",
+	name = "Roßplatz",
 	y = 3995.0 
 }
 streetTable.sn[800] = {
@@ -8024,15 +8024,15 @@ streetTable.sn[800] = {
 	y = 4000.0 
 }
 streetTable.sn[801] = {
-	name = "Emil-Schubert-Stra"..szlig.."e",
+	name = "Emil-Schubert-Straße",
 	y = 4005.0 
 }
 streetTable.sn[802] = {
-	name = "Rubensstra"..szlig.."e",
+	name = "Rubensstraße",
 	y = 4010.0 
 }
 streetTable.sn[803] = {
-	name = "Slevogtstra"..szlig.."e",
+	name = "Slevogtstraße",
 	y = 4015.0 
 }
 streetTable.sn[804] = {
@@ -8044,15 +8044,15 @@ streetTable.sn[805] = {
 	y = 4025.0 
 }
 streetTable.sn[806] = {
-	name = "H"..ouml.."lderlinstra"..szlig.."e",
+	name = "Hölderlinstraße",
 	y = 4030.0 
 }
 streetTable.sn[807] = {
-	name = "H"..auml.."rtelstra"..szlig.."e",
+	name = "Härtelstraße",
 	y = 4035.0 
 }
 streetTable.sn[808] = {
-	name = "K"..ouml.."tzschkestra"..szlig.."e",
+	name = "Kötzschkestraße",
 	y = 4040.0 
 }
 streetTable.sn[809] = {
@@ -8068,11 +8068,11 @@ streetTable.sn[811] = {
 	y = 4055.0 
 }
 streetTable.sn[812] = {
-	name = "Magdeborner Stra"..szlig.."e",
+	name = "Magdeborner Straße",
 	y = 4060.0 
 }
 streetTable.sn[813] = {
-	name = "Schwartzestra"..szlig.."e",
+	name = "Schwartzestraße",
 	y = 4065.0 
 }
 streetTable.sn[814] = {
@@ -8080,23 +8080,23 @@ streetTable.sn[814] = {
 	y = 4070.0 
 }
 streetTable.sn[815] = {
-	name = "Max-Beckmann-Stra"..szlig.."e",
+	name = "Max-Beckmann-Straße",
 	y = 4075.0 
 }
 streetTable.sn[816] = {
-	name = "Kurt-Tucholsky-Stra"..szlig.."e",
+	name = "Kurt-Tucholsky-Straße",
 	y = 4080.0 
 }
 streetTable.sn[817] = {
-	name = "Baumannstra"..szlig.."e",
+	name = "Baumannstraße",
 	y = 4085.0 
 }
 streetTable.sn[818] = {
-	name = "Waldemar-G"..ouml.."tze-Stra"..szlig.."e",
+	name = "Waldemar-Götze-Straße",
 	y = 4090.0 
 }
 streetTable.sn[819] = {
-	name = "Sackestra"..szlig.."e",
+	name = "Sackestraße",
 	y = 4095.0 
 }
 streetTable.sn[820] = {
@@ -8104,7 +8104,7 @@ streetTable.sn[820] = {
 	y = 4100.0 
 }
 streetTable.sn[821] = {
-	name = "Stammerstra"..szlig.."e",
+	name = "Stammerstraße",
 	y = 4105.0 
 }
 streetTable.sn[822] = {
@@ -8116,7 +8116,7 @@ streetTable.sn[823] = {
 	y = 4115.0 
 }
 streetTable.sn[824] = {
-	name = "Schubertstra"..szlig.."e",
+	name = "Schubertstraße",
 	y = 4120.0 
 }
 streetTable.sn[825] = {
@@ -8124,11 +8124,11 @@ streetTable.sn[825] = {
 	y = 4125.0 
 }
 streetTable.sn[826] = {
-	name = "D"..ouml.."ringstra"..szlig.."e",
+	name = "Döringstraße",
 	y = 4130.0 
 }
 streetTable.sn[827] = {
-	name = "Vlamenstra"..szlig.."e",
+	name = "Vlamenstraße",
 	y = 4135.0 
 }
 streetTable.sn[828] = {
@@ -8140,7 +8140,7 @@ streetTable.sn[829] = {
 	y = 4145.0 
 }
 streetTable.sn[830] = {
-	name = "Emil-Fuchs-Stra"..szlig.."e",
+	name = "Emil-Fuchs-Straße",
 	y = 4150.0 
 }
 streetTable.sn[831] = {
@@ -8148,7 +8148,7 @@ streetTable.sn[831] = {
 	y = 4155.0 
 }
 streetTable.sn[832] = {
-	name = "Selliner Stra"..szlig.."e",
+	name = "Selliner Straße",
 	y = 4160.0 
 }
 streetTable.sn[833] = {
@@ -8156,15 +8156,15 @@ streetTable.sn[833] = {
 	y = 4165.0 
 }
 streetTable.sn[834] = {
-	name = "Schadowstra"..szlig.."e",
+	name = "Schadowstraße",
 	y = 4170.0 
 }
 streetTable.sn[835] = {
-	name = "Haydnstra"..szlig.."e",
+	name = "Haydnstraße",
 	y = 4175.0 
 }
 streetTable.sn[836] = {
-	name = "Nikischstra"..szlig.."e",
+	name = "Nikischstraße",
 	y = 4180.0 
 }
 streetTable.sn[837] = {
@@ -8172,7 +8172,7 @@ streetTable.sn[837] = {
 	y = 4185.0 
 }
 streetTable.sn[838] = {
-	name = "Karl-Schurz-Stra"..szlig.."e",
+	name = "Karl-Schurz-Straße",
 	y = 4190.0 
 }
 streetTable.sn[839] = {
@@ -8184,15 +8184,15 @@ streetTable.sn[840] = {
 	y = 4200.0 
 }
 streetTable.sn[841] = {
-	name = "Martinsh"..ouml.."he",
+	name = "Martinshöhe",
 	y = 4205.0 
 }
 streetTable.sn[842] = {
-	name = "Seidelstra"..szlig.."e",
+	name = "Seidelstraße",
 	y = 4210.0 
 }
 streetTable.sn[843] = {
-	name = "Henriettenstra"..szlig.."e",
+	name = "Henriettenstraße",
 	y = 4215.0 
 }
 streetTable.sn[844] = {
@@ -8200,11 +8200,11 @@ streetTable.sn[844] = {
 	y = 4220.0 
 }
 streetTable.sn[845] = {
-	name = "Marpergerstra"..szlig.."e",
+	name = "Marpergerstraße",
 	y = 4225.0 
 }
 streetTable.sn[846] = {
-	name = "Rostocker Stra"..szlig.."e",
+	name = "Rostocker Straße",
 	y = 4230.0 
 }
 streetTable.sn[847] = {
@@ -8212,19 +8212,19 @@ streetTable.sn[847] = {
 	y = 4235.0 
 }
 streetTable.sn[848] = {
-	name = "Schladitzer Stra"..szlig.."e",
+	name = "Schladitzer Straße",
 	y = 4240.0 
 }
 streetTable.sn[849] = {
-	name = "Wahrener Stra"..szlig.."e",
+	name = "Wahrener Straße",
 	y = 4245.0 
 }
 streetTable.sn[850] = {
-	name = "Muldentalstra"..szlig.."e",
+	name = "Muldentalstraße",
 	y = 4250.0 
 }
 streetTable.sn[851] = {
-	name = "Krugstra"..szlig.."e",
+	name = "Krugstraße",
 	y = 4255.0 
 }
 streetTable.sn[852] = {
@@ -8240,11 +8240,11 @@ streetTable.sn[854] = {
 	y = 4270.0 
 }
 streetTable.sn[855] = {
-	name = "G"..ouml.."bschelwitzer Weg",
+	name = "Göbschelwitzer Weg",
 	y = 4275.0 
 }
 streetTable.sn[856] = {
-	name = "Brandenburger Stra"..szlig.."e",
+	name = "Brandenburger Straße",
 	y = 4280.0 
 }
 streetTable.sn[857] = {
@@ -8252,19 +8252,19 @@ streetTable.sn[857] = {
 	y = 4285.0 
 }
 streetTable.sn[858] = {
-	name = "Marbachstra"..szlig.."e",
+	name = "Marbachstraße",
 	y = 4290.0 
 }
 streetTable.sn[859] = {
-	name = "Breitenfelder Stra"..szlig.."e",
+	name = "Breitenfelder Straße",
 	y = 4295.0 
 }
 streetTable.sn[860] = {
-	name = "Amorbacher Stra"..szlig.."e",
+	name = "Amorbacher Straße",
 	y = 4300.0 
 }
 streetTable.sn[861] = {
-	name = "Am M"..uuml.."hlgraben",
+	name = "Am Mühlgraben",
 	y = 4305.0 
 }
 streetTable.sn[862] = {
@@ -8280,19 +8280,19 @@ streetTable.sn[864] = {
 	y = 4320.0 
 }
 streetTable.sn[865] = {
-	name = "Wiprechtstra"..szlig.."e",
+	name = "Wiprechtstraße",
 	y = 4325.0 
 }
 streetTable.sn[866] = {
-	name = "Zwergmispelstra"..szlig.."e",
+	name = "Zwergmispelstraße",
 	y = 4330.0 
 }
 streetTable.sn[867] = {
-	name = "Bj"..ouml.."rneborgstra"..szlig.."e",
+	name = "Björneborgstraße",
 	y = 4335.0 
 }
 streetTable.sn[868] = {
-	name = "Bernhardstra"..szlig.."e",
+	name = "Bernhardstraße",
 	y = 4340.0 
 }
 streetTable.sn[869] = {
@@ -8300,7 +8300,7 @@ streetTable.sn[869] = {
 	y = 4345.0 
 }
 streetTable.sn[870] = {
-	name = "Vollhardtstra"..szlig.."e",
+	name = "Vollhardtstraße",
 	y = 4350.0 
 }
 streetTable.sn[871] = {
@@ -8312,23 +8312,23 @@ streetTable.sn[872] = {
 	y = 4360.0 
 }
 streetTable.sn[873] = {
-	name = "Pfaffendorfer Stra"..szlig.."e",
+	name = "Pfaffendorfer Straße",
 	y = 4365.0 
 }
 streetTable.sn[874] = {
-	name = "Willmar-Schwabe-Stra"..szlig.."e",
+	name = "Willmar-Schwabe-Straße",
 	y = 4370.0 
 }
 streetTable.sn[875] = {
-	name = "Koehlerstra"..szlig.."e",
+	name = "Koehlerstraße",
 	y = 4375.0 
 }
 streetTable.sn[876] = {
-	name = "Toskastra"..szlig.."e",
+	name = "Toskastraße",
 	y = 4380.0 
 }
 streetTable.sn[877] = {
-	name = "Herwigstra"..szlig.."e",
+	name = "Herwigstraße",
 	y = 4385.0 
 }
 streetTable.sn[878] = {
@@ -8336,15 +8336,15 @@ streetTable.sn[878] = {
 	y = 4390.0 
 }
 streetTable.sn[879] = {
-	name = "D"..ouml.."sner Stra"..szlig.."e",
+	name = "Dösner Straße",
 	y = 4395.0 
 }
 streetTable.sn[880] = {
-	name = "Gothaer Stra"..szlig.."e",
+	name = "Gothaer Straße",
 	y = 4400.0 
 }
 streetTable.sn[881] = {
-	name = "Grimmaische Stra"..szlig.."e",
+	name = "Grimmaische Straße",
 	y = 4405.0 
 }
 streetTable.sn[882] = {
@@ -8364,7 +8364,7 @@ streetTable.sn[885] = {
 	y = 4425.0 
 }
 streetTable.sn[886] = {
-	name = "Blochmannstra"..szlig.."e",
+	name = "Blochmannstraße",
 	y = 4430.0 
 }
 streetTable.sn[887] = {
@@ -8372,7 +8372,7 @@ streetTable.sn[887] = {
 	y = 4435.0 
 }
 streetTable.sn[888] = {
-	name = "Schmitzstra"..szlig.."e",
+	name = "Schmitzstraße",
 	y = 4440.0 
 }
 streetTable.sn[889] = {
@@ -8396,7 +8396,7 @@ streetTable.sn[893] = {
 	y = 4465.0 
 }
 streetTable.sn[894] = {
-	name = "Aachener Stra"..szlig.."e",
+	name = "Aachener Straße",
 	y = 4470.0 
 }
 streetTable.sn[895] = {
@@ -8412,11 +8412,11 @@ streetTable.sn[897] = {
 	y = 4485.0 
 }
 streetTable.sn[898] = {
-	name = "Lausener Stra"..szlig.."e",
+	name = "Lausener Straße",
 	y = 4490.0 
 }
 streetTable.sn[899] = {
-	name = "Waldbaurstra"..szlig.."e",
+	name = "Waldbaurstraße",
 	y = 4495.0 
 }
 streetTable.sn[900] = {
@@ -8424,15 +8424,15 @@ streetTable.sn[900] = {
 	y = 4500.0 
 }
 streetTable.sn[901] = {
-	name = "Johannes-K"..auml.."rner-Stra"..szlig.."e",
+	name = "Johannes-Kärner-Straße",
 	y = 4505.0 
 }
 streetTable.sn[902] = {
-	name = "Heinrich-Kaps-Stra"..szlig.."e",
+	name = "Heinrich-Kaps-Straße",
 	y = 4510.0 
 }
 streetTable.sn[903] = {
-	name = "Berliner Stra"..szlig.."e",
+	name = "Berliner Straße",
 	y = 4515.0 
 }
 streetTable.sn[904] = {
@@ -8444,15 +8444,15 @@ streetTable.sn[905] = {
 	y = 4525.0 
 }
 streetTable.sn[906] = {
-	name = "Magdalenenstra"..szlig.."e",
+	name = "Magdalenenstraße",
 	y = 4530.0 
 }
 streetTable.sn[907] = {
-	name = "Clara-Zetkin-Stra"..szlig.."e",
+	name = "Clara-Zetkin-Straße",
 	y = 4535.0 
 }
 streetTable.sn[908] = {
-	name = "St"..ouml.."tteritzer Stra"..szlig.."e",
+	name = "Stötteritzer Straße",
 	y = 4540.0 
 }
 streetTable.sn[909] = {
@@ -8480,15 +8480,15 @@ streetTable.sn[914] = {
 	y = 4570.0 
 }
 streetTable.sn[915] = {
-	name = "Wiederitzscher Landstra"..szlig.."e",
+	name = "Wiederitzscher Landstraße",
 	y = 4575.0 
 }
 streetTable.sn[916] = {
-	name = "An der Windm"..uuml.."hle",
+	name = "An der Windmühle",
 	y = 4580.0 
 }
 streetTable.sn[917] = {
-	name = "Calvisiusstra"..szlig.."e",
+	name = "Calvisiusstraße",
 	y = 4585.0 
 }
 streetTable.sn[918] = {
@@ -8496,23 +8496,23 @@ streetTable.sn[918] = {
 	y = 4590.0 
 }
 streetTable.sn[919] = {
-	name = "Gr"..uuml.."nbacher Weg",
+	name = "Grünbacher Weg",
 	y = 4595.0 
 }
 streetTable.sn[920] = {
-	name = "Schr"..ouml.."derstra"..szlig.."e",
+	name = "Schröderstraße",
 	y = 4600.0 
 }
 streetTable.sn[921] = {
-	name = "Walther-Rathenau-Stra"..szlig.."e",
+	name = "Walther-Rathenau-Straße",
 	y = 4605.0 
 }
 streetTable.sn[922] = {
-	name = "Julius-Krause-Stra"..szlig.."e",
+	name = "Julius-Krause-Straße",
 	y = 4610.0 
 }
 streetTable.sn[923] = {
-	name = "Rosenm"..uuml.."llerstra"..szlig.."e",
+	name = "Rosenmüllerstraße",
 	y = 4615.0 
 }
 streetTable.sn[924] = {
@@ -8520,11 +8520,11 @@ streetTable.sn[924] = {
 	y = 4620.0 
 }
 streetTable.sn[925] = {
-	name = "Auguste-Hennig-Stra"..szlig.."e",
+	name = "Auguste-Hennig-Straße",
 	y = 4625.0 
 }
 streetTable.sn[926] = {
-	name = "Dohnanyistra"..szlig.."e",
+	name = "Dohnanyistraße",
 	y = 4630.0 
 }
 streetTable.sn[927] = {
@@ -8536,11 +8536,11 @@ streetTable.sn[928] = {
 	y = 4640.0 
 }
 streetTable.sn[929] = {
-	name = "Wiebelstra"..szlig.."e",
+	name = "Wiebelstraße",
 	y = 4645.0 
 }
 streetTable.sn[930] = {
-	name = "Braunstra"..szlig.."e",
+	name = "Braunstraße",
 	y = 4650.0 
 }
 streetTable.sn[931] = {
@@ -8552,11 +8552,11 @@ streetTable.sn[932] = {
 	y = 4660.0 
 }
 streetTable.sn[933] = {
-	name = "Siemeringstra"..szlig.."e",
+	name = "Siemeringstraße",
 	y = 4665.0 
 }
 streetTable.sn[934] = {
-	name = "Neue Gutenbergstra"..szlig.."e",
+	name = "Neue Gutenbergstraße",
 	y = 4670.0 
 }
 streetTable.sn[935] = {
@@ -8564,7 +8564,7 @@ streetTable.sn[935] = {
 	y = 4675.0 
 }
 streetTable.sn[936] = {
-	name = "Shakespearestra"..szlig.."e",
+	name = "Shakespearestraße",
 	y = 4680.0 
 }
 streetTable.sn[937] = {
@@ -8572,11 +8572,11 @@ streetTable.sn[937] = {
 	y = 4685.0 
 }
 streetTable.sn[938] = {
-	name = "Ossietzkystra"..szlig.."e",
+	name = "Ossietzkystraße",
 	y = 4690.0 
 }
 streetTable.sn[939] = {
-	name = "Pferdnerstra"..szlig.."e",
+	name = "Pferdnerstraße",
 	y = 4695.0 
 }
 streetTable.sn[940] = {
@@ -8584,15 +8584,15 @@ streetTable.sn[940] = {
 	y = 4700.0 
 }
 streetTable.sn[941] = {
-	name = "Ziustra"..szlig.."e",
+	name = "Ziustraße",
 	y = 4705.0 
 }
 streetTable.sn[942] = {
-	name = "Auschwitzer Stra"..szlig.."e",
+	name = "Auschwitzer Straße",
 	y = 4710.0 
 }
 streetTable.sn[943] = {
-	name = "Herzenstra"..szlig.."e",
+	name = "Herzenstraße",
 	y = 4715.0 
 }
 streetTable.sn[944] = {
@@ -8600,15 +8600,15 @@ streetTable.sn[944] = {
 	y = 4720.0 
 }
 streetTable.sn[945] = {
-	name = "Schacherstra"..szlig.."e",
+	name = "Schacherstraße",
 	y = 4725.0 
 }
 streetTable.sn[946] = {
-	name = "Erlk"..ouml.."nigweg",
+	name = "Erlkönigweg",
 	y = 4730.0 
 }
 streetTable.sn[947] = {
-	name = "Gregor-Fuchs-Stra"..szlig.."e",
+	name = "Gregor-Fuchs-Straße",
 	y = 4735.0 
 }
 streetTable.sn[948] = {
@@ -8620,7 +8620,7 @@ streetTable.sn[949] = {
 	y = 4745.0 
 }
 streetTable.sn[950] = {
-	name = "An der M"..uuml.."hlplei"..szlig.."e",
+	name = "An der Mühlpleiße",
 	y = 4750.0 
 }
 streetTable.sn[951] = {
@@ -8636,35 +8636,35 @@ streetTable.sn[953] = {
 	y = 4765.0 
 }
 streetTable.sn[954] = {
-	name = "Etkar-Andre-Stra"..szlig.."e",
+	name = "Etkar-Andre-Straße",
 	y = 4770.0 
 }
 streetTable.sn[955] = {
-	name = "Burgst"..auml.."dter Stra"..szlig.."e",
+	name = "Burgstädter Straße",
 	y = 4775.0 
 }
 streetTable.sn[956] = {
-	name = "Lyoner Stra"..szlig.."e",
+	name = "Lyoner Straße",
 	y = 4780.0 
 }
 streetTable.sn[957] = {
-	name = "Vater-Jahn-Stra"..szlig.."e",
+	name = "Vater-Jahn-Straße",
 	y = 4785.0 
 }
 streetTable.sn[958] = {
-	name = "Hans-Poeche-Stra"..szlig.."e",
+	name = "Hans-Poeche-Straße",
 	y = 4790.0 
 }
 streetTable.sn[959] = {
-	name = "Emil-Teich-Stra"..szlig.."e",
+	name = "Emil-Teich-Straße",
 	y = 4795.0 
 }
 streetTable.sn[960] = {
-	name = "D"..ouml.."lziger Stra"..szlig.."e",
+	name = "Dölziger Straße",
 	y = 4800.0 
 }
 streetTable.sn[961] = {
-	name = "Hoepnerstra"..szlig.."e",
+	name = "Hoepnerstraße",
 	y = 4805.0 
 }
 streetTable.sn[962] = {
@@ -8672,11 +8672,11 @@ streetTable.sn[962] = {
 	y = 4810.0 
 }
 streetTable.sn[963] = {
-	name = "Opalstra"..szlig.."e",
+	name = "Opalstraße",
 	y = 4815.0 
 }
 streetTable.sn[964] = {
-	name = "Kantstra"..szlig.."e",
+	name = "Kantstraße",
 	y = 4820.0 
 }
 streetTable.sn[965] = {
@@ -8688,27 +8688,27 @@ streetTable.sn[966] = {
 	y = 4830.0 
 }
 streetTable.sn[967] = {
-	name = "Lotzestra"..szlig.."e",
+	name = "Lotzestraße",
 	y = 4835.0 
 }
 streetTable.sn[968] = {
-	name = "M"..ouml.."ckernsche Allee",
+	name = "Möckernsche Allee",
 	y = 4840.0 
 }
 streetTable.sn[969] = {
-	name = "Bernhard-Kellermann-Stra"..szlig.."e",
+	name = "Bernhard-Kellermann-Straße",
 	y = 4845.0 
 }
 streetTable.sn[970] = {
-	name = "Portitzer Stra"..szlig.."e",
+	name = "Portitzer Straße",
 	y = 4850.0 
 }
 streetTable.sn[971] = {
-	name = "Sybelstra"..szlig.."e",
+	name = "Sybelstraße",
 	y = 4855.0 
 }
 streetTable.sn[972] = {
-	name = "G"..uuml.."ntzstra"..szlig.."e",
+	name = "Güntzstraße",
 	y = 4860.0 
 }
 streetTable.sn[973] = {
@@ -8724,19 +8724,19 @@ streetTable.sn[975] = {
 	y = 4875.0 
 }
 streetTable.sn[976] = {
-	name = "Marktstra"..szlig.."e",
+	name = "Marktstraße",
 	y = 4880.0 
 }
 streetTable.sn[977] = {
-	name = "Bl"..uuml.."mnerstra"..szlig.."e",
+	name = "Blümnerstraße",
 	y = 4885.0 
 }
 streetTable.sn[978] = {
-	name = "Wasunger Stra"..szlig.."e",
+	name = "Wasunger Straße",
 	y = 4890.0 
 }
 streetTable.sn[979] = {
-	name = "Zschopauer Stra"..szlig.."e",
+	name = "Zschopauer Straße",
 	y = 4895.0 
 }
 streetTable.sn[980] = {
@@ -8744,11 +8744,11 @@ streetTable.sn[980] = {
 	y = 4900.0 
 }
 streetTable.sn[981] = {
-	name = "Kulmbacher Stra"..szlig.."e",
+	name = "Kulmbacher Straße",
 	y = 4905.0 
 }
 streetTable.sn[982] = {
-	name = "Zehmischstra"..szlig.."e",
+	name = "Zehmischstraße",
 	y = 4910.0 
 }
 streetTable.sn[983] = {
@@ -8760,7 +8760,7 @@ streetTable.sn[984] = {
 	y = 4920.0 
 }
 streetTable.sn[985] = {
-	name = "Riebeckstra"..szlig.."e",
+	name = "Riebeckstraße",
 	y = 4925.0 
 }
 streetTable.sn[986] = {
@@ -8772,15 +8772,15 @@ streetTable.sn[987] = {
 	y = 4935.0 
 }
 streetTable.sn[988] = {
-	name = "Dreilindenstra"..szlig.."e",
+	name = "Dreilindenstraße",
 	y = 4940.0 
 }
 streetTable.sn[989] = {
-	name = "Essener Stra"..szlig.."e",
+	name = "Essener Straße",
 	y = 4945.0 
 }
 streetTable.sn[990] = {
-	name = "Burgundenstra"..szlig.."e",
+	name = "Burgundenstraße",
 	y = 4950.0 
 }
 streetTable.sn[991] = {
@@ -8788,15 +8788,15 @@ streetTable.sn[991] = {
 	y = 4955.0 
 }
 streetTable.sn[992] = {
-	name = "Heiterblickstra"..szlig.."e",
+	name = "Heiterblickstraße",
 	y = 4960.0 
 }
 streetTable.sn[993] = {
-	name = "Hartzstra"..szlig.."e",
+	name = "Hartzstraße",
 	y = 4965.0 
 }
 streetTable.sn[994] = {
-	name = "Lipsiusstra"..szlig.."e",
+	name = "Lipsiusstraße",
 	y = 4970.0 
 }
 streetTable.sn[995] = {
@@ -8804,19 +8804,19 @@ streetTable.sn[995] = {
 	y = 4975.0 
 }
 streetTable.sn[996] = {
-	name = "Strelitzer Stra"..szlig.."e",
+	name = "Strelitzer Straße",
 	y = 4980.0 
 }
 streetTable.sn[997] = {
-	name = "Lise-Meitner-Stra"..szlig.."e",
+	name = "Lise-Meitner-Straße",
 	y = 4985.0 
 }
 streetTable.sn[998] = {
-	name = "Lippendorfer Stra"..szlig.."e",
+	name = "Lippendorfer Straße",
 	y = 4990.0 
 }
 streetTable.sn[999] = {
-	name = "Dammstra"..szlig.."e",
+	name = "Dammstraße",
 	y = 4995.0 
 }
 streetTable.sn[1000] = {
@@ -8824,11 +8824,11 @@ streetTable.sn[1000] = {
 	y = 5000.0 
 }
 streetTable.sn[1001] = {
-	name = "H"..auml.."nselweg",
+	name = "Hänselweg",
 	y = 5005.0 
 }
 streetTable.sn[1002] = {
-	name = "Gustav-Schmoller-Stra"..szlig.."e",
+	name = "Gustav-Schmoller-Straße",
 	y = 5010.0 
 }
 streetTable.sn[1003] = {
@@ -8856,19 +8856,19 @@ streetTable.sn[1008] = {
 	y = 5040.0 
 }
 streetTable.sn[1009] = {
-	name = "Bitterfelder Stra"..szlig.."e",
+	name = "Bitterfelder Straße",
 	y = 5045.0 
 }
 streetTable.sn[1010] = {
-	name = "Stra"..szlig.."e des 17. Juni",
+	name = "Straße des 17. Juni",
 	y = 5050.0 
 }
 streetTable.sn[1011] = {
-	name = "Dachsstra"..szlig.."e",
+	name = "Dachsstraße",
 	y = 5055.0 
 }
 streetTable.sn[1012] = {
-	name = "Seemannstra"..szlig.."e",
+	name = "Seemannstraße",
 	y = 5060.0 
 }
 streetTable.sn[1013] = {
@@ -8884,27 +8884,27 @@ streetTable.sn[1015] = {
 	y = 5075.0 
 }
 streetTable.sn[1016] = {
-	name = "Wilhelm-Pfennig-Stra"..szlig.."e",
+	name = "Wilhelm-Pfennig-Straße",
 	y = 5080.0 
 }
 streetTable.sn[1017] = {
-	name = "Holzhausener Stra"..szlig.."e",
+	name = "Holzhausener Straße",
 	y = 5085.0 
 }
 streetTable.sn[1018] = {
-	name = "B"..ouml.."ttgerstra"..szlig.."e",
+	name = "Böttgerstraße",
 	y = 5090.0 
 }
 streetTable.sn[1019] = {
-	name = "Ernst-Guhr-Stra"..szlig.."e",
+	name = "Ernst-Guhr-Straße",
 	y = 5095.0 
 }
 streetTable.sn[1020] = {
-	name = "Robert-Koch-Stra"..szlig.."e",
+	name = "Robert-Koch-Straße",
 	y = 5100.0 
 }
 streetTable.sn[1021] = {
-	name = "Geibelstra"..szlig.."e",
+	name = "Geibelstraße",
 	y = 5105.0 
 }
 streetTable.sn[1022] = {
@@ -8912,15 +8912,15 @@ streetTable.sn[1022] = {
 	y = 5110.0 
 }
 streetTable.sn[1023] = {
-	name = "Schneeberger Stra"..szlig.."e",
+	name = "Schneeberger Straße",
 	y = 5115.0 
 }
 streetTable.sn[1024] = {
-	name = "Segerstra"..szlig.."e",
+	name = "Segerstraße",
 	y = 5120.0 
 }
 streetTable.sn[1025] = {
-	name = "Hermann-Dorner-Stra"..szlig.."e",
+	name = "Hermann-Dorner-Straße",
 	y = 5125.0 
 }
 streetTable.sn[1026] = {
@@ -8928,7 +8928,7 @@ streetTable.sn[1026] = {
 	y = 5130.0 
 }
 streetTable.sn[1027] = {
-	name = "Arthur-Hausmann-Stra"..szlig.."e",
+	name = "Arthur-Hausmann-Straße",
 	y = 5135.0 
 }
 streetTable.sn[1028] = {
@@ -8944,11 +8944,11 @@ streetTable.sn[1030] = {
 	y = 5150.0 
 }
 streetTable.sn[1031] = {
-	name = "Springerstra"..szlig.."e",
+	name = "Springerstraße",
 	y = 5155.0 
 }
 streetTable.sn[1032] = {
-	name = "Cheruskerstra"..szlig.."e",
+	name = "Cheruskerstraße",
 	y = 5160.0 
 }
 streetTable.sn[1033] = {
@@ -8956,7 +8956,7 @@ streetTable.sn[1033] = {
 	y = 5165.0 
 }
 streetTable.sn[1034] = {
-	name = "Hegelstra"..szlig.."e",
+	name = "Hegelstraße",
 	y = 5170.0 
 }
 streetTable.sn[1035] = {
@@ -8964,11 +8964,11 @@ streetTable.sn[1035] = {
 	y = 5175.0 
 }
 streetTable.sn[1036] = {
-	name = "Abtnaundorfer Stra"..szlig.."e",
+	name = "Abtnaundorfer Straße",
 	y = 5180.0 
 }
 streetTable.sn[1037] = {
-	name = "Gro"..szlig.."e Gartensiedlung",
+	name = "Große Gartensiedlung",
 	y = 5185.0 
 }
 streetTable.sn[1038] = {
@@ -8976,15 +8976,15 @@ streetTable.sn[1038] = {
 	y = 5190.0 
 }
 streetTable.sn[1039] = {
-	name = "Schmiedestra"..szlig.."e",
+	name = "Schmiedestraße",
 	y = 5195.0 
 }
 streetTable.sn[1040] = {
-	name = "Schulze-Boysen-Stra"..szlig.."e",
+	name = "Schulze-Boysen-Straße",
 	y = 5200.0 
 }
 streetTable.sn[1041] = {
-	name = "Beyerleinstra"..szlig.."e",
+	name = "Beyerleinstraße",
 	y = 5205.0 
 }
 streetTable.sn[1042] = {
@@ -9004,11 +9004,11 @@ streetTable.sn[1045] = {
 	y = 5225.0 
 }
 streetTable.sn[1046] = {
-	name = "Geutebr"..uuml.."ckstra"..szlig.."e",
+	name = "Geutebrückstraße",
 	y = 5230.0 
 }
 streetTable.sn[1047] = {
-	name = "Pistorisstra"..szlig.."e",
+	name = "Pistorisstraße",
 	y = 5235.0 
 }
 streetTable.sn[1048] = {
@@ -9016,7 +9016,7 @@ streetTable.sn[1048] = {
 	y = 5240.0 
 }
 streetTable.sn[1049] = {
-	name = "Hugo-Licht-Stra"..szlig.."e",
+	name = "Hugo-Licht-Straße",
 	y = 5245.0 
 }
 streetTable.sn[1050] = {
@@ -9024,7 +9024,7 @@ streetTable.sn[1050] = {
 	y = 5250.0 
 }
 streetTable.sn[1051] = {
-	name = "Brunnenstra"..szlig.."e",
+	name = "Brunnenstraße",
 	y = 5255.0 
 }
 streetTable.sn[1052] = {
@@ -9036,11 +9036,11 @@ streetTable.sn[1053] = {
 	y = 5265.0 
 }
 streetTable.sn[1054] = {
-	name = "G"..ouml.."schenstra"..szlig.."e",
+	name = "Göschenstraße",
 	y = 5270.0 
 }
 streetTable.sn[1055] = {
-	name = "Oswaldstra"..szlig.."e",
+	name = "Oswaldstraße",
 	y = 5275.0 
 }
 streetTable.sn[1056] = {
@@ -9048,11 +9048,11 @@ streetTable.sn[1056] = {
 	y = 5280.0 
 }
 streetTable.sn[1057] = {
-	name = "Huygensstra"..szlig.."e",
+	name = "Huygensstraße",
 	y = 5285.0 
 }
 streetTable.sn[1058] = {
-	name = "Kolonnadenstra"..szlig.."e",
+	name = "Kolonnadenstraße",
 	y = 5290.0 
 }
 streetTable.sn[1059] = {
@@ -9060,7 +9060,7 @@ streetTable.sn[1059] = {
 	y = 5295.0 
 }
 streetTable.sn[1060] = {
-	name = "W"..uuml.."rkertstra"..szlig.."e",
+	name = "Würkertstraße",
 	y = 5300.0 
 }
 streetTable.sn[1061] = {
@@ -9068,11 +9068,11 @@ streetTable.sn[1061] = {
 	y = 5305.0 
 }
 streetTable.sn[1062] = {
-	name = "Limburgerstra"..szlig.."e",
+	name = "Limburgerstraße",
 	y = 5310.0 
 }
 streetTable.sn[1063] = {
-	name = "Richard-Wagner-Stra"..szlig.."e",
+	name = "Richard-Wagner-Straße",
 	y = 5315.0 
 }
 streetTable.sn[1064] = {
@@ -9080,15 +9080,15 @@ streetTable.sn[1064] = {
 	y = 5320.0 
 }
 streetTable.sn[1065] = {
-	name = "Grassistra"..szlig.."e",
+	name = "Grassistraße",
 	y = 5325.0 
 }
 streetTable.sn[1066] = {
-	name = "Scipiostra"..szlig.."e",
+	name = "Scipiostraße",
 	y = 5330.0 
 }
 streetTable.sn[1067] = {
-	name = "Liselotte-Herrmann-Stra"..szlig.."e",
+	name = "Liselotte-Herrmann-Straße",
 	y = 5335.0 
 }
 streetTable.sn[1068] = {
@@ -9100,31 +9100,31 @@ streetTable.sn[1069] = {
 	y = 5345.0 
 }
 streetTable.sn[1070] = {
-	name = "Parkstra"..szlig.."e",
+	name = "Parkstraße",
 	y = 5350.0 
 }
 streetTable.sn[1071] = {
-	name = "Gesnerstra"..szlig.."e",
+	name = "Gesnerstraße",
 	y = 5355.0 
 }
 streetTable.sn[1072] = {
-	name = "Sandm"..auml.."nnchenweg",
+	name = "Sandmännchenweg",
 	y = 5360.0 
 }
 streetTable.sn[1073] = {
-	name = Auml.."u"..szlig.."ere M"..uuml.."hlenstra"..szlig.."e",
+	name = "Äußere Mühlenstraße",
 	y = 5365.0 
 }
 streetTable.sn[1074] = {
-	name = "Crednerstra"..szlig.."e",
+	name = "Crednerstraße",
 	y = 5370.0 
 }
 streetTable.sn[1075] = {
-	name = "Grunertstra"..szlig.."e",
+	name = "Grunertstraße",
 	y = 5375.0 
 }
 streetTable.sn[1076] = {
-	name = "Querstra"..szlig.."e",
+	name = "Querstraße",
 	y = 5380.0 
 }
 streetTable.sn[1077] = {
@@ -9132,63 +9132,63 @@ streetTable.sn[1077] = {
 	y = 5385.0 
 }
 streetTable.sn[1078] = {
-	name = "Seegeritzer Stra"..szlig.."e",
+	name = "Seegeritzer Straße",
 	y = 5390.0 
 }
 streetTable.sn[1079] = {
-	name = "K"..auml.."stnerbogen",
+	name = "Kästnerbogen",
 	y = 5395.0 
 }
 streetTable.sn[1080] = {
-	name = "Breslauer Stra"..szlig.."e",
+	name = "Breslauer Straße",
 	y = 5400.0 
 }
 streetTable.sn[1081] = {
-	name = "Gregoriusstra"..szlig.."e",
+	name = "Gregoriusstraße",
 	y = 5405.0 
 }
 streetTable.sn[1082] = {
-	name = "Reudnitzer Stra"..szlig.."e",
+	name = "Reudnitzer Straße",
 	y = 5410.0 
 }
 streetTable.sn[1083] = {
-	name = "Stieglitzstra"..szlig.."e",
+	name = "Stieglitzstraße",
 	y = 5415.0 
 }
 streetTable.sn[1084] = {
-	name = "Paul-Langheinrich-Stra"..szlig.."e",
+	name = "Paul-Langheinrich-Straße",
 	y = 5420.0 
 }
 streetTable.sn[1085] = {
-	name = "Adlershelmstra"..szlig.."e",
+	name = "Adlershelmstraße",
 	y = 5425.0 
 }
 streetTable.sn[1086] = {
-	name = "Fuggerstra"..szlig.."e",
+	name = "Fuggerstraße",
 	y = 5430.0 
 }
 streetTable.sn[1087] = {
-	name = "Br"..uuml.."hl",
+	name = "Brühl",
 	y = 5435.0 
 }
 streetTable.sn[1088] = {
-	name = "Lidicestra"..szlig.."e",
+	name = "Lidicestraße",
 	y = 5440.0 
 }
 streetTable.sn[1089] = {
-	name = "Bienerstra"..szlig.."e",
+	name = "Bienerstraße",
 	y = 5445.0 
 }
 streetTable.sn[1090] = {
-	name = "Tornauer Stra"..szlig.."e",
+	name = "Tornauer Straße",
 	y = 5450.0 
 }
 streetTable.sn[1091] = {
-	name = "Fritz-Schmenkel-Stra"..szlig.."e",
+	name = "Fritz-Schmenkel-Straße",
 	y = 5455.0 
 }
 streetTable.sn[1092] = {
-	name = "D"..uuml.."rrenberger Stra"..szlig.."e",
+	name = "Dürrenberger Straße",
 	y = 5460.0 
 }
 streetTable.sn[1093] = {
@@ -9196,11 +9196,11 @@ streetTable.sn[1093] = {
 	y = 5465.0 
 }
 streetTable.sn[1094] = {
-	name = "Trendelenburgstra"..szlig.."e",
+	name = "Trendelenburgstraße",
 	y = 5470.0 
 }
 streetTable.sn[1095] = {
-	name = "Seelenbinderstra"..szlig.."e",
+	name = "Seelenbinderstraße",
 	y = 5475.0 
 }
 streetTable.sn[1096] = {
@@ -9220,7 +9220,7 @@ streetTable.sn[1099] = {
 	y = 5495.0 
 }
 streetTable.sn[1100] = {
-	name = "Georg-Reichardt-Stra"..szlig.."e",
+	name = "Georg-Reichardt-Straße",
 	y = 5500.0 
 }
 streetTable.sn[1101] = {
@@ -9232,7 +9232,7 @@ streetTable.sn[1102] = {
 	y = 5510.0 
 }
 streetTable.sn[1103] = {
-	name = "Nathusiusstra"..szlig.."e",
+	name = "Nathusiusstraße",
 	y = 5515.0 
 }
 streetTable.sn[1104] = {
@@ -9248,11 +9248,11 @@ streetTable.sn[1106] = {
 	y = 5530.0 
 }
 streetTable.sn[1107] = {
-	name = "M"..uuml.."hlenweg",
+	name = "Mühlenweg",
 	y = 5535.0 
 }
 streetTable.sn[1108] = {
-	name = "Campestra"..szlig.."e",
+	name = "Campestraße",
 	y = 5540.0 
 }
 streetTable.sn[1109] = {
@@ -9260,7 +9260,7 @@ streetTable.sn[1109] = {
 	y = 5545.0 
 }
 streetTable.sn[1110] = {
-	name = "Kunzestra"..szlig.."e",
+	name = "Kunzestraße",
 	y = 5550.0 
 }
 streetTable.sn[1111] = {
@@ -9268,71 +9268,71 @@ streetTable.sn[1111] = {
 	y = 5555.0 
 }
 streetTable.sn[1112] = {
-	name = "Zusestra"..szlig.."e",
+	name = "Zusestraße",
 	y = 5560.0 
 }
 streetTable.sn[1113] = {
-	name = "GutsMuthsstra"..szlig.."e",
+	name = "GutsMuthsstraße",
 	y = 5565.0 
 }
 streetTable.sn[1114] = {
-	name = "Universit"..auml.."tsstra"..szlig.."e",
+	name = "Universitätsstraße",
 	y = 5570.0 
 }
 streetTable.sn[1115] = {
-	name = "Ostwaldstra"..szlig.."e",
+	name = "Ostwaldstraße",
 	y = 5575.0 
 }
 streetTable.sn[1116] = {
-	name = "Brehmestra"..szlig.."e",
+	name = "Brehmestraße",
 	y = 5580.0 
 }
 streetTable.sn[1117] = {
-	name = "Karl-Heft-Stra"..szlig.."e",
+	name = "Karl-Heft-Straße",
 	y = 5585.0 
 }
 streetTable.sn[1118] = {
-	name = "Wolfgang-Heinze-Stra"..szlig.."e",
+	name = "Wolfgang-Heinze-Straße",
 	y = 5590.0 
 }
 streetTable.sn[1119] = {
-	name = "Neumannstra"..szlig.."e",
+	name = "Neumannstraße",
 	y = 5595.0 
 }
 streetTable.sn[1120] = {
-	name = "Ferdinand-Freiligrath-Stra"..szlig.."",
+	name = "Ferdinand-Freiligrath-Straß",
 	y = 5600.0 
 }
 streetTable.sn[1121] = {
-	name = "Bernburger Stra"..szlig.."e",
+	name = "Bernburger Straße",
 	y = 5605.0 
 }
 streetTable.sn[1122] = {
-	name = "Harnischstra"..szlig.."e",
+	name = "Harnischstraße",
 	y = 5610.0 
 }
 streetTable.sn[1123] = {
-	name = "Siemensstra"..szlig.."e",
+	name = "Siemensstraße",
 	y = 5615.0 
 }
 streetTable.sn[1124] = {
-	name = "Sulzbacher Stra"..szlig.."e",
+	name = "Sulzbacher Straße",
 	y = 5620.0 
 }
 streetTable.sn[1125] = {
-	name = "Robert-Blum-Stra"..szlig.."e",
+	name = "Robert-Blum-Straße",
 	y = 5625.0 
 }
 streetTable.sn[1126] = {
-	name = "Altenburger Stra"..szlig.."e",
+	name = "Altenburger Straße",
 	y = 5630.0 
 }
 streetTable.sn[1127] = {
-	name = "Grundstra"..szlig.."e",
+	name = "Grundstraße",
 	y = 5635.0 
 }
 streetTable.sn[1128] = {
-	name = "Gro"..szlig.."steinberger Stra"..szlig.."e",
+	name = "Großsteinberger Straße",
 	y = 5640.0 
 }
 streetTable.sn[1129] = {
@@ -9340,15 +9340,15 @@ streetTable.sn[1129] = {
 	y = 5645.0 
 }
 streetTable.sn[1130] = {
-	name = "Sophie-Scholl-Stra"..szlig.."e",
+	name = "Sophie-Scholl-Straße",
 	y = 5650.0 
 }
 streetTable.sn[1131] = {
-	name = "Otto-Heinze-Stra"..szlig.."e",
+	name = "Otto-Heinze-Straße",
 	y = 5655.0 
 }
 streetTable.sn[1132] = {
-	name = "K"..auml.."ndlerstra"..szlig.."e",
+	name = "Kändlerstraße",
 	y = 5660.0 
 }
 streetTable.sn[1133] = {
@@ -9356,11 +9356,11 @@ streetTable.sn[1133] = {
 	y = 5665.0 
 }
 streetTable.sn[1134] = {
-	name = "Plautstra"..szlig.."e",
+	name = "Plautstraße",
 	y = 5670.0 
 }
 streetTable.sn[1135] = {
-	name = "Tschaikowskistra"..szlig.."e",
+	name = "Tschaikowskistraße",
 	y = 5675.0 
 }
 streetTable.sn[1136] = {
@@ -9368,7 +9368,7 @@ streetTable.sn[1136] = {
 	y = 5680.0 
 }
 streetTable.sn[1137] = {
-	name = "Perrestra"..szlig.."e",
+	name = "Perrestraße",
 	y = 5685.0 
 }
 streetTable.sn[1138] = {
@@ -9376,7 +9376,7 @@ streetTable.sn[1138] = {
 	y = 5690.0 
 }
 streetTable.sn[1139] = {
-	name = "Pfeffingerstra"..szlig.."e",
+	name = "Pfeffingerstraße",
 	y = 5695.0 
 }
 streetTable.sn[1140] = {
@@ -9388,23 +9388,23 @@ streetTable.sn[1141] = {
 	y = 5705.0 
 }
 streetTable.sn[1142] = {
-	name = "Wilhelm-Winkler-Stra"..szlig.."e",
+	name = "Wilhelm-Winkler-Straße",
 	y = 5710.0 
 }
 streetTable.sn[1143] = {
-	name = "Petersstra"..szlig.."e",
+	name = "Petersstraße",
 	y = 5715.0 
 }
 streetTable.sn[1144] = {
-	name = "Laurentiusstra"..szlig.."e",
+	name = "Laurentiusstraße",
 	y = 5720.0 
 }
 streetTable.sn[1145] = {
-	name = "Balderstra"..szlig.."e",
+	name = "Balderstraße",
 	y = 5725.0 
 }
 streetTable.sn[1146] = {
-	name = "Erich-M"..uuml.."hsam-Weg",
+	name = "Erich-Mühsam-Weg",
 	y = 5730.0 
 }
 streetTable.sn[1147] = {
@@ -9416,7 +9416,7 @@ streetTable.sn[1148] = {
 	y = 5740.0 
 }
 streetTable.sn[1149] = {
-	name = "Oeserstra"..szlig.."e",
+	name = "Oeserstraße",
 	y = 5745.0 
 }
 streetTable.sn[1150] = {
@@ -9428,7 +9428,7 @@ streetTable.sn[1151] = {
 	y = 5755.0 
 }
 streetTable.sn[1152] = {
-	name = "Brockhausstra"..szlig.."e",
+	name = "Brockhausstraße",
 	y = 5760.0 
 }
 streetTable.sn[1153] = {
@@ -9436,27 +9436,27 @@ streetTable.sn[1153] = {
 	y = 5765.0 
 }
 streetTable.sn[1154] = {
-	name = "Kleine Bergstra"..szlig.."e",
+	name = "Kleine Bergstraße",
 	y = 5770.0 
 }
 streetTable.sn[1155] = {
-	name = "Ro"..szlig.."lauer Stra"..szlig.."e",
+	name = "Roßlauer Straße",
 	y = 5775.0 
 }
 streetTable.sn[1156] = {
-	name = "Stegerwaldstra"..szlig.."e",
+	name = "Stegerwaldstraße",
 	y = 5780.0 
 }
 streetTable.sn[1157] = {
-	name = "Karl-Liebknecht-Stra"..szlig.."e",
+	name = "Karl-Liebknecht-Straße",
 	y = 5785.0 
 }
 streetTable.sn[1158] = {
-	name = "Fritz-Hanschmann-Stra"..szlig.."e",
+	name = "Fritz-Hanschmann-Straße",
 	y = 5790.0 
 }
 streetTable.sn[1159] = {
-	name = "Frohburger Stra"..szlig.."e",
+	name = "Frohburger Straße",
 	y = 5795.0 
 }
 streetTable.sn[1160] = {
@@ -9464,27 +9464,27 @@ streetTable.sn[1160] = {
 	y = 5800.0 
 }
 streetTable.sn[1161] = {
-	name = "Altranst"..auml.."dter Stra"..szlig.."e",
+	name = "Altranstädter Straße",
 	y = 5805.0 
 }
 streetTable.sn[1162] = {
-	name = "Swiftstra"..szlig.."e",
+	name = "Swiftstraße",
 	y = 5810.0 
 }
 streetTable.sn[1163] = {
-	name = "Dessauer Stra"..szlig.."e",
+	name = "Dessauer Straße",
 	y = 5815.0 
 }
 streetTable.sn[1164] = {
-	name = "Klopstockstra"..szlig.."e",
+	name = "Klopstockstraße",
 	y = 5820.0 
 }
 streetTable.sn[1165] = {
-	name = "Schmidstra"..szlig.."e",
+	name = "Schmidstraße",
 	y = 5825.0 
 }
 streetTable.sn[1166] = {
-	name = "Brentanostra"..szlig.."e",
+	name = "Brentanostraße",
 	y = 5830.0 
 }
 streetTable.sn[1167] = {
@@ -9496,19 +9496,19 @@ streetTable.sn[1168] = {
 	y = 5840.0 
 }
 streetTable.sn[1169] = {
-	name = "Barnecker Stra"..szlig.."e",
+	name = "Barnecker Straße",
 	y = 5845.0 
 }
 streetTable.sn[1170] = {
-	name = "Reichenberger Stra"..szlig.."e",
+	name = "Reichenberger Straße",
 	y = 5850.0 
 }
 streetTable.sn[1171] = {
-	name = "Matzelstra"..szlig.."e",
+	name = "Matzelstraße",
 	y = 5855.0 
 }
 streetTable.sn[1172] = {
-	name = "Gro"..szlig.."beerener Stra"..szlig.."e",
+	name = "Großbeerener Straße",
 	y = 5860.0 
 }
 streetTable.sn[1173] = {
@@ -9520,19 +9520,19 @@ streetTable.sn[1174] = {
 	y = 5870.0 
 }
 streetTable.sn[1175] = {
-	name = "Dimpfelstra"..szlig.."e",
+	name = "Dimpfelstraße",
 	y = 5875.0 
 }
 streetTable.sn[1176] = {
-	name = "M"..uuml.."hlenstra"..szlig.."e",
+	name = "Mühlenstraße",
 	y = 5880.0 
 }
 streetTable.sn[1177] = {
-	name = "Dr.-Wilhelm-K"..uuml.."lz-Stra"..szlig.."e",
+	name = "Dr.-Wilhelm-Külz-Straße",
 	y = 5885.0 
 }
 streetTable.sn[1178] = {
-	name = "Liebfrauenstra"..szlig.."e",
+	name = "Liebfrauenstraße",
 	y = 5890.0 
 }
 streetTable.sn[1179] = {
@@ -9540,7 +9540,7 @@ streetTable.sn[1179] = {
 	y = 5895.0 
 }
 streetTable.sn[1180] = {
-	name = "Dimitroffstra"..szlig.."e",
+	name = "Dimitroffstraße",
 	y = 5900.0 
 }
 streetTable.sn[1181] = {
@@ -9548,31 +9548,31 @@ streetTable.sn[1181] = {
 	y = 5905.0 
 }
 streetTable.sn[1182] = {
-	name = "Hinrichsenstra"..szlig.."e",
+	name = "Hinrichsenstraße",
 	y = 5910.0 
 }
 streetTable.sn[1183] = {
-	name = "Weidmannstra"..szlig.."e",
+	name = "Weidmannstraße",
 	y = 5915.0 
 }
 streetTable.sn[1184] = {
-	name = "Otto-Michael-Stra"..szlig.."e",
+	name = "Otto-Michael-Straße",
 	y = 5920.0 
 }
 streetTable.sn[1185] = {
-	name = "Schubarthstra"..szlig.."e",
+	name = "Schubarthstraße",
 	y = 5925.0 
 }
 streetTable.sn[1186] = {
-	name = "Helmholtzstra"..szlig.."e",
+	name = "Helmholtzstraße",
 	y = 5930.0 
 }
 streetTable.sn[1187] = {
-	name = "K"..auml.."rrnerweg",
+	name = "Kärrnerweg",
 	y = 5935.0 
 }
 streetTable.sn[1188] = {
-	name = "Windsheimer Stra"..szlig.."e",
+	name = "Windsheimer Straße",
 	y = 5940.0 
 }
 streetTable.sn[1189] = {
@@ -9580,15 +9580,15 @@ streetTable.sn[1189] = {
 	y = 5945.0 
 }
 streetTable.sn[1190] = {
-	name = "Holbeinstra"..szlig.."e",
+	name = "Holbeinstraße",
 	y = 5950.0 
 }
 streetTable.sn[1191] = {
-	name = "Querma"..szlig.."e",
+	name = "Quermaße",
 	y = 5955.0 
 }
 streetTable.sn[1192] = {
-	name = "Clau"..szlig.."bruchstra"..szlig.."e",
+	name = "Claußbruchstraße",
 	y = 5960.0 
 }
 streetTable.sn[1193] = {
@@ -9604,23 +9604,23 @@ streetTable.sn[1195] = {
 	y = 5975.0 
 }
 streetTable.sn[1196] = {
-	name = "Verl"..auml.."ngerte Wilhelmstra"..szlig.."e",
+	name = "Verlängerte Wilhelmstraße",
 	y = 5980.0 
 }
 streetTable.sn[1197] = {
-	name = "Pl"..ouml.."sener Stra"..szlig.."e",
+	name = "Plösener Straße",
 	y = 5985.0 
 }
 streetTable.sn[1198] = {
-	name = "An der G"..auml.."nseweide",
+	name = "An der Gänseweide",
 	y = 5990.0 
 }
 streetTable.sn[1199] = {
-	name = "Obere Nordstra"..szlig.."e",
+	name = "Obere Nordstraße",
 	y = 5995.0 
 }
 streetTable.sn[1200] = {
-	name = "Carl-Meyer-Stra"..szlig.."e",
+	name = "Carl-Meyer-Straße",
 	y = 6000.0 
 }
 --All done, converter over and out

@@ -40,7 +40,7 @@ function onPaintballMarkerHit(element, hitDimension)
 				takePlayerMoney(element, 250)
 				giveStaatsKasse(250)
 				
-				outputChatBox(g_colors["yellow"].."Willkommen in der Paintballhalle! Du hast 250$ f"..uuml.."r 3 Runden gezahlt.", element, 0, 0, 0, true)
+				outputChatBox(g_colors["yellow"].."Willkommen in der Paintballhalle! Du hast 250$ für 3 Runden gezahlt.", element, 0, 0, 0, true)
 				
 				local x, y, z = getRandomPaintballSpawn()
 				setElementPosition(element, x, y, z)

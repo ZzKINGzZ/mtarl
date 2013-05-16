@@ -29,7 +29,7 @@ local function initPoliceCrew()
 	addJobLocation(4, 2, 223.2255859375, 186.337890625, 1003.03125, 3, 0) --LV
 	addJobLocation(4, 3, -1592.3161621094, 716.09307861328, -5.2421875, 0, 0) --SF
 	
-	addJobRank(4, 1, "Polizeimeisteranw"..auml.."rter", 0.14, false) --130$ pro 15 Min
+	addJobRank(4, 1, "Polizeimeisteranwärter", 0.14, false) --130$ pro 15 Min
 	addJobRank(4, 2, "Polizeimeister", 0.16, false) --150$ pro 15 Min
 	addJobRank(4, 3, "Polizeiobermeister", 0.188, false) --170$ pro 15 Min
 	addJobRank(4, 4, "Polizeihauptmeister", 0.21, false) --190$ pro 15 Min
@@ -211,7 +211,7 @@ addCommandHandler("bust", policeBustPlayer)
 function punishPlayer(playerSource, commandName, player, money, prisonTime, ...)
 	if isPlayerActiveInJob(playerSource, 4) then
 		if not player or not money or not prisonTime then
-			outputChatBox(g_colors["red"].."Syntax: /strafe [Spieler(teil)name] [Strafgeld] [Strafsekunden Gef"..auml.."gniss] [Begr"..uuml.."ndung]", playerSource, 0, 0, 0, true)
+			outputChatBox(g_colors["red"].."Syntax: /strafe [Spieler(teil)name] [Strafgeld] [Strafsekunden Gefägniss] [Begründung]", playerSource, 0, 0, 0, true)
 			return false
 		end
 
@@ -425,7 +425,7 @@ function policeBlitzerHandler(element)
 							sendPlayerInfo(player, "Du wurdest soeben mit "..math.floor(velo).."km/h geblitzt.\nDas waren "..math.floor(overplus).."km/h zu viel.\nDeswegen musst du "..money.."$ bezahlen\nDiese kannst du mit /tilgen bezahlen.", true)
 							local policemoney = math.floor(money / 2)
 							addPlayerJobExtraMoney(policeBlitzerVar[source]["Owner"], policemoney)
-							sendPlayerInfo(policeBlitzerVar[source]["Owner"], "Es wurde soeben "..getPlayerName(player).." mit "..math.floor(velo).."km/h Geblitzt.\nDaf"..uuml.."r bekommst du "..policemoney.."$.", true)
+							sendPlayerInfo(policeBlitzerVar[source]["Owner"], "Es wurde soeben "..getPlayerName(player).." mit "..math.floor(velo).."km/h Geblitzt.\nDafür bekommst du "..policemoney.."$.", true)
 						end
 					end
 				end

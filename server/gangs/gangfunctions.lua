@@ -227,10 +227,10 @@ function gangStartWar(playerSource, commandName)
 						end
 					end
 				else
-					sendPlayerInfo(playerSource, "Zurzeit ist ein Gangwar nicht m"..ouml.."glich!", true)
+					sendPlayerInfo(playerSource, "Zurzeit ist ein Gangwar nicht möglich!", true)
 				end
 			else
-				sendPlayerInfo(playerSource, "Zurzeit ist ein Gangwar nicht m"..ouml.."glich, da mindestets ein Polizist und ein Mitglied einer gegenerischen Gang online sein muss!", true)
+				sendPlayerInfo(playerSource, "Zurzeit ist ein Gangwar nicht möglich, da mindestets ein Polizist und ein Mitglied einer gegenerischen Gang online sein muss!", true)
 			end
 		end
 	end

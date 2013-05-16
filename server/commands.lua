@@ -106,7 +106,7 @@ function saveCarSpawn(playerSource, commandName)
 				--outputChatBox(g_colors["green"].."Fahrzeug erfolgreich gespeichert!", playerSource, 255, 255, 255, true)
 				sendPlayerInfo(playerSource, "Du hast das Fahrzeug erfolgreich an dieser Position gespeichert.", true)
 			else
-				outputChatBox(g_colors["red"].."Dieses Fahrzeug geh"..ouml.."rt dir nicht!", playerSource, 255, 255, 255, true)
+				outputChatBox(g_colors["red"].."Dieses Fahrzeug gehört dir nicht!", playerSource, 255, 255, 255, true)
 				return false
 			end
 		end
@@ -232,7 +232,7 @@ function adminCall(playerSource, commandName)
 		for i, player in ipairs(getElementsByType("player")) do
 			if g_playerstat[player]["Level"] == "Supporter" or g_playerstat[player]["Level"] == "Team" or g_playerstat[player]["Level"] == "Admin" then
 				setElementVisibleTo(g_playerstat[playerSource]["adminBlip"], player, true)
-				sendPlayerInfo(player, getPlayerName(playerSource).." hat sich f"..uuml.."r das Team auf der Karte sichtbar gemacht.", true)
+				sendPlayerInfo(player, getPlayerName(playerSource).." hat sich für das Team auf der Karte sichtbar gemacht.", true)
 			end
 		end
 	else

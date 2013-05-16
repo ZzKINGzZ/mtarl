@@ -9,8 +9,6 @@
 	<script validate="false" src="./client/utils/table.lua" type="client"/>
 	<script validate="false" src="./client/utils/rpc.lua" type="client"/>
 
-	<script validate="false" src="./client/UTF/workaround.lua" type="client"/>
-
 	<script validate="false" src="./client/error.lua" type="client"/>
 	<script validate="false" src="./client/general.lua" type="client"/>
 
@@ -87,8 +85,6 @@
 
     <!-- SERVER -->
 	<script validiate="false" src="./server/luaORM.lua" type="server" />
-
-	<script validate="false" src="./server/UTF/workaround.lua" type="server"/>
 
 	<script validate="false" src="./server/utils/classes.lua" type="server" />
 

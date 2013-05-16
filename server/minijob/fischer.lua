@@ -62,7 +62,7 @@ function fisherCrewLeaveJob(playerSource, staticJobID, locationID, playerJobRank
 	local veh = g_playerstat[playerSource]["Jobvar"]["Fischer"]["Car"]
 	setElementModel(playerSource, g_playerstat[playerSource]["Skin"])
 	
-	--Fahrzeug l"..ouml.."schen
+	--Fahrzeug löschen
 	if g_vehiclestat[veh]["tempcar"] == true then
 		if g_vehiclestat[veh]["FischerCar"] == true then
 			deleteTempVehicleMTARL(veh)
@@ -158,7 +158,7 @@ function timerFischer()
 				g_playerstat[source]["Jobvar"]["Fischer"]["Timer"] = -1
 				local vehicle = g_playerstat[source]["Jobvar"]["Fischer"]["Car"]
 				if vehicle then					
-					--L"..ouml.."schen wir das Fahrzeug
+					--Löschen wir das Fahrzeug
 					if g_vehiclestat[vehicle]["tempcar"] == true then
 						if g_vehiclestat[vehicle]["FischerCar"] == true then
 							deleteTempVehicleMTARL(vehicle)

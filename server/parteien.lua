@@ -131,5 +131,5 @@ function wahlPartei(parteiname)
 	local sql = "INSERT INTO `wahlen` (`playerid` ,`parteiid` ,`time`) VALUES ('"..getPlayerID(client).."', '"..wahlid.."', '"..getTimestamp().."');"
 	mysql_query(g_mysql["connection"], sql)
 	
-	outputChatBox(g_colors["yellow"].."Du hast erfolgreich f"..uuml.."r '"..g_colors["green"]..parteiname..g_colors["yellow"].."' gestimmt!", client, 0, 0, 0, true)
+	outputChatBox(g_colors["yellow"].."Du hast erfolgreich für '"..g_colors["green"]..parteiname..g_colors["yellow"].."' gestimmt!", client, 0, 0, 0, true)
 end

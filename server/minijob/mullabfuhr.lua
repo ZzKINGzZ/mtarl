@@ -67,7 +67,7 @@ function mullCrewEnterJob(playerSource, staticJobID, locationID, playerJobRank)
 	local veh = createTempVehicleMTARL(408, 1604.45703125, -1834.046875, 14.052198410034, 1.38427734375, 359.94506835938, 270.97229003906)
 	g_vehiclestat[veh]["MullCar"] = true
 	
-	sendPlayerInfo(playerSource, "Wilkommen, im Minijob M"..uuml.."llabfuhr! In ganz Los Santos stehen M"..uuml.."lltonnen suche sie!\n\nNicht alle M"..uuml.."lltonnen sind zur abholung bereit, die die bereit sind stehen an der Stra"..szlig.."e.")
+	sendPlayerInfo(playerSource, "Wilkommen, im Minijob Müllabfuhr! In ganz Los Santos stehen Mülltonnen suche sie!\n\nNicht alle Mülltonnen sind zur abholung bereit, die die bereit sind stehen an der Straße.")
 
 	--Jobvars
 	g_playerstat[playerSource]["Jobvar"] = {}
@@ -80,7 +80,7 @@ function mullCrewLeaveJob(playerSource, staticJobID, locationID, playerJobRank)
 	local veh = g_playerstat[playerSource]["Jobvar"]["Mull"]["Car"]
 	setElementModel(playerSource, g_playerstat[playerSource]["Skin"])
 	
-	--Fahrzeug l"..ouml.."schen
+	--Fahrzeug löschen
 	if g_vehiclestat[veh]["tempcar"] == true then
 		if g_vehiclestat[veh]["MullCar"] == true then
 			deleteTempVehicleMTARL(veh)
@@ -96,7 +96,7 @@ function leaveCarMull(player, seat, jacker)
 		if getElementModel(source) == 408 then
 			if g_vehiclestat[source]["MullCar"] == true then
 				g_playerstat[player]["Jobvar"]["Mull"]["Car"] = source
-				sendPlayerInfo(player, "Du hast dein M"..uuml.."llauto verlassen. Steige innerhalb von 10 Sekunden wieder ein!")
+				sendPlayerInfo(player, "Du hast dein Müllauto verlassen. Steige innerhalb von 10 Sekunden wieder ein!")
 				g_playerstat[player]["Jobvar"]["Mull"]["Timer"] = 10
 			end
 		end
@@ -111,7 +111,7 @@ function enterCarMull(player, seat, jacked)
 				g_playerstat[player]["Jobvar"]["Mull"]["Car"] = source
 				g_playerstat[player]["Jobvar"]["Mull"]["Timer"] = -1
 			else
-				sendPlayerInfo(player, "Das ist kein M"..uuml.."llauto!")
+				sendPlayerInfo(player, "Das ist kein Müllauto!")
 			end
 		end
 	end
@@ -191,7 +191,7 @@ function timerMull()
 				g_playerstat[source]["Jobvar"]["Mull"]["Timer"] = -1
 				local vehicle = g_playerstat[source]["Jobvar"]["Mull"]["Car"]
 				if vehicle then					
-					--L"..ouml.."schen wir das Fahrzeug
+					--Löschen wir das Fahrzeug
 					if g_vehiclestat[vehicle]["tempcar"] == true then
 						if g_vehiclestat[vehicle]["MullCar"] == true then
 							deleteTempVehicleMTARL(vehicle)

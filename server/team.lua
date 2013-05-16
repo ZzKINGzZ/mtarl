@@ -38,7 +38,7 @@ function setPlayerToWhitelist(playerSource, commandName, playerName)
 			mysql_query(g_mysql["connection"], sql)
 			g_whitelist["name"][playerName] = 1
 			if commandName ~= "adminwhitelist" then
-				outputChatBox(g_colors["darkorange"].."Du hast "..playerName.." der Whitelist hinzugef"..uuml.."gt! PIN: "..pin, playerSource, 0, 0, 0, true)
+				outputChatBox(g_colors["darkorange"].."Du hast "..playerName.." der Whitelist hinzugefügt! PIN: "..pin, playerSource, 0, 0, 0, true)
 			else
 				rpcCallClientFunction(client, "adminWLSetPin", pin)
 			end
@@ -145,7 +145,7 @@ function kickPlayerFromServer(playerSource, commandName, playerToMute, ...)
 		end	
 		
 		local thereason = table.concat({...}, " ")
-		teamLog(getPlayerName(playerSource).." hat "..getPlayerName(thePlayer).." aus folgenden Gr"..uuml.."nden gekickt: "..thereason)
+		teamLog(getPlayerName(playerSource).." hat "..getPlayerName(thePlayer).." aus folgenden Gründen gekickt: "..thereason)
 		kickPlayer(thePlayer, playerSource, thereason)
 	end
 end
@@ -171,7 +171,7 @@ function banPlayerFromServer(playerSource, commandName, playerToMute, ...)
 		end	
 		
 		local thereason = table.concat({...}, " ")
-		teamLog(getPlayerName(playerSource).." hat "..getPlayerName(thePlayer).." aus folgenden Gr"..uuml.."nden gebannt: "..thereason)
+		teamLog(getPlayerName(playerSource).." hat "..getPlayerName(thePlayer).." aus folgenden Gründen gebannt: "..thereason)
 		banPlayer(thePlayer, true, true, true, playerSource, thereason, 0)
 	end
 end
@@ -250,12 +250,12 @@ function deleteCarInGame(playerSource, commandName, veh)
 						sendPlayerInfo(playerSource, "Das Fahrzeug wurde erfolgreich entfernt.", true)
 						--outputChatBox(g_colors["green"].."Das Fahrzeug wurde erfolgreich entfernt!", playerSource, 0, 0, 0, true)
 					else
-						--outputChatBox(g_colors["darkorange"].."Fehler beim L"..ouml.."schen des Fahrzeuges!", playerSource, 0, 0, 0, true)
+						--outputChatBox(g_colors["darkorange"].."Fehler beim Löschen des Fahrzeuges!", playerSource, 0, 0, 0, true)
 						sendPlayerInfo(playerSource, "Das Fahrzeug konnte nicht entfernt werden.", true)
 					end
 				else
-					--outputChatBox(g_colors["darkorange"].."Kein Fahrzeug in der N"..auml.."he gefunen!", playerSource, 0, 0, 0, true)
-					sendPlayerInfo(playerSource, "Kein Fahrzeug in der N"..auml.."he gefunden.", true)
+					--outputChatBox(g_colors["darkorange"].."Kein Fahrzeug in der Nähe gefunen!", playerSource, 0, 0, 0, true)
+					sendPlayerInfo(playerSource, "Kein Fahrzeug in der Nähe gefunden.", true)
 					return false
 				end
 			else
@@ -266,7 +266,7 @@ function deleteCarInGame(playerSource, commandName, veh)
 						sendPlayerInfo(playerSource, "Das Fahrzeug wurde erfolgreich entfernt.", true)
 						--outputChatBox(g_colors["green"].."Das Fahrzeug wurde erfolgreich entfernt!", playerSource, 0, 0, 0, true)
 					else
-						--outputChatBox(g_colors["darkorange"].."Fehler beim L"..ouml.."schen des Fahrzeuges!", playerSource, 0, 0, 0, true)
+						--outputChatBox(g_colors["darkorange"].."Fehler beim Löschen des Fahrzeuges!", playerSource, 0, 0, 0, true)
 						sendPlayerInfo(playerSource, "Das Fahrzeug konnte nicht entfernt werden.", true)
 					end
 				else
@@ -316,15 +316,15 @@ function setVehicleSpecialProp(playerSource, commandName, prop, veh)
 						elseif prop == "Yakuza" then
 							setVehicleColor (vehicle, 105, 105, 105, 105, 105, 105, 105, 105, 105, 105, 105, 105)
 						end
-						--outputChatBox(g_colors["green"].."Das 'Prop' des Fahrzeuges wurde auf "..prop.." ge"..auml.."ndert (Altes 'Prop': "..oldprop..")!", playerSource, 0, 0, 0, true)
-						sendPlayerInfo(playerSource, "Das 'Prop' des Fahrzeuges wurde auf "..prop.." ge"..auml.."ndert (Altes 'Prop': "..oldprop..").", true)
+						--outputChatBox(g_colors["green"].."Das 'Prop' des Fahrzeuges wurde auf "..prop.." geändert (Altes 'Prop': "..oldprop..")!", playerSource, 0, 0, 0, true)
+						sendPlayerInfo(playerSource, "Das 'Prop' des Fahrzeuges wurde auf "..prop.." geändert (Altes 'Prop': "..oldprop..").", true)
 						g_vehiclestat[vehicle]["Specialcar"] = tostring(prop)
 						if isVehicleJobVehicle(vehicle) then
 							local id = tonumber(g_vehiclestat[vehicle]["ID"])
 							if g_playerstat[playerSource]["Key"][id] then
 								g_playerstat[playerSource]["Key"][id] = nil
-								sendPlayerInfo(playerSource, "Du hast den Schl"..uuml.."ssel f"..uuml.."r den Wagen verloren, da es zu einem Job-Fahrzeug wurde.", true)
-								--outputChatBox(g_colors["yellow"].."Du hast den Schl"..uuml.."ssel f"..uuml.."r den Wagen verloren, weil es zum Jobcar wurde!", playerSource, 0, 0, 0, true)
+								sendPlayerInfo(playerSource, "Du hast den Schlüssel für den Wagen verloren, da es zu einem Job-Fahrzeug wurde.", true)
+								--outputChatBox(g_colors["yellow"].."Du hast den Schlüssel für den Wagen verloren, weil es zum Jobcar wurde!", playerSource, 0, 0, 0, true)
 							end	
 						end
 					else
@@ -338,8 +338,8 @@ function setVehicleSpecialProp(playerSource, commandName, prop, veh)
 					g_vehiclestat[vehicle]["Specialcar"] = false
 				end
 			else
-				--outputChatBox(g_colors["darkorange"].."Kein Fahrzeug in der N"..auml.."he gefunden!", playerSource, 0, 0, 0, true)
-				sendPlayerInfo(playerSource, "Kein Fahrzeug in der N"..auml.."he gefunden.", true)
+				--outputChatBox(g_colors["darkorange"].."Kein Fahrzeug in der Nähe gefunden!", playerSource, 0, 0, 0, true)
+				sendPlayerInfo(playerSource, "Kein Fahrzeug in der Nähe gefunden.", true)
 				return false
 			end
 		else
@@ -400,8 +400,8 @@ function unlockVehicleCar(playerSource, commandName, veh)
 			local vehicle, distance = closestVehicle(playerSource)
 			if vehicle and distance < 10 then
 				setVehicleLocked(vehicle, false)
-				--outputChatBox(g_colors["limegreen"].."Fahrzeug ge"..ouml.."fnet!", playerSource, 0, 0, 0, true)
-				sendPlayerInfo(playerSource, "Das Fahrzeug wurde ge"..ouml.."ffnet.", true)
+				--outputChatBox(g_colors["limegreen"].."Fahrzeug geöfnet!", playerSource, 0, 0, 0, true)
+				sendPlayerInfo(playerSource, "Das Fahrzeug wurde geöffnet.", true)
 			end
 		else
 			setVehicleLocked(veh, false)
@@ -489,17 +489,17 @@ function setPlayerInJobCommand(playerSource, commandName, playerToChange, job, r
 		if rank then
 			g_playerstat[thePlayer]["Job"][jobID] = 1
 			g_playerstat[thePlayer]["JobRank"][jobID] = tonumber(rank)
-			--outputChatBox(g_colors["yellow"].."Du hast "..getPlayerName(thePlayer).." zum Job "..job.." mit Rank "..rank.." hinzugef"..uuml.."gt.", playerSource, 0, 0, 0, true)
-			sendPlayerInfo(playerSource, "Du hast "..getPlayerName(thePlayer).." zum Job "..job.." mit Rank "..rank.." hinzugef"..uuml.."gt.", true)
-			--outputChatBox(g_colors["yellow"]..getPlayerName(playerSource).." hat dich zum Job "..job.." mit Rank "..rank.." hinzugef"..uuml.."gt.", thePlayer, 0, 0, 0, true)
-			sendPlayerInfo(thePlayer, getPlayerName(playerSource).." hat dich zum Job "..job.." mit Rank "..rank.." hinzugef"..uuml.."gt.", true)
-			teamLog(getPlayerName(playerSource).." hat "..getPlayerName(thePlayer).." zum Job "..job.." (Rank "..rank..") hinzugef"..uuml.."gt")
+			--outputChatBox(g_colors["yellow"].."Du hast "..getPlayerName(thePlayer).." zum Job "..job.." mit Rank "..rank.." hinzugefügt.", playerSource, 0, 0, 0, true)
+			sendPlayerInfo(playerSource, "Du hast "..getPlayerName(thePlayer).." zum Job "..job.." mit Rank "..rank.." hinzugefügt.", true)
+			--outputChatBox(g_colors["yellow"]..getPlayerName(playerSource).." hat dich zum Job "..job.." mit Rank "..rank.." hinzugefügt.", thePlayer, 0, 0, 0, true)
+			sendPlayerInfo(thePlayer, getPlayerName(playerSource).." hat dich zum Job "..job.." mit Rank "..rank.." hinzugefügt.", true)
+			teamLog(getPlayerName(playerSource).." hat "..getPlayerName(thePlayer).." zum Job "..job.." (Rank "..rank..") hinzugefügt")
 		else
 			g_playerstat[thePlayer]["Job"][jobID] = 1
 			g_playerstat[thePlayer]["JobRank"][jobID] = 1
-			outputChatBox(g_colors["yellow"].."Du hast "..getPlayerName(thePlayer).." zum Job "..job.." mit Rank 1 hinzugef"..uuml.."gt.", playerSource, 0, 0, 0, true)
-			outputChatBox(g_colors["yellow"]..getPlayerName(playerSource).." hat dich zum Job "..job.." mit Rank 1 hinzugef"..uuml.."gt.", thePlayer, 0, 0, 0, true)
-			teamLog(getPlayerName(playerSource).." hat "..getPlayerName(thePlayer).." zum Job "..job.." (Rank 1) hinzugef"..uuml.."gt")
+			outputChatBox(g_colors["yellow"].."Du hast "..getPlayerName(thePlayer).." zum Job "..job.." mit Rank 1 hinzugefügt.", playerSource, 0, 0, 0, true)
+			outputChatBox(g_colors["yellow"]..getPlayerName(playerSource).." hat dich zum Job "..job.." mit Rank 1 hinzugefügt.", thePlayer, 0, 0, 0, true)
+			teamLog(getPlayerName(playerSource).." hat "..getPlayerName(thePlayer).." zum Job "..job.." (Rank 1) hinzugefügt")
 		end
 	end
 end
@@ -575,17 +575,17 @@ addCommandHandler("admincash", adminGiveCash)
 local function loadTeamScript(playerSource, commandName, scriptname, intoMeta, initalizeFunction, mysqlData)
 	if g_playerstat[playerSource]["Level"] == "Admin" then
 		if not scriptname or not intoMeta then
-			outputChatBox(g_colors["red"].."Ung"..uuml.."ltige Parameter!", playerSource, 0, 0, 0, true)
+			outputChatBox(g_colors["red"].."Ungültige Parameter!", playerSource, 0, 0, 0, true)
 			return false			
 		end
 		
-		--Pr"..uuml.."fen ob Scriptname "..uuml.."berhaupt exestiert
+		--Prüfen ob Scriptname überhaupt exestiert
 		if not fileExists(scriptname) then
 			outputChatBox(g_colors["red"].."Das angegebene Script kann nicht gefunden werden.", playerSource, 0, 0, 0, true)
 			return false				
 		end
 		
-		--Okay, alles klar, wir laden das Script ein, ab hier gibt es keinen Weg zur"..uuml.."ck, dass hei"..szlig.."t, Errors werden das Script zerst"..ouml.."ren :O!
+		--Okay, alles klar, wir laden das Script ein, ab hier gibt es keinen Weg zurück, dass heißt, Errors werden das Script zerstören :O!
 		local theFile = fileOpen(scriptname, true)
 		local script = fileRead(theFile, fileGetSize(theFile))
 		fileClose(theFile)
@@ -644,7 +644,7 @@ local function removeHouseCommand(playerSource, commandName)
 		if house then
 			if dist < 10 then
 				--if removeHouse(house) then outputChatBox(g_colors["darkorange"].."Du hast das Haus erfolgreich entfernt", playerSource, 0, 0, 0, true)
-				--else outputChatBox(g_colors["red"].."Fehler beim l"..ouml.."schen des Hauses aufgetreten", playerSource, 0, 0, 0, true) end
+				--else outputChatBox(g_colors["red"].."Fehler beim löschen des Hauses aufgetreten", playerSource, 0, 0, 0, true) end
 				if removeHouse(house) then sendPlayerInfo(playerSource, "Du hast das Haus erfolgreich entfernt.", true)
 				else sendPlayerInfo(playerSource, "Es ist ein Fehler beim entfernen des Hauses aufgetreten!", true) end
 			end

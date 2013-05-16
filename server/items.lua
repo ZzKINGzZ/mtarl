@@ -93,7 +93,7 @@ function getItemData(playerSource, dynamicID, var)
 	return false	
 end
 
---Gibt zur"..uuml.."ck:
+--Gibt zurück:
 --true wenn item vorhanden, number wieviele
 --oder
 --false
@@ -262,7 +262,7 @@ function onPlayerItemGive(dynamicID)
 				outputChatBox(g_colors["green"].."Du hast "..getPlayerName(player).." das Item "..getItemName(staticID).." gegeben", client, 255, 255, 255, true)
 				outputChatBox(g_colors["green"].."Du hast von "..getPlayerName(client).." das Item "..getItemName(staticID).." bekommen", player, 255, 255, 255, true)
 			else
-				outputChatBox(g_colors["red"].."Kein Spieler in der N"..auml.."he gefunden", client, 255, 255, 255, true)
+				outputChatBox(g_colors["red"].."Kein Spieler in der Nähe gefunden", client, 255, 255, 255, true)
 			end
 		end
 	end	

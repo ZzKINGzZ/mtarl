@@ -1869,7 +1869,7 @@ carTable[132] = {
 }
 carTable[133] = {
 	id = 532,
-	name = "M"..auml.."hdrescher",
+	name = "Mähdrescher",
 	preis = 8600,
 	category = "extra",
 	items = 0,
@@ -2695,7 +2695,7 @@ carTable[191] = {
 }
 carTable[192] = {
 	id = 591,
-	name = "K"..uuml.."hltrailer",
+	name = "Kühltrailer",
 	preis = 9800,
 	category = "trailer",
 	items = 230,

@@ -93,7 +93,7 @@ function onPlayerItemShopBuy(staticID, price, itemshopID, pieces)
 		if pieces ~= 1 then
 			local toPay = price * pieces
 			if toPay > getPlayerMoney(client) then
-				sendPlayerInfo("Du hast zu wenig Geld f"..uuml.."r den Einkauf.", true)
+				sendPlayerInfo("Du hast zu wenig Geld für den Einkauf.", true)
 				return false
 			end
 			
@@ -104,7 +104,7 @@ function onPlayerItemShopBuy(staticID, price, itemshopID, pieces)
 			end
 		else
 			if price > getPlayerMoney(client) then
-				sendPlayerInfo("Du hast zu wenig Geld f"..uuml.."r den Einkauf.", true)
+				sendPlayerInfo("Du hast zu wenig Geld für den Einkauf.", true)
 				return false
 			end
 			addPlayerItem(client, staticID)

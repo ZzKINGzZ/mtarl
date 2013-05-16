@@ -119,7 +119,7 @@ function WeaponShopButtonHandler(button)
 					--server.createWeapon(weaponname)
 					rpcCallServerFunction("createWeapon", weaponname)
 				else
-					outputChatBox ( "Du musst eine Waffe zum Kauf ausw"..auml.."hlen!", 255, 0, 0)
+					outputChatBox ( "Du musst eine Waffe zum Kauf auswählen!", 255, 0, 0)
 				end
 			end
 		end

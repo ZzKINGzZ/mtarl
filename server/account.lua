@@ -40,7 +40,7 @@ function checkPlayer(playerNick, playerIP, playerUsername, playerSerial, playerV
 	local iptable = explode(".", playerIP)
 	
 	--Check ob Name == Job
-	--M"..ouml.."glicher Crash des Gesamtsystems
+	--Möglicher Crash des Gesamtsystems
 	if isCorrectJob(playerNick) then
 		cancelEvent()
 	end
@@ -152,7 +152,7 @@ function registerPlayer(password, email, skin)
 															 `wanted` = '0'\
 	WHERE `playername` = '"..playername.."' LIMIT 1 ;")
 	
-	--Grundtasche f"..uuml.."r das Itemsystem anlegen
+	--Grundtasche für das Itemsystem anlegen
 	--mysql_query(g_mysql["connection"], "INSERT INTO `taschen` (`taschenslots` , `playerid` , `taschenslot`) VALUES ('5', '"..lastid.."', '1');");
 	
 	triggerEvent("onPlayerRegisterMTARL", client, lastid)
@@ -459,7 +459,7 @@ end
 function quitPlayer(reason)
 	outputDebug("Account einspeichern...")
 	if reason == "Unknown" then
-		outputChatBox(g_colors["greenblue"]..getPlayerName(source).." hat den Server aus unbekannten Gr"..uuml.."nden verlassen!", getRootElement(), 255, 255, 255, true)
+		outputChatBox(g_colors["greenblue"]..getPlayerName(source).." hat den Server aus unbekannten Gründen verlassen!", getRootElement(), 255, 255, 255, true)
 	elseif reason == "Quit" then
 		outputChatBox(g_colors["greenblue"]..getPlayerName(source).." hat den Server verlassen!", getRootElement(), 255, 255, 255, true)
 	elseif reason == "Kicked" then	
@@ -594,11 +594,11 @@ function quitPlayer(reason)
 			
 			mysql_query(g_mysql["connection"], sql)
 			sql = nil
-			--Schl"..uuml.."ssen neu einspeichern
-			--Alle alten Schl"..uuml.."ssel l"..ouml.."schen
+			--Schlüssen neu einspeichern
+			--Alle alten Schlüssel löschen
 			mysql_query(g_mysql["connection"], "DELETE FROM `keys` WHERE `playerid`= '"..g_playerstat[source]["Userid"].."'")
 			
-			--Alle Schl"..uuml.."ssel wieder einspeichern
+			--Alle Schlüssel wieder einspeichern
 			for fahrzeugid, state in pairs(g_playerstat[source]["Key"]) do
 				if fahrzeugid and state then
 					if state == 1 or state == 2 then
@@ -625,7 +625,7 @@ function quitPlayer(reason)
 				end
 			end
 			
-			--Zerst"..ouml.."re Blip, falls vorhanden
+			--Zerstöre Blip, falls vorhanden
 			if g_playerstat[source]["Blip"] then
 				destroyElement(g_playerstat[source]["Blip"])
 			end
@@ -661,12 +661,12 @@ addEventHandler('onPlayerQuit', getRootElement(), quitPlayer)
 addEventHandler('onPlayerConnect', getRootElement(), checkPlayer)
 
 function setPlayerToOldName(oldnick, newnick)
-	outputChatBox(g_colors["red"].."Umbenennung ist nicht unterst"..uuml.."tzt!", source, 0, 0, 0, true)
+	outputChatBox(g_colors["red"].."Umbenennung ist nicht unterstützt!", source, 0, 0, 0, true)
 	cancelEvent()
 end
 addEventHandler("onPlayerChangeNick", getRootElement(), setPlayerToOldName)
 
---Eine Funktion f"..uuml.."r Einstein, weil der sich das nicht merken kann :(
+--Eine Funktion für Einstein, weil der sich das nicht merken kann :(
 function getPlayerID(player)
 	return g_playerstat[player]["Userid"]
 end

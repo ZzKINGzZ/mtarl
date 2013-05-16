@@ -39,12 +39,12 @@ function onBikeRentalMarkerHit(playerSource)
 				local vehicle = createTempVehicleMTARL(510, x, y + 3, z + 1, 0, 0, rz)
 				g_playerstat[playerSource]["rentalBike"] = vehicle
 				warpPedIntoVehicle(playerSource, vehicle, 0)
-				sendPlayerInfo(playerSource, "Willkommen im Fahrrad-Verleih! Das Fahrad hat dich50$ gekostet es steht Ihnen nun 1 Tag zu verf"..uuml.."gung.", true)
+				sendPlayerInfo(playerSource, "Willkommen im Fahrrad-Verleih! Das Fahrad hat dich50$ gekostet es steht Ihnen nun 1 Tag zu verfügung.", true)
 				giveStaatsKasse(50)
 				takePlayerMoney(playerSource, 50)
 				g_playerstat[playerSource]["rentalBikeHit"] = nil
 			else
-				sendPlayerInfo(playerSource, "Willkommen im Fahrrad-Verleih! Das Fahrad wird dich 50$ kosten, es wird Ihnen 1 Tag zu verf"..uuml.."gung stehen.\nGehe Sie erneut in den Marker um das Fahrrad zu holen!", true)
+				sendPlayerInfo(playerSource, "Willkommen im Fahrrad-Verleih! Das Fahrad wird dich 50$ kosten, es wird Ihnen 1 Tag zu verfügung stehen.\nGehe Sie erneut in den Marker um das Fahrrad zu holen!", true)
 				g_playerstat[playerSource]["rentalBikeHit"] = 1
 			end
 		end

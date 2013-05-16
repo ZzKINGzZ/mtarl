@@ -99,7 +99,7 @@ function tutorialTimer()
 		if tutorial["cursec"] == 17 then
 			playSoundFrontEnd(15)
 			guiLabelSetColor(tutorial["textlabel"], 255, 255, 0)
-			guiSetText(tutorial["textlabel"], "Willkommen in der Welt von MTA:RL. Mache dich zun"..auml.."chst ein wenig mit der Steuerung vertraut.\n\nBeachte, dass es sich bei MTA:RL noch um eine Beta handelt")
+			guiSetText(tutorial["textlabel"], "Willkommen in der Welt von MTA:RL. Mache dich zunächst ein wenig mit der Steuerung vertraut.\n\nBeachte, dass es sich bei MTA:RL noch um eine Beta handelt")
 			
 			--setTrainSpeed(tutorial["train"], 0.03)
 			fadeCamera(true, 2)	
@@ -108,7 +108,7 @@ function tutorialTimer()
 		
 		if tutorial["cursec"] == 25 then
 			playSoundFrontEnd(15)
-			guiSetText(tutorial["textlabel"], "Wir m"..ouml.."chten dich zun"..auml.."chst auf alle wichtigen Funktionen von MTA:RL aufmerksam machen.")
+			guiSetText(tutorial["textlabel"], "Wir möchten dich zunächst auf alle wichtigen Funktionen von MTA:RL aufmerksam machen.")
 		end
 		
 		if tutorial["cursec"] == 30 then
@@ -121,7 +121,7 @@ function tutorialTimer()
 		
 		if tutorial["cursec"] == 35 then
 			playSoundFrontEnd(15)
-			guiSetText(tutorial["textlabel"], "In diesem Spielermenu kannst du jederzeit alle wichtigen Informationen abrufen und "..auml.."ndern.")
+			guiSetText(tutorial["textlabel"], "In diesem Spielermenu kannst du jederzeit alle wichtigen Informationen abrufen und ändern.")
 		end
 		
 		if tutorial["cursec"] == 37 then
@@ -134,7 +134,7 @@ function tutorialTimer()
 
 		if tutorial["cursec"] == 42 then
 			playSoundFrontEnd(15)
-			guiSetText(tutorial["textlabel"], "Du kannst das Spielermenu jederzeit durch dr"..uuml.."cken der F1-Taste aufrufen.")
+			guiSetText(tutorial["textlabel"], "Du kannst das Spielermenu jederzeit durch drücken der F1-Taste aufrufen.")
 		end
 		
 		if tutorial["cursec"] == 45 then
@@ -145,7 +145,7 @@ function tutorialTimer()
 		
 		if tutorial["cursec"] == 50 then
 			playSoundFrontEnd(15)
-			guiSetText(tutorial["textlabel"], "Den angesprochenen Chat kannst du jederzeit mit der Taste t "..ouml.."ffnen. Wir haben ihn erstmal deaktiviert,\num dich nicht vom Tutorial abzulenken.")
+			guiSetText(tutorial["textlabel"], "Den angesprochenen Chat kannst du jederzeit mit der Taste t öffnen. Wir haben ihn erstmal deaktiviert,\num dich nicht vom Tutorial abzulenken.")
 			fadeCamera(false, 5)			
 		end
 		
@@ -229,12 +229,12 @@ function tutorialTimer()
 			fadeCamera(true, 3)
 			playSoundFrontEnd(15)
 			
-			guiSetText(tutorial["textlabel"], "Du verf"..uuml.."gst ueber eine EC-Karte. Diese l"..auml.."sst dich an jedem Geldautomaten\nin ganz San Andreas jederzeit Geld abheben. Du erkennst sie an den gr"..uuml.."nen Markern.")
+			guiSetText(tutorial["textlabel"], "Du verfügst ueber eine EC-Karte. Diese lässt dich an jedem Geldautomaten\nin ganz San Andreas jederzeit Geld abheben. Du erkennst sie an den grünen Markern.")
 		end
 		
 		if tutorial["cursec"] == 81 then
 			playSoundFrontEnd(15)
-			guiSetText(tutorial["textlabel"], "Zu Beginn verf"..uuml.."gst du "..uuml.."ber 65000$, davon liegen 64500$ auf der Bank.")
+			guiSetText(tutorial["textlabel"], "Zu Beginn verfügst du über 65000$, davon liegen 64500$ auf der Bank.")
 			
 			showGeldautomatMenu(64500)
 			showCursor(false)
@@ -259,12 +259,12 @@ function tutorialTimer()
 		end
 		
 		if tutorial["cursec"] == 100 then
-			guiSetText(tutorial["textlabel"], "In ganz San Andreas gibt es Minijobs, die du jederzeit ausf"..uuml.."hren kannst.")
+			guiSetText(tutorial["textlabel"], "In ganz San Andreas gibt es Minijobs, die du jederzeit ausführen kannst.")
 			playSoundFrontEnd(15)
 		end
 		
 		if tutorial["cursec"] == 106 then
-			guiSetText(tutorial["textlabel"], "Du brauchst dich f"..uuml.."r diese Jobs nicht bewerben.")
+			guiSetText(tutorial["textlabel"], "Du brauchst dich für diese Jobs nicht bewerben.")
 			playSoundFrontEnd(15)
 		end	
 
@@ -276,7 +276,7 @@ function tutorialTimer()
 		if tutorial["cursec"] == 115 then
 			playSoundFrontEnd(15)
 			fadeCamera(false, 1)
-			guiSetText(tutorial["textlabel"], "Wir w"..uuml.."nschen dir nun viel Spass beim Nutzen von MTA:RL")
+			guiSetText(tutorial["textlabel"], "Wir wünschen dir nun viel Spass beim Nutzen von MTA:RL")
 		end
 		
 		if tutorial["cursec"] == 123 then
@@ -285,7 +285,7 @@ function tutorialTimer()
 		end		
 		
 		if tutorial["cursec"] == 127 then
-			guiSetText(tutorial["textlabel"], "Du wirst jetzt in die Spielwelt zur"..uuml.."ckgebracht!")
+			guiSetText(tutorial["textlabel"], "Du wirst jetzt in die Spielwelt zurückgebracht!")
 			playSoundFrontEnd(15)		
 		end
 		

@@ -61,7 +61,7 @@ function sweeperCrewLeaveJob(playerSource, staticJobID, locationID, playerJobRan
 	local veh = g_playerstat[playerSource]["Jobvar"]["Sweeper"]["Car"]
 	setElementModel(playerSource, g_playerstat[playerSource]["Skin"])
 	
-	--Fahrzeug l"..ouml.."schen
+	--Fahrzeug löschen
 	if g_vehiclestat[veh]["tempcar"] == true then
 		if g_vehiclestat[veh]["SweeperCar"] == true then
 			deleteTempVehicleMTARL(veh)
@@ -156,7 +156,7 @@ function timerSweeper()
 				g_playerstat[source]["Jobvar"]["Sweeper"]["Timer"] = -1
 				local vehicle = g_playerstat[source]["Jobvar"]["Sweeper"]["Car"]
 				if vehicle then					
-					--L"..ouml.."schen wir das Fahrzeug
+					--Löschen wir das Fahrzeug
 					if g_vehiclestat[vehicle]["tempcar"] == true then
 						if g_vehiclestat[vehicle]["SweeperCar"] == true then
 							deleteTempVehicleMTARL(vehicle)

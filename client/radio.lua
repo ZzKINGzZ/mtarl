@@ -255,7 +255,7 @@ function enterVehicleRadio(vehicle, seat)
 		end
 		localsound = playSound(radiostations[curID]["stream"])
 		
-		--Destroy au"..szlig.."ensound, weil es einfach nur schei"..szlig.."e klingt :D
+		--Destroy außensound, weil es einfach nur scheiße klingt :D
 		if vehicleSounds[vehicle] then
 			destroyElement(vehicleSounds[vehicle])
 			vehicleSounds[vehicle] = nil

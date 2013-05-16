@@ -134,7 +134,7 @@ function initalizeServer()
 	--Debugmodus
 	local debugchild = xmlFindChild(xml, "debugmode", 0)
 	if not debugchild then
-		outputServerLog("Konnte debugmode in config.xml nicht finden, Standartm"..auml.."ssig auf 'false' gesetzt!")
+		outputServerLog("Konnte debugmode in config.xml nicht finden, Standartmässig auf 'false' gesetzt!")
 	else
 		local debugval = xmlNodeGetValue(debugchild)
 		if debugval == "true" then
@@ -149,7 +149,7 @@ function initalizeServer()
 	--Webservice
 	local webservchild = xmlFindChild(xml, "webservices", 0)
 	if not webservchild then
-		outputDebug("Konnte webservices in config.xml nicht finden, Standartm"..auml.."ssig auf 'false' gesetzt!")
+		outputDebug("Konnte webservices in config.xml nicht finden, Standartmässig auf 'false' gesetzt!")
 	else
 		local webval = xmlNodeGetValue(webservchild)
 		if webval == "true" then
@@ -436,7 +436,7 @@ function timer()
 							setElementInterior(player, 0)
 							g_playerstat[player]["Jailtime"] = -1
 							g_playerstat[player]["Jailed"] = 0
-							outputChatBox(g_colors["green"].."Du wurdest aus dem Gef"..auml.."ngniss entlassen!", player, 0, 0, 0, true)
+							outputChatBox(g_colors["green"].."Du wurdest aus dem Gefängniss entlassen!", player, 0, 0, 0, true)
 						end
 					end
 				end

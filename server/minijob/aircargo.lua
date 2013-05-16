@@ -70,7 +70,7 @@ function airCrewLeaveJob(playerSource, staticJobID, locationID, playerJobRank)
 	local veh = g_playerstat[playerSource]["Jobvar"]["AirCargo"]["Car"]
 	setElementModel(playerSource, g_playerstat[playerSource]["Skin"])
 	
-	--Fahrzeug l"..ouml.."schen
+	--Fahrzeug löschen
 	if g_vehiclestat[veh]["tempcar"] == true then
 		if g_vehiclestat[veh]["AirCar"] == true then
 			deleteTempVehicleMTARL(veh)
@@ -137,7 +137,7 @@ function airMarkerHit(playerSource)
 							--Geld geben
 							giveStaatsKasse(-30)
 							givePlayerMoney(playerSource, 30)
-							sendPlayerInfo(playerSource, "Hervorragend! Fliege jetzt zum N"..auml.."chsten Flughafen! Du hast 30$ erhalten.")
+							sendPlayerInfo(playerSource, "Hervorragend! Fliege jetzt zum Nächsten Flughafen! Du hast 30$ erhalten.")
 						end	
 					end	
 				end

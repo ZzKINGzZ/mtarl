@@ -23,7 +23,7 @@ function setVehicleDamagePerPara(vehicle, damagepara)
 	runTo = string.split(msg, "|")
 	for _, msgVal in next,runTo do
 		zelle = zelle + 1
-		--T"..Uuml.."RSCHADEN
+		--T".."ÜRSCHADEN
 		if zelle == 1 then
 			setVehicleDoorState(vehicle, 0, tonumber(msgVal))
 		elseif zelle == 2 then
@@ -74,7 +74,7 @@ function setVehicleDamagePerPara(vehicle, damagepara)
 end
 
 function getVehicleDamagePerPara(vehicle)
-	--T"..Uuml.."RENSCHADEN
+	--T".."ÜRENSCHADEN
 	local zelle1 = getVehicleDoorState(vehicle, 0)
 	local zelle2 = getVehicleDoorState(vehicle, 1)
 	local zelle3 = getVehicleDoorState(vehicle, 2)

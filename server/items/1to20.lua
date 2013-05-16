@@ -171,7 +171,7 @@ local function usePetrolCan(playerSource, dynamicID, staticID)
 						sendPlayerInfo(playerSource, "Dieses Fahrzeug kann nicht betankt werden.", true)
 					end
 				else
-					sendPlayerInfo(playerSource, "Kein Fahrzeug in der N"..auml.."he gefunden.", true)
+					sendPlayerInfo(playerSource, "Kein Fahrzeug in der Nähe gefunden.", true)
 				end
 			else
 				sendPlayerInfo(playerSource, "Du bist in einem Fahrzeug.", true)
@@ -217,7 +217,7 @@ local function useFahrzeugNotKit(playerSource, dynamicID, staticID)
 				return true
 			end
 		else
-			sendPlayerInfo("Kein Fahrzeug in der N"..auml.."he gefunden.", true)
+			sendPlayerInfo("Kein Fahrzeug in der Nähe gefunden.", true)
 			return true
 		end
 	end	
@@ -239,7 +239,7 @@ end
 local function toggleHandy(playerSource, dynamicID, staticID)
 	if staticID then
 		rpcCallClientFunction(playerSource, "toggleHandy")
-		--sendPlayerInfo(playerSource, "Das Handy wird zur Zeit "..uuml.."berarbeitet. Warte bis Version 1.2.0")
+		--sendPlayerInfo(playerSource, "Das Handy wird zur Zeit überarbeitet. Warte bis Version 1.2.0")
 	end
 end
 
@@ -293,7 +293,7 @@ local function oneToTwentyItemsInit()
 	addItem(17, "Nachtsichtkamera", true, true, "camera")
 	setItemUseFunction(17, useNightVision)
 	
-	addItem(18, "W"..auml.."rmebildkamera", true, true, "camera")
+	addItem(18, "Wärmebildkamera", true, true, "camera")
 	setItemUseFunction(18, useTermalVision)
 	
 	addItem(19, "Kamera", true, true, "camera")

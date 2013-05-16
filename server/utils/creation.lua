@@ -25,7 +25,7 @@
 local g_Creation_playerTable = {}
 local g_Creation_vehicleTable = {}
 
---[["..Uuml.."berschreibende Funktionen]]
+--[[".."Überschreibende Funktionen]]
 _getElementsByType = getElementsByType
 function getElementsByType(elementtype)
 	if elementtype == "player" then return g_Creation_playerTable

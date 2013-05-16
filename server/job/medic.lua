@@ -117,7 +117,7 @@ function medicOnPlayerDeadTimerKill()
 	for i, player in ipairs(getElementsByType("player")) do
 		if player then
 			if isPlayerActiveInJob(player, 2) then
-				outputChatBox(g_colors["darkred"].."Der Spieler "..getPlayerName(client).." ist gestorben! Jede Hilfe kommt zu sp"..auml.."t...", player, 255, 255, 255, true)
+				outputChatBox(g_colors["darkred"].."Der Spieler "..getPlayerName(client).." ist gestorben! Jede Hilfe kommt zu spät...", player, 255, 255, 255, true)
 			end
 		end
 	end
@@ -133,8 +133,8 @@ function medicHealPlayer(playerSource, commandName)
 			addEventHandler("onGeneralPlayerTimer", player, medicHealPlayerTimer)
 			g_playerstat[player]["healer"] = playerSource
 			
-			sendPlayerInfo(playerSource, "Du heilst "..getPlayerName(player)..". Bleibe in seiner N"..auml.."he um die Behandlung nicht abzubrechen.", true)
-			sendPlayerInfo(player, "Dein Arzt "..getPlayerName(playerSource).." heilt dich. Bleibe in seiner N"..auml.."he um die Behandlung nicht abzubrechen.", true)
+			sendPlayerInfo(playerSource, "Du heilst "..getPlayerName(player)..". Bleibe in seiner Nähe um die Behandlung nicht abzubrechen.", true)
+			sendPlayerInfo(player, "Dein Arzt "..getPlayerName(playerSource).." heilt dich. Bleibe in seiner Nähe um die Behandlung nicht abzubrechen.", true)
 		else
 			addEventHandler("onGeneralPlayerTimer", playerSource, medicHealPlayerTimer)
 			g_playerstat[playerSource]["healer"] = playerSource
@@ -170,8 +170,8 @@ function medicHealPlayerTimer()
 	local distance = getDistanceBetweenPoints2D(playerX, playerY, medicX, medicY)
 	
 	if distance > 5 then
-		sendPlayerInfo(source, "Du bist zu weit entfernt von deinem Arzt. Die Behandlung konnte nicht fortgef"..uuml.."hrt werden.", true)
-		sendPlayerInfo(g_playerstat[source]["healer"], "Du bist zu weit entfernt von deinem Patienten. Die Behandlung konnte nicht fortgef"..uuml.."hrt werden.", true)
+		sendPlayerInfo(source, "Du bist zu weit entfernt von deinem Arzt. Die Behandlung konnte nicht fortgeführt werden.", true)
+		sendPlayerInfo(g_playerstat[source]["healer"], "Du bist zu weit entfernt von deinem Patienten. Die Behandlung konnte nicht fortgeführt werden.", true)
 		removeEventHandler("onGeneralPlayerTimer", source, medicHealPlayerTimer)
 		return false 
 	end

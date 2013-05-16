@@ -94,7 +94,7 @@ function adminPlayerClickButton(button, state)
 				addEventHandler("onClientGUIChanged", g_admingui["confirmReason1"], adminPlayerReasonChange)
 				guiSetVisible(g_admingui["windowConfirm1"], true)
 				guiSetVisible(g_admingui["window"], false)
-				guiSetText(g_admingui["confirm1Text"], "M"..ouml.."chtest du den Spieler "..name.." wirklich Banen?")
+				guiSetText(g_admingui["confirm1Text"], "Möchtest du den Spieler "..name.." wirklich Banen?")
 				adminButtonClicked = "Ban"
 			elseif source == g_admingui["tabPlayerButtonKick"] then
 				initalizeAdminGuiConfirm1()
@@ -102,14 +102,14 @@ function adminPlayerClickButton(button, state)
 				addEventHandler("onClientGUIChanged", g_admingui["confirm1Reason"], adminPlayerReasonChange)
 				guiSetVisible(g_admingui["windowConfirm1"], true)
 				guiSetVisible(g_admingui["window"], false)
-				guiSetText(g_admingui["confirm1Text"], "M"..ouml.."chtest du den Spieler "..name.." wirklich Kicken?")
+				guiSetText(g_admingui["confirm1Text"], "Möchtest du den Spieler "..name.." wirklich Kicken?")
 				adminButtonClicked = "Kick"
 			elseif source == g_admingui["tabPlayerButtonMute"] then
 				initalizeAdminGuiConfirm2()
 				addEventHandler("onClientGUIClick", g_admingui["windowConfirm2"], adminPlayerClickButtonConfirm)
 				guiSetVisible(g_admingui["windowConfirm2"], true)
 				guiSetVisible(g_admingui["window"], false)
-				guiSetText(g_admingui["confirm2Text"], "M"..ouml.."chtest du den Spieler "..name.." wirklich Muten/Entmuten?")
+				guiSetText(g_admingui["confirm2Text"], "Möchtest du den Spieler "..name.." wirklich Muten/Entmuten?")
 				adminButtonClicked = "Mute"
 			elseif source == g_admingui["tabPlayerButtonJob"] then
 				initalizeAdminGuiConfirm3()
@@ -118,14 +118,14 @@ function adminPlayerClickButton(button, state)
 				addEventHandler("onClientGUIComboBoxAccepted", g_admingui["confirm3Job"], adminPlayerJobChange)
 				guiSetVisible(g_admingui["windowConfirm3"], true)
 				guiSetVisible(g_admingui["window"], false)
-				guiSetText(g_admingui["confirm3Text"], "M"..ouml.."chtest du den Spieler "..name.." wirklich in einenem Job hinzuf"..uuml.."gen?")
+				guiSetText(g_admingui["confirm3Text"], "Möchtest du den Spieler "..name.." wirklich in einenem Job hinzufügen?")
 				adminButtonClicked = "Job"
 			elseif source == g_admingui["tabPlayerButtonFreeze"] then
 				initalizeAdminGuiConfirm2()
 				addEventHandler("onClientGUIClick", g_admingui["windowConfirm2"], adminPlayerClickButtonConfirm)
 				guiSetVisible(g_admingui["windowConfirm2"], true)
 				guiSetVisible(g_admingui["window"], false)
-				guiSetText(g_admingui["confirm2Text"], "M"..ouml.."chtest du den Spieler "..name.." wirklich Freezen/Enzfreezen?")
+				guiSetText(g_admingui["confirm2Text"], "Möchtest du den Spieler "..name.." wirklich Freezen/Enzfreezen?")
 				adminButtonClicked = "Freeze"
 			elseif source == g_admingui["tabPlayerButtonMoney"] then
 				initalizeAdminGuiConfirm4()
@@ -134,21 +134,21 @@ function adminPlayerClickButton(button, state)
 				addEventHandler("onClientGUIChanged", g_admingui["confirm4Amount"], adminPlayerMoneyChange)
 				guiSetVisible(g_admingui["windowConfirm4"], true)
 				guiSetVisible(g_admingui["window"], false)
-				guiSetText(g_admingui["confirm4Text"], "M"..ouml.."chtest du den Spieler "..name.." wirklich Geld geben?")
+				guiSetText(g_admingui["confirm4Text"], "Möchtest du den Spieler "..name.." wirklich Geld geben?")
 				adminButtonClicked = "Money"
 			elseif source == g_admingui["tabPlayerButtonSpawn"] then
 				initalizeAdminGuiConfirm2()
 				addEventHandler("onClientGUIClick", g_admingui["windowConfirm2"], adminPlayerClickButtonConfirm)
 				guiSetVisible(g_admingui["windowConfirm2"], true)
 				guiSetVisible(g_admingui["window"], false)
-				guiSetText(g_admingui["confirm2Text"], "M"..ouml.."chtest du den Spawn von "..name.." wirklich speichern?")
+				guiSetText(g_admingui["confirm2Text"], "Möchtest du den Spawn von "..name.." wirklich speichern?")
 				adminButtonClicked = "Spawn"
 			elseif source == g_admingui["tabPlayerButtonHealth"] then
 				initalizeAdminGuiConfirm2()
 				addEventHandler("onClientGUIClick", g_admingui["windowConfirm2"], adminPlayerClickButtonConfirm)
 				guiSetVisible(g_admingui["windowConfirm2"], true)
 				guiSetVisible(g_admingui["window"], false)
-				guiSetText(g_admingui["confirm2Text"], "M"..ouml.."chtest du den Spieler "..name.." wirklich heilen?")
+				guiSetText(g_admingui["confirm2Text"], "Möchtest du den Spieler "..name.." wirklich heilen?")
 				adminButtonClicked = "Health"
 			elseif source == g_admingui["tabPlayerButtonTeam"] then
 				initalizeAdminGuiConfirm8()
@@ -156,7 +156,7 @@ function adminPlayerClickButton(button, state)
 				addEventHandler("onClientGUIComboBoxAccepted", g_admingui["confirm8Team"], adminPlayerTeamChange)
 				guiSetVisible(g_admingui["windowConfirm8"], true)
 				guiSetVisible(g_admingui["window"], false)
-				guiSetText(g_admingui["confirm8Text"], "M"..ouml.."chtest du den Spieler "..name.." wirklich zum Team hinzuf"..uuml.."gen?")
+				guiSetText(g_admingui["confirm8Text"], "Möchtest du den Spieler "..name.." wirklich zum Team hinzufügen?")
 				adminButtonClicked = "Team"
 			elseif source == g_admingui["tabPlayerButtonCar"] then
 				guiSetSelectedTab (g_admingui["tabPanel"], g_admingui["tabVeh"])

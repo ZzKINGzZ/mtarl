@@ -118,19 +118,19 @@ function fillBuildGridlistWithItems(types)
 		
 		addHouseBuyItem("Kabinett", 1200, 2078)
 		
-		addHouseBuyItem("K"..uuml.."chenteil", 850, 2128)
-		addHouseBuyItem("K"..uuml.."chenteil", 850, 2129)
-		addHouseBuyItem("K"..uuml.."chenteil", 750, 2133)
-		addHouseBuyItem("K"..uuml.."chenteil", 750, 2134)
-		addHouseBuyItem("K"..uuml.."chenteil", 1200, 2137)
-		addHouseBuyItem("K"..uuml.."chenteil", 1200, 2138)
-		addHouseBuyItem("K"..uuml.."chenteil", 900, 2139)
-		addHouseBuyItem("K"..uuml.."chenteil", 900, 2140)
-		addHouseBuyItem("K"..uuml.."chenteil", 850, 2141)
-		addHouseBuyItem("K"..uuml.."chenteil", 650, 2142)
-		addHouseBuyItem("K"..uuml.."chenteil", 700, 2145)
-		addHouseBuyItem("K"..uuml.."chenteil", 1000, 2159)
-		addHouseBuyItem("K"..uuml.."chenteil", 1200, 2160)
+		addHouseBuyItem("Küchenteil", 850, 2128)
+		addHouseBuyItem("Küchenteil", 850, 2129)
+		addHouseBuyItem("Küchenteil", 750, 2133)
+		addHouseBuyItem("Küchenteil", 750, 2134)
+		addHouseBuyItem("Küchenteil", 1200, 2137)
+		addHouseBuyItem("Küchenteil", 1200, 2138)
+		addHouseBuyItem("Küchenteil", 900, 2139)
+		addHouseBuyItem("Küchenteil", 900, 2140)
+		addHouseBuyItem("Küchenteil", 850, 2141)
+		addHouseBuyItem("Küchenteil", 650, 2142)
+		addHouseBuyItem("Küchenteil", 700, 2145)
+		addHouseBuyItem("Küchenteil", 1000, 2159)
+		addHouseBuyItem("Küchenteil", 1200, 2160)
 		
 		addHouseBuyItem("Bett", 500, 1700)
 		addHouseBuyItem("Bett", 550, 1701)
@@ -205,7 +205,7 @@ local sx, sy = guiGetScreenSize()
 function attachObjectToMouseHouse()
 	if object then
 		dxDrawText("Pfeiltasten - Bewegen", sx - 150, sy / 30 * 24)
-		dxDrawText("w/s - H"..ouml.."he", sx - 150, sy / 30 * 25)
+		dxDrawText("w/s - Höhe", sx - 150, sy / 30 * 25)
 		dxDrawText("e/d - Rotation", sx - 150, sy / 30 * 26)
 		dxDrawText("Enter - Kaufen", sx - 150, sy / 30 * 27)
 		dxDrawText("Backspace- Abbrechen", sx - 150, sy / 30 * 28)
@@ -287,10 +287,10 @@ end
 local attachedobjectedit = nil
 
 function checkClickAndAttachObject()
-	dxDrawText("Linke Maus - Objekt in der N"..auml.."he auswaehlen", sx - 150, sy / 30 * 22)
-	dxDrawText("R"..uuml.."cktaste - Objekt l"..ouml.."schen", sx - 150, sy / 30 * 23)
+	dxDrawText("Linke Maus - Objekt in der Nähe auswaehlen", sx - 150, sy / 30 * 22)
+	dxDrawText("Rücktaste - Objekt löschen", sx - 150, sy / 30 * 23)
 	dxDrawText("Pfeiltasten - Bewegen", sx - 150, sy / 30 * 24)
-	dxDrawText("w/s - H"..ouml.."he", sx - 150, sy / 30 * 25)
+	dxDrawText("w/s - Höhe", sx - 150, sy / 30 * 25)
 	dxDrawText("e/d - Rotation", sx - 150, sy / 30 * 26)
 	dxDrawText("Enter - Neu setzen", sx - 150, sy / 30 * 27)
 	
@@ -361,7 +361,7 @@ function checkClickAndAttachObject()
 				toggleAllControls(true, true, false)
 			end	
 		end
-		--Oder Objekt l"..ouml.."schen
+		--Oder Objekt löschen
 		if getKeyState("backspace") then
 			if attachedobjectedit then
 				rpcCallServerFunction("applyNewKoordEdit", attachedobjectedit, tostring(x), tostring(y), tostring(z), tostring(xx), tostring(yy), tostring(zz), true)

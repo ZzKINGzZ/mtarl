@@ -78,7 +78,7 @@ function adacStartRepairVehicle(playerSource, commandName)
 			local vehicle, distance = closestVehicle(playerSource)
 			if vehicle and distance < 10 then
 				--[[if isVehicleUnlimitedBurning(vehicle) then
-					sendPlayerInfo(playerSource, "Das Fahrzeug brennt noch. Rufe die Feuerwehr um es zu l"..ouml.."schen zu lassen.")
+					sendPlayerInfo(playerSource, "Das Fahrzeug brennt noch. Rufe die Feuerwehr um es zu löschen zu lassen.")
 					return false
 				end--]]
 				
@@ -106,11 +106,11 @@ function adacStartRepairVehicle(playerSource, commandName)
 				
 				if repairStart then
 					local points = 0
-					--Punkte f"..uuml.."r die Health
+					--Punkte für die Health
 					local health = getElementHealth(vehicle)
 					points = (1000 - health) / 10
 					
-					--Punkte f"..uuml.."r "..auml.."u"..szlig.."eren Schaden
+					--Punkte für äußeren Schaden
 					local zelle1 = getVehicleDoorState(vehicle, 0)
 					local zelle2 = getVehicleDoorState(vehicle, 1)
 					local zelle3 = getVehicleDoorState(vehicle, 2)
@@ -205,7 +205,7 @@ function adacStartRepairVehicle(playerSource, commandName)
 					
 					
 					if round(points) == 0 then
-						sendPlayerInfo(playerSource, "Dieses Fahrzeug hat keine Sch"..auml.."den.", true)
+						sendPlayerInfo(playerSource, "Dieses Fahrzeug hat keine Schäden.", true)
 						return false
 					end	
 					
@@ -225,7 +225,7 @@ function adacStartRepairVehicle(playerSource, commandName)
 					return false	
 				end
 			else
-				sendPlayerInfo(playerSource, "Kein Fahrzeug in der N"..auml.."he gefunden", true)
+				sendPlayerInfo(playerSource, "Kein Fahrzeug in der Nähe gefunden", true)
 				return false
 			end
 		else	
@@ -275,7 +275,7 @@ function adacRenewTuv(playerSource, commandName)
 					local modelid = getElementModel(vehicle)
 					local carid = modelid - 399
 					if carTable[carid]["TUV"] == 0 then
-						sendPlayerInfo(playerSource, "Dieses Fahrzeug ben"..ouml.."tigt keinen T"..Uuml.."V.", true)
+						sendPlayerInfo(playerSource, "Dieses Fahrzeug benötigt keinen T".."ÜV.", true)
 						return false
 					end
 					
@@ -286,7 +286,7 @@ function adacRenewTuv(playerSource, commandName)
 						if checkTuv < time then
 							local nexttuv = time + 1296000
 							g_vehiclestat[vehicle]["tuv"] = nexttuv
-							sendPlayerInfo(playerSource, "Der T"..Uuml.."V wurde ab jetzt um 15 Tage verl"..auml.."ngert.", true)
+							sendPlayerInfo(playerSource, "Der T".."ÜV wurde ab jetzt um 15 Tage verlängert.", true)
 						else
 							return false
 						end	
@@ -296,7 +296,7 @@ function adacRenewTuv(playerSource, commandName)
 						if checkTuv < time then
 							local nexttuv = time + 950400
 							g_vehiclestat[vehicle]["tuv"] = nexttuv
-							sendPlayerInfo(playerSource, "Der T"..Uuml.."V wurde ab jetzt um 11 Tage verl"..auml.."ngert.", true)
+							sendPlayerInfo(playerSource, "Der T".."ÜV wurde ab jetzt um 11 Tage verlängert.", true)
 						else
 							return false
 						end	
@@ -306,7 +306,7 @@ function adacRenewTuv(playerSource, commandName)
 						if checkTuv < time then						
 							local nexttuv = time + 604800
 							g_vehiclestat[vehicle]["tuv"] = nexttuv
-							sendPlayerInfo(playerSource, "Der T"..Uuml.."V wurde ab jetzt um 7 Tage verl"..auml.."ngert.", true)
+							sendPlayerInfo(playerSource, "Der T".."ÜV wurde ab jetzt um 7 Tage verlängert.", true)
 						else 
 							return false
 						end	
@@ -315,14 +315,14 @@ function adacRenewTuv(playerSource, commandName)
 					if isVehicleJobVehicle(vehicle) then
 						addPlayerJobExtraMoney(playerSource, 30)
 						giveStaatsKasse(-30)
-						outputChatBox(g_colors["red"].."Der T"..Uuml.."V wird vom Staat bezahlt du bekommst 30$.", playerSource, 0, 0, 0, true)
+						outputChatBox(g_colors["red"].."Der T".."ÜV wird vom Staat bezahlt du bekommst 30$.", playerSource, 0, 0, 0, true)
 					else
 						takePlayerMoney(playerSource, 40)
 						giveStaatsKasse(40)
 						outputChatBox(g_colors["red"].."Dir wurden 40$ abgezogen, du soltest 70$ verlangen.", playerSource, 0, 0, 0, true)
 					end
 				else
-					sendPlayerInfo(playerSource, "Das Fahrzeug ist zu besch"..auml.."digt um den T"..Uuml.."V zu erneuern.", true)
+					sendPlayerInfo(playerSource, "Das Fahrzeug ist zu beschädigt um den T".."ÜV zu erneuern.", true)
 				end
 			end	
 		end	
@@ -341,7 +341,7 @@ function adacSetVehicleSeized(playerSource, commandName)
 						g_vehiclestat[vehicle]["adacSpawnRX"], g_vehiclestat[vehicle]["adacSpawnRY"], g_vehiclestat[vehicle]["adacSpawnRZ"] = getElementRotation(vehicle)
 						sendPlayerInfo(playerSource, "Du hast das Fahrzeug erfolgreich beschlagnahmt.", true)
 					else
-						sendPlayerInfo(playerSource, "Jobfahrzeuge k"..ouml.."nnen nicht beschlagnahmt werden!", true)
+						sendPlayerInfo(playerSource, "Jobfahrzeuge können nicht beschlagnahmt werden!", true)
 					end
 				else
 					g_vehiclestat[vehicle]["adacSpawnX"] = 0

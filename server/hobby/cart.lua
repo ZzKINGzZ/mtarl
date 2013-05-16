@@ -54,7 +54,7 @@ function onCartMarkerHit(playerSource)
 				toggleCartTimer(false)
 				setElementPosition(playerSource, 1167.0693359375, 1351.771484375, 10.921875)
 				
-				--L"..ouml.."schen wir das GoCarts
+				--Löschen wir das GoCarts
 				if g_vehiclestat[car]["tempcar"] == true then
 					if g_vehiclestat[car]["CartCar"] == true then
 						destroyElement(car)

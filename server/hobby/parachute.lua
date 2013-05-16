@@ -31,7 +31,7 @@ function onParachuteMarkerHit(playerSource)
 			takePlayerMoney(playerSource, 100)
 			giveStaatsKasse(100)
 				
-			outputChatBox(g_colors["yellow"].."Willkommen bei Parachute! Sie hast 100$ f"..uuml.."r 1x Springen bezahlt.", playerSource, 0, 0, 0, true)
+			outputChatBox(g_colors["yellow"].."Willkommen bei Parachute! Sie hast 100$ für 1x Springen bezahlt.", playerSource, 0, 0, 0, true)
 			
 			setElementPosition(playerSource, -1753.58203125, 884.8779296875, 295.875)
 			setPedRotation(playerSource, 2.7218933105469)

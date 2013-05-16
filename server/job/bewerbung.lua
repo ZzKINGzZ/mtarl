@@ -74,7 +74,7 @@ function handleBewerbung(accepted, playername, jobName)
 			
 			local res = mysql_query(g_mysql["connection"], "SELECT * FROM `jobs` WHERE `playerid` = '"..id.."' AND `job` = '"..job.."' LIMIT 1;")
 			if mysql_num_rows(res) > 0 then
-				sendPlayerInfo(client, playername.." ist bereits in diesem Job t"..auml.."tig.")
+				sendPlayerInfo(client, playername.." ist bereits in diesem Job tätig.")
 				mysql_free_result(res)
 				mysql_query(g_mysql["connection"], "DELETE FROM `post` WHERE `fromPlayer` = '"..playername.."' AND `toPlayerID` = '-1' AND `special` = '"..jobName.."';")				
 				return false
@@ -86,7 +86,7 @@ function handleBewerbung(accepted, playername, jobName)
 			mysql_query(g_mysql["connection"], "DELETE FROM `post` WHERE `fromPlayer` = '"..playername.."' AND `toPlayerID` = '-1' AND `special` = '"..jobName.."';")
 			
 			sendPlayerInfo(client, "Du hast "..playername.." eingestellt.")
-            addBrief(jobName, id, "Deine Bewerbung", "Herzlich willkommen! \n \nDu hast es geschafft. Wir freuen uns, dich im Job "..jobName.." begrue"..szlig.."en zu d"..uuml.."rfen! \nAls unser neuer Mitarbeiter kannst ab sofort an einer der Niederlassungen den Job betreten. \nWir hoffen dass du deinen Job immer mit gro"..szlig.."er Freude und Sorgfalt ausfuehrst.\n \nMFG \n"..getPlayerName(client), ort)
+            addBrief(jobName, id, "Deine Bewerbung", "Herzlich willkommen! \n \nDu hast es geschafft. Wir freuen uns, dich im Job "..jobName.." begrueßen zu dürfen! \nAls unser neuer Mitarbeiter kannst ab sofort an einer der Niederlassungen den Job betreten. \nWir hoffen dass du deinen Job immer mit großer Freude und Sorgfalt ausfuehrst.\n \nMFG \n"..getPlayerName(client), ort)
 		end
 	else
 		--Bewerbung abgelehnt

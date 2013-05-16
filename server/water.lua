@@ -24,16 +24,16 @@ local waterp = {}
 
 function startWaterPool()
 	outputDebug("water.lua start...")
-	--Pool mit Wasser gef"..uuml.."llt Haus gegen"..uuml.."ber MadDoggs
+	--Pool mit Wasser gefüllt Haus gegenüber MadDoggs
 	water1[1] = createWater(1328.705078125, -661.5302734375, 107.5, 1342.94921875, -661.4150390625, 107.5, 1329, -640, 107.5, 1347, -640, 107.5)
 	water1[2] = createWater(1339.9208984375, -657.1396484375, 107.5, 1344.7578125, -657.9296875, 107.5, 1340.7900390625, -643.5751953125, 107.5, 1346.498046875, -646.357421875, 107.5)
 	water1[3] = createWater(1326.826171875, -657.4091796875, 107.5, 1329.064453125, -658.49609375, 107.5, 1327.18359375, -646.94140625, 107.5, 1328.9140625, -647.1728515625, 107.5)	
 	water1[4] = createWater(1324.5986328125, -653.4765625, 107.5, 1326.330078125, -653.3330078125, 107.5, 1323.421875, -646.9599609375, 107.5, 1326.359375, -647.0849609375, 107.5)	
 	
 	for i, water1 in ipairs(water1) do
-		setWaterLevel(water1, 107.9) --Wasser wird auf h"..ouml.."he gesetzt
+		setWaterLevel(water1, 107.9) --Wasser wird auf höhe gesetzt
 	end
-	--Kan"..auml.."le von LS geflutet
+	--Kanäle von LS geflutet
 	waterk[1] = createWater(1334.1748046875, -1733.41015625, 1, 1452.2998046875, -1734.6220703125, 1, 1360.328125, -1272.44921875, 1, 1425.9384765625, -1290.88671875, 1)
 	waterk[2] = createWater(1410.4462890625, -1767.8916015625, 1, 1495.1689453125, -1770.26171875, 1, 1410.9599609375, -1704.4833984375, 1, 1491.5615234375, -1708.8837890625, 1)
 	waterk[18] = createWater(1495.1689453125, -1770.26171875, 1, 1583.5166015625, -1769.2412109375, 1, 1490.244140625, -1727.5546875, 1, 1578.30859375, -1727.064453125, 1)
@@ -55,7 +55,7 @@ function startWaterPool()
 	waterk[16] = createWater(2054.9140625, -1986.1611328125, 1, 2146.19140625, -1984.0244140625, 1, 2049.6630859375, -1949.1650390625, 1 , 2136.2998046875, -1948.94140625, 1)
 	
 	for i, waterk in pairs(waterk) do
-		setWaterLevel(waterk, 10) --Wasser wird auf h"..ouml.."he gesetzt
+		setWaterLevel(waterk, 10) --Wasser wird auf höhe gesetzt
 	end	
 	
 	--Pool LS (Schwimmbad)
@@ -69,7 +69,7 @@ function startWaterPool()
 	waterp[3] = createWater(2233.6845703125, 1345.7314453125, 7, 2419.2900390625, 1346.8544921875, 7, 2234.404296875, 1364.703125, 7 , 2419.4677734375, 1366.4033203125, 7)
 
 	for i, waterp in pairs(waterp) do
-		setWaterLevel(waterp, 9.5) --Wasser wird auf h"..ouml.."he gesetzt
+		setWaterLevel(waterp, 9.5) --Wasser wird auf höhe gesetzt
 	end
 end
 addEventHandler("onResourceStart", getResourceRootElement(), startWaterPool)

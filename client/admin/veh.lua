@@ -103,14 +103,14 @@ function adminVehClickButton(button, state)
 					addEventHandler("onClientGUIClick", g_admingui["windowConfirm2"], adminVehClickButtonConfirm)
 					guiSetVisible(g_admingui["windowConfirm2"], true)
 					guiSetVisible(g_admingui["window"], false)
-					guiSetText(g_admingui["confirm2Text"], "M"..ouml.."chtest du das Fahrzeug wirklich zuschlie"..szlig.."en?")
+					guiSetText(g_admingui["confirm2Text"], "Möchtest du das Fahrzeug wirklich zuschließen?")
 					adminButtonClicked = "Lock"
 				elseif source == g_admingui["tabVehButtonUnlock"] then
 					initalizeAdminGuiConfirm2()
 					addEventHandler("onClientGUIClick", g_admingui["windowConfirm2"], adminVehClickButtonConfirm)
 					guiSetVisible(g_admingui["windowConfirm2"], true)
 					guiSetVisible(g_admingui["window"], false)
-					guiSetText(g_admingui["confirm2Text"], "M"..ouml.."chtest du das Fahrzeug wirklich aufschlie"..szlig.."en?")
+					guiSetText(g_admingui["confirm2Text"], "Möchtest du das Fahrzeug wirklich aufschließen?")
 					adminButtonClicked = "Unlock"
 				elseif source == g_admingui["tabVehButtonProp"] then
 					initalizeAdminGuiConfirm5()
@@ -124,7 +124,7 @@ function adminVehClickButton(button, state)
 					addEventHandler("onClientGUIClick", g_admingui["windowConfirm2"], adminVehClickButtonConfirm)
 					guiSetVisible(g_admingui["windowConfirm2"], true)
 					guiSetVisible(g_admingui["window"], false)
-					guiSetText(g_admingui["confirm2Text"], "M"..ouml.."chtest du das Fahrzeug wirklich reparieren?")
+					guiSetText(g_admingui["confirm2Text"], "Möchtest du das Fahrzeug wirklich reparieren?")
 					adminButtonClicked = "Repair"
 				elseif source == g_admingui["tabVehButtonCol"] then
 					initalizeAdminGuiConfirm6()
@@ -145,7 +145,7 @@ function adminVehClickButton(button, state)
 					addEventHandler("onClientGUIClick", g_admingui["windowConfirm2"], adminVehClickButtonConfirm)
 					guiSetVisible(g_admingui["windowConfirm2"], true)
 					guiSetVisible(g_admingui["window"], false)
-					guiSetText(g_admingui["confirm2Text"], "M"..ouml.."chtest du das Fahrzeug wirklich l"..ouml.."schen?")
+					guiSetText(g_admingui["confirm2Text"], "Möchtest du das Fahrzeug wirklich löschen?")
 					adminButtonClicked = "Delete"
 				end
 			end

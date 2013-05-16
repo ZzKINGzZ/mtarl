@@ -80,7 +80,7 @@ function bauCrewLeaveJob(playerSource, staticJobID, locationID, playerJobRank)
 	local veh = g_playerstat[playerSource]["Jobvar"]["Bau"]["Car"]
 	setElementModel(playerSource, g_playerstat[playerSource]["Skin"])
 	
-	--Fahrzeug l"..ouml.."schen
+	--Fahrzeug löschen
 	if g_vehiclestat[veh]["tempcar"] == true then
 		if g_vehiclestat[veh]["BauCar"] == true then
 			deleteTempVehicleMTARL(veh)
@@ -147,7 +147,7 @@ function bauMarkerHit(playerSource)
 							--Geld geben
 							giveStaatsKasse(-30)
 							givePlayerMoney(playerSource, 30)
-							sendPlayerInfo(playerSource, "Hervorragend! Daf"..uuml.."r bekommst du 30$. Fahre nun zur n"..auml.."chsten Baustelle.")
+							sendPlayerInfo(playerSource, "Hervorragend! Dafür bekommst du 30$. Fahre nun zur nächsten Baustelle.")
 						end
 					end	
 				end

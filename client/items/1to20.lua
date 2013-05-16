@@ -46,10 +46,10 @@ end
 function useNightVisionClient()
 	if getCameraGoggleEffect() == "normal" then
 		setCameraGoggleEffect("nightvision")
-		showInfoMessage("Nachtsichtger"..auml.."t aktiviert")
+		showInfoMessage("Nachtsichtgerät aktiviert")
 	else
 		setCameraGoggleEffect("normal")
-		showInfoMessage("Nachtsichtger"..auml.."t dektiviert!")
+		showInfoMessage("Nachtsichtgerät dektiviert!")
 	end
 end
 

@@ -54,7 +54,7 @@ function setFlightLizenz(toggle)
 			--outputChatBox(g_colors["royalblue"].."Du hast die Fluglizenz erworben!", client, 255, 255, 255, true)
 			sendPlayerInfo(client, "Du hast die Fluglizenz erworben.")
 		else
-			outputChatBox(g_colors["red"].."Du hast nicht genug Geld f"..uuml.."r einen Flugschein!", client, 255, 255, 255, true)
+			outputChatBox(g_colors["red"].."Du hast nicht genug Geld für einen Flugschein!", client, 255, 255, 255, true)
 		end
 	end
 end

@@ -55,7 +55,7 @@ function MailChangeHandler(button)
 					end
 				end
 			else
-				outputChatBox("Die angegeben Mail-Addressen stimmen nicht "..uuml.."berein!", 255, 0, 0)
+				outputChatBox("Die angegeben Mail-Addressen stimmen nicht überein!", 255, 0, 0)
 				return false
 			end
 		end

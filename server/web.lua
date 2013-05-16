@@ -29,7 +29,7 @@ function activateWebsiteCommand(playerSource, commandName, code)
 	local sql = "UPDATE `forumconnect` SET `playerid` = '"..getPlayerID(playerSource).."', `code` = '-1' WHERE `playerid` = '0' AND `forumid` = '"..forumid.."'	AND `code` = '"..code.."';"
 	local res = mysql_query(g_mysql["connection"], sql)
 	
-	outputChatBox(g_colors["green"].."Der Account wurde verkn"..uuml.."pft!", playerSource, 255, 255, 255, true)
+	outputChatBox(g_colors["green"].."Der Account wurde verknüpft!", playerSource, 255, 255, 255, true)
 end
 --addCommandHandler("connectweb", activateWebsiteCommand, false, true)
 

@@ -28,7 +28,7 @@ local function initFireBrigade()
 	addJobLocation(1, 2, 1776.8310546875, 2080.482421875, 10.8203125, 0, 0)
 	addJobLocation(1, 3, -2024.6330566406, 67.245750427246, 28.441009521484, 0, 0)
 	
-	addJobRank(1, 1, "Feuerwehrmann-Anw"..auml.."rter", 0.11, false) --rankWage = Lohn pro Sekunde!! --100$ pro 15 Min
+	addJobRank(1, 1, "Feuerwehrmann-Anwärter", 0.11, false) --rankWage = Lohn pro Sekunde!! --100$ pro 15 Min
 	addJobRank(1, 2, "Feuerwehrmann", 0.16, false) --150$ pro 15 Min
 	addJobRank(1, 3, "Hauptfeuerwehrmann", 0.16, false) --150$ pro 15 Min
 	addJobRank(1, 4, "Oberfeuerwehrmann", 0.19, false) --175$ pro 15 Min
@@ -180,7 +180,7 @@ function createFireBrigadeFire(x, y, z)
 	for i, player in ipairs(getElementsByType("player")) do
 		if isPlayerActiveInJob(player, 1) then
 			setElementVisibleTo(area, player, true)
-			sendPlayerInfo(player, "Es wurde ein Feuer in "..zoneName.." ("..zoneNameCity..") entdeckt. Finde und l"..ouml.."sche es.", true)
+			sendPlayerInfo(player, "Es wurde ein Feuer in "..zoneName.." ("..zoneNameCity..") entdeckt. Finde und lösche es.", true)
 		end
 	end	
 end
@@ -205,7 +205,7 @@ function changeFireBrigadeFire(object)
 			end
 		end
 		destroyElement(object)
-		sendPlayerInfo(client, "Feuer gel"..ouml.."scht. Weiter gehts. (2$)", true)
+		sendPlayerInfo(client, "Feuer gelöscht. Weiter gehts. (2$)", true)
 		addPlayerJobExtraMoney(client, 2)
 	end
 end

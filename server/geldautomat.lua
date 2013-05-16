@@ -118,7 +118,7 @@ function changeKontoMoney(mode, money)
 			g_playerstat[client]["Bank"] = g_playerstat[client]["Bank"] + money
 			rpcCallClientFunction(client, "hideGeldautomatMenu")
 		else
-			rpcCallClientFunction(client, "setGeldautomatErrorText", "Fehler: Ung"..uuml.."ltiger Betrag")
+			rpcCallClientFunction(client, "setGeldautomatErrorText", "Fehler: Ungültiger Betrag")
 		end
 	end
 	if mode == "Auszahlen" then
@@ -127,7 +127,7 @@ function changeKontoMoney(mode, money)
 			g_playerstat[client]["Bank"] = g_playerstat[client]["Bank"] - money
 			rpcCallClientFunction(client, "hideGeldautomatMenu")
 		else
-			rpcCallClientFunction(client, "setGeldautomatErrorText", "Fehler: Ung"..uuml.."ltiger Betrag")
+			rpcCallClientFunction(client, "setGeldautomatErrorText", "Fehler: Ungültiger Betrag")
 		end
 	end
 end
@@ -139,12 +139,12 @@ function transferMoney(playername, amount)
 		if not player then player = getPlayerFromString(playername) end
 		
 		if not amount then
-			rpcCallClientFunction(client, "setGeldautomatErrorText", "Fehler: Ung"..uuml.."ltiger Betrag.")
+			rpcCallClientFunction(client, "setGeldautomatErrorText", "Fehler: Ungültiger Betrag.")
 			return false		
 		end
 		
 		if amount < 1 then
-			rpcCallClientFunction(client, "setGeldautomatErrorText", "Fehler: Ung"..uuml.."ltiger Betrag.")
+			rpcCallClientFunction(client, "setGeldautomatErrorText", "Fehler: Ungültiger Betrag.")
 			return false
 		end
 		
@@ -211,7 +211,7 @@ function givePlayerBankInterest()
 		end
 		
 		while true do
-			local row = mysql_fetch_assoc(playersOffline) --Hole n"..auml.."chste Reihe aus der Datenbank
+			local row = mysql_fetch_assoc(playersOffline) --Hole nächste Reihe aus der Datenbank
 			if not row then break end --Wenn keine Reihe mehr vorhanden ist, dann Schleife abbrechen
 			
 			local playerName = row["playername"] --Hole col "playername"
@@ -240,7 +240,7 @@ function givePlayerBankInterest()
 			local newPlayerMoney = playerMoney + zinsen
 			
 			local sql = "UPDATE `players` SET `bank` = '"..newPlayerMoney.."' WHERE `playername` = '"..playerName.."' AND `id` = '"..row['id'].."';"			
-			mysql_query(g_mysql["connection"], sql) --Eintragen lassen, und damit haben wir es f"..uuml.."r diese Reihe :)
+			mysql_query(g_mysql["connection"], sql) --Eintragen lassen, und damit haben wir es für diese Reihe :)
 		end
 	end
 end

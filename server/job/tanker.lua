@@ -67,7 +67,7 @@ function tankerColShapeHit(player, dimension)
 								rpcCallClientFunction(player, "startTankauswahl", true)
 								setElementVelocity(vehicle, 0, 0, 0)
 							else
-								sendPlayerInfo(player, "Der Anh"..auml.."nger hat nicht das richtige Prop.", true)
+								sendPlayerInfo(player, "Der Anhänger hat nicht das richtige Prop.", true)
 							end
 						end
 					end
@@ -143,19 +143,19 @@ function tankerFillGasStation(playerSource, commandName)
 									
 									if g_vehiclestat[vehicle]["getankt"] < 1 then
 										g_vehiclestat[vehicle]["getankt"] = 0
-										sendPlayerInfo(playerSource, "Dein Trailer ist leer, kehre zum St"..uuml.."tzpunkt zur"..uuml.."ck und f"..uuml.."lle ihne mit neuem Treibstoff.", true)
+										sendPlayerInfo(playerSource, "Dein Trailer ist leer, kehre zum Stützpunkt zurück und fülle ihne mit neuem Treibstoff.", true)
 										return false
 									end
 									if getElementData(tankstelle, tankart) < 500 then
 										local needed = 500 - getElementData(tankstelle, tankart)
 										if g_vehiclestat[vehicle]["getankt"] > needed then
-											--Mehr im H"..auml.."nger als gebraucht
+											--Mehr im Hänger als gebraucht
 											g_vehiclestat[vehicle]["getankt"] = g_vehiclestat[vehicle]["getankt"] - needed
 											setElementData(tankstelle, tankart, 500)
 											
 											local money = math.floor(needed * 0.50)
 											
-											sendPlayerInfo(playerSource, "Der Treibstoff der Tankstelle wurde komplett aufgef"..uuml.."llt. Belohnung: "..tostring(money).."$", true)
+											sendPlayerInfo(playerSource, "Der Treibstoff der Tankstelle wurde komplett aufgefüllt. Belohnung: "..tostring(money).."$", true)
 											
 											giveStaatsKasse(-money)
 											addPlayerJobExtraMoney(playerSource, money)
@@ -163,13 +163,13 @@ function tankerFillGasStation(playerSource, commandName)
 											recalcTankstellenPreis(tankstelle, tankart)
 											
 										elseif g_vehiclestat[vehicle]["getankt"] < needed then
-											--Mehr gebraucht als im H"..auml.."nger
+											--Mehr gebraucht als im Hänger
 											setElementData(tankstelle, tankart, getElementData(tankstelle, tankart) + g_vehiclestat[vehicle]["getankt"])
 											g_vehiclestat[vehicle]["getankt"] = 0
 											
 											local money = math.floor(needed * 0.50)
 											
-											sendPlayerInfo(playerSource, "Der Treibstoff der Tankstelle wurde teilweise aufgef"..uuml.."llt. Belohnung: "..tostring(money).."$", true)
+											sendPlayerInfo(playerSource, "Der Treibstoff der Tankstelle wurde teilweise aufgefüllt. Belohnung: "..tostring(money).."$", true)
 											
 											giveStaatsKasse(-money)
 											addPlayerJobExtraMoney(playerSource, money)
@@ -177,7 +177,7 @@ function tankerFillGasStation(playerSource, commandName)
 											recalcTankstellenPreis(tankstelle, tankart)
 										end
 									else
-										sendPlayerInfo(playerSource, "Die Tankstelle verf"..uuml.."gt "..uuml.."ber genug Treibstoff.", true)
+										sendPlayerInfo(playerSource, "Die Tankstelle verfügt über genug Treibstoff.", true)
 									end
 									
 									break
@@ -188,7 +188,7 @@ function tankerFillGasStation(playerSource, commandName)
 				end
 			end
 		else
-			sendPlayerInfo(playerSource, "Du musst au"..szlig.."erhalb deines Tankers stehen, wenn du betanken m"..ouml.."chtest.", true)
+			sendPlayerInfo(playerSource, "Du musst außerhalb deines Tankers stehen, wenn du betanken möchtest.", true)
 		end
 	end
 end

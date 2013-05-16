@@ -445,13 +445,13 @@ function showRankMenu(job)
 				end
 			end
 				
-			--Lade R"..auml.."nge
+			--Lade Ränge
 			rpcCallClientFunction(playerSource, "fillJobEditGridlistWithRank", "Entlassen")
 			for rankID, rank in pairs(tJobs[jobID]["ranks"]) do
 				rpcCallClientFunction(playerSource, "fillJobEditGridlistWithRank", rank["name"])
 			end
 		else
-			outputChatBox(g_colors["red"].."Du verf"..uuml.."gst nicht "..uuml.."ber die Rechte!", playerSource, 0, 0, 0, true)
+			outputChatBox(g_colors["red"].."Du verfügst nicht über die Rechte!", playerSource, 0, 0, 0, true)
 		end	
 	else
 		outputChatBox(g_colors["red"].."Syntaxfehler!", playerSource, 0, 0, 0, true)
@@ -499,9 +499,9 @@ function addNewPlayerToJob(playerSource, commandName, playername, job)
 				if not isPlayerEmployedInJob(player, jobID) then
 					g_playerstat[player]["Job"][jobID] = 1
 					g_playerstat[player]["JobRank"][jobID] = 1
-					outputChatBox(g_colors["green"].."Du wurdest dem Job "..job.." hinzugef"..uuml.."gt!", player, 0, 0, 0, true)
-					outputChatBox(g_colors["green"].."Du hast "..playername.." dem Job "..job.." hinzugef"..uuml.."gt!", playerSource, 0, 0, 0, true)
-				    addBrief("MTA:RL Bot", g_playerstat[player]["Userid"], job, "Hallo "..playername..",\n du wurdest soeben dem Job "..job.." hinzugef"..uuml.."gt.\n \n MFG\n "..getPlayerName(playerSource), ort)
+					outputChatBox(g_colors["green"].."Du wurdest dem Job "..job.." hinzugefügt!", player, 0, 0, 0, true)
+					outputChatBox(g_colors["green"].."Du hast "..playername.." dem Job "..job.." hinzugefügt!", playerSource, 0, 0, 0, true)
+				    addBrief("MTA:RL Bot", g_playerstat[player]["Userid"], job, "Hallo "..playername..",\n du wurdest soeben dem Job "..job.." hinzugefügt.\n \n MFG\n "..getPlayerName(playerSource), ort)
                 end				
 			else
 				local playersql = mysql_query(g_mysql["connection"], "SELECT * FROM `players` WHERE `playername` = '"..playername.."'")
@@ -517,8 +517,8 @@ function addNewPlayerToJob(playerSource, commandName, playername, job)
 					
 				mysql_query(g_mysql["connection"], "INSERT INTO `jobs` (`playerid` ,`job` ,`rank`) VALUES ('"..playerid.."', '"..jobID.."', '1')")
 				
-				outputChatBox(g_colors["green"].."Du hast "..playername.." dem Job "..job.." hinzugef"..uuml.."gt (/rank zum "..Auml.."ndern des Rank's)", playerSource, 0, 0, 0, true)
-				addBrief("MTA:RL Bot", playerid, job, "Hallo "..playername..",\ndu wurdest soeben dem Job "..job.." hinzugef"..uuml.."gt.\n\nMFG\n"..getPlayerName(playerSource), ort)
+				outputChatBox(g_colors["green"].."Du hast "..playername.." dem Job "..job.." hinzugefügt (/rank zum ".."Ändern des Rank's)", playerSource, 0, 0, 0, true)
+				addBrief("MTA:RL Bot", playerid, job, "Hallo "..playername..",\ndu wurdest soeben dem Job "..job.." hinzugefügt.\n\nMFG\n"..getPlayerName(playerSource), ort)
 			end
 		end
 	else
@@ -533,7 +533,7 @@ function changePlayerJob(job, playername, rankname)
 	if jobID then
 		if isPlayerJobBoss(client, jobID) then
 			if job and playername and rankname then
-				--Pr"..uuml.."fen wir ob der Spieler verbunden ist oder nicht
+				--Prüfen wir ob der Spieler verbunden ist oder nicht
 				local player = getPlayerFromName(playername)
 				local ort = "mailBox"..tostring(math.random(1, 15))
 				if player then
@@ -544,7 +544,7 @@ function changePlayerJob(job, playername, rankname)
 						g_playerstat[player]["JobRank"][jobID] = 0
 						outputChatBox(g_colors["red"].."Du wurdest aus dem "..job.."-Dienst entlassen!", player, 0, 0, 0, true)
 						outputChatBox(g_colors["green"].."Du hast "..playername.." aus dem Dienst entlassen", client, 0, 0, 0, true)
-						addBrief(job, g_playerstat[player]["Userid"], job, "Hallo "..playername..",\nleider m"..uuml.."ssen wir die Mitteilen das du aus dem Job "..job.." entlassen wurdest.\nBei Fragen kannst du dich gerne an "..getPlayerName(client).." wenden.\n\nMFG\n"..getPlayerName(client), ort)
+						addBrief(job, g_playerstat[player]["Userid"], job, "Hallo "..playername..",\nleider müssen wir die Mitteilen das du aus dem Job "..job.." entlassen wurdest.\nBei Fragen kannst du dich gerne an "..getPlayerName(client).." wenden.\n\nMFG\n"..getPlayerName(client), ort)
 					else
 						for rankID, rank in pairs(tJobs[jobID]["ranks"]) do
 							if rank["name"] == rankname then
@@ -553,12 +553,12 @@ function changePlayerJob(job, playername, rankname)
 								break
 							end
 						end
-						outputChatBox(g_colors["green"].."Dein Jobstatus im Dienst "..job.." wurde ge"..auml.."ndert. ["..rankname.."]", player, 0, 0, 0, true)
-						outputChatBox(g_colors["green"].."Du hast "..playername.." wiefolgt ge"..auml.."ndert: "..rankname, client, 0, 0, 0, true)
-						addBrief(job, g_playerstat[player]["Userid"], job, "Hallo "..playername..",\ndein Jobstatus im "..job.." wurde soeben ge"..auml.."ndert!\nDu bist jetzt "..rankname..".\n\nMFG\n"..getPlayerName(client), ort)
+						outputChatBox(g_colors["green"].."Dein Jobstatus im Dienst "..job.." wurde geändert. ["..rankname.."]", player, 0, 0, 0, true)
+						outputChatBox(g_colors["green"].."Du hast "..playername.." wiefolgt geändert: "..rankname, client, 0, 0, 0, true)
+						addBrief(job, g_playerstat[player]["Userid"], job, "Hallo "..playername..",\ndein Jobstatus im "..job.." wurde soeben geändert!\nDu bist jetzt "..rankname..".\n\nMFG\n"..getPlayerName(client), ort)
 					end
 				else
-					--Der Spieler ist offline, wir m"..uuml.."ssen seine MySQL Daten "..auml.."ndern
+					--Der Spieler ist offline, wir müssen seine MySQL Daten ändern
 					local playersql = mysql_query(g_mysql["connection"], "SELECT * FROM `players` WHERE `playername` = '"..playername.."' LIMIT 1;")
 					local row = mysql_fetch_assoc(playersql)
 
@@ -572,7 +572,7 @@ function changePlayerJob(job, playername, rankname)
 					if rankname == "Entlassen" then
 						mysql_query(g_mysql["connection"], "DELETE FROM `jobs` WHERE `playerid` ='"..playerid.."' AND `job` = '"..job.." LIMIT 1'")
 						outputChatBox(g_colors["green"].."Du hast "..playername.." aus dem Dienst entlassen", client, 0, 0, 0, true)
-						addBrief(job, playerid, job, "Hallo "..playername..",\nleider m"..uuml.."ssen wir die Mitteilen das du aus dem Job "..job.." entlassen wurdest.\nBei Fragen kannst du dich gerne an "..getPlayerName(client).." wenden.\n\nMFG\n"..getPlayerName(client), ort)
+						addBrief(job, playerid, job, "Hallo "..playername..",\nleider müssen wir die Mitteilen das du aus dem Job "..job.." entlassen wurdest.\nBei Fragen kannst du dich gerne an "..getPlayerName(client).." wenden.\n\nMFG\n"..getPlayerName(client), ort)
 					else
 						for rankID, rank in pairs(tJobs[jobID]["ranks"]) do
 							if rank["name"] == rankname then
@@ -586,7 +586,7 @@ function changePlayerJob(job, playername, rankname)
 						mysql_query(g_mysql["connection"], "INSERT INTO `jobs` (`playerid` ,`job` ,`rank`) VALUES ('"..playerid.."', '"..jobID.."', '"..rankid.."')")
 
 						outputChatBox(g_colors["green"].."Du hast "..playername.." wiefolgt geaendert: "..row2["rankname"], client, 0, 0, 0, true)
-						addBrief(job, playerid, job, "Hallo "..playername..",\ndein Jobstatus im "..job.." wurde soeben ge"..auml.."ndert!\nDu bist jetzt "..rankname..".\n\nMFG\n"..getPlayerName(client), ort)
+						addBrief(job, playerid, job, "Hallo "..playername..",\ndein Jobstatus im "..job.." wurde soeben geändert!\nDu bist jetzt "..rankname..".\n\nMFG\n"..getPlayerName(client), ort)
 					end
 				end
 				return true

@@ -60,7 +60,7 @@ function setWeaponLizenz(class)
 				giveStaatsKasse(5000)
 				g_playerstat[client]["weaponlizenz1"] = true
 				--outputChatBox(g_colors["royalblue"].."Du hast die Waffenlizenz der Klasse 1 erworben!", client, 255, 255, 255, true)
-				sendPlayerInfo(client, "Du hast die Waffenlizenz f"..uuml.."r Waffen der Klasse 1 erworben.")
+				sendPlayerInfo(client, "Du hast die Waffenlizenz für Waffen der Klasse 1 erworben.")
 			else
 				outputChatBox(g_colors["red"].."Du hast nicht genug Geld um die Waffenlizenz zu erwerben!", client, 255, 255, 255, true)
 			end
@@ -71,7 +71,7 @@ function setWeaponLizenz(class)
 				giveStaatsKasse(7000)
 				g_playerstat[client]["weaponlizenz2"] = true
 				--outputChatBox(g_colors["royalblue"].."Du hast die Waffenlizenz der Klasse 2 erworben!", client, 255, 255, 255, true)
-				sendPlayerInfo(client, "Du hast die Waffenlizenz f"..uuml.."r Waffen der Klasse 2 erworben.")
+				sendPlayerInfo(client, "Du hast die Waffenlizenz für Waffen der Klasse 2 erworben.")
 			else
 				outputChatBox(g_colors["red"].."Du hast nicht genug Geld um die Waffenlizenz zu erwerben!", client, 255, 255, 255, true)
 			end
@@ -82,7 +82,7 @@ function setWeaponLizenz(class)
 				giveStaatsKasse(15000)
 				g_playerstat[client]["weaponlizenz3"] = true
 				--outputChatBox(g_colors["royalblue"].."Du hast die Waffenlizenz der Klasse 3 erworben!", client, 255, 255, 255, true)
-				sendPlayerInfo(client, "Du hast die Waffenlizenz f"..uuml.."r Waffen der Klasse 3 erworben.")
+				sendPlayerInfo(client, "Du hast die Waffenlizenz für Waffen der Klasse 3 erworben.")
 			else
 				outputChatBox(g_colors["red"].."Du hast nicht genug Geld um die Waffenlizenz zu erwerben!", client, 255, 255, 255, true)
 			end

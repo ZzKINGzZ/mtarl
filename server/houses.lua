@@ -421,7 +421,7 @@ function createHouseObject(modelid, x, y, z, xx, yy, zz, preis)
 		setElementInterior(object, getElementInterior(client))
 		setElementDimension(object, getElementDimension(client))
 		setElementData(object, "buildid", lastid)
-		--Parent auf Pickup, damit Objecte beim l"..ouml.."schen des Hauses auch gel"..ouml.."scht werden ;) (und zur limitierung von objecten)
+		--Parent auf Pickup, damit Objecte beim löschen des Hauses auch gelöscht werden ;) (und zur limitierung von objecten)
 		setElementParent(object, g_houses[g_playerstat[client]["houseid"]]["pickupin"])
 	end
 end

@@ -84,7 +84,7 @@ function initalizeAdminGui()
 			g_admingui["tabPlayerButtonSpawn"] = guiCreateButton(0.3218,0.7379,0.2073,0.0704,"Spawn",true,g_admingui["tabPlayer"])
 			g_admingui["tabPlayerButtonHealth"] = guiCreateButton(0.5436,0.7379,0.2073,0.0704,"Health",true,g_admingui["tabPlayer"])
 			g_admingui["tabPlayerButtonTeam"] = guiCreateButton(0.7673,0.7379,0.2073,0.0704,"Team",true,g_admingui["tabPlayer"])
-			g_admingui["tabPlayerButtonCar"] = guiCreateButton(0.4509,0.3981,0.2455,0.0364,"Ausw"..auml.."hlen",true,g_admingui["tabPlayer"]) --Button Ausw"..auml.."hlen des Spielerfahrzeuges
+			g_admingui["tabPlayerButtonCar"] = guiCreateButton(0.4509,0.3981,0.2455,0.0364,"Auswählen",true,g_admingui["tabPlayer"]) --Button Auswählen des Spielerfahrzeuges
 			
 		g_admingui["tabVeh"] = guiCreateTab("Fahrzeuge",g_admingui["tabPanel"])
 			g_admingui["tabVehSearch"] = guiCreateEdit(0.0109,0.0243,0.4545,0.0728,"",true,g_admingui["tabVeh"])
@@ -125,12 +125,12 @@ function initalizeAdminGui()
 			g_admingui["tabVehPos"] = guiCreateLabel(0.6091,0.3398,0.3721,0.1363,"",true,g_admingui["tabVeh"])
 				guiLabelSetHorizontalAlign(g_admingui["tabVehPos"], "left", true)
 			
-			g_admingui["tabVehButtonLock"] = guiCreateButton(0.5091,0.4879,0.2036,0.0655,"Zuschlie"..szlig.."en",true,g_admingui["tabVeh"])
-			g_admingui["tabVehButtonUnlock"] = guiCreateButton(0.7473,0.4879,0.2036,0.0655,"Aufschlie"..szlig.."en",true,g_admingui["tabVeh"])
+			g_admingui["tabVehButtonLock"] = guiCreateButton(0.5091,0.4879,0.2036,0.0655,"Zuschließen",true,g_admingui["tabVeh"])
+			g_admingui["tabVehButtonUnlock"] = guiCreateButton(0.7473,0.4879,0.2036,0.0655,"Aufschließen",true,g_admingui["tabVeh"])
 			g_admingui["tabVehButtonProp"] = guiCreateButton(0.5091,0.5752,0.2036,0.0655,"Prop",true,g_admingui["tabVeh"])
 			g_admingui["tabVehButtonRep"] = guiCreateButton(0.7473,0.5752,0.2036,0.0655,"Reparieren",true,g_admingui["tabVeh"])
 			g_admingui["tabVehButtonCol"] = guiCreateButton(0.5091,0.6626,0.2036,0.0655,"Farbe",true,g_admingui["tabVeh"])
-			g_admingui["tabVehButtonDelete"] = guiCreateButton(0.7473,0.6626,0.2036,0.0655,"L"..ouml.."schen",true,g_admingui["tabVeh"])
+			g_admingui["tabVehButtonDelete"] = guiCreateButton(0.7473,0.6626,0.2036,0.0655,"Löschen",true,g_admingui["tabVeh"])
 			g_admingui["tabVehButtonCreate"] = guiCreateButton(0.5091,0.9053,0.4455,0.068,"Erstellen",true,g_admingui["tabVeh"])
 			
 		g_admingui["tabWL"] = guiCreateTab("Whitelist",g_admingui["tabPanel"])
@@ -138,9 +138,9 @@ function initalizeAdminGui()
 				g_admingui["tabWlListColName"] = guiGridListAddColumn(g_admingui["tabWlList"],"Name",0.55)
 				g_admingui["tabWlListColPin"] = guiGridListAddColumn(g_admingui["tabWlList"],"PIN",0.35)
 				guiGridListSetSortingEnabled (g_admingui["tabWlList"], false)
-			g_admingui["tabWlButtonDel"] = guiCreateButton(0.6255,0.2336,0.2545,0.0549,"von Whitelist l"..ouml.."schen",true,g_admingui["tabWL"])
+			g_admingui["tabWlButtonDel"] = guiCreateButton(0.6255,0.2336,0.2545,0.0549,"von Whitelist löschen",true,g_admingui["tabWL"])
 			g_admingui["tabWlAddEdit"] = guiCreateEdit(0.6255,0.4248,0.2545,0.0549,"",true,g_admingui["tabWL"])
-			g_admingui["tabWlButtonAdd"] = guiCreateButton(0.6255,0.5044,0.2545,0.0549,"zur Whitelist hinzuf"..uuml.."gen",true,g_admingui["tabWL"])
+			g_admingui["tabWlButtonAdd"] = guiCreateButton(0.6255,0.5044,0.2545,0.0549,"zur Whitelist hinzufügen",true,g_admingui["tabWL"])
 			g_admingui["tabWlPinEdit"] = guiCreateEdit(0.6279,0.5876,0.2545,0.0549,"PIN:",true,g_admingui["tabWL"])
 				guiEditSetReadOnly(g_admingui["tabWlPinEdit"],true)
 	
@@ -168,10 +168,10 @@ function initalizeAdminGui()
 end
 
 function initalizeAdminGuiConfirm1()
-	if not g_guiloaded["AdminguiConfirm1"] then --Best"..auml.."tigungs Fenster 1 (mit Grund)
+	if not g_guiloaded["AdminguiConfirm1"] then --Bestätigungs Fenster 1 (mit Grund)
 	
-		g_admingui["windowConfirm1"] = guiCreateWindow(0.4088,0.3222,0.1594,0.1824,"Bes"..auml.."tigung",true)
-		g_admingui["confirm1Text"] = guiCreateLabel(0.0458,0.1371,0.9118,0.2995,"M"..ouml.."chtest du den Spieler ... wirklich ...?",true,g_admingui["windowConfirm1"])
+		g_admingui["windowConfirm1"] = guiCreateWindow(0.4088,0.3222,0.1594,0.1824,"Besätigung",true)
+		g_admingui["confirm1Text"] = guiCreateLabel(0.0458,0.1371,0.9118,0.2995,"Möchtest du den Spieler ... wirklich ...?",true,g_admingui["windowConfirm1"])
 			guiLabelSetVerticalAlign(g_admingui["confirm1Text"],"center")
 			guiLabelSetHorizontalAlign(g_admingui["confirm1Text"],"center",true)
 			guiSetFont(g_admingui["confirm1Text"],"default-bold-small")
@@ -190,10 +190,10 @@ function initalizeAdminGuiConfirm1()
 end
 
 function initalizeAdminGuiConfirm2()
-	if not g_guiloaded["AdminguiConfirm2"] then --Best"..auml.."tigungs Fenster 2 (ohne Grund)
+	if not g_guiloaded["AdminguiConfirm2"] then --Bestätigungs Fenster 2 (ohne Grund)
 	
-		g_admingui["windowConfirm2"] = guiCreateWindow(0.4088,0.3222,0.1594,0.1824,"Bes"..auml.."tigung",true)
-		g_admingui["confirm2Text"] = guiCreateLabel(0.0458,0.1953,0.902,0.4766,"M"..ouml.."chtest du den Spieler ... wirklich ...?",true,g_admingui["windowConfirm2"])
+		g_admingui["windowConfirm2"] = guiCreateWindow(0.4088,0.3222,0.1594,0.1824,"Besätigung",true)
+		g_admingui["confirm2Text"] = guiCreateLabel(0.0458,0.1953,0.902,0.4766,"Möchtest du den Spieler ... wirklich ...?",true,g_admingui["windowConfirm2"])
 			guiLabelSetVerticalAlign(g_admingui["confirm2Text"],"center")
 			guiLabelSetHorizontalAlign(g_admingui["confirm2Text"],"center",true)
 			guiSetFont(g_admingui["confirm2Text"],"default-bold-small")
@@ -209,10 +209,10 @@ function initalizeAdminGuiConfirm2()
 end
 
 function initalizeAdminGuiConfirm3()
-	if not g_guiloaded["AdminguiConfirm3"] then --Best"..auml.."tigungs Fenster 3 (Job)
+	if not g_guiloaded["AdminguiConfirm3"] then --Bestätigungs Fenster 3 (Job)
 	
-		g_admingui["windowConfirm3"] = guiCreateWindow(0.4088,0.3222,0.1594,0.2148,"Bes"..auml.."tigung",true)
-		g_admingui["confirm3Text"] = guiCreateLabel(0.0425,0.1034,0.9183,0.2241,"M"..ouml.."chtest du den Spieler ... wirklich dem in einen Job eintragen?",true,g_admingui["windowConfirm3"])
+		g_admingui["windowConfirm3"] = guiCreateWindow(0.4088,0.3222,0.1594,0.2148,"Besätigung",true)
+		g_admingui["confirm3Text"] = guiCreateLabel(0.0425,0.1034,0.9183,0.2241,"Möchtest du den Spieler ... wirklich dem in einen Job eintragen?",true,g_admingui["windowConfirm3"])
 			guiLabelSetVerticalAlign(g_admingui["confirm3Text"],"center")
 			guiLabelSetHorizontalAlign(g_admingui["confirm3Text"],"center",true)
 			guiSetFont(g_admingui["confirm3Text"],"default-bold-small")
@@ -234,10 +234,10 @@ function initalizeAdminGuiConfirm3()
 end
 
 function initalizeAdminGuiConfirm4()
-	if not g_guiloaded["AdminguiConfirm4"] then --Best"..auml.."tigungs Fenster 4 (Geld)
+	if not g_guiloaded["AdminguiConfirm4"] then --Bestätigungs Fenster 4 (Geld)
 	
-		g_admingui["windowConfirm4"] = guiCreateWindow(0.4088,0.3222,0.1594,0.2148,"Bes"..auml.."tigung",true)
-		g_admingui["confirm4Text"] = guiCreateLabel(0.0425,0.1034,0.9183,0.2241,"M"..ouml.."chtest du den Spieler ... wirklich Geld geben?",true,g_admingui["windowConfirm4"])
+		g_admingui["windowConfirm4"] = guiCreateWindow(0.4088,0.3222,0.1594,0.2148,"Besätigung",true)
+		g_admingui["confirm4Text"] = guiCreateLabel(0.0425,0.1034,0.9183,0.2241,"Möchtest du den Spieler ... wirklich Geld geben?",true,g_admingui["windowConfirm4"])
 			guiLabelSetVerticalAlign(g_admingui["confirm4Text"],"center")
 			guiLabelSetHorizontalAlign(g_admingui["confirm4Text"],"center",true)
 			guiSetFont(g_admingui["confirm4Text"],"default-bold-small")		
@@ -261,10 +261,10 @@ function initalizeAdminGuiConfirm4()
 end
 
 function initalizeAdminGuiConfirm5()
-	if not g_guiloaded["AdminguiConfirm5"] then --Best"..auml.."tigungs Fenster 5 (Prop)
+	if not g_guiloaded["AdminguiConfirm5"] then --Bestätigungs Fenster 5 (Prop)
 	
-		g_admingui["windowConfirm5"] = guiCreateWindow(0.4088,0.3222,0.1594,0.1574,"Best"..auml.."tigung",true)
-		g_admingui["confirm5Text"] = guiCreateLabel(0.0327,0.1412,0.9281,0.3353,"W"..auml.."hle das Prop aus was du dem Fahrzeug zuweisen willst!",true,g_admingui["windowConfirm5"])
+		g_admingui["windowConfirm5"] = guiCreateWindow(0.4088,0.3222,0.1594,0.1574,"Bestätigung",true)
+		g_admingui["confirm5Text"] = guiCreateLabel(0.0327,0.1412,0.9281,0.3353,"Wähle das Prop aus was du dem Fahrzeug zuweisen willst!",true,g_admingui["windowConfirm5"])
 			guiLabelSetVerticalAlign(g_admingui["confirm5Text"],"center")
 			guiLabelSetHorizontalAlign(g_admingui["confirm5Text"],"center",true)
 			guiSetFont(g_admingui["confirm5Text"],"default-bold-small")
@@ -289,10 +289,10 @@ function initalizeAdminGuiConfirm5()
 end
 
 function initalizeAdminGuiConfirm6()
-	if not g_guiloaded["AdminguiConfirm6"] then	--Best"..auml.."tigungs Fenster 6 (Farbe)
+	if not g_guiloaded["AdminguiConfirm6"] then	--Bestätigungs Fenster 6 (Farbe)
 	
-		g_admingui["windowConfirm6"] = guiCreateWindow(0.4088,0.3222,0.1594,0.2833,"Best"..auml.."tigung",true)
-		g_admingui["confirm6Text"] = guiCreateLabel(0.0327,0.0784,0.9281,0.1863,"W"..auml.."hle die Farb die du dem Fahrzeug zuweisen willst!",true,g_admingui["windowConfirm6"])
+		g_admingui["windowConfirm6"] = guiCreateWindow(0.4088,0.3222,0.1594,0.2833,"Bestätigung",true)
+		g_admingui["confirm6Text"] = guiCreateLabel(0.0327,0.0784,0.9281,0.1863,"Wähle die Farb die du dem Fahrzeug zuweisen willst!",true,g_admingui["windowConfirm6"])
 			guiLabelSetVerticalAlign(g_admingui["confirm6Text"],"center")
 			guiLabelSetHorizontalAlign(g_admingui["confirm6Text"],"center",true)
 			guiSetFont(g_admingui["confirm6Text"],"default-bold-small")
@@ -329,10 +329,10 @@ function initalizeAdminGuiConfirm6()
 end
 
 function initalizeAdminGuiConfirm7()
-	if not g_guiloaded["AdminguiConfirm7"] then	--Best"..auml.."tigungs Fenster 7 (Erstellen)
+	if not g_guiloaded["AdminguiConfirm7"] then	--Bestätigungs Fenster 7 (Erstellen)
 	
-		g_admingui["windowConfirm7"] = guiCreateWindow(0.412,0.3843,0.1594,0.2167,"Best"..auml.."tigung",true)
-		g_admingui["confirm7Text"] = guiCreateLabel(0.0294,0.1068,0.9281,0.2137,"W"..auml.."hle ein Fahrzeug aus was du erstellen m"..ouml.."chtest",true,g_admingui["windowConfirm7"])
+		g_admingui["windowConfirm7"] = guiCreateWindow(0.412,0.3843,0.1594,0.2167,"Bestätigung",true)
+		g_admingui["confirm7Text"] = guiCreateLabel(0.0294,0.1068,0.9281,0.2137,"Wähle ein Fahrzeug aus was du erstellen möchtest",true,g_admingui["windowConfirm7"])
 			guiLabelSetVerticalAlign(g_admingui["confirm7Text"],"center")
 			guiLabelSetHorizontalAlign(g_admingui["confirm7Text"],"center",true)
 			guiSetFont(g_admingui["confirm7Text"],"default-bold-small")
@@ -352,10 +352,10 @@ function initalizeAdminGuiConfirm7()
 end
 
 function initalizeAdminGuiConfirm8()
-	if not g_guiloaded["AdminguiConfirm8"] then --Best"..auml.."tigungs Fenster 8 (Team)
+	if not g_guiloaded["AdminguiConfirm8"] then --Bestätigungs Fenster 8 (Team)
 	
-		g_admingui["windowConfirm8"] = guiCreateWindow(0.4088,0.3222,0.1594,0.2148,"Bes"..auml.."tigung",true)
-		g_admingui["confirm8Text"] = guiCreateLabel(0.0425,0.1034,0.9183,0.2241,"M"..ouml.."chtest du den Spieler ... wirklich zum Team hinzuf"..uuml.."gen?",true,g_admingui["windowConfirm8"])
+		g_admingui["windowConfirm8"] = guiCreateWindow(0.4088,0.3222,0.1594,0.2148,"Besätigung",true)
+		g_admingui["confirm8Text"] = guiCreateLabel(0.0425,0.1034,0.9183,0.2241,"Möchtest du den Spieler ... wirklich zum Team hinzufügen?",true,g_admingui["windowConfirm8"])
 			guiLabelSetVerticalAlign(g_admingui["confirm8Text"],"center")
 			guiLabelSetHorizontalAlign(g_admingui["confirm8Text"],"center",true)
 			guiSetFont(g_admingui["confirm8Text"],"default-bold-small")

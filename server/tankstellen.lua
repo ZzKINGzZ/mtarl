@@ -170,7 +170,7 @@ local function startAuftanken(playerSource, commandName)
 			end
 
 			if getElementData(tanke, tankart) == -1 then
-				outputChatBox(g_colors["red"].."Dieses Fahrzeug verf"..uuml.."gt nicht "..uuml.."ber den n"..ouml.."tigen Kraftstoff!", playerSource, 0, 0, 0, true)
+				outputChatBox(g_colors["red"].."Dieses Fahrzeug verfügt nicht über den nötigen Kraftstoff!", playerSource, 0, 0, 0, true)
 				return false			
 			end
 			
@@ -213,7 +213,7 @@ local function startAuftanken(playerSource, commandName)
 			return false
 		end
 	else
-		outputChatBox(g_colors["red"].."Kein Fahrzeug zum auftanken in der N"..auml.."he gefunden!", playerSource, 0, 0, 0, true)
+		outputChatBox(g_colors["red"].."Kein Fahrzeug zum auftanken in der Nähe gefunden!", playerSource, 0, 0, 0, true)
 		return false
 	end
 end
@@ -224,7 +224,7 @@ function stopAuftanken(playerSource)
 	if dist < 6 then
 		if g_vehiclestat[veh] then
 			if g_vehiclestat[veh]["auftanken"] then
-				sendPlayerInfo(g_vehiclestat[veh]["tanker"], "Du hast den Tankvorgang abgebrochen. ("..g_vehiclestat[veh]["liter"].."Liter f"..uuml.."r "..g_vehiclestat[veh]["preis"].."$)")
+				sendPlayerInfo(g_vehiclestat[veh]["tanker"], "Du hast den Tankvorgang abgebrochen. ("..g_vehiclestat[veh]["liter"].."Liter für "..g_vehiclestat[veh]["preis"].."$)")
 				g_vehiclestat[veh]["auftanken"] = false
 			end
 		end
@@ -255,7 +255,7 @@ function fahrzeugTankeTimer()
 			
 			if not isElementWithinColShape(source, getElementData(tankstelle, "colshape")) then
 				--outputChatBox(g_colors["red"].."Das Fahrzeug hat den Tankstellenbereich verlassen. Tankvorgang abgebrochen!", g_vehiclestat[source]["tanker"], 0, 0, 0, true)
-				sendPlayerInfo(g_vehiclestat[source]["tanker"], "Das Fahrzeug hat den Tankstellenbereich verlassen. Tankvorgang abgebrochen! ("..g_vehiclestat[source]["liter"].."Liter f"..uuml.."r "..g_vehiclestat[source]["preis"].."$)")
+				sendPlayerInfo(g_vehiclestat[source]["tanker"], "Das Fahrzeug hat den Tankstellenbereich verlassen. Tankvorgang abgebrochen! ("..g_vehiclestat[source]["liter"].."Liter für "..g_vehiclestat[source]["preis"].."$)")
 				g_vehiclestat[source]["auftanken"] = false
 				return false				
 			end
@@ -275,7 +275,7 @@ function fahrzeugTankeTimer()
 				recalcTankstellenPreis(tankstelle, tankart)
 				
 				--outputChatBox(g_colors["green"].."Dein Fahrzeug ist nun vollgetankt. Du kannst nun weiterfahren.", g_vehiclestat[source]["tanker"], 0, 0, 0, true)
-				sendPlayerInfo(g_vehiclestat[source]["tanker"], "Das Fahrzeug wurde erfolgreich aufgetankt. ("..g_vehiclestat[source]["liter"].."Liter f"..uuml.."r "..g_vehiclestat[source]["preis"].."$)")
+				sendPlayerInfo(g_vehiclestat[source]["tanker"], "Das Fahrzeug wurde erfolgreich aufgetankt. ("..g_vehiclestat[source]["liter"].."Liter für "..g_vehiclestat[source]["preis"].."$)")
 				
 				g_vehiclestat[source]["auftanken"] = false
 				return false
@@ -309,7 +309,7 @@ function fahrzeugTankeTimer()
 				end	
 				
 				--outputChatBox(g_colors["green"].."Die Tankstelle ist nun leer, dein Fahrzeug konnte nicht komplett aufgetankt werden.", g_vehiclestat[source]["tanker"], 0, 0, 0, true)
-				sendPlayerInfo(g_vehiclestat[source]["tanker"], "Die Tankstelle ist nun leer, dein Fahrzeug konnte nicht komplett aufgetankt werden. ("..g_vehiclestat[vehicle]["liter"].."Liter f"..uuml.."r "..g_vehiclestat[vehicle]["preis"].."$)")
+				sendPlayerInfo(g_vehiclestat[source]["tanker"], "Die Tankstelle ist nun leer, dein Fahrzeug konnte nicht komplett aufgetankt werden. ("..g_vehiclestat[vehicle]["liter"].."Liter für "..g_vehiclestat[vehicle]["preis"].."$)")
 				
 				g_vehiclestat[source]["auftanken"] = false
 			end

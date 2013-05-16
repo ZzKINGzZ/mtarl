@@ -67,7 +67,7 @@ end
 function policeSetObjectPos()
 	if object then
 		dxDrawText("Pfeiltasten - Bewegen", sx - 150, sy / 30 * 24)
-		dxDrawText("w/s - H"..ouml.."he", sx - 150, sy / 30 * 25)
+		dxDrawText("w/s - Höhe", sx - 150, sy / 30 * 25)
 		dxDrawText("e/d - Rotation", sx - 150, sy / 30 * 26)
 		dxDrawText("Leertaste - Erstellen", sx - 150, sy / 30 * 27)
 		dxDrawText("Backspace- Abbrechen", sx - 150, sy / 30 * 28)

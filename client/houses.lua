@@ -37,7 +37,7 @@ end
 function doHouseInput(button, state, x, y)
 	if button == "left" then
 		if source == g_housegui["schloss"] then
-			--Abschlie"..szlig.."en
+			--Abschließen
 			rpcCallServerFunction("lockHouse", currenthouseid)
 		elseif source == g_housegui["betreten"] then
 			--Betreten

@@ -17,7 +17,7 @@
 
 
 
---Langeweile eine Tabelle mit Krankheiten f"..uuml.."r das sp"..auml.."tere Krankheitssystem
+--Langeweile eine Tabelle mit Krankheiten für das spätere Krankheitssystem
 --Speed: 0=normal 1=kein rennen 2=nur langsam 3=gar nicht
 local illnessTable = {}
 illnessTable[1] = {

@@ -91,7 +91,7 @@ function startAuftankenWasser(playerSource, commandName)
 			return false
 		end
 	else
-		outputChatBox(g_colors["red"].."Kein Fahrzeug zum auftanken in der N"..auml.."he gefunden!", playerSource, 0, 0, 0, true)
+		outputChatBox(g_colors["red"].."Kein Fahrzeug zum auftanken in der Nähe gefunden!", playerSource, 0, 0, 0, true)
 		return false
 	end
 end

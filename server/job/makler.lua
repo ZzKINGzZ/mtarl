@@ -75,7 +75,7 @@ function createMaklerHouse(preis, groesse)
 			
 			local x, y, z, int = getRandomHouse(tostring(groesse))
 			if not x then
-				outputChatBox(g_colors["red"].."Du hast eine falsche Hausgr"..ouml..""..szlig.."e angegeben!", client, 0, 0, 0, true)
+				outputChatBox(g_colors["red"].."Du hast eine falsche Hausgröße angegeben!", client, 0, 0, 0, true)
 				return false
 			end
 			
@@ -89,12 +89,12 @@ function createMaklerHouse(preis, groesse)
 				givePlayerMoney(client, round(preis/100*9))
 				takePlayerMoney(buyer, preis)
 			else
-				outputChatBox(g_colors["red"].."Der K"..auml.."ufer hat zu wenig Geld!", client, 0, 0, 0, true)
+				outputChatBox(g_colors["red"].."Der Käufer hat zu wenig Geld!", client, 0, 0, 0, true)
 			end
 			
 			outputChatBox(g_colors["green"]..getPlayerName(client).." hat ein Haus auf deinem Namen erstellt!", buyer, 0, 0, 0, true)
-			outputChatBox(g_colors["green"].."Du hast ein Haus f"..uuml.."r "..getPlayerName(buyer).." erstellt!", client, 0, 0, 0, true)
-			teamLog(getPlayerName(client).." hat ein Haus f"..uuml.."r "..getPlayerName(buyer).." erstellt! (Preis: "..preis.."$")
+			outputChatBox(g_colors["green"].."Du hast ein Haus für "..getPlayerName(buyer).." erstellt!", client, 0, 0, 0, true)
+			teamLog(getPlayerName(client).." hat ein Haus für "..getPlayerName(buyer).." erstellt! (Preis: "..preis.."$")
 			
 			makler[client] = nil
 		end

@@ -49,7 +49,7 @@ function PWchangeHandler(button)
 					initalizePWChange(false)
 				end
 			else
-				outputChatBox("Die angegeben Passw"..ouml.."rter stimmen nicht "..uuml.."berein!", 255, 0, 0)
+				outputChatBox("Die angegeben Passwörter stimmen nicht überein!", 255, 0, 0)
 				return false
 			end
 		end

@@ -136,7 +136,7 @@ function callNumber(number, typ) --typen old, new
 		return false
 	end
 	
-	--Pr"..uuml.."fe ob er sich selbst anruft oder andere
+	--Prüfe ob er sich selbst anruft oder andere
 	if typ == "old" then
 		if g_handystat["active"][tonumber(number)] then
 			rpcCallClientFunction(client, "setCallCancel", false)
@@ -149,7 +149,7 @@ function callNumber(number, typ) --typen old, new
 			setElementVisibleTo(g_playerstat[client]["Blip"], getRootElement(), false)
 			setElementVisibleTo(g_playerstat[client]["Blip"], g_handystat["active"][tonumber(number)], true)
 			setElementVisibleTo(g_playerstat[client]["Blip"], client, true)
-			outputChatBox(getPlayerName(client).." ruft dich an und ist f"..uuml.."r dich sichtbar!", g_handystat["active"][tonumber(number)], red, green, blue, false)
+			outputChatBox(getPlayerName(client).." ruft dich an und ist für dich sichtbar!", g_handystat["active"][tonumber(number)], red, green, blue, false)
 			outputChatBox(getPlayerName(g_handystat["active"][tonumber(number)]).." hat deinen Anruf angenommen!", client, red, green, blue, false)
 			playercall[client] = 1
 			activenumber[client] = tonumber(number)
@@ -172,7 +172,7 @@ function endCall()
 		g_playerstat[client]["Blip"] = nil
 		for i,player in ipairs(getElementsByType("player")) do 
 			if isPlayerActiveInJob(player, 4) then
-				outputChatBox(g_colors["lightblue"]..getPlayerName(client).." ben"..ouml.."tigt die Verkehrspolizei nicht mehr", player, 0, 0, 0, true)
+				outputChatBox(g_colors["lightblue"]..getPlayerName(client).." benötigt die Verkehrspolizei nicht mehr", player, 0, 0, 0, true)
 			end
 		end
 		return
@@ -185,7 +185,7 @@ function endCall()
 		g_playerstat[client]["Blip"] = nil
 		for i,player in ipairs(getElementsByType("player")) do 
 			if isPlayerActiveInJob(player, 1) then
-				outputChatBox(g_colors["red"]..getPlayerName(client).." ben"..ouml.."tigt die Feuerwehr nicht mehr", player, 0, 0, 0, true)
+				outputChatBox(g_colors["red"]..getPlayerName(client).." benötigt die Feuerwehr nicht mehr", player, 0, 0, 0, true)
 			end
 		end
 		return
@@ -198,7 +198,7 @@ function endCall()
 		g_playerstat[client]["Blip"] = nil
 		for i,player in ipairs(getElementsByType("player")) do 
 			if isPlayerActiveInJob(player, 5) then
-				outputChatBox(g_colors["orange"].."[Anruf]"..getPlayerName(client).." ben"..ouml.."tigt den ADAC nicht mehr", player, 0, 0, 0, true)
+				outputChatBox(g_colors["orange"].."[Anruf]"..getPlayerName(client).." benötigt den ADAC nicht mehr", player, 0, 0, 0, true)
 			end
 		end
 		return
@@ -211,7 +211,7 @@ function endCall()
 		g_playerstat[client]["Blip"] = nil
 		for i,player in ipairs(getElementsByType("player")) do 
 			if isPlayerActiveInJob(player, 7) then
-				outputChatBox(g_colors["yellow"].."[Anruf]"..getPlayerName(client).." ben"..ouml.."tigt den ADAC nicht mehr", player, 0, 0, 0, true)
+				outputChatBox(g_colors["yellow"].."[Anruf]"..getPlayerName(client).." benötigt den ADAC nicht mehr", player, 0, 0, 0, true)
 			end
 		end
 		return
@@ -224,7 +224,7 @@ function endCall()
 		g_playerstat[client]["Blip"] = nil
 		for i,player in ipairs(getElementsByType("player")) do 
 			if isPlayerActiveInJob(player, 2) then
-				outputChatBox(g_colors["green"].."[Anruf]"..getPlayerName(client).." ben"..ouml.."tigt keinen Medic mehr", player, 0, 0, 0, true)
+				outputChatBox(g_colors["green"].."[Anruf]"..getPlayerName(client).." benötigt keinen Medic mehr", player, 0, 0, 0, true)
 			end
 		end
 		return

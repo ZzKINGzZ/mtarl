@@ -50,7 +50,7 @@ function CreateHouse(button)
 					rpcCallServerFunction("createMaklerHouse", preis, groesse)
 				end
 			else
-				outputChatBox("Du hast keinen Preis angeben oder keine Gr"..ouml..""..szlig.."e ausgew"..auml.."hlt!", 255, 0, 0)
+				outputChatBox("Du hast keinen Preis angeben oder keine Größe ausgewählt!", 255, 0, 0)
 			end
 			
 			guiSetVisible(g_cinterior["window"], false)

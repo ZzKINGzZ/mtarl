@@ -86,7 +86,7 @@ function stadtVerwaltungsBeantragung(theDoc)
 			giveStaatsKasse(150)
 			
 			--outputChatBox(g_colors["royalblue"].."Deine Arbeitserlaubnis wurde ausgeteilt!", client, 255, 255, 255, true)
-			sendPlayerInfo("Dir wurde eine Arbeitserlaubnis erteilt. Du kannst sie im Itemmen"..uuml.." finden")
+			sendPlayerInfo("Dir wurde eine Arbeitserlaubnis erteilt. Du kannst sie im Itemmenü finden")
 			return true
 		else
 			outputChatBox(g_colors["royalblue"].."Du besitzt bereits eine Arbeitserlaubnis!", client, 255, 255, 255, true)

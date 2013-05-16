@@ -45,6 +45,6 @@ function changePlayerStatPW(password)
 	if password then
 		password = escapeString(password)
 		mysql_query(g_mysql["connection"], "UPDATE `players` SET `password` = '"..md5(password).."' WHERE `playername` = '"..getPlayerName(client).."' LIMIT 1 ;")
-		outputChatBox(g_colors["royalblue"].."Passwort erfolgreich ge"..auml.."ndert!", client, 255, 255, 255, true)
+		outputChatBox(g_colors["royalblue"].."Passwort erfolgreich geändert!", client, 255, 255, 255, true)
 	end
 end

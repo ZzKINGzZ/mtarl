@@ -58,7 +58,7 @@ addCommandHandler("anim", animAll)
 
 function animGHANDS(player, zahl)
 	if zahl > 0 or zahl < 11 then
-		outputChatBox(g_colors["darkorange"].."Nur von 1-10 verf"..uuml.."gbar!", player, 0, 0, 0, true)
+		outputChatBox(g_colors["darkorange"].."Nur von 1-10 verfügbar!", player, 0, 0, 0, true)
 		return false
 	end
 	if zahl >= 5 then
@@ -71,7 +71,7 @@ end
 
 function animKISSING(player, zahl)
 	if zahl > 0 and zahl < 4 then
-		outputChatBox(g_colors["darkorange"].."Nur von 1-3 verf"..uuml.."gbar!", player, 0, 0, 0, true)
+		outputChatBox(g_colors["darkorange"].."Nur von 1-3 verfügbar!", player, 0, 0, 0, true)
 		return false
 	end
 	setPedAnimation (player, "KISSING", "Grlfrd_Kiss_."..zahl, -1, true, false)
@@ -79,7 +79,7 @@ end
 
 function animRAPPING(player, zahl)
 	if zahl > 0 and zahl < 4 then
-		outputChatBox(g_colors["darkorange"].."Nur von 1-3 verf"..uuml.."gbar!", player, 0, 0, 0, true)
+		outputChatBox(g_colors["darkorange"].."Nur von 1-3 verfügbar!", player, 0, 0, 0, true)
 		return false
 	end
 	if zahl == 1 then
@@ -93,7 +93,7 @@ end
 
 function animSMOKING(player, zahl)
 	if zahl > 0 and zahl < 3 then
-		outputChatBox(g_colors["darkorange"].."Nur von 1-2 verf"..uuml.."gbar!", player, 0, 0, 0, true)
+		outputChatBox(g_colors["darkorange"].."Nur von 1-2 verfügbar!", player, 0, 0, 0, true)
 		return false
 	end
 	if zahl == 1 then
@@ -105,7 +105,7 @@ end
 
 function animSUNBATHE(player, zahl)
 	if zahl > 0 and zahl < 7 then
-		outputChatBox(g_colors["darkorange"].."Nur von 1-6 verf"..uuml.."gbar!", player, 0, 0, 0, true)
+		outputChatBox(g_colors["darkorange"].."Nur von 1-6 verfügbar!", player, 0, 0, 0, true)
 		return false
 	end
 	if zahl == 1 then
@@ -125,7 +125,7 @@ end
 
 function animDANCING(player, zahl)
 	if zahl > 0 and zahl < 32 then
-		outputChatBox(g_colors["darkorange"].."Nur von 1-31 verf"..uuml.."gbar!", player, 0, 0, 0, true)
+		outputChatBox(g_colors["darkorange"].."Nur von 1-31 verfügbar!", player, 0, 0, 0, true)
 		return false
 	end
 	if zahl == 1 then

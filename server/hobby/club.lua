@@ -31,7 +31,7 @@ function toggleClub(playerSource, commandName)
 	if g_playerstat[playerSource]["Level"] == "Admin" then
 		if status == 0 then
 			status = 1
-			outputChatBox(g_colors["red"].."Der Club wurde ge"..ouml.."ffnet!", playerSource, 0, 0, 0, true)
+			outputChatBox(g_colors["red"].."Der Club wurde geöffnet!", playerSource, 0, 0, 0, true)
 		else
 			status = 0
 			outputChatBox(g_colors["red"].."Der Club wurde geschlossen!", playerSource, 0, 0, 0, true)

@@ -358,51 +358,51 @@ function setHelp(sorte)
 		
 		--Bedienung
 		if item == "Bedienung" then
-			guiSetText(g_Playermenugui["HelpMemo"], "Tastaturk"..uuml.."rzel und Commands: \n\nF1 - Aktiviert das Spielermenue\nF5 - de- oder aktiviert das HUD\nF12 - Screenshot\nx - Itemmen"..uuml.."\n/pm [NAME] [TEXT]\n/givecash [NAME] [BETRAG]\n/afk - de- oder aktiviert den AFK Modus\n/anim - Spielt eine Animation ab\n/tanken - Betankt dein Fahrzeug.\n/stoptanken - Bricht das Tanken ab\n/bug - Hier kannst du einen Bug melden\n/admincall - Damit machst du dich f"..uuml.."r das Team sichtbar.")
+			guiSetText(g_Playermenugui["HelpMemo"], "Tastaturkürzel und Commands: \n\nF1 - Aktiviert das Spielermenue\nF5 - de- oder aktiviert das HUD\nF12 - Screenshot\nx - Itemmenü\n/pm [NAME] [TEXT]\n/givecash [NAME] [BETRAG]\n/afk - de- oder aktiviert den AFK Modus\n/anim - Spielt eine Animation ab\n/tanken - Betankt dein Fahrzeug.\n/stoptanken - Bricht das Tanken ab\n/bug - Hier kannst du einen Bug melden\n/admincall - Damit machst du dich für das Team sichtbar.")
 		end	
 		--Fahrzeug
 		if item == "Fahrzeug" then
-			guiSetText(g_Playermenugui["HelpMemo"], "Fahrzeugfunktionen: \n\nTastenk"..uuml.."rzel: \nB - "..Ouml.."ffnet oder schliesst dein Fahrzeug \n\nBefehle: \n/givekey [NAME] - Gibt [NAME] einen Schl"..uuml.."ssel f"..uuml.."r dein Auto. Du musst neben dem Fahrzeug stehen. \n/makeowner [NAME] - Macht [NAME] zum neuen Eigent"..uuml.."mer deines Fahrzeugs. Du verlierst deinen Schl"..uuml.."ssel dabei. Du musst neben dem Fahrzeug stehen.\n/reset - Setzt den zweiten Kilometerzaehler zur"..uuml.."ck.\n")
+			guiSetText(g_Playermenugui["HelpMemo"], "Fahrzeugfunktionen: \n\nTastenkürzel: \nB - ".."Öffnet oder schliesst dein Fahrzeug \n\nBefehle: \n/givekey [NAME] - Gibt [NAME] einen Schlüssel für dein Auto. Du musst neben dem Fahrzeug stehen. \n/makeowner [NAME] - Macht [NAME] zum neuen Eigentümer deines Fahrzeugs. Du verlierst deinen Schlüssel dabei. Du musst neben dem Fahrzeug stehen.\n/reset - Setzt den zweiten Kilometerzaehler zurück.\n")
 		end
 		--Minijobs
 		if item == "Minijobs" then
-			guiSetText(g_Playermenugui["HelpMemo"], "Was sind Minijobs? \n\nMinijobs sind kleine Jobs die du ohne Bewerbung ausf"..uuml.."hren kannst. Sie sind in ganz San Andreas zu finden wo sie sind wird nicht verraten suche sie einfach selbst. \n Es sind volgende Minijobs vorhanden: \n-Sweeper\n-Aircargo\n-M"..uuml.."labfuhr\n-Bau\n-Fischer")
+			guiSetText(g_Playermenugui["HelpMemo"], "Was sind Minijobs? \n\nMinijobs sind kleine Jobs die du ohne Bewerbung ausführen kannst. Sie sind in ganz San Andreas zu finden wo sie sind wird nicht verraten suche sie einfach selbst. \n Es sind volgende Minijobs vorhanden: \n-Sweeper\n-Aircargo\n-Mülabfuhr\n-Bau\n-Fischer")
 		end	
 		--Handy
 		if item == "Handy" then
-			guiSetText(g_Playermenugui["HelpMemo"], "Wof"..uuml.."r genau ist das Handy gedacht? \n\nDas Handy ist dazu gedacht, sich f"..uuml.."r andere Spieler sichtbar zu machen und bestimmte Jobs zu erreichen. Jeder Spieler erh"..auml.."lt ausserdem eine eigene Rufnummer. \n\nWie benutze ich das Handy? \n\nDu musst das Handy kaufen dann ist per Itemmen"..uuml.." zu erreichen. Man muss es einfach nur ausw"..auml.."hlen. Ist das Handy aktiv, muss man die Nummern einfach nurnoch per Cursor eingeben.")
+			guiSetText(g_Playermenugui["HelpMemo"], "Wofür genau ist das Handy gedacht? \n\nDas Handy ist dazu gedacht, sich für andere Spieler sichtbar zu machen und bestimmte Jobs zu erreichen. Jeder Spieler erhält ausserdem eine eigene Rufnummer. \n\nWie benutze ich das Handy? \n\nDu musst das Handy kaufen dann ist per Itemmenü zu erreichen. Man muss es einfach nur auswählen. Ist das Handy aktiv, muss man die Nummern einfach nurnoch per Cursor eingeben.")
 		end				
 		--Jobs
 		if item == "Jobs" then
-			guiSetText(g_Playermenugui["HelpMemo"], "Wie komme ich an einen Job? \n\nUm einen Job zu bekommen, musst du eine Bewerbung per Post abschicken. Der Chef des Jobs kann sich dann deinen Brief durchlesen und dich ggf. dem Job hinzuf"..uuml.."gen.")
+			guiSetText(g_Playermenugui["HelpMemo"], "Wie komme ich an einen Job? \n\nUm einen Job zu bekommen, musst du eine Bewerbung per Post abschicken. Der Chef des Jobs kann sich dann deinen Brief durchlesen und dich ggf. dem Job hinzufügen.")
 		end	
 		--ADAC
-		if item == "  ADAC" then --Leerzeichen m"..uuml.."ssen drinnen bleiben!
-			guiSetText(g_Playermenugui["HelpMemo"], "Was macht der ADAC? \n\nDer ADAC k"..uuml.."mmert sich darum, dass deine Fahrzeuge und die Fahrzeuge des Staates immer wieder Reparaturen und Wartungen erhalten. Ohne den ADAC wueder dein Fahrzeug nach einer Weile nicht mehr Verkehrssicher sein oder gar nicht mehr funktionieren. Die Rufnummer f"..uuml.."r diesen Dienst lautet: 255 \n\n\nWelche Jobcommands hat der ADAC? \n\nnum_1 oder /repair - Reparatur des Fahrzeuges, welches sich im ADAC Einzugsgebiet befindet\nnum_4 oder /maketuv - Erneuert den T"..uuml.."v\nnum_3 oder /seizveh - Beschlagnahmt ein Fahrzeug")
+		if item == "  ADAC" then --Leerzeichen müssen drinnen bleiben!
+			guiSetText(g_Playermenugui["HelpMemo"], "Was macht der ADAC? \n\nDer ADAC kümmert sich darum, dass deine Fahrzeuge und die Fahrzeuge des Staates immer wieder Reparaturen und Wartungen erhalten. Ohne den ADAC wueder dein Fahrzeug nach einer Weile nicht mehr Verkehrssicher sein oder gar nicht mehr funktionieren. Die Rufnummer für diesen Dienst lautet: 255 \n\n\nWelche Jobcommands hat der ADAC? \n\nnum_1 oder /repair - Reparatur des Fahrzeuges, welches sich im ADAC Einzugsgebiet befindet\nnum_4 oder /maketuv - Erneuert den Tüv\nnum_3 oder /seizveh - Beschlagnahmt ein Fahrzeug")
 		end	
 		--Feuerwehr
 		if item == "  Feuerwehr" then
-			guiSetText(g_Playermenugui["HelpMemo"], "Was macht die Feuerwehr? \n\nDie Feuerwehr k"..uuml.."mmert sich darum, im Notfall dein Fahrzeug zu l"..ouml.."schen. Die Rufnummer f"..uuml.."r diesen Dienst lautet: 112 \n\n\nJobauftrag: \n\nL"..ouml.."sche das Fahrzeug mit dem Feuerl"..ouml.."scher und sichere die Insassen! \n\nWelche Jobcommands hat die Feuerwehr? \n\nnum_1 oder /rescue - Rettet den Insassen des Fahrzeuges")
+			guiSetText(g_Playermenugui["HelpMemo"], "Was macht die Feuerwehr? \n\nDie Feuerwehr kümmert sich darum, im Notfall dein Fahrzeug zu löschen. Die Rufnummer für diesen Dienst lautet: 112 \n\n\nJobauftrag: \n\nLösche das Fahrzeug mit dem Feuerlöscher und sichere die Insassen! \n\nWelche Jobcommands hat die Feuerwehr? \n\nnum_1 oder /rescue - Rettet den Insassen des Fahrzeuges")
 		end
 		--Taxi
 		if item == "  Taxi" then
-			guiSetText(g_Playermenugui["HelpMemo"], "Was macht der Taxidienst? \n\nDer Taxidienst k"..uuml.."mmert sich darum, dich von Punkt A nach Punkt B zu bef"..ouml.."rdern, falls du mal kein Auto besitzt oder neu in der Stadt bist. Die Rufnummer fuer diesen Dienst lautet: 321 \n\n\nWelche Jobcommands hat der Taxidienst? \n\n num_1 oder /taxo - Schaltet den Taxometer ein und aus")
+			guiSetText(g_Playermenugui["HelpMemo"], "Was macht der Taxidienst? \n\nDer Taxidienst kümmert sich darum, dich von Punkt A nach Punkt B zu befördern, falls du mal kein Auto besitzt oder neu in der Stadt bist. Die Rufnummer fuer diesen Dienst lautet: 321 \n\n\nWelche Jobcommands hat der Taxidienst? \n\n num_1 oder /taxo - Schaltet den Taxometer ein und aus")
 		end
 		--Polizei
 		if item == "  Polizei" then
-			guiSetText(g_Playermenugui["HelpMemo"], "Was macht die Polizei? \n\nDie Verkehrspolizei "..uuml.."berwacht die Einhaltung der Gesetze in San Andreas. Die Rufnummer f"..uuml.."r diesen Dienst lautet: 110 \n\n\nWelche Jobcommands hat die Polizei? \n\nnum_1 oder /bust - Legt einem Spieler die Handschellen an\n/num2 oder stopcall - Sendet an alle umliegenden Spieler: Halt Verkehrspolizei! \n/num3 oder sperre - Errichtet eine Stra"..szlig.."ensperre \n/num4 oder nagelband - Rollt ein Nagelband aus\n/blitzer - Errichtet einen Blitzer\n/strafe Spieler [Geld] [Begruendung] - Bestraft einen Spieler auf sein Strafkonto")
+			guiSetText(g_Playermenugui["HelpMemo"], "Was macht die Polizei? \n\nDie Verkehrspolizei überwacht die Einhaltung der Gesetze in San Andreas. Die Rufnummer für diesen Dienst lautet: 110 \n\n\nWelche Jobcommands hat die Polizei? \n\nnum_1 oder /bust - Legt einem Spieler die Handschellen an\n/num2 oder stopcall - Sendet an alle umliegenden Spieler: Halt Verkehrspolizei! \n/num3 oder sperre - Errichtet eine Straßensperre \n/num4 oder nagelband - Rollt ein Nagelband aus\n/blitzer - Errichtet einen Blitzer\n/strafe Spieler [Geld] [Begruendung] - Bestraft einen Spieler auf sein Strafkonto")
 		end		
 		--Medic
 		if item == "  Medic" then
-			guiSetText(g_Playermenugui["HelpMemo"], "Was macht das Medic Department? \n\nDas Medicdepartment k"..uuml.."mmert sich um alle Krankenf"..auml.."lle in San Andreas. Solltest du verletzt sein, solltest du einen Arzt aufrufen. Die Rufnummer f"..uuml.."r diesen Dienst lautet: 111 \n\n\nWelche Jobcommands hat ein Arzt? \n\nnum_1 oder /heal - Heilt einen Spieler oder sich selbst")
+			guiSetText(g_Playermenugui["HelpMemo"], "Was macht das Medic Department? \n\nDas Medicdepartment kümmert sich um alle Krankenfälle in San Andreas. Solltest du verletzt sein, solltest du einen Arzt aufrufen. Die Rufnummer für diesen Dienst lautet: 111 \n\n\nWelche Jobcommands hat ein Arzt? \n\nnum_1 oder /heal - Heilt einen Spieler oder sich selbst")
 		end
 		--Post
 		if item == "  Post" then
-			guiSetText(g_Playermenugui["HelpMemo"], "Was macht die Post?\n\nDie Post tr"..auml.."gt die Briefe von Jobs und Personen in ganz San Andreas aus. F"..uuml.."r das schreiben von Briefn musst du einen Briefkasten aufrufen.")
+			guiSetText(g_Playermenugui["HelpMemo"], "Was macht die Post?\n\nDie Post trägt die Briefe von Jobs und Personen in ganz San Andreas aus. Für das schreiben von Briefn musst du einen Briefkasten aufrufen.")
 		end
 		--Tanker
 		if item == "  Tanker" then
-			guiSetText(g_Playermenugui["HelpMemo"], "Was macht der Tanker-Fahrer? \n\nDer Tanker-Fahrer sorgt daf"..auml.."r, dass alle Tankstellen in San Andreas mit neuen Treibstoffen versorgt werden.\n\n\nWelche Jobcommands hat der Tanker?\n\nnum_1 oder /betanken - Fuellt eine Tankstelle auf, der Spieler muss dabei neben dem Tanklastzug stehen\nnum_2 oder /deattach - Kuppelt den H"..auml.."nger vom Lastkraftwagen ab")
+			guiSetText(g_Playermenugui["HelpMemo"], "Was macht der Tanker-Fahrer? \n\nDer Tanker-Fahrer sorgt dafär, dass alle Tankstellen in San Andreas mit neuen Treibstoffen versorgt werden.\n\n\nWelche Jobcommands hat der Tanker?\n\nnum_1 oder /betanken - Fuellt eine Tankstelle auf, der Spieler muss dabei neben dem Tanklastzug stehen\nnum_2 oder /deattach - Kuppelt den Hänger vom Lastkraftwagen ab")
 		end		
 	end
 end

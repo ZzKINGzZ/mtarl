@@ -113,7 +113,7 @@ local function creditsClientRender()
 	--end
 end
 
---Nicht vergessen, for-schleife r"..uuml.."ckw"..auml.."rts loopen!
+--Nicht vergessen, for-schleife rückwärts loopen!
 function startCredits()
 	checkPlayerPos = 0
 	setElementPosition(localPlayer, 1447.0762939453, -1471.2956542969, 13.54925918579)

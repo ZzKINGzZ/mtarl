@@ -391,7 +391,7 @@ function postVehEnter(playerSource)
 				end
 				local trailer = getVehicleTowedByVehicle(source)
 				if not trailer then
-					sendPlayerInfo(playerSource, "H"..auml.."nge zuerst einen Trailer an!", true)
+					sendPlayerInfo(playerSource, "Hänge zuerst einen Trailer an!", true)
 					g_playerstat[playerSource]["postMode"] = 1.1
 				else
 					g_playerstat[playerSource]["postMode"] = 1.2
@@ -432,7 +432,7 @@ function postVehEnter(playerSource)
 							letters = letters + 1
 						end
 					end
-					sendPlayerInfo(playerSource, "Mach dich nun auf den Weg um die Briefk"..auml.."sten zu entleeren.\n\nDu hast "..letters.." Brief(e) im Trailer", true)
+					sendPlayerInfo(playerSource, "Mach dich nun auf den Weg um die Briefkästen zu entleeren.\n\nDu hast "..letters.." Brief(e) im Trailer", true)
 					letters = nil
 				end
 			elseif veh == 609 then
@@ -507,7 +507,7 @@ function postTrailerAttach(vehicle)
 							letters = letters + 1
 						end
 					end
-					sendPlayerInfo(player, "Mach dich nun auf den Weg um die Briefk"..auml.."sten zu entleeren.\n\nDu hast "..letters.." Brief(e) im Trailer", true)
+					sendPlayerInfo(player, "Mach dich nun auf den Weg um die Briefkästen zu entleeren.\n\nDu hast "..letters.." Brief(e) im Trailer", true)
 					letters = nil
 				end
 			else
